@@ -1,7 +1,7 @@
 America the Beautiful
 MATERNA
 
-1. O beautiful for spacious skies,
+[V1] O beautiful for spacious skies,
 For amber waves of grain,
 For purple mountain majesties
 Above the fruited plain!
@@ -10,7 +10,7 @@ God shed his grace on thee,
 And crown thy good with brotherhood
 From sea to shining sea.
 
-2. O beautiful for pilgrim feet,
+[V2] O beautiful for pilgrim feet,
 Whose stern, impassioned stress
 A thoroughfare for freedom beat
 Across the wilderness!
@@ -19,7 +19,7 @@ God mend thine every flaw,
 Confirm thy soul in self-control,
 Thy liberty in law.
 
-3. O beautiful for heroes proved
+[V3] O beautiful for heroes proved
 In liberating strife,
 Who more than self their country loved,
 And mercy more than life!
@@ -28,7 +28,7 @@ May God thy gold refine,
 Till all success be nobleness,
 And every gain divine.
 
-4. O beautiful for patriot dream
+[V4] O beautiful for patriot dream
 That sees beyond the years
 Thine alabaster cities gleam,
 Undimmed by human tears!
