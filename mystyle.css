@@ -40,7 +40,7 @@ b {
 }
 
 q {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-style: italic;
 }
 
