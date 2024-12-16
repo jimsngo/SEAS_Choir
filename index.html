@@ -6,359 +6,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SEAS Choir - Sunday 5:30 PM</title>
   <link rel="icon" type="image/x-icon" href="SEAS.jpg">
-  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script src="myscript.js"></script>
 </head>
 
-<body>
-  <div class="wrap">
-    <h1>SEAS Choir - Ontario CA</h1>
-    <h2>3<sup>rd</sup> Sunday of Advent (C)</h2>
-    <!-- <h2>33<sup>rd</sup> Sunday in Ordinary Time (B)</h2> -->
-    <p>Sunday December 15, 2024 - 5:30 PM</p>
-    <table>
-      <!-- Entrance Antiphone -->
-      <section>
-        <tr>
-          <th colspan="2">Entrance Antiphon (Alan)</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <q>Rejoice in the Lord always; again I say, rejoice.
-              Indeed, the Lord is near.
-            </q><br>
-            <span class="author">Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan</span><br>
-            <audio controls>
-              <source
-                src=Antiphons/Rejoice_in_the_Lord_Always_3rd_Sunday_of_Advent_Entrance_Antiphon_10.mp3
-                type="audio/mpeg">
-            </audio>
-          </td>
-        </tr>
+<body class="bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-music"></i> SEAS Choir - Ontario, CA
+      </a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-danger text-white">
+    <div class="container">
+      <h2>3<sup>rd</sup> Sunday of Advent (C)</h2>
+      <div>Sunday -  <span id="date"></span> - 5:30 PM</div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div id="main-content" class="container my-5">
+    <!-- Recessional -->
+    <!-- <div id="mass-section-template">
+      <section class="d-none mass-section py-2">
+        <div class="card shadow-sm">
+          <div class="card-header bg-danger text-white">
+            <h5 class="mb-0"><span class="section-name"></span> <span class="singer"></span></h5>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote">
+              <p class="snippet">Take the Word and go out to ev'ry land: shine the light of Christ for all to see!</p>
+            </blockquote>
+            <footer class="song blockquote-footer">Ricky Manalo</footer>
+            <div class="d-flex align-items-center mt-3">
+              <audio controls>
+                <source class="audio_url" src="Recessional/With_One_Voice.mp3" type="audio/mpeg">
+              </audio>
+              <a href="Recessional/With_One_Voice.txt" target="_blank" class="lyric_url btn btn-outline-danger ms-3">
+                <i class="fa fa-file-text-o"></i> Lyrics
+              </a>
+            </div>
+            
+          </div>
+        </div>
       </section>
-
-      <!-- Responsorial Psalm -->
-      <tr>
-        <th colspan="2">Responsorial Psalm (Claudine)</th>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <q>Cry out with joy and gladness: for among you is the great and Holy One of Israel.</q><br>
-          <span class="author">Owen Alstott</span><br>
-          <audio controls>
-            <source src = RA/Third-Sunday-of-Advent-C-83805.mp3
-            type="audio/mpeg">
-          </audio>
-        </td>
-      </tr>
-
-      <!-- Gospel Acclamation -->
-      <section>
-        <tr>
-          <th colspan="2">Gospel Acclamation (David)</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <q>The Spirit of the Lord is upon me,
-              because he has anointed me
-              to bring glad tidings to the poor.
-            </q><br>
-            <span class="author">Mass of the Desert - Tom Booth</span><br>
-            <audio controls>
-              <source src=RA/Gospel_Acclamation_3rd_Sunday_Advent.mp3
-                type="audio/mpeg">
-            </audio>
-          </td>
-        </tr>
+    </div> -->
+    <div id="mass-section-template">
+      <section class="d-none mass-section py-2">
+        <div class="card shadow-sm">
+          <!-- Softer Warm Pastel Header: bg-light-warning with dark text -->
+          <div class="card-header bg-warning text-dark">
+            <h5 class="mb-0"><span class="section-name"></span> <span class="singer"></span></h5>
+          </div>
+          
+          <!-- Softer Warm Pastel Body: bg-light with muted text -->
+          <div class="card-body bg-light">
+            <blockquote class="blockquote">
+              <p class="snippet">Take the Word and go out to ev'ry land: shine the light of Christ for all to see!</p>
+            </blockquote>
+            <footer class="song blockquote-footer text-muted">Ricky Manalo</footer>
+            
+            <!-- Audio Player and Link Button with pastel outline -->
+            <div class="d-flex align-items-center mt-3">
+              <audio controls>
+                <source class="audio_url" src="Recessional/With_One_Voice.mp3" type="audio/mpeg">
+              </audio>
+              
+              <!-- Softer Pastel Button: Outline button with a soft color -->
+              <a href="Recessional/With_One_Voice.txt" target="_blank" class="lyric_url btn btn-outline-warning ms-3">
+                <i class="fa fa-file-text-o"></i> Lyrics
+              </a>
+            </div>
+            
+          </div>
+        </div>
       </section>
-
-      <!-- Offertory -->
-      <section>
-        <tr>
-          <th colspan="2">Offertory (David)</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>Come To Us</b><br>
-            <q>Scattered and broken, bent in our way,
-              we are your people gathered to praise you.
-              A vineyard uprooted, narrow in sight.
-              Come, Lord of Glory! Come, Lord of Light!
-            </q><br>
-            <span class="author">Greg Walton</span></td>
-        </tr>
-        <tr>
-          <td>
-            <audio controls>
-              <source src = Offertory/Come_To_Us_Greg_Walton.mp3
-              type="audio/mpeg">
-            </audio>
-          </td>
-          <td class="small">
-            <a href = Offertory/Come_To_Us_Greg_Walton.txt target="_blank">
-              <i class="fa fa-file-text-o" style="font-size: 2em; color:red;"></i><br>Text</a>
-          </td>
-        </tr>
-      </section>
-
-      <!-- Sanctuary-->
-      <!-- <section>
-        <tr>
-          <th colspan="2">Communion Prayer</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <q>Lord, prepare me to be a sanctuary,
-              pure and holy, tried and true.
-              With thanksgiving, I'll be a living
-              sanctuary for you.
-            </q><br>
-            <span class="author">John Thompson</span><br>
-            <audio controls>
-              <source src=Communion_Meditation/Sanctuary.mp3 type="audio/mpeg">
-            </audio>
-          </td>
-        </tr>
-      </section> -->
-      
-      <!-- Communion Antiphon -->
-      <section>
-        <tr>
-          <th colspan="2">Communion Antiphon (Alan)</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <q>Say to the faint of heart: Be strong and do not fear.
-              Behold, our God will come, and he will save us.
-            </q><br>
-            <span class="author">Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan</span><br>
-            <audio controls>
-              <source src = Antiphons/Say_to_the_Faint_of_Heart_3rd_Sunday_of_Advent_Communion_Antiphon_11.mp3
-                type="audio/mpeg">
-            </audio>
-          </td>
-        </tr>
-      </section>
-
-      <!-- Communion -->
-      <section>
-        <tr>
-          <th colspan="2">Communion</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>Come, Lord! Maranatha</b><br>
-            <q>Come and rejoice, again, rejoice!
-              Here is the God who saves.
-              Now is the time, do not fear.
-              Sing out with voices and praise:
-            </q><br>
-            <span class="author">Ricky Manalo</span>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <audio controls>
-              <source src = Advent/Come_Lord_Maranatha_Ricky_Manalo.mp3 type="audio/mpeg">
-            </audio>
-          </td>
-          <td class="small">
-            <a href = Advent/Come_Lord_Maranatha_Ricky_Manalo.txt target="_blank">
-              <i class="fa fa-file-text-o" style="font-size: 2em; color:red;"></i><br>Text</a>
-          </td>
-        </tr>
-      </section>
-
-      <!-- Meditation -->
-      <section>
-        <tr>
-          <th colspan="2">Meditation</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>God of Mercy</b><br>
-            <q>God of mercy, holy myst’ry,
-              ever faithful one,
-              you have pitched your tent among us,
-              reconciling love.
-              Heart and mind of Christ,
-              live within our lives,
-              form us into people of mercy and grace.
-            </q><br>
-            <span class="author">Ricky Manalo</span></td>
-        </tr>
-        <tr>
-          <td>
-            <audio controls>
-              <source src = Communion_Meditation/God_of_Mercy.mp3 type="audio/mpeg">
-            </audio></td>
-
-          <td class="small">
-            <a href = Communion_Meditation/God_of_Mercy.txt target="_blank">
-              <i class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>Text</a>
-          </td>
-        </tr>
-      </section>
-
-      <!-- Recessional -->
-      <section>
-        <tr>
-          <th colspan="2">Recessional</th>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>With One Voice</b><br>
-            <q>Take the Word and go out to ev'ry land:
-              shine the light of Christ for all to see!
-              May the lives of those we touch
-              sing praise to God above.
-              Let us sing, we'll sing:
-            </q><br>
-            <span class="author">Ricky Manalo</span>
-          </td>
-        </tr>
-        <tr colspan="2">
-          <td>
-            <audio controls>
-              <source src = Recessional/With_One_Voice.mp3 type="audio/mpeg">
-            </audio></td>
-          <td class="small">
-            <a href = Recessional/With_One_Voice.txt target="_blank">
-              <i class="fa fa-file-text-o" style="font-size: 2em; color:red;"></i><br>Text</a>
-          </td>
-        </tr>
-        </td>
-        </tr>
-      </section>
-
-      <!-- Lord Have Mercy -->
-      <tr>
-        <th colspan="2">Lord Have Mercy</th>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>Lord Have Mercy
-            <source src=Mass_of_St_Mary_Magdalena/Lord_Have_Mercy_Mass_of_St_Mary_Magdalene.mp3 type="audio/mpeg">
-          </audio>
-        </td>
-        <td class="small">
-          <a href="Mass_of_St_Mary_Magdalena/Lord_Have_Mercy_Mass_of_St_Mary_Magdalene.pdf" target="_blank">
-            <i class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>PDF</a>
-        </td>
-      </tr>
-      <!-- Glory To God -->
-      <tr>
-        <th colspan="2">Glory To God</th>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src=Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3 type="audio/mpeg">
-          </audio>
-        </td>
-        <td class="small">
-          <a href="Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene_Musescore.pdf" target="_blank"><i
-              class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>PDF</a>
-        </td>
-      </tr>
-      <!-- Holy -->
-      <tr>
-        <th colspan="2">Holy</th>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src=Mass_of_St_Mary_Magdalena/Holy_Mass_of_St_Mary_Magdalene.mp3 type="audio/mpeg">
-          </audio>
-        </td>
-        <td class="small">
-          <a href="Mass_of_St_Mary_Magdalena/Holy_Mass_of_St_Mary_Magdalene.pdf" target="_blank"><i
-              class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>PDF</a>
-        </td>
-      </tr>
-      <!-- When We Eat This Bread -->
-      <tr>
-        <th colspan="2">When We Eat This Bread</th>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src=Mass_of_St_Mary_Magdalena/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.mp3
-              type="audio/mpeg">
-          </audio>
-        </td>
-        <td class="small">
-          <a href="Mass_of_St_Mary_Magdalena/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.pdf" target="_blank"><i
-              class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>PDF</a>
-        </td>
-      </tr>
-      <!-- Amen -->
-      <tr>
-        <th colspan="2">Amen</th>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src=Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.mp3 type="audio/mpeg">
-          </audio>
-        </td>
-        <td class="small">
-          <a href="Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.pdf" target="_blank"><i
-              class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>PDF</a>
-        </td>
-      </tr>
-      <!-- Lamb of God -->
-      <tr>
-        <th colspan="2">Lamb of God</th>
-      </tr>
-      <tr>
-        <td>
-          <audio controls>
-            <source src=Mass_of_St_Mary_Magdalena/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3 type="audio/mpeg">
-          </audio>
-        </td>
-        <td class="small">
-          <a href="Mass_of_St_Mary_Magdalena/Lamb_of_God_Mass_of_St_Mary_Magdalene.pdf" target="_blank"><i
-              class="fa fa-file-pdf-o" style="font-size: 2em; color:red;"></i><br>PDF</a>
-        </td>
-      </tr>
-      <tr>
-        <th colspan="2">Practice Sunday 4:00 PM<br><q><i>Invite your friends!</i></q></th>
-      </tr>
-      <!-- Music PDFs - Complete Weekly Package -->
-      <tr>
-        <td colspan="2">
-          <i class="fa fa-file-pdf-o" style="font-size:2em;color:red"></i>&ensp;
-          <a href=Sun_530pm.pdf target="_blank">Music PDFs - Last Update 12/10/2024</a>
-        </td>
-      </tr>
-      <!-- Mass of St. Mary Magdalene -->
-      <tr>
-        <td colspan="2">
-          <i class="fa fa-file-pdf-o" style="font-size:2em;color:red"></i>&ensp;
-          <a href="Mass_of_St_Mary_Magdalena/Mass_of_St_Mary_Magdalene.pdf" target="_blank">Music PDFs - Mass of St.Mary
-            Magdalene</a>&ensp;
-        </td>
-      </tr>
-      <!-- PowerPoint - Complete Weekly Package -->
-      <!-- <tr>
-        <td colspan="2">
-          <i class="fa fa-file-powerpoint-o" style="font-size:2em;color:red"></i>&ensp;
-          <a href=Sunday/30th_Sunday_Ordinary_Time.pptx target="_blank">PowerPoint - Last Update 10/27/2024</a>
-        </td>
-      </tr> -->
-    </table>
+    </div>
+    
+    
   </div>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-  </script>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Practice Sunday 4:00 PM - Invite your friends!</p>
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a href="Sun_530pm.pdf" class="text-white" target="_blank">Music PDFs</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
