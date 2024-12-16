@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function getNextSundaysDate() {
   const today = moment();
-  const nextSunday = today.day() == 0 ? today : today(7)
+  const nextSunday = today.day() == 0 ? today : today.day(7)
   return nextSunday.format("MMMM DD, YYYY");
 }
