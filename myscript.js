@@ -13,10 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let index = 0; index < data.sections.length; index++) {
       const element = data.sections[index];
       let html_template = $("#mass-section-template .mass-section").clone();
-      html_template.find(".section-name").text(element.name);
+      html_template.find(".moment").text(element.moment);
       html_template.find(".singer").text(element.singer ? "(" + element.singer + ")" : "");
+      html_template.find(".title").text(element.title ? element.title : "");
       html_template.find(".snippet").text(element.snippet ? element.snippet : "");
-      html_template.find(".song").text(element.song ? element.song : "");
+      html_template.find(".author").text(element.author ? element.author : "");
       if (!element.song) {
         html_template.find(".song").addClass("d-none")
       }

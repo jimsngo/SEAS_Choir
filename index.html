@@ -24,10 +24,10 @@
   </nav>
 
   <!-- Header -->
-  <header class="text-center py-5 bg-danger text-white">
+  <header class="text-center py-5 bg-success text-white">
     <div class="container">
-      <h2>3<sup>rd</sup> Sunday of Advent (C)</h2>
-      <div>Sunday -  <span id="date"></span> - 5:30 PM</div>
+      <h2>4<sup>th</sup> Sunday of Advent (C)</h2>
+      <div>Sunday - <span id="date"></span> - 5:30 PM</div>
     </div>
   </header>
 
@@ -36,42 +36,43 @@
     <div id="mass-section-template">
       <section class="d-none mass-section py-2">
         <div class="card shadow-sm">
+
           <!-- Softer Warm Pastel Header: bg-light-warning with dark text -->
-          <div class="card-header bg-warning text-dark">
-            <h5 class="mb-0"><span class="section-name"></span> <span class="singer"></span></h5>
+          <div class="card-header bg-info text-dark">
+            <h5 class="mb-0"><b class="moment"></b> <span class="singer"></span></h5>
           </div>
-          
+
           <!-- Softer Warm Pastel Body: bg-light with muted text -->
           <div class="card-body bg-light">
-            <blockquote class="blockquote">
-              <i>"<span class="snippet">Take the Word and go out to ev'ry land: shine the light of Christ for all to see!</span>"</i>
-            </blockquote>
-            <footer class="song blockquote-footer text-muted">Ricky Manalo</footer>
-            
+            <b class="title"></b>
+            <blockquote><i>"<span class="snippet"></span>"</i></blockquote>
+            <footer class="author blockquote-footer text-muted"></footer>
+
             <!-- Audio Player and Link Button with pastel outline -->
-            <div class="d-flex align-items-center mt-3">
-              <audio controls>
+            <div class="d-flex align-items-center justify-content-between mt-3 w-100">
+              <audio class="flex-grow-1 w-100" controls>
                 <source class="audio_url" src="Recessional/With_One_Voice.mp3" type="audio/mpeg">
               </audio>
-              
+
               <!-- Softer Pastel Button: Outline button with a soft color -->
               <a href="Recessional/With_One_Voice.txt" target="_blank" class="lyric_url btn btn-outline-warning ms-3">
-                <i class="fa fa-file-text-o"></i> Lyrics
+                <i class="fa fa-file-text-o"></i>
               </a>
             </div>
-            
           </div>
         </div>
       </section>
     </div>
-    
-    
   </div>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
+  <footer class="bg-primary text-white text-center py-3">
     <p class="mb-0">Practice Sunday 4:00 PM - Invite your friends!</p>
-    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a href="Sun_530pm.pdf" class="text-white" target="_blank">Music PDFs</a></p>
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a href="Sun_530pm.pdf" class="text-white" target="_blank">Music
+        PDFs</a></p>
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a href="Mass_of_St_Mary_Magdalena/Mass_of_St_Mary_Magdalene.pdf"
+        class="text-white" target="_blank">Mass of St.Mary
+        Magdalene</a></p>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

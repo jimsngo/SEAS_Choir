@@ -1,124 +1,123 @@
 {
     "sections": [
         {
-            "name": "Entrance Antiphon",
+            "moment": "Entrance Antiphon",
             "singer": "Alan",
-            "snippet": "Rejoice in the Lord always; again I say, rejoice. Indeed, the Lord is near.",
-            "song": "Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan",
-            "audio_url": "Antiphons/Rejoice_in_the_Lord_Always_3rd_Sunday_of_Advent_Entrance_Antiphon_10.mp3",
+            "title": null,
+            "snippet": "Drop down dew from above, you heavens, and let the clouds rain down the Just One; Let the earth be opened and bring forth a Savior.",
+            "author": "Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan",
+            "audio_url": "Antiphons/Drop_Down_Dew_from_Above_4th_Sunday_of_Advent_Entrance_Antiphon_12.mp3",
             "lyric_url": null
         },
         {
-            "name": "Responsorial Psalm",
-            "singer": "Claudine",
-            "snippet": "Cry out with joy and gladness: for among you is the great and Holy One of Israel.",
-            "song": "Owen Alstott",
-            "audio_url": "RA/Third-Sunday-of-Advent-C-83805.mp3",
+            "moment": "Responsorial Psalm",
+            "singer": "Cederick",
+            "title": null,
+            "snippet": "Lord, make us turn to you; let us see your face and we shall be saved.",
+            "author": "Owen Alstott",
+            "audio_url": "RA/Fourth-Sunday-of-Advent-C-83806.mp3",
             "lyric_url": null
         },
         {
-            "name": "Gospel Acclamation",
+            "moment": "Gospel Acclamation",
+            "singer": null,
+            "title": null,
+            "snippet": "Behold, I am the handmaid of the Lord. May it be done to be according to your word.",
+            "author": "Sprit & Psalm 2025 - Sarah Hart",
+            "audio_url": "RA/Spirit_Psalm_2025_4th_Sunday_Advent_Gospel_Acclamation.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Offertory",
+            "singer": null,
+            "title": "Christ, Shine in Our Lives",
+            "snippet": "When the darkness surrounds us and troubles our hearts, and we cry out for justice and peace; when the proud and the mighty bring terror and fear, and burden the hearts of the meek; when judgment and hate overwhelm us, and prejudice reigns in the night: Light of Christ, shine in our lives.",
+            "author": "Chris Muglia",
+            "audio_url": "Offertory/Christ_Shine_in_Our_Lives.mp3",
+            "lyric_url": "Offertory/Christ_Shine_in_Our_Lives.txt"
+        },
+        {
+            "moment": "Communion Antiphon",
+            "singer": "Alan",
+            "snippet": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel.",
+            "author": "Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan",
+            "audio_url": "Antiphons/Behold_a_Virgin_Shall_Conceive_4th_Sunday_of_Advent_Communion_Antiphon_13.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Communion",
+            "singer": "Cederick",
+            "title": "Mary Sing with Joyful Heart (Ave Maria)",
+            "snippet": "Mary, sing with joyful heart: “You shall bear Emmanuel!” Virgin Mother, full of grace, pray for us to God, your Son!",
+            "author": "Steve Angrisano/James Quinn SJ",
+            "audio_url": "Communion_Meditation/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.mp3",
+            "lyric_url": "Communion_Meditation/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.txt"
+        },
+        {
+            "moment": "Meditation",
+            "singer": null,
+            "title": "Hail Mary: Gentle Woman",
+            "snippet": "Hail Mary, full of grace, the Lord is with you. Blessed are you among women and blest is the fruit of your womb, Jesus. Holy Mary, Mother of God, pray for us sinners now and at the hour of death. Amen.",
+            "author": "Carey Landry",
+            "audio_url": "Holy_Mary/Hail_Mary_Gentle_Woman.mp3",
+            "lyric_url": "Holy_Mary/Hail_Mary_Gentle_Woman.txt"
+        },
+        {
+            "moment": "Recessional",
             "singer": "David",
-            "snippet": "The Spirit of the Lord is upon me, because he has anointed me to bring glad tidings to the poor.",
-            "song": "Mass of the Desert - Tom Booth",
-            "audio_url": "RA/Gospel_Acclamation_3rd_Sunday_Advent.mp3",
-            "lyric_url": null
+            "title": "You Are The Light",
+            "snippet": "Light of the world in the cover of the night. Glorious star in the shadows you are shining. Hope for the lost, salvation for the sinner. You conquered the cross with the brightness of your rising!",
+            "author": "Josh Blakesley",
+            "audio_url": "Recessional/You_Are_The_Light_Josh_Blakesley.mp3",
+            "lyric_url": "Recessional/You_Are_The_Light_Josh_Blakesley.txt"
         },
         {
-            "name": "Offertory",
-            "singer": "David",
-            "snippet": "Scattered and broken, bent in our way, we are your people gathered to praise you. A vineyard uprooted, narrow in sight. Come, Lord of Glory! Come, Lord of Light!",
-            "song": "Greg Walton",
-            "audio_url": "Offertory/Come_To_Us_Greg_Walton.mp3",
-            "lyric_url": "Offertory/Come_To_Us_Greg_Walton.txt"
-        },
-        {
-            "name": "Communion Antiphon",
-            "singer": "Alan",
-            "snippet": "Say to the faint of heart: Be strong and do not fear. Behold, our God will come, and he will save us.",
-            "song": "Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan",
-            "audio_url": "Antiphons/Say_to_the_Faint_of_Heart_3rd_Sunday_of_Advent_Communion_Antiphon_11.mp3",
-            "lyric_url": null
-        },
-        {
-            "name": "Communion Antiphon",
-            "singer": "Alan",
-            "snippet": "Say to the faint of heart: Be strong and do not fear. Behold, our God will come, and he will save us.",
-            "song": "Let Us All Rejoice - Steve Angrisano, Sarah Hart, Curtis Stephan",
-            "audio_url": "Antiphons/Say_to_the_Faint_of_Heart_3rd_Sunday_of_Advent_Communion_Antiphon_11.mp3",
-            "lyric_url": null
-        },
-        {
-            "name": "Communion",
+            "moment": "Lord Have Mercy",
             "singer": null,
-            "snippet": "Come and rejoice, again, rejoice! Here is the God who saves. Now is the time, do not fear. Sing out with voices and praise:",
-            "song": "Ricky Manalo",
-            "audio_url": "Advent/Come_Lord_Maranatha_Ricky_Manalo.mp3",
-            "lyric_url": "Advent/Come_Lord_Maranatha_Ricky_Manalo.txt"
-        },
-        {
-            "name": "Meditation",
-            "singer": null,
-            "snippet": "God of mercy, holy myst'ry, ever faithful one,\nyou have pitched your tent among us\nreconciling love.\nHeart and mind of Christ,\nlive within our lives,\nform us into people of mercy and grace.",
-            "song": "Ricky Manalo",
-            "audio_url": "Communion_Meditation/God_of_Mercy.mp3",
-            "lyric_url": "Communion_Meditation/God_of_Mercy.txt"
-        },
-        {
-            "name": "Recessional",
-            "singer": null,
-            "snippet": "Take the Word and go out to ev'ry land:\nshine the light of Christ for all to see!\nMay the lives of those we touch\nsing praise to God above.\nLet us sing, we'll sing:",
-            "song": "Ricky Manalo",
-            "audio_url": "Recessional/With_One_Voice.mp3",
-            "lyric_url": "Recessional/With_One_Voice.txt"
-        },
-        {
-            "name": "Glory To God",
-            "singer": null,
-            "snippet": null,
-            "song": null,
+            "snippet": "Lord have mercy! Christ have mercy! Lord have mercy!",
+            "author": "Mass of St Mary Magdalena",
             "audio_url": "Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3",
-            "lyric_url": "Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene_Musescore.pdf"
+            "lyric_url": null
         },
         {
-            "name": "Holy",
+            "moment": "Glory To God",
             "singer": null,
-            "snippet": null,
-            "song": null,
+            "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+            "author": "Mass of St Mary Magdalena",
+            "audio_url": "Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Holy",
+            "singer": null,
+            "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+            "author": "Mass of St Mary Magdalena",
             "audio_url": "Mass_of_St_Mary_Magdalena/Holy_Mass_of_St_Mary_Magdalene.mp3",
-            "lyric_url": "Mass_of_St_Mary_Magdalena/Holy_Mass_of_St_Mary_Magdalene.pdf"
+            "lyric_url": null
         },
         {
-            "name": "When We Eat This Bread",
+            "moment": "When We Eat This Bread",
             "singer": null,
-            "snippet": null,
-            "song": null,
+            "snippet": "When we eat this breadand drink this cup, we proclaim your death, O Lord, until you come again.",
+            "author": "Mass of St Mary Magdalena",
             "audio_url": "Mass_of_St_Mary_Magdalena/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.mp3",
-            "lyric_url": "Mass_of_St_Mary_Magdalena/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.pdf"
+            "lyric_url": null
         },
         {
-            "name": "Amen",
+            "moment": "Amen",
             "singer": null,
-            "snippet": null,
-            "song": null,
+            "snippet": "Amen, Amen, Amen, Amen, Amen.",
+            "author": "Mass of St Mary Magdalena",
             "audio_url": "Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.mp3",
-            "lyric_url": "Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.pdf"
+            "lyric_url": null
         },
         {
-            "name": "Lamb of God",
+            "moment": "Lamb of God",
             "singer": null,
-            "snippet": null,
-            "song": null,
+            "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world. Grant us, grant us peace.",
+            "author": "Mass of St Mary Magdalena",
             "audio_url": "Mass_of_St_Mary_Magdalena/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3",
-            "lyric_url": "Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.pdf"
-        },
-        {
-            "name": "Lamb of God",
-            "singer": null,
-            "snippet": null,
-            "song": null,
-            "audio_url": "Mass_of_St_Mary_Magdalena/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3",
-            "lyric_url": "Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.pdf"
+            "lyric_url": null
         }
     ]
 }
