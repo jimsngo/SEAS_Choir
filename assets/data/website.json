@@ -11,7 +11,7 @@
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Cederick",
+            "singer": "Lorena",
             "title": null,
             "snippet": "Lord, make us turn to you; let us see your face and we shall be saved.",
             "author": "Owen Alstott",
@@ -20,7 +20,7 @@
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": null,
+            "singer": "Lorena",
             "title": null,
             "snippet": "Behold, I am the handmaid of the Lord. May it be done to be according to your word.",
             "author": "Sprit & Psalm 2025",
@@ -46,7 +46,7 @@
         },
         {
             "moment": "Communion",
-            "singer": "Cederick",
+            "singer": null,
             "title": "Mary Sing with Joyful Heart (Ave Maria)",
             "snippet": "Mary, sing with joyful heart: “You shall bear Emmanuel!” Virgin Mother, full of grace, pray for us to God, your Son!",
             "author": "Steve Angrisano/James Quinn SJ",
