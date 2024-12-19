@@ -55,12 +55,12 @@
         },
         {
             "moment": "Meditation",
-            "singer": null,
-            "title": "Hail Mary: Gentle Woman",
-            "snippet": "Hail Mary, full of grace, the Lord is with you. Blessed are you among women and blest is the fruit of your womb, Jesus. Holy Mary, Mother of God, pray for us sinners now and at the hour of death. Amen.",
-            "author": "Carey Landry",
-            "audio_url": "Holy_Mary/Hail_Mary_Gentle_Woman.mp3",
-            "lyric_url": "Holy_Mary/Hail_Mary_Gentle_Woman.txt"
+            "singer": "Joelle",
+            "title": "Breath of Heaven (Mary's Song)",
+            "snippet": "I have travelled many moonless nights. Cold and weary with a babe inside. And I wonder what I've done. Holy Father, You have come and chosen me now to carry Your Son",
+            "author": "Amy Grant",
+            "audio_url": "Holy_Mary/Breath_of_Heaven_Bm_Amy_Grant.mp3",
+            "lyric_url": "Holy_Mary/Breath_of_Heaven_Bm_Amy_Grant.txt"
         },
         {
             "moment": "Recessional",
