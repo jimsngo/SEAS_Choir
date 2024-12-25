@@ -1,75 +1,75 @@
 {
     "sections": [
         {
-            "moment": "Entrance Antiphon",
-            "singer": "Alan",
-            "title": null,
-            "snippet": "Drop down dew from above, you heavens, and let the clouds rain down the Just One; Let the earth be opened and bring forth a Savior.",
-            "author": "Let Us All Rejoice",
-            "audio_url": "Antiphons/Drop_Down_Dew_from_Above_4th_Sunday_of_Advent_Entrance_Antiphon_12.mp3",
-            "lyric_url": null
+            "moment": "Entrance",
+            "singer": "Joelle",
+            "title": "O Come, All Ye Faithful",
+            "snippet": "O Come all ye faithful, joyful and triumphant. O come ye, O come ye to Bethlehem. Come and behold Him, born the King of Angels",
+            "author": "ADESTE FIDELES, Arranged by Tom Booth",
+            "audio_url": "Christmas/O_Come_All_Ye_Faithful.mp3",
+            "lyric_url": "Christmas/O_Come_All_Ye_Faithful_Tom_Booth.txt"
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": null,
+            "singer": "Claudine",
             "title": null,
-            "snippet": "Lord, make us turn to you; let us see your face and we shall be saved.",
+            "snippet": "Blessed are they, blessed are they who dwell in your house, O Lord.",
             "author": "Owen Alstott",
-            "audio_url": "RA/Fourth-Sunday-of-Advent-C-83806.mp3",
+            "audio_url": "The_Holy_Family_of_Jesus_Mary_and_Joseph_(C)/The-Holy-Family-of-Jesus-Mary-and-Joseph-C-83807.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": null,
+            "singer": "Claudine",
             "title": null,
-            "snippet": "Behold, I am the handmaid of the Lord. May it be done to be according to your word.",
+            "snippet": "Open our hearts, O Lord, to listen to the Words of Your Son.",
             "author": "Sprit & Psalm 2025",
-            "audio_url": "RA/Spirit_Psalm_2025_4th_Sunday_Advent_Gospel_Acclamation.mp3",
+            "audio_url": "The_Holy_Family_of_Jesus_Mary_and_Joseph_(C)/Spirit_Psalm_2025_Holy_Family_Gospel_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": null,
-            "title": "Christ, Shine in Our Lives",
-            "snippet": "When the darkness surrounds us and troubles our hearts, and we cry out for justice and peace; when the proud and the mighty bring terror and fear, and burden the hearts of the meek; when judgment and hate overwhelm us, and prejudice reigns in the night: Light of Christ, shine in our lives.",
-            "author": "Chris Muglia",
-            "audio_url": "Offertory/Christ_Shine_in_Our_Lives.mp3",
-            "lyric_url": "Offertory/Christ_Shine_in_Our_Lives.txt"
+            "singer": "Joelle/Claudine",
+            "title": "Child of the Poor/What Child is This",
+            "snippet": "Helpless and hungry, lowly he lies, wrapped in the chill of midwinter; comes now among us, born into poverty’s embrace, new life for the world.",
+            "author": "Scott Soper/GREENSLEEVES",
+            "audio_url": "Christmas/Child_of_the_Poor_What_Child_Is_This.mp3",
+            "lyric_url": "Christmas/Child_of_the_Poor_What_Child_Is_This.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Alan",
-            "snippet": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel.",
+            "singer": "Joelle",
+            "snippet": "Our God has appeared on the earth, and lived among us.",
             "author": "Let Us All Rejoice",
-            "audio_url": "Antiphons/Behold_a_Virgin_Shall_Conceive_4th_Sunday_of_Advent_Communion_Antiphon_13.mp3",
+            "audio_url": "The_Holy_Family_of_Jesus_Mary_and_Joseph_(C)/Our_God_Has_Appeared_on_the_Earth_Holy_Family_Communion_Antiphon_24.mp3",
             "lyric_url": null
         },
         {
             "moment": "Communion",
-            "singer": null,
-            "title": "Mary Sing with Joyful Heart (Ave Maria)",
-            "snippet": "Mary, sing with joyful heart: “You shall bear Emmanuel!” Virgin Mother, full of grace, pray for us to God, your Son!",
-            "author": "Steve Angrisano/James Quinn SJ",
-            "audio_url": "Holy_Mary/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.mp3",
-            "lyric_url": "Holy_Mary/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.txt"
+            "singer": "Joelle",
+            "title": "We Adore",
+            "snippet": "We adore these tiny hands come down to reach us, come to make the lame to walk, the blind to see. We adore these hands for one day they will free us as they hold the sin-forged nails of Calvary.",
+            "author": "Sarah Hart and Scott Krippayn",
+            "audio_url": "Christmas/We_Adore.mp3",
+            "lyric_url": "Christmas/We_Adore.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Joelle/Alan",
-            "title": "Breath of Heaven (Mary's Song)",
-            "snippet": "I have traveled many moonless nights. Cold and weary with a babe inside. And I wonder what I've done. Holy Father, You have come and chosen me now to carry Your Son",
-            "author": "Amy Grant",
-            "audio_url": "Holy_Mary/Breath_of_Heaven_Duet_Mat_and_Savanna_Shaw.mp3",
-            "lyric_url": "Holy_Mary/Breath_of_Heaven_Bm_Amy_Grant.txt"
+            "singer": "Claudine",
+            "title": "Ave Maria",
+            "snippet": "Ave Maria, gratia plena, Maria, gratia plena, Maria, gratia plena, Ave, Ave, Dominus, Dominus tecum. Benedicta tu in mulieribus, et benedictus, Et benedictus fructus ventris (tui), Ventris tui, Jesus. Ave Maria!",
+            "author": "Franz Schubert",
+            "audio_url": "Holy_Mary/Ave_Maria_Schubert(Ab).mp3",
+            "lyric_url": "Holy_Mary/Ave_Maria_Schubert.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "David",
-            "title": "You Are The Light",
-            "snippet": "Light of the world in the cover of the night. Glorious star in the shadows you are shining. Hope for the lost, salvation for the sinner. You conquered the cross with the brightness of your rising!",
-            "author": "Josh Blakesley",
-            "audio_url": "Recessional/You_Are_The_Light_Josh_Blakesley.mp3",
-            "lyric_url": "Recessional/You_Are_The_Light_Josh_Blakesley.txt"
+            "singer": "Claudine",
+            "title": "Joy to the World",
+            "snippet": "Joy to the world! the Lord is come; Let earth receive her King; Let ev'ry heart prepare him room, And heav'n and nature sing, And heav'n and nature sing, And heav'n, and heav'n and nature sing.",
+            "author": "ANTIOCH, Arranged by Dean Baskerville, Laurie Roberts and Tammy McMorrow",
+            "audio_url": "Christmas/Joy_To_The_World.mp3",
+            "lyric_url": "Christmas/Joy_To_The_World.txt"
         },
         {
             "moment": "Lord Have Mercy",
