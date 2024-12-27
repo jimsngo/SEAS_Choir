@@ -56,11 +56,11 @@
         {
             "moment": "Meditation",
             "singer": "Claudine",
-            "title": "Ave Maria",
-            "snippet": "Ave Maria, gratia plena, Maria, gratia plena, Maria, gratia plena, Ave, Ave, Dominus, Dominus tecum. Benedicta tu in mulieribus, et benedictus, Et benedictus fructus ventris (tui), Ventris tui, Jesus. Ave Maria!",
-            "author": "Franz Schubert",
-            "audio_url": "Holy_Mary/Ave_Maria_Schubert(Ab).mp3",
-            "lyric_url": "Holy_Mary/Ave_Maria_Schubert.txt"
+            "title": "Holy Family",
+            "snippet": "Oh loving Father, make our home. In Nazareth where you may reign. A holy family of love Where Jesus' manger lays.",
+            "author": "Danielle Rose",
+            "audio_url": "Christmas/Holy_Family.mp3",
+            "lyric_url": "Christmas/Holy_Family.txt"
         },
         {
             "moment": "Recessional",
