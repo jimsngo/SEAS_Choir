@@ -2,129 +2,121 @@
     "sections": [
         {
             "moment": "Entrance",
-            "singer": "Joelle",
-            "title": "O Come, All Ye Faithful",
-            "snippet": "O Come all ye faithful, joyful and triumphant. O come ye, O come ye to Bethlehem. Come and behold Him, born the King of Angels",
-            "author": "ADESTE FIDELES, Arranged by Tom Booth",
-            "audio_url": "Christmas/O_Come_All_Ye_Faithful.mp3",
-            "lyric_url": "Christmas/O_Come_All_Ye_Faithful_Tom_Booth.txt"
+            "singer": "Cederick",
+            "title": "Born This Day",
+            "author": "Ken Canedo",
+            "snippet": "The people who wandered in darkness have seen a marvelous light. And on those who lived too long in the shadows, a great light shines.",
+            "audio_url": "Christmas/Born_This_Day.mp3",
+            "lyric_url": "Christmas/Born_This_Day.txt"
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Claudine",
+            "singer": "Cederick",
             "title": null,
-            "snippet": "Blessed are they, blessed are they who dwell in your house, O Lord.",
-            "author": "Owen Alstott",
-            "audio_url": "The_Holy_Family_of_Jesus_Mary_and_Joseph_(C)/The-Holy-Family-of-Jesus-Mary-and-Joseph-C-83807.mp3",
+            "author": "Sprit & Psalm 2025 - Scott Soper",
+            "snippet": "Lord, Every Nation on Earth Will Adore You",
+            "audio_url": "The_Epiphany_of_the_Lord_(C)/Spirit_&_Psalm_2025_Epiphany_Responsorials.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Claudine",
+            "singer": "David",
             "title": null,
-            "snippet": "Open our hearts, O Lord, to listen to the Words of Your Son.",
-            "author": "Sprit & Psalm 2025",
-            "audio_url": "The_Holy_Family_of_Jesus_Mary_and_Joseph_(C)/Spirit_Psalm_2025_Holy_Family_Gospel_Acclamation.mp3",
+            "author": "Sprit & Psalm 2025 - Curtis Stephan",
+            "snippet": "We Saw His Star at Its Rising and Have Come to Do Him Homage",
+            "audio_url": "The_Epiphany_of_the_Lord_(C)/Spirit_&_Psalm_2025_Epiphany_Gospel_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Joelle/Claudine",
-            "title": "Child of the Poor/What Child is This",
-            "snippet": "Helpless and hungry, lowly he lies, wrapped in the chill of midwinter; comes now among us, born into poverty’s embrace, new life for the world.",
-            "author": "Scott Soper/GREENSLEEVES",
-            "audio_url": "Christmas/Child_of_the_Poor_What_Child_Is_This.mp3",
-            "lyric_url": "Christmas/Child_of_the_Poor_What_Child_Is_This.txt"
+            "singer": "Cederick",
+            "title": "Silent Night",
+            "author": "STILLE NACHT",
+            "snippet": "Silent night! Holy night! All is calm, all is bright. Round yon Virgin Mother and child! Holy Infant so tender and mild, Sleep in heavenly peace, Sleep in heavenly peace.",
+            "audio_url": "Christmas/Silent_Night.mp3",
+            "lyric_url": "Christmas/Silent_Night.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Joelle",
-            "snippet": "Our God has appeared on the earth, and lived among us.",
+            "singer": "Alan",
+            "title": null,
             "author": "Let Us All Rejoice",
-            "audio_url": "The_Holy_Family_of_Jesus_Mary_and_Joseph_(C)/Our_God_Has_Appeared_on_the_Earth_Holy_Family_Communion_Antiphon_24.mp3",
+            "snippet": "We have seen his star in the East, and have come with gifts to adore the Lord",
+            "audio_url": "The_Epiphany_of_the_Lord_(C)/We_Have_Seen_His_Star_in_the_East_Epiphany_Communion_Antiphon_33.mp3",
             "lyric_url": null
         },
         {
             "moment": "Communion",
-            "singer": "Joelle",
-            "title": "We Adore",
-            "snippet": "We adore these tiny hands come down to reach us, come to make the lame to walk, the blind to see. We adore these hands for one day they will free us as they hold the sin-forged nails of Calvary.",
-            "author": "Sarah Hart and Scott Krippayn",
-            "audio_url": "Christmas/We_Adore.mp3",
-            "lyric_url": "Christmas/We_Adore.txt"
+            "singer": "Cederick",
+            "title": "Christ Our Light Has Come",
+            "author": "Steve Angrisano/Curtis Stephan",
+            "snippet": "Still, come be still; let us hear the prophets calling. Still, come be still; let us hear the angels sing. For true light has arrived to illumine our lives so often beset by the darkness. We find who we are in the light of the star on the way to our journey’s end.",
+            "audio_url": "Christmas/Christ_Our_Light_Has_Come.mp3",
+            "lyric_url": "Christmas/Christ_Our_Light_Has_Come.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Claudine - Option 1",
-            "title": "Ave Maria",
-            "snippet": "Ave Maria, gratia plena, Maria, gratia plena, Maria, gratia plena, Ave, Ave, Dominus, Dominus tecum. Benedicta tu in mulieribus, et benedictus, Et benedictus fructus ventris (tui), Ventris tui, Jesus. Ave Maria!",
-            "author": "Franz Schubert",
-            "audio_url": "Holy_Mary/Ave_Maria_Schubert(Ab).mp3",
-            "lyric_url": "Holy_Mary/Ave_Maria_Schubert.txt"
-        },
-        {
-            "moment": "Meditation",
-            "singer": "Claudine - Option 2",
-            "title": "Holy Family",
-            "snippet": "Oh loving Father, make our home. In Nazareth where you may reign. A holy family of love Where Jesus' manger lays.",
-            "author": "Danielle Rose",
-            "audio_url": "Christmas/Holy_Family.mp3",
-            "lyric_url": "Christmas/Holy_Family.txt"
+            "singer": "Cederick",
+            "title": "Bread of Angels",
+            "author": "Curtis Stephan",
+            "snippet": "Bread of angels, we receive you; with us now abide. Precious Jesus, manna of ages, with us now reside. Panis angélicus fit panis hóminum, Dat panis cáelicus figúris términum.",
+            "audio_url": "Communion_Meditation/Bread_of_Angels.mp3",
+            "lyric_url": "Communion_Meditation/Bread_of_Angels.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "Claudine",
-            "title": "Joy to the World",
-            "snippet": "Joy to the world! the Lord is come; Let earth receive her King; Let ev'ry heart prepare him room, And heav'n and nature sing, And heav'n and nature sing, And heav'n, and heav'n and nature sing.",
-            "author": "ANTIOCH, Arranged by Dean Baskerville, Laurie Roberts and Tammy McMorrow",
-            "audio_url": "Christmas/Joy_To_The_World.mp3",
-            "lyric_url": "Christmas/Joy_To_The_World.txt"
+            "singer": "David",
+            "title": "A Light to the Nations",
+            "author": "Ben Walther",
+            "snippet": "You built a city on mountain peaks.  Your voice from heaven in thunder speaks  the great commandment, compelling us to a world that needs to know your love.",
+            "audio_url": "Recessional/A_Light_To_The_Nations.mp3",
+            "lyric_url": "Recessional/A_Light_To_The_Nations.txt"
         },
         {
             "moment": "Lord Have Mercy",
             "singer": null,
-            "snippet": "Lord have mercy! Christ have mercy! Lord have mercy!",
             "author": "Mass of St Mary Magdalena",
+            "snippet": "Lord have mercy! Christ have mercy! Lord have mercy!",
             "audio_url": "Mass_of_St_Mary_Magdalena/Lord_Have_Mercy_Mass_of_St_Mary_Magdalene.mp3",
             "lyric_url": null
         },
         {
             "moment": "Glory To God",
             "singer": null,
-            "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
             "author": "Mass of St Mary Magdalena",
+            "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
             "audio_url": "Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3",
             "lyric_url": null
         },
         {
             "moment": "Holy",
             "singer": null,
-            "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
             "author": "Mass of St Mary Magdalena",
+            "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
             "audio_url": "Mass_of_St_Mary_Magdalena/Holy_Mass_of_St_Mary_Magdalene.mp3",
             "lyric_url": null
         },
         {
             "moment": "When We Eat This Bread",
             "singer": null,
-            "snippet": "When we eat this breadand drink this cup, we proclaim your death, O Lord, until you come again.",
             "author": "Mass of St Mary Magdalena",
+            "snippet": "When we eat this breadand drink this cup, we proclaim your death, O Lord, until you come again.",
             "audio_url": "Mass_of_St_Mary_Magdalena/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.mp3",
             "lyric_url": null
         },
         {
             "moment": "Amen",
             "singer": null,
-            "snippet": "Amen, Amen, Amen, Amen, Amen.",
             "author": "Mass of St Mary Magdalena",
+            "snippet": "Amen, Amen, Amen, Amen, Amen.", 
             "audio_url": "Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.mp3",
             "lyric_url": null
         },
         {
             "moment": "Lamb of God",
             "singer": null,
-            "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world. Grant us, grant us peace.",
             "author": "Mass of St Mary Magdalena",
+            "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world. Grant us, grant us peace.",           
             "audio_url": "Mass_of_St_Mary_Magdalena/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3",
             "lyric_url": null
         }
