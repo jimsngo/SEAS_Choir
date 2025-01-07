@@ -1,76 +1,76 @@
 { 
     "sections": [
         {
-            "moment": "Entrance",
-            "singer": "Cederick",
-            "title": "Born This Day",
-            "author": "Ken Canedo",
-            "snippet": "The people who wandered in darkness have seen a marvelous light. And on those who lived too long in the shadows, a great light shines.",
-            "audio_url": "Christmas/Born_This_Day.mp3",
-            "lyric_url": "Christmas/Born_This_Day.txt"
+            "moment": "Entrance Antiphon",
+            "singer": "Alan",
+            "title": "",
+            "author": "Let Us All Rejoice",
+            "snippet": "After the Lord was baptized, the heavens were opened, and the Spirit descended upon him like a dove, and the voice of the Father thundered: This is my beloved Son, with whom I am well pleased.",
+            "audio_url": "The_Baptism_of_the_Lord_(C)/After_the_Lord_Was_Baptized_Baptism_of_the_Lord_Entrance_Antiphon_34.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Mr. Kofi",
+            "singer": "Lorena",
             "title": null,
             "author": "Owen Alstott",
-            "snippet": "Lord, Every Nation on Earth Will Adore You",
-            "audio_url": "The_Epiphany_of_the_Lord_(C)/The-Epiphany-of-the-Lord-ABC-81247.mp3",
+            "snippet": "O bless the Lord, my soul.",
+            "audio_url": "The_Baptism_of_the_Lord_(C)/O_Bless_The Lord_My_Soul_The_Baptism_of_the_Lord.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "David",
+            "singer": "Lorena",
             "title": null,
-            "author": "Sprit & Psalm 2025 - Curtis Stephan",
-            "snippet": "We Saw His Star at Its Rising and Have Come to Do Him Homage",
-            "audio_url": "The_Epiphany_of_the_Lord_(C)/Spirit_&_Psalm_2025_Epiphany_Gospel_Acclamation.mp3",
+            "author": "Owen Alstott",
+            "snippet": "John said: One mightier than I is coming; he will baptize you with the Holy spirit and wire fire",
+            "audio_url": "The_Baptism_of_the_Lord_(C)/Gospel_Acclamation_The_Baptism_of_the_Lord.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Cederick",
-            "title": "Silent Night",
-            "author": "STILLE NACHT",
-            "snippet": "Silent night! Holy night! All is calm, all is bright. Round yon Virgin Mother and child! Holy Infant so tender and mild, Sleep in heavenly peace, Sleep in heavenly peace.",
-            "audio_url": "Christmas/Silent_Night.mp3",
-            "lyric_url": "Christmas/Silent_Night.txt"
+            "singer": "",
+            "title": "By the Love of God",
+            "author": "Tom Booth, Matt Maher",
+            "snippet": "We are signed in the water. We are sealed with the Spirit. We are saved and delivered by the love of God",
+            "audio_url": "Offertory/By_the_Love_of_God.mp3",
+            "lyric_url": "Offertory/By_the_Love_of_God.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "Alan",
             "title": null,
             "author": "Let Us All Rejoice",
-            "snippet": "We have seen his star in the East, and have come with gifts to adore the Lord",
-            "audio_url": "The_Epiphany_of_the_Lord_(C)/We_Have_Seen_His_Star_in_the_East_Epiphany_Communion_Antiphon_33.mp3",
+            "snippet": "Behold the One of whom John said: I have seen and testified that this is the Son of God",
+            "audio_url": "The_Baptism_of_the_Lord_(C)/Behold_the_One_of_Whom_John_Said_Baptism_of_the_Lord_Communion_Antiphon_35.mp3",
             "lyric_url": null
         },
         {
             "moment": "Communion",
-            "singer": "Cederick",
-            "title": "Christ Our Light Has Come",
-            "author": "Steve Angrisano/Curtis Stephan",
-            "snippet": "Still, come be still; let us hear the prophets calling. Still, come be still; let us hear the angels sing. For true light has arrived to illumine our lives so often beset by the darkness. We find who we are in the light of the star on the way to our journey’s end.",
-            "audio_url": "Christmas/Christ_Our_Light_Has_Come.mp3",
-            "lyric_url": "Christmas/Christ_Our_Light_Has_Come.txt"
+            "singer": "",
+            "title": "Come, Now Is the Time to Worship",
+            "author": "Brian Doerksen",
+            "snippet": "Come, now is the time to worship. Come, now is the time to give your heart. Come, just as you are to worship. Come, just as you are before your God. Come.",
+            "audio_url": "Communion_Meditation/Come_Now_Is_the_Time_to_Worship.mp3",
+            "lyric_url": "Communion_Meditation/Come_Now_Is_the_Time_to_Worship.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Cederick",
-            "title": "Bread of Angels",
-            "author": "Curtis Stephan",
-            "snippet": "Bread of angels, we receive you; with us now abide. Precious Jesus, manna of ages, with us now reside. Panis angélicus fit panis hóminum, Dat panis cáelicus figúris términum.",
-            "audio_url": "Communion_Meditation/Bread_of_Angels.mp3",
-            "lyric_url": "Communion_Meditation/Bread_of_Angels.txt"
+            "singer": "",
+            "title": "God So Loved",
+            "author": "Ken Canedo",
+            "snippet": "God so loved the world. God so loved the world he gave his only Son, his only Son and, to those who believe in him: you shall not fear death, for you shall have eternal life.  Yes, you shall have eternal life. God so loved the world. ",
+            "audio_url": "Communion_Meditation/God_So_Loved.mp3",
+            "lyric_url": "Communion_Meditation/God_So_Loved.txt"
         },
         {
             "moment": "Recessional",
             "singer": "David",
-            "title": "A Light to the Nations",
-            "author": "Ben Walther",
-            "snippet": "You built a city on mountain peaks.  Your voice from heaven in thunder speaks  the great commandment, compelling us to a world that needs to know your love.",
-            "audio_url": "Recessional/A_Light_To_The_Nations.mp3",
-            "lyric_url": "Recessional/A_Light_To_The_Nations.txt"
+            "title": "Go Out, Go Out",
+            "author": "Curtis Stephan",
+            "snippet": "Go out, go out to all the world and tell the Good News, tell the Good, Good News.",
+            "audio_url": "Recessional/Go_Out_Go_Out.mp3",
+            "lyric_url": "Recessional/Go_Out_Go_Out.txt"
         },
         {
             "moment": "Lord Have Mercy",
