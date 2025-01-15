@@ -2,84 +2,75 @@
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Alan",
+            "singer": "David",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "After the Lord was baptized, the heavens were opened, and the Spirit descended upon him like a dove, and the voice of the Father thundered: This is my beloved Son, with whom I am well pleased.",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/After_the_Lord_Was_Baptized_Baptism_of_the_Lord_Entrance_Antiphon_34.mp3",
+            "snippet": "All the earth shall bow down before you, O God, and shall sing to you, shall sing to your name, O Most High",
+            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/All_the_Earth_Shall_Bow_Down_Before_You_2nd_Sunday_in_Ordinary_Time_Entrance_Antiphon_39.mp3",
             "lyric_url": ""
         },
         {
-            "moment": "Water Sprinking Rite",
-            "singer": "",
-            "title": "Baptized in Water",
-            "author": "BUNESSAN",
-            "snippet": "Baptized in water, Sealed by the Spirit, Cleansed by the blood of Christ our King: Heirs of salvation,  Trusting his promise, Faithfully now God’s praise we sing.",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/Baptized_in_Water.mp3",
-            "lyric_url": "The_Baptism_of_the_Lord_(C)/Baptized_in_Water.txt"
-        },
-        {
             "moment": "Responsorial Psalm",
-            "singer": "Lorena",
+            "singer": "Claudine",
             "title": null,
             "author": "Owen Alstott",
-            "snippet": "O bless the Lord, my soul.",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/O_Bless_The Lord_My_Soul_The_Baptism_of_the_Lord.mp3",
+            "snippet": "Proclaim his marvelous deeds to all the nations.",
+            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/Second-Sunday-in-Ordinary-Time-C-83809.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Lorena",
+            "singer": "David",
             "title": null,
             "author": "Owen Alstott",
-            "snippet": "John said: One mightier than I is coming; he will baptize you with the Holy spirit and wire fire",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/Gospel_Acclamation_The_Baptism_of_the_Lord.mp3",
+            "snippet": "God has called us through the Gospel to possess the glory or our Lord Jesus Christ",
+            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/Spirit_Psalm_2025_Ordinary_Time_2_Gospel_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "",
-            "title": "By the Love of God",
-            "author": "Tom Booth, Matt Maher",
-            "snippet": "We are signed in the water. We are sealed with the Spirit. We are saved and delivered by the love of God",
-            "audio_url": "Offertory/By_the_Love_of_God.mp3",
-            "lyric_url": "Offertory/By_the_Love_of_God.txt"
+            "singer": "Claudine",
+            "title": "Many and Great",
+            "author": "Ricky Manalo CSP",
+            "snippet": "Many and great are bearers of the Word: the Christ speaks; the heart seeks. Gathered as one, we listen to the Word and share the meal of new birth.",
+            "audio_url": "Offertory/Many_and_Great.mp3",
+            "lyric_url": "Offertory/Many_and_Great.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Alan",
+            "singer": "David",
             "title": null,
             "author": "Let Us All Rejoice",
-            "snippet": "Behold the One of whom John said: I have seen and testified that this is the Son of God",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/Behold_the_One_of_Whom_John_Said_Baptism_of_the_Lord_Communion_Antiphon_35.mp3",
+            "snippet": "You have prepared a table before me, and how precious is the chalice that quenches my thirst",
+            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/You_Have_Prepared_a_Table_Before_Me_2nd_Sunday_in_Ordinary_Time_Communion_Antiphon_40.mp3",
             "lyric_url": null
         },
         {
             "moment": "Communion",
-            "singer": "",
-            "title": "Come, Now Is the Time to Worship",
-            "author": "Brian Doerksen",
-            "snippet": "Come, now is the time to worship. Come, now is the time to give your heart. Come, just as you are to worship. Come, just as you are before your God. Come.",
-            "audio_url": "Communion_Meditation/Come_Now_Is_the_Time_to_Worship.mp3",
-            "lyric_url": "Communion_Meditation/Come_Now_Is_the_Time_to_Worship.txt"
+            "singer": "Claudine",
+            "title": "The Body of Christ",
+            "author": "Sarah Hart",
+            "snippet": "This is the Body of Christ, beautiful, broken and blessed; miracle of the greatest of loves, presence of God in our midst. This is the Cup that he shares, endlessly emptied and poured; sacrifice made so that we might be saved now and forevermore.",
+            "audio_url": "Communion_Meditation/The_Body_of_Christ.mp3",
+            "lyric_url": "Communion_Meditation/The_Body_of_Christ.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "",
-            "title": "God So Loved",
-            "author": "Ken Canedo",
-            "snippet": "God so loved the world. God so loved the world he gave his only Son, his only Son and, to those who believe in him: you shall not fear death, for you shall have eternal life.  Yes, you shall have eternal life. God so loved the world. ",
-            "audio_url": "Communion_Meditation/God_So_Loved.mp3",
-            "lyric_url": "Communion_Meditation/God_So_Loved.txt"
+            "singer": "Claudine",
+            "title": "Bread of Life",
+            "author": "Bobby Fisher",
+            "snippet": "Bread of life and cup of hope, we come as gift to you. Change our hearts; fill us with peace. Transform our lives anew. Open our eyes so that we might see your presence in one another. Your life, poured out in love today, unites us all in you.",
+            "audio_url": "Communion_Meditation/Bread_of_Life.mp3",
+            "lyric_url": "Communion_Meditation/Bread_of_Life.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "",
-            "title": "Go Out, Go Out",
-            "author": "Curtis Stephan",
-            "snippet": "Go out, go out to all the world and tell the Good News, tell the Good, Good News.",
-            "audio_url": "Recessional/Go_Out_Go_Out.mp3",
-            "lyric_url": "Recessional/Go_Out_Go_Out.txt"
+            "singer": "David",
+            "title": "Our God is Good",
+            "author": "Joshua Blakesley and Cooper Ray",
+            "snippet": "Our God is good! Our God is good! Holy and righteous, powerful and true.",
+            "audio_url": "Recessional/Our_God_is_Good.mp3",
+            "lyric_url": "Recessional/Our_God_is_Good.txt"
         },
         {
             "moment": "Lord Have Mercy",
