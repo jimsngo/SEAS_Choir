@@ -2,75 +2,75 @@
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "David",
+            "singer": "Joelle",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "All the earth shall bow down before you, O God, and shall sing to you, shall sing to your name, O Most High",
-            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/All_the_Earth_Shall_Bow_Down_Before_You_2nd_Sunday_in_Ordinary_Time_Entrance_Antiphon_39.mp3",
+            "snippet": "O Sing a new song to the Lord; sing to the lord, all the earth. In his presence are majesty and splendor, strength and honor in his holy place",
+            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/O_Sing_a_New_Song_to_the_Lord_Sing_to_the_Lord_3rd_Sunday_in_Ordinary_Time_Entrance_Antiphon_42.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Claudine",
+            "singer": "Joelle",
             "title": null,
-            "author": "Owen Alstott",
-            "snippet": "Proclaim his marvelous deeds to all the nations.",
-            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/Second-Sunday-in-Ordinary-Time-C-83809.mp3",
+            "author": "Spirit & Psalm",
+            "snippet": "Your Words, Lord, are Spirit and Life",
+            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Spirit_Psalm_2025_Ordinary_Time_3_Psalm.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
             "singer": "David",
             "title": null,
-            "author": "Owen Alstott",
-            "snippet": "God has called us through the Gospel to possess the glory or our Lord Jesus Christ",
-            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/Spirit_Psalm_2025_Ordinary_Time_2_Gospel_Acclamation.mp3",
+            "author": "Spirit & Psalm",
+            "snippet": "The Lord sent me to bring glad tidings to the poor, and to proclaim liberty of captives",
+            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Spirit_Psalm_2025_Ordinary_Time_3_Gospel_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Claudine",
-            "title": "Many and Great",
-            "author": "Ricky Manalo CSP",
-            "snippet": "Many and great are bearers of the Word: the Christ speaks; the heart seeks. Gathered as one, we listen to the Word and share the meal of new birth.",
-            "audio_url": "Offertory/Many_and_Great.mp3",
-            "lyric_url": "Offertory/Many_and_Great.txt"
+            "singer": "Joelle",
+            "title": "Para Amar como Tú",
+            "author": "Santiago Fernández/Jesse Manibusan",
+            "snippet": "O God, great is your love, everlasting and true. Señor, danos tu amor para amar como tú.",
+            "audio_url": "Offertory/Para_Amar_Como_Tu.mp3",
+            "lyric_url": "Offertory/Para_Amar_como_Tu.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "David",
+            "singer": "Joelle",
             "title": null,
             "author": "Let Us All Rejoice",
-            "snippet": "You have prepared a table before me, and how precious is the chalice that quenches my thirst",
-            "audio_url": "Second_Sunday_in_Ordinary_Time_(C)/You_Have_Prepared_a_Table_Before_Me_2nd_Sunday_in_Ordinary_Time_Communion_Antiphon_40.mp3",
+            "snippet": "Look toward the Lord and be radiant; let your faces not be abashed.",
+            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Look_Toward_the_Lord_and_Be_Radiant_3rd_Sunday_in_Ordinary_Time_Communion_Antiphon_43.mp3",
             "lyric_url": null
         },
         {
             "moment": "Communion",
-            "singer": "Claudine",
-            "title": "The Body of Christ",
-            "author": "Sarah Hart",
-            "snippet": "This is the Body of Christ, beautiful, broken and blessed; miracle of the greatest of loves, presence of God in our midst. This is the Cup that he shares, endlessly emptied and poured; sacrifice made so that we might be saved now and forevermore.",
-            "audio_url": "Communion_Meditation/The_Body_of_Christ.mp3",
-            "lyric_url": "Communion_Meditation/The_Body_of_Christ.txt"
+            "singer": "Joelle",
+            "title": "Taste and See",
+            "author": "Steve Angrisano",
+            "snippet": "Taste and see the goodness of the Lord, the goodness of the Lord.",
+            "audio_url": "Communion_Meditation/Taste_and_See_Steve_Angrisano.mp3",
+            "lyric_url": "Communion_Meditation/Taste_and_See_Steve_Angrisano.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Claudine",
-            "title": "Bread of Life",
-            "author": "Bobby Fisher",
-            "snippet": "Bread of life and cup of hope, we come as gift to you. Change our hearts; fill us with peace. Transform our lives anew. Open our eyes so that we might see your presence in one another. Your life, poured out in love today, unites us all in you.",
-            "audio_url": "Communion_Meditation/Bread_of_Life.mp3",
-            "lyric_url": "Communion_Meditation/Bread_of_Life.txt"
+            "singer": "Joelle",
+            "title": "Beautiful Is Your Love",
+            "author": "Josh Blakesley/Sarah Hart/Marc Byrd",
+            "snippet": "Oh how beautiful is your love for me. Oh what joy is mine in this mystery. I will not fear the dark, here in the presence of your heart. Oh how beautiful is your love.",
+            "audio_url": "Communion_Meditation/Beautiful_Is_Your_Love.mp3",
+            "lyric_url": "Communion_Meditation/Beautiful_Is_Your_Love.txt"
         },
         {
             "moment": "Recessional",
             "singer": "David",
-            "title": "Our God is Good",
-            "author": "Joshua Blakesley and Cooper Ray",
-            "snippet": "Our God is good! Our God is good! Holy and righteous, powerful and true.",
-            "audio_url": "Recessional/Our_God_is_Good.mp3",
-            "lyric_url": "Recessional/Our_God_is_Good.txt"
+            "title": "We are the light",
+            "author": "Jesse Manibusan",
+            "snippet": "We are the light, light of the world shining for the world to see!",
+            "audio_url": "Recessional/We_Are_The_Light.mp3",
+            "lyric_url": "Recessional/We_Are_The_Light.txt"
         },
         {
             "moment": "Lord Have Mercy",

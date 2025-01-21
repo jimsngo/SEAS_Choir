@@ -3,74 +3,67 @@
         {
             "moment": "Entrance",
             "singer": "",
-            "title": "A Voice Cries Out",
-            "author": "Michael Joncas",
-            "snippet": "Console my people, the ones dear to me; speak to the heart of Jerusalem: the time of your mourning is ended now, the Lord of life will come.",
-            "audio_url": "Entrance/A_Voice_Cries_Out.mp3",
-            "lyric_url": ""
-        },
-        {
-            "moment": "Water Sprinking Rite",
-            "singer": "",
-            "title": "Baptized in Water",
-            "author": "BUNESSAN",
-            "snippet": "Baptized in water, Sealed by the Spirit, Cleansed by the blood of Christ our King: Heirs of salvation,  Trusting his promise, Faithfully now God’s praise we sing.",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/Baptized_in_Water.mp3",
-            "lyric_url": "The_Baptism_of_the_Lord_(C)/Baptized_in_Water.txt"
+            "title": "Come to the Feast/Ven al Banquete",
+            "author": "Bob Hurd",
+            "snippet": "Come, come to the banquet. Come, come to the feast. Here the hungry find plenty, here the thirsty shall drink, here at the supper of Jesus, come to the feast.",
+            "audio_url": "Entrance/Come_to_the_Feast_Ven_al_Banquete.mp3",
+            "lyric_url": "Entrance/Come_to_the_Feast_Ven_al_Banquete.txt"
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
-            "title": null,
+            "title": "",
             "author": "Owen Alstott",
-            "snippet": "O bless the Lord, my soul.",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/O_Bless_The Lord_My_Soul_The_Baptism_of_the_Lord.mp3",
-            "lyric_url": null
+            "snippet": "Your Words, Lord, are Spirit and Life",
+            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Third-Sunday-in-Ordinary-Time-C-83810.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Gospel Acclamation",
             "singer": "",
-            "title": null,
+            "title": "",
             "author": "Owen Alstott",
-            "snippet": "John said: One mightier than I is coming; he will baptize you with the Holy spirit and wire fire",
-            "audio_url": "The_Baptism_of_the_Lord_(C)/Gospel_Acclamation_The_Baptism_of_the_Lord.mp3",
-            "lyric_url": null
+            "snippet": "The Lord sent me to bring glad tidings to the poor, and to proclaim liberty of captives",
+            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Gospel-Acclamation-Third-Sunday-in-Ordinary-Time-C-83884.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Come to the Water",
-            "author": "John Foley SJ",
-            "snippet": "O let all who thirst, let them come to the water. And let all who have nothing, let them come to the Lord: without money, without price. Why should you pay the price,  except for the Lord?",
-            "audio_url": "Offertory/Come_to_the_Water.mp3",
-            "lyric_url": ""
+            "title": "Your Words Are Spirit and Life",
+            "author": "Bernadette Farrell",
+            "snippet": "Your words are spirit and life, O Lord: richer than gold, stronger than death. Your words are spirit and life, O Lord; life everlasting.",
+            "audio_url": "Offertory/Your_Words_are_Spirit_and_Life.mp3",
+            "lyric_url": "Offertory/Your_Words_are_Spirit_and_Life.txt"
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Remembrance",
-            "author": "Matt Maher and Matt Redman",
-            "snippet": "Oh how could it be that my God would welcome me into this mystery. Say take this bread, take this wine, now the simple made divine for any to receive. By mercy we come to your table. By your grace you are making us faithful",
-            "audio_url": "Communion_Meditation/Remembrance.mp3",
-            "lyric_url": null
+            "title": "Ang Katawan ni Kristo/Behold, the Body of Christ",
+            "author": "Ricky Manalo CSP / Pia de Leon",
+            "snippet": "In the presence of our God, as we gather here in Christ, feel the Spirit breathe upon us, the breath of life, graced and divine. We have come to break the bread; we have come to share our lives. Let us bring these fruits to the table, the love of God, yours and mine!",
+            "audio_url": "Communion_Meditation/Ang_Katawan_Ni_Kristo.mp3",
+            "lyric_url": "Communion_Meditation/Ang_Katawan_Ni_Kristo.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "The Heart of Worship",
-            "author": "Matt Redman",
-            "snippet": "When the music fades, all is stripped away, and I simply come. Longing just to bring something that's of worth that will bless Your heart",
-            "audio_url": "Communion_Meditation/The_Heart_of_Worship.mp3",
-            "lyric_url": ""
+            "title": "Taste and See",
+            "author": "Steve Angrisano",
+            "snippet": "Taste and see the goodness of the Lord, the goodness of the Lord. Taste and see the goodness of the Lord, the goodness of the Lord.",
+            "audio_url": "Communion_Meditation/Taste_and_See_Steve_Angrisano.mp3",
+            "lyric_url": "Communion_Meditation/Taste_and_See_Steve_Angrisano.txt"
         },
+
+
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "River of Glory",
-            "author": "Dan Schutte",
-            "snippet": "River of glory, springs of our birth, flood of God's riches poured on the earth. We are born from the darkness and clothed in the light! We are bathed in the glory of God!",
-            "audio_url": "Recessional/River_of_Glory.mp3",
-            "lyric_url": ""
+            "title": "10,000 Reasons (Bless the Lord)",
+            "author": "Jonas Myrin / Matt Redman",
+            "snippet": "Bless the Lord, O my soul, O my soul; worship his holy name. Sing like never before, O my soul; I’ll worship your holy name.",
+            "audio_url": "Recessional/10000_Reasons_Bless_The_Lord.mp3",
+            "lyric_url": "Recessional/10000_Reasons_Bless_The_Lord.txt"
         },
         {
             "moment": "Lord Have Mercy",
