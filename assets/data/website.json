@@ -1,76 +1,76 @@
 { 
     "sections": [
         {
-            "moment": "Entrance Antiphon",
-            "singer": "Joelle",
-            "title": "",
-            "author": "Let Us All Rejoice",
-            "snippet": "O Sing a new song to the Lord; sing to the lord, all the earth. In his presence are majesty and splendor, strength and honor in his holy place",
-            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/O_Sing_a_New_Song_to_the_Lord_Sing_to_the_Lord_3rd_Sunday_in_Ordinary_Time_Entrance_Antiphon_42.mp3",
-            "lyric_url": ""
+            "moment": "Entrance",
+            "singer": "Cederick",
+            "title": "Let Us Go to the Altar",
+            "author": "Dan Schutte",
+            "snippet": "Let us go to the altar of God, the God of our gladness and joy! Let us enter the courts of the house of the Lord and sing to the glory of God.",
+            "audio_url": "Entrance/Let_Us_Go_to_the_Altar.mp3",
+            "lyric_url": "Entrance/Let_Us_Go_to_the_Altar.txt"
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Joelle",
-            "title": null,
-            "author": "Spirit & Psalm",
-            "snippet": "Your Words, Lord, are Spirit and Life",
-            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Spirit_Psalm_2025_Ordinary_Time_3_Psalm.mp3",
+            "singer": "Cederick",
+            "title": "",
+            "author": "Owen Alstott",
+            "snippet": "Who is This King of Glory? It is the Lord!",
+            "audio_url": "The_Presentation_of_the_Lord/Presentation_of_the_Lord_ABC.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "David",
+            "singer": "Cederick",
             "title": null,
-            "author": "Spirit & Psalm",
-            "snippet": "The Lord sent me to bring glad tidings to the poor, and to proclaim liberty of captives",
-            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Spirit_Psalm_2025_Ordinary_Time_3_Gospel_Acclamation.mp3",
+            "author": "Owen Alstott",
+            "snippet": "A light of revelation to the Gentiles, and glory for your people Israel",
+            "audio_url": "The_Presentation_of_the_Lord/Gospel_Acclamation_Presentation_of_the_Lord_ABC.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Joelle",
-            "title": "Para Amar como Tú",
-            "author": "Santiago Fernández/Jesse Manibusan",
-            "snippet": "O God, great is your love, everlasting and true. Señor, danos tu amor para amar como tú.",
-            "audio_url": "Offertory/Para_Amar_Como_Tu.mp3",
-            "lyric_url": "Offertory/Para_Amar_como_Tu.txt"
+            "singer": "Cederick",
+            "title": "Mary Sing with Joyful Heart (Ave Maria) ",
+            "author": "Steve Angrisano/James Quinn SJ",
+            "snippet": "Mary, sing with joyful heart: “You shall bear Emmanuel!” Virgin Mother, full of grace, pray for us to God, your Son!",
+            "audio_url": "Offertory/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.mp3",
+            "lyric_url": "Offertory/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Joelle",
+            "singer": "",
             "title": null,
             "author": "Let Us All Rejoice",
-            "snippet": "Look toward the Lord and be radiant; let your faces not be abashed.",
-            "audio_url": "3rd_Sunday_Ordinary_Time_(C)/Look_Toward_the_Lord_and_Be_Radiant_3rd_Sunday_in_Ordinary_Time_Communion_Antiphon_43.mp3",
+            "snippet": "",
+            "audio_url": "",
             "lyric_url": null
         },
         {
             "moment": "Communion",
-            "singer": "Joelle",
-            "title": "Taste and See",
-            "author": "Steve Angrisano",
-            "snippet": "Taste and see the goodness of the Lord, the goodness of the Lord.",
-            "audio_url": "Communion_Meditation/Taste_and_See_Steve_Angrisano.mp3",
-            "lyric_url": "Communion_Meditation/Taste_and_See_Steve_Angrisano.txt"
+            "singer": "Cederick",
+            "title": "I Have Loved You",
+            "author": "Michael Joncas",
+            "snippet": "I have loved you with an everlasting love, I have called you and you are mine; I have loved you with an everlasting love, I have called you and you are mine.",
+            "audio_url": "Communion_Meditation/I_Have_Loved_You.mp3",
+            "lyric_url": "Communion_Meditation/I_Have_Loved_You.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Joelle",
-            "title": "Beautiful Is Your Love",
-            "author": "Josh Blakesley/Sarah Hart/Marc Byrd",
-            "snippet": "Oh how beautiful is your love for me. Oh what joy is mine in this mystery. I will not fear the dark, here in the presence of your heart. Oh how beautiful is your love.",
-            "audio_url": "Communion_Meditation/Beautiful_Is_Your_Love.mp3",
-            "lyric_url": "Communion_Meditation/Beautiful_Is_Your_Love.txt"
+            "singer": "Cederick",
+            "title": "The Goodness of the Lord",
+            "author": "Scott Soper",
+            "snippet": "I believe,  I believe I shall see the goodness of the Lord in the land,  in the land of the living.",
+            "audio_url": "Communion_Meditation/I_Have_Loved_You.mp3",
+            "lyric_url": "Communion_Meditation/I_Have_Loved_You.txt"
         },
         {
             "moment": "Recessional",
             "singer": "David",
-            "title": "We are the light",
-            "author": "Jesse Manibusan",
-            "snippet": "We are the light, light of the world shining for the world to see!",
-            "audio_url": "Recessional/We_Are_The_Light.mp3",
-            "lyric_url": "Recessional/We_Are_The_Light.txt"
+            "title": "With One Voice",
+            "author": "Ricky Manalo CSP",
+            "snippet": "Take the Word and go out to ev'ry land: shine the light of Christ for all to see! May the lives of those we touch sing praise to God above. Let us sing, we'll sing:",
+            "audio_url": "Recessional/With_One_Voice.mp3",
+            "lyric_url": "Recessional/With_One_Voice.txt"
         },
         {
             "moment": "Lord Have Mercy",
