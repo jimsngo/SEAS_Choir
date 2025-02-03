@@ -1,76 +1,76 @@
 { 
     "sections": [
         {
-            "moment": "Entrance",
-            "singer": "Cederick",
-            "title": "Let Us Go to the Altar",
-            "author": "Dan Schutte",
-            "snippet": "Let us go to the altar of God, the God of our gladness and joy! Let us enter the courts of the house of the Lord and sing to the glory of God.",
-            "audio_url": "Entrance/Let_Us_Go_to_the_Altar.mp3",
-            "lyric_url": "Entrance/Let_Us_Go_to_the_Altar.txt"
+            "moment": "Entrance Antiphon",
+            "singer": "Joelle",
+            "title": "",
+            "author": "Let Us All Rejoice",
+            "snippet": "O come, let us worship God and bow low before the God who made us, for he is the Lord our God",
+            "audio_url": "Antiphons/O_Come_Let_Us_Worship_God_5th Sunday_in_Ordinary_Time_Entrance_Antiphon_48.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Cederick",
+            "singer": "Joelle",
             "title": "",
-            "author": "Owen Alstott",
-            "snippet": "Who is This King of Glory? It is the Lord!",
-            "audio_url": "The_Presentation_of_the_Lord/Presentation_of_the_Lord_ABC.mp3",
+            "author": "Spirit & Psalm 2025",
+            "snippet": "In the sight of the angels I will sing your praises, Lord. I will sing, I will sing.",
+            "audio_url": "Responsorial/Spirit_Psalm_5th_Sunday_2025_Responsorial.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Cederick",
+            "singer": "Joelle",
             "title": null,
-            "author": "Owen Alstott",
-            "snippet": "A light of revelation to the Gentiles, and glory for your people Israel",
-            "audio_url": "The_Presentation_of_the_Lord/Gospel_Acclamation_Presentation_of_the_Lord_ABC.mp3",
+            "author": "Spirit & Psalm 2025",
+            "snippet": "Come after me and I will make you fishers of men.",
+            "audio_url": "Acclamation/5th_Sunday_C_Gospel_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Cederick",
-            "title": "Mary Sing with Joyful Heart (Ave Maria) ",
-            "author": "Steve Angrisano/James Quinn SJ",
-            "snippet": "Mary, sing with joyful heart: “You shall bear Emmanuel!” Virgin Mother, full of grace, pray for us to God, your Son!",
-            "audio_url": "Offertory/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.mp3",
-            "lyric_url": "Offertory/Mary_Sing_with_Joyful_Heart_Ave_Maria_Steve_Angrisano.txt"
+            "singer": "Joelle",
+            "title": "Come to Jesus",
+            "author": "Josh Blakesley",
+            "snippet": "People of the God of ages, welcome to your brand new day. Leave the world and all it's trappings, come into Amazing Grace. Let go your every fear. There is only mercy here",
+            "audio_url": "Offertory/Come_To_Jesus.mp3",
+            "lyric_url": "Offertory/Come_To_Jesus.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "",
-            "title": null,
+            "singer": "Joelle",
+            "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "",
-            "audio_url": "",
-            "lyric_url": null
+            "snippet": "Let them thank the Lord for his mercy, his wonders for the children of men, for he satisfies the thirsty soul, and the hungry he fills with good things.",
+            "audio_url": "Antiphons/Let_Them_Thank_the_Lord_for_His_Mercy_5th_Sunday_in_Ordinary_Time_Communion_Antiphon_49.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Communion",
-            "singer": "Cederick",
-            "title": "I Have Loved You",
-            "author": "Michael Joncas",
-            "snippet": "I have loved you with an everlasting love, I have called you and you are mine; I have loved you with an everlasting love, I have called you and you are mine.",
-            "audio_url": "Communion_Meditation/I_Have_Loved_You.mp3",
-            "lyric_url": "Communion_Meditation/I_Have_Loved_You.txt"
+            "singer": "Joelle",
+            "title": "Be Not Afraid/No Temas Más",
+            "author": "Bob Dufford SJ",
+            "snippet": "You shall cross the barren desert, but you shall not die of thirst. You shall wander far in safety, though you do not know the way. You shall speak your words in foreign lands  and all will understand. You shall see the face of God and live.",
+            "audio_url": "Communion_Meditation/Be_Not_Afraid.mp3",
+            "lyric_url": "Communion_Meditation/Be_Not_Afraid.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Cederick",
-            "title": "The Goodness of the Lord",
-            "author": "Scott Soper",
-            "snippet": "I believe,  I believe I shall see the goodness of the Lord in the land,  in the land of the living.",
-            "audio_url": "Communion_Meditation/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.mp3",
-            "lyric_url": "Communion_Meditation/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.txt"
+            "singer": "Joelle",
+            "title": "I Sought the Lord",
+            "author": "Tom Booth",
+            "snippet": "I sought the Lord and he answered me and delivered me from my fears. Look to him that you may be radiant, and you may not blush with shame.",
+            "audio_url": "Communion_Meditation/I_Sought_The_Lord.mp3",
+            "lyric_url": "Communion_Meditation/I_Sought_The_Lord.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "David",
-            "title": "With One Voice",
-            "author": "Ricky Manalo CSP",
-            "snippet": "Take the Word and go out to ev'ry land: shine the light of Christ for all to see! May the lives of those we touch sing praise to God above. Let us sing, we'll sing:",
-            "audio_url": "Recessional/With_One_Voice.mp3",
-            "lyric_url": "Recessional/With_One_Voice.txt"
+            "singer": "Joelle",
+            "title": "Go Out, Go Out",
+            "author": "Curtis Stephan",
+            "snippet": "Go out, go out to all the world and tell the Good News. Tell the Good... Good News!",
+            "audio_url": "Recessional/Go_Out_Go_Out.mp3",
+            "lyric_url": "Recessional/Go_Out_Go_Out.txt"
         },
         {
             "moment": "Lord Have Mercy",
