@@ -2,75 +2,75 @@
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Joelle",
+            "singer": "Claudine",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "O come, let us worship God and bow low before the God who made us, for he is the Lord our God",
-            "audio_url": "Antiphons/O_Come_Let_Us_Worship_God_5th Sunday_in_Ordinary_Time_Entrance_Antiphon_48.mp3",
+            "snippet": "Be my protector, O God, a mighty stronghold to save me. For you are my rock, my stronghold! Lead me, guide me, for the sake of your name.",
+            "audio_url": "Antiphons/51_Entrance_Antiphon_6th Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Joelle",
+            "singer": "Alan/Claudine",
             "title": "",
             "author": "Spirit & Psalm 2025",
-            "snippet": "In the sight of the angels I will sing your praises, Lord. I will sing, I will sing.",
-            "audio_url": "Responsorial/Spirit_Psalm_5th_Sunday_2025_Responsorial.mp3",
+            "snippet": "Blessed are they who hope in the Lord.",
+            "audio_url": "RA/SP2025_38_Psalm_6th_Sunday_OT.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Joelle",
+            "singer": "David",
             "title": null,
             "author": "Spirit & Psalm 2025",
-            "snippet": "Come after me and I will make you fishers of men.",
-            "audio_url": "Acclamation/5th_Sunday_C_Gospel_Acclamation.mp3",
+            "snippet": "Rejoice and be glad; your reward will be great in heaven",
+            "audio_url": "RA/SP2025_39_Acclamation_6th_Sunday_OT.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Joelle",
-            "title": "Come to Jesus",
-            "author": "Josh Blakesley",
-            "snippet": "People of the God of ages, welcome to your brand new day. Leave the world and all it's trappings, come into Amazing Grace. Let go your every fear. There is only mercy here",
-            "audio_url": "Offertory/Come_To_Jesus.mp3",
-            "lyric_url": "Offertory/Come_To_Jesus.txt"
+            "singer": "Claudine",
+            "title": "Hold On to Love",
+            "author": "Jesse Manibusan",
+            "snippet": "There is a place for the sadness. Hold on to Love. There is a season of gladness. Hold on to Love. When pain and confusion seem endless, hold on to Love. We cultivate healing through kindness. Hold on to Love.",
+            "audio_url": "Offertory/Hold_on_to_Love.mp3",
+            "lyric_url": "Offertory/Hold_on_to_Love.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Joelle",
+            "singer": "Claudine",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Let them thank the Lord for his mercy, his wonders for the children of men, for he satisfies the thirsty soul, and the hungry he fills with good things.",
-            "audio_url": "Antiphons/Let_Them_Thank_the_Lord_for_His_Mercy_5th_Sunday_in_Ordinary_Time_Communion_Antiphon_49.mp3",
+            "snippet": "God so loved the world that he gave his Only Begotten Son, so that all who believe in him may not perish, but may have eternal life.",
+            "audio_url": "Antiphons/53_Communion_Antiphon_6th_Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
-            "singer": "Joelle",
-            "title": "Be Not Afraid/No Temas Más",
-            "author": "Bob Dufford SJ",
-            "snippet": "You shall cross the barren desert, but you shall not die of thirst. You shall wander far in safety, though you do not know the way. You shall speak your words in foreign lands  and all will understand. You shall see the face of God and live.",
-            "audio_url": "Communion_Meditation/Be_Not_Afraid.mp3",
-            "lyric_url": "Communion_Meditation/Be_Not_Afraid.txt"
+            "singer": "Claudine",
+            "title": "God of Mercy",
+            "author": "Ricky Manalo CSP/Bob Hurd",
+            "snippet": "God of mercy, holy myst’ry, ever faithful one, you have pitched your tent among us, reconciling love. Heart and mind of Christ, live within our lives, form us into people of mercy and grace. ",
+            "audio_url": "Communion/God_So_Loved.mp3",
+            "lyric_url": "Communion/God_of_Mercy.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Joelle",
-            "title": "I Sought the Lord",
-            "author": "Tom Booth",
-            "snippet": "I sought the Lord and he answered me and delivered me from my fears. Look to him that you may be radiant, and you may not blush with shame.",
-            "audio_url": "Communion_Meditation/I_Sought_The_Lord.mp3",
-            "lyric_url": "Communion_Meditation/I_Sought_The_Lord.txt"
+            "singer": "Claudine",
+            "title": "God So Loved",
+            "author": "Ken Canedo",
+            "snippet": "God so loved the world. God so loved the world he gave his only Son, his only Son and, to those who believe in him: you shall not fear death, for you shall have eternal life.  Yes, you shall have eternal life. God so loved the world.",
+            "audio_url": "Communion/God_So_Loved.mp3",
+            "lyric_url": "Communion/God_So_Loved.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "Joelle",
-            "title": "Go Out, Go Out",
-            "author": "Curtis Stephan",
-            "snippet": "Go out, go out to all the world and tell the Good News. Tell the Good... Good News!",
-            "audio_url": "Recessional/Go_Out_Go_Out.mp3",
-            "lyric_url": "Recessional/Go_Out_Go_Out.txt"
+            "singer": "Claudine",
+            "title": "Go Make a Difference",
+            "author": "Steve Angrisano / Tom Tomaszek",
+            "snippet": "Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world. Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world.",
+            "audio_url": "Recessional/Go_Make_A_Difference.mp3",
+            "lyric_url": "Recessional/Go_Make_A_Difference.txt"
         },
         {
             "moment": "Lord Have Mercy",
