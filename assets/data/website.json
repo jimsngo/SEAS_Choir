@@ -2,75 +2,75 @@
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Claudine",
+            "singer": "Joelle",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Be my protector, O God, a mighty stronghold to save me. For you are my rock, my stronghold! Lead me, guide me, for the sake of your name.",
-            "audio_url": "Antiphons/51_Entrance_Antiphon_6th Sunday_in_Ordinary_Time.mp3",
+            "snippet": "O Lord, I trust in your merciful love. My heat will rejoice in your salvation. I will sing to the Lord who has been bountiful with me.",
+            "audio_url": "Antiphons/54_Entrance_Antiphon_7th Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Claudine",
+            "singer": "Joelle",
             "title": "",
-            "author": "Spirit & Psalm 2025",
-            "snippet": "Blessed are they who hope in the Lord.",
-            "audio_url": "RA/SP2025_38_Psalm_6th_Sunday_OT.mp3",
+            "author": "Spirit & Psalm",
+            "snippet": "The Lord is kind and merciful.",
+            "audio_url": "RA/SP2025_40_Psalm_7th_Sunday_OT.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "David",
+            "singer": "Joelle",
             "title": null,
-            "author": "Spirit & Psalm 2025",
-            "snippet": "Rejoice and be glad; your reward will be great in heaven",
-            "audio_url": "RA/SP2025_39_Acclamation_6th_Sunday_OT.mp3",
+            "author": "Spirit & Psalm",
+            "snippet": "I give you a new commandment, says the Lord: love one another as I have loved you.",
+            "audio_url": "RA/SP2025_41_Acclamation_7th_Sunday_OT.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
-            "singer": "Claudine",
-            "title": "Hold On to Love",
-            "author": "Jesse Manibusan",
-            "snippet": "There is a place for the sadness. Hold on to Love. There is a season of gladness. Hold on to Love. When pain and confusion seem endless, hold on to Love. We cultivate healing through kindness. Hold on to Love.",
-            "audio_url": "Offertory/Hold_on_to_Love.mp3",
-            "lyric_url": "Offertory/Hold_on_to_Love.txt"
+            "singer": "Joelle",
+            "title": "Love Goes On",
+            "author": "Bernadette Farrell",
+            "snippet": "Love is patient, love is kind, never ending, never ending; slow to anger, rich in mercy, love goes on beyond all time.",
+            "audio_url": "Offertory/Love_Goes_On.mp3",
+            "lyric_url": "Offertory/Love_Goes_On.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Claudine",
+            "singer": "Joelle",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "God so loved the world that he gave his Only Begotten Son, so that all who believe in him may not perish, but may have eternal life.",
-            "audio_url": "Antiphons/53_Communion_Antiphon_6th_Sunday_in_Ordinary_Time.mp3",
+            "snippet": "Lord, I have come to believe that you are the Christ, the Son of the living God, who is coming into this world.",
+            "audio_url": "Antiphons/56_Communion_Antiphon_7th_Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
-            "singer": "Claudine",
-            "title": "God of Mercy",
-            "author": "Ricky Manalo CSP/Bob Hurd",
-            "snippet": "God of mercy, holy myst’ry, ever faithful one, you have pitched your tent among us, reconciling love. Heart and mind of Christ, live within our lives, form us into people of mercy and grace. ",
-            "audio_url": "Communion/God_of_Mercy.mp3",
-            "lyric_url": "Communion/God_of_Mercy.txt"
+            "singer": "Joelle",
+            "title": "Ubi Caritas",
+            "author": "Bob Hurd",
+            "snippet": "Ubi caritas est vera, est vera: Deus ibi est, Deus ibi est.",
+            "audio_url": "Communion/Ubi_Caritas.mp3",
+            "lyric_url": "Communion/Ubi_Caritas.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Claudine",
-            "title": "God So Loved",
-            "author": "Ken Canedo",
-            "snippet": "God so loved the world. God so loved the world he gave his only Son, his only Son and, to those who believe in him: you shall not fear death, for you shall have eternal life.  Yes, you shall have eternal life. God so loved the world.",
-            "audio_url": "Communion/God_So_Loved.mp3",
-            "lyric_url": "Communion/God_So_Loved.txt"
+            "singer": "Joelle",
+            "title": "Psalm 103: The Lord Is Kind and Merciful",
+            "author": "Ricky Manalo CSP",
+            "snippet": "The Lord is kind and merciful; merciful is the Lord.",
+            "audio_url": "Communion/Psalm_103_The_Lord_Is_Kind_and_Merciful.mp3",
+            "lyric_url": "Communion/Psalm_103_The_Lord_Is_Kind_and_Merciful.txt"
         },
         {
             "moment": "Recessional",
             "singer": "David",
-            "title": "Go Make a Difference",
-            "author": "Steve Angrisano / Tom Tomaszek",
-            "snippet": "Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world. Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world.",
-            "audio_url": "Recessional/Go_Make_A_Difference.mp3",
-            "lyric_url": "Recessional/Go_Make_A_Difference.txt"
+            "title": "Can We Love",
+            "author": "Tom Booth",
+            "snippet": "Can we love? Can we lay down our lives? Can we wear his crown of thorns? Can we drink the cup that he drinks? We must lay down our lives!",
+            "audio_url": "Recessional/Can_We_Love.mp3",
+            "lyric_url": "Recessional/Can_We_Love.txt"
         },
         {
             "moment": "Lord Have Mercy",
