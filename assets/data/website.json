@@ -2,7 +2,7 @@
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Cederick",
+            "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
             "snippet": "The Lord became my protector. He brought me out to a place of freedom; he saved me because he delighted in me.",
@@ -11,7 +11,7 @@
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Cederick",
+            "singer": "",
             "title": "",
             "author": "Spirit & Psalm",
             "snippet": "Lord , it is good; Lord it is good to give thanks to you.",
@@ -20,7 +20,7 @@
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Cederick",
+            "singer": "David",
             "title": null,
             "author": "Spirit & Psalm",
             "snippet": "Shine like lights in the world as you hold on to the word of life.",
@@ -38,7 +38,7 @@
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Cederick",
+            "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
             "snippet": "Behold, I am with you always, even to the end of the age, says the Lord.",
@@ -47,7 +47,7 @@
         },
         {
             "moment": "Communion",
-            "singer": "Cederick",
+            "singer": "",
             "title": "Fly like a Bird",
             "author": "Ken Canedo",
             "snippet": "Fly like a bird to the Lord, my soul. I want to soar like an eagle. Though I may journey far away from home, I know I'll never be alone.",
@@ -56,7 +56,7 @@
         },
         {
             "moment": "Meditation",
-            "singer": "Cederick",
+            "singer": "",
             "title": "Bread of Angels",
             "author": "Curtis Stephan",
             "snippet": "Bread of angels, we receive you; with us now abide. Precious Jesus, manna of ages, with us now reside. Panis angélicus fit panis hóminum, Dat panis cáelicus figúris términum.",
