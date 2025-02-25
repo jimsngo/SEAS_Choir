@@ -2,75 +2,75 @@
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Joelle",
+            "singer": "Cederick",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "O Lord, I trust in your merciful love. My heat will rejoice in your salvation. I will sing to the Lord who has been bountiful with me.",
-            "audio_url": "Antiphons/54_Entrance_Antiphon_7th Sunday_in_Ordinary_Time.mp3",
+            "snippet": "The Lord became my protector. He brought me out to a place of freedom; he saved me because he delighted in me.",
+            "audio_url": "Antiphons/57_Entrance_Antiphon_8th Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Joelle",
+            "singer": "Cederick",
             "title": "",
             "author": "Spirit & Psalm",
-            "snippet": "The Lord is kind and merciful.",
-            "audio_url": "RA/SP2025_40_Psalm_7th_Sunday_OT.mp3",
+            "snippet": "Lord , it is good; Lord it is good to give thanks to you.",
+            "audio_url": "RA/SP2025_42_Psalm_8th_Sunday_OT.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Joelle",
+            "singer": "Cederick",
             "title": null,
             "author": "Spirit & Psalm",
-            "snippet": "I give you a new commandment, says the Lord: love one another as I have loved you.",
-            "audio_url": "RA/SP2025_41_Acclamation_7th_Sunday_OT.mp3",
+            "snippet": "Shine like lights in the world as you hold on to the word of life.",
+            "audio_url": "RA/SP2025_43_Acclamation_8th_Sunday_OT.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Love Goes On",
-            "author": "Bernadette Farrell",
-            "snippet": "Love is patient, love is kind, never ending, never ending; slow to anger, rich in mercy, love goes on beyond all time.",
-            "audio_url": "Offertory/Love_Goes_On.mp3",
-            "lyric_url": "Offertory/Love_Goes_On.txt"
+            "title": "Make Your Home in Me",
+            "author": "Ben Walther",
+            "snippet": "Every fox, a den; every bird, a nest; but the Son of Man has no place to rest. Every heart, a man; every king, a throne;",
+            "audio_url": "Offertory/Make_Your_Home_In_Me.mp3",
+            "lyric_url": "Offertory/Make_Your_Home_In_Me.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Joelle",
+            "singer": "Cederick",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Lord, I have come to believe that you are the Christ, the Son of the living God, who is coming into this world.",
-            "audio_url": "Antiphons/56_Communion_Antiphon_7th_Sunday_in_Ordinary_Time.mp3",
+            "snippet": "Behold, I am with you always, even to the end of the age, says the Lord.",
+            "audio_url": "Antiphons/59_Communion_Antiphon_8th_Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
-            "singer": "",
-            "title": "Ubi Caritas",
-            "author": "Bob Hurd",
-            "snippet": "Ubi caritas est vera, est vera: Deus ibi est, Deus ibi est.",
-            "audio_url": "Communion/Ubi_Caritas.mp3",
-            "lyric_url": "Communion/Ubi_Caritas.txt"
+            "singer": "Cederick",
+            "title": "Fly like a Bird",
+            "author": "Ken Canedo",
+            "snippet": "Fly like a bird to the Lord, my soul. I want to soar like an eagle. Though I may journey far away from home, I know I'll never be alone.",
+            "audio_url": "Communion/Fly_Like_A_Bird.mp3",
+            "lyric_url": "Communion/Fly_Like_A_Bird.txt"
         },
         {
             "moment": "Meditation",
-            "singer": "Joelle",
-            "title": "Psalm 103: The Lord Is Kind and Merciful",
-            "author": "Ricky Manalo CSP",
-            "snippet": "The Lord is kind and merciful; merciful is the Lord.",
-            "audio_url": "Communion/Psalm_103_The_Lord_Is_Kind_and_Merciful.mp3",
-            "lyric_url": "Communion/Psalm_103_The_Lord_Is_Kind_and_Merciful.txt"
+            "singer": "Cederick",
+            "title": "Bread of Angels",
+            "author": "Curtis Stephan",
+            "snippet": "Bread of angels, we receive you; with us now abide. Precious Jesus, manna of ages, with us now reside. Panis angélicus fit panis hóminum, Dat panis cáelicus figúris términum.",
+            "audio_url": "Communion/Bread_of_Angels.mp3",
+            "lyric_url": "Communion/Bread_of_Angels.txt"
         },
         {
             "moment": "Recessional",
             "singer": "David",
-            "title": "Can We Love",
-            "author": "Tom Booth",
-            "snippet": "Can we love? Can we lay down our lives? Can we wear his crown of thorns? Can we drink the cup that he drinks? We must lay down our lives!",
-            "audio_url": "Recessional/Can_We_Love.mp3",
-            "lyric_url": "Recessional/Can_We_Love.txt"
+            "title": "Your Grace Is Enough",
+            "author": "Matt Maher",
+            "snippet": "Great is your faithfulness, O God; you wrestle with the sinner's restless heart. You lead us by still waters into mercy, and nothing can keep us apart. So remember your people, remember your children, remember your promise, O God.",
+            "audio_url": "Recessional/Your_Grace_Is_Enough.mp3",
+            "lyric_url": "Recessional/Your_Grace_Is_Enough.txt"
         },
         {
             "moment": "Lord Have Mercy",
