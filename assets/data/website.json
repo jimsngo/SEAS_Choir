@@ -5,72 +5,72 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Remember your compassion, O Lord, and your merciful love, for they are from of old. Let not our enemies exult over us. Redeem us, O God of Israel, from all our distress.",
-            "audio_url": "Antiphons/69_Entrance_Antiphon_2nd_Sunday_Lent.mp3",
+            "snippet": "When I prove my holiness among you, I will gather you from all the foreign lands; and I will pour clean water upon you and cleanse you from all your impurities, and I will give you a new spirit, says the Lord",
+            "audio_url": "Antiphons/72_Entrance_Antiphon_3rd_Sunday_Lent.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Francesca LaRosa",
-            "snippet": "The Lord is my light and my salvation.",
-            "audio_url": "RA/Psalm_27_The_Lord_is_my_Light_and_my_Salvation_2nd_Sunday_Lent.mp3",
+            "author": "Spirit & Psalm",
+            "snippet": "The Lord is kind and merciful.",
+            "audio_url": "RA/SP2025_Lent_3rd_Sunday_Psalm.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "David",
+            "singer": "",
             "title": null,
             "author": "Spirit & Psalm",
-            "snippet": "From the shinning cloud the Father's voice is heard: This is my beloved Son, hear him.",
-            "audio_url": "RA/SP2025_Lent_2nd_Sunday_Acclamation.mp3",
+            "snippet": "Repent, says the Lord; the kingdom of heaven is at hand.",
+            "audio_url": "RA/SP2025_Lent_3rd_Sunday_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Purify My Heart",
-            "author": "Brian Doerksen",
-            "snippet": "Purify my heart, let me be as gold and precious silver. Purify my heart, let me be as gold, pure gold.",
-            "audio_url": "Offertory/Purify_My_Heart.mp3",
-            "lyric_url": "Offertory/Purify_My_Heart.txt"
+            "title": "You Alone",
+            "author": "Sarah Hart / Dwight Liles",
+            "snippet": "You alone are holy, you alone are Lord. You alone are worthy to be honored and adored. Mercy you have given,kindness you have shown. Love is you alone.",
+            "audio_url": "Offertory/You_alone.mp3",
+            "lyric_url": "Offertory/You_alone.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "This is my beloved Son, with whom I am well pleased; listen to him.",
-            "audio_url": "Antiphons/70_Communion_Antiphon_2nd_Sunday_Lent.mp3",
+            "snippet": "The sparrow finds a home, and the swallow a nest for her young: by your altars, O Lord of hosts, my King and my God. Blessed are they who dwell in your house, for ever singing your praise.",
+            "audio_url": "Antiphons/74_Communion_Antiphon_3rd_Sunday_Lent.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Be Still and Know That I Am God",
-            "author": "Christopher Walker / Sr. Paule Freeburg DC",
-            "snippet": "Be still and know that I am God. You are my chosen one, to whom my love I give. My life is yours, in you I live. Be still, be still and know that I am God.",
-            "audio_url": "Communion/Be_Still_And_Know_That_I_Am_God_Christopher_Walker.mp3",
-            "lyric_url": "Communion/Be_Still_And_Know_That_I_Am_God_Christopher_Walker.txt"
+            "title": "Be with me, Lord",
+            "author": "Sarah Hart and Curtis Stephan",
+            "snippet": "Be with me, Lord, when I am in trouble. Be with me, Lord, be with me.",
+            "audio_url": "Communion/Be_With_Me_Lord_Sarah_Hart.mp3",
+            "lyric_url": "Communion/Be_With_Me_Lord_Sarah_Hart.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Meditation",
-            "author": "Grayson Warren Brown",
-            "snippet": "Jesus, Jesus, precious Savior, heal us, hold us, help us find rest.",
-            "audio_url": "Communion/Meditation.mp3",
-            "lyric_url": "Communion/Meditation.txt"
+            "title": "Mercy on Me",
+            "author": "Sarah Hart",
+            "snippet": "Lord, have mercy on me. Lord, have mercy on me. Lord, have mercy on me.",
+            "audio_url": "Communion/Mercy_On_Me.mp3",
+            "lyric_url": "Communion/Mercy_On_Me.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "",
-            "title": "May the Road Rise Up",
-            "author": "Tom Kendzia",
-            "snippet": "May the road rise up to meet you, may the wind be always at your back. May the sun shine warm upon your face, the rain fall soft upon your ﬁelds. And until we meet again, until we meet again, may God hold you in the palm of his hand. Until we meet again, until we meet again, may God hold you, may God hold you,may God hold you in the palm of his hand.",
-            "audio_url": "Recessional/May_the_Road_Rise_Up.mp3",
-            "lyric_url": "Recessional/May_the_Road_Rise_Up.txt"
+            "singer": "David",
+            "title": "Take Up Our Cross",
+            "author": "Curtis Stephan, Sarah Hart and Marc Byrd",
+            "snippet": "Behold the wood that bears our name; Behold the nails that hold our sin. The tree from which salvation blooms; The death by which we're born again.",
+            "audio_url": "Recessional/Take_Up_Our_Cross_Curtis_Stephan.mp3",
+            "lyric_url": "Recessional/Take_Up_Our_Cross_Curtis_Stephan.txt"
         },
         {
             "moment": "Lord Have Mercy",
