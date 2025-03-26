@@ -5,17 +5,17 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "When I prove my holiness among you, I will gather you from all the foreign lands; and I will pour clean water upon you and cleanse you from all your impurities, and I will give you a new spirit, says the Lord",
-            "audio_url": "Antiphons/72_Entrance_Antiphon_3rd_Sunday_Lent.mp3",
+            "snippet": "Rejoice, Jerusalem, and all who love her. Be joyful, all who were in mourning; exult and be satisfied at her consoling breast.",
+            "audio_url": "Lent_4th_Sunday/75_Entrance_Antiphon_4th_Sunday_Lent.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Spirit & Psalm",
-            "snippet": "The Lord is kind and merciful.",
-            "audio_url": "RA/Psalm_103_The_Lord_is_Kind_and_Merciful_Francesca_LaRosa.mp3",
+            "author": "Francesca LaRosa",
+            "snippet": "Taste and see the goodness of the Lord.",
+            "audio_url": "Lent_4th_Sunday/Psalm_34_Taste_and_See_the_Goodness_of_the_Lord_Francesca_LaRosa.mp3",
             "lyric_url": null
         },
         {
@@ -23,54 +23,54 @@
             "singer": "",
             "title": null,
             "author": "Spirit & Psalm",
-            "snippet": "Repent, says the Lord; the kingdom of heaven is at hand.",
-            "audio_url": "RA/SP2025_Lent_3rd_Sunday_Acclamation.mp3",
+            "snippet": "I will get up and go to my Father and shall say to him: Father, I have sinned against heaven and against you.",
+            "audio_url": "Lent_4th_Sunday/SP2025_Lent_4th_Sunday_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "You Alone",
-            "author": "Sarah Hart / Dwight Liles",
-            "snippet": "You alone are holy, you alone are Lord. You alone are worthy to be honored and adored. Mercy you have given,kindness you have shown. Love is you alone.",
-            "audio_url": "Offertory/You_alone.mp3",
-            "lyric_url": "Offertory/You_alone.txt"
+            "title": "Be Not Far from Me",
+            "author": "Timothy R. Smith",
+            "snippet": "Be not far from me when trouble is near. Lord, deliver me from my fear. Be my sure defense through storming rage, My rock, my deliverer, ever age to age.",
+            "audio_url": "Offertory/Be_Not_Far_From_Me.mp3",
+            "lyric_url": "Offertory/Be_Not_Far_From_Me.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "The sparrow finds a home, and the swallow a nest for her young: by your altars, O Lord of hosts, my King and my God. Blessed are they who dwell in your house, for ever singing your praise.",
-            "audio_url": "Antiphons/74_Communion_Antiphon_3rd_Sunday_Lent.mp3",
+            "snippet": "You must rejoice, my son, for your brother was dead and has come to life; he was lost and is found.",
+            "audio_url": "Lent_4th_Sunday/77_Communion_Antiphon_4th_Sunday_C_Lent.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Be with me, Lord",
-            "author": "Sarah Hart and Curtis Stephan",
-            "snippet": "Be with me, Lord, when I am in trouble. Be with me, Lord, be with me.",
-            "audio_url": "Communion/Be_With_Me_Lord_Sarah_Hart.mp3",
-            "lyric_url": "Communion/Be_With_Me_Lord_Sarah_Hart.txt"
+            "title": "Christ in Me Arise",
+            "author": "Trevor Thomson",
+            "snippet": "Christ in me arise and dispel all the darkness. Christ in me arise with your power and your strength. Christ in me pour out your blessing and healing. Christ in me arise and I shall rise with you.",
+            "audio_url": "Communion/Christ_In_Me_Arise.mp3",
+            "lyric_url": "Communion/Christ_In_Me_Arise.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Mercy on Me",
-            "author": "Sarah Hart",
-            "snippet": "Lord, have mercy on me. Lord, have mercy on me. Lord, have mercy on me.",
-            "audio_url": "Communion/Mercy_On_Me.mp3",
-            "lyric_url": "Communion/Mercy_On_Me.txt"
+            "title": "Holy Darkness",
+            "author": "Dan Schutte",
+            "snippet": "Holy darkness, blessed night, heaven's answer hidden from our sight. As we await you, O God of silence, we embrace your holy night.",
+            "audio_url": "Communion/Holy_Darkness.mp3",
+            "lyric_url": "Communion/Holy_Darkness.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "David",
-            "title": "Take Up Our Cross",
-            "author": "Curtis Stephan, Sarah Hart and Marc Byrd",
-            "snippet": "Behold the wood that bears our name; Behold the nails that hold our sin. The tree from which salvation blooms; The death by which we're born again.",
-            "audio_url": "Recessional/Take_Up_Our_Cross_Curtis_Stephan.mp3",
-            "lyric_url": "Recessional/Take_Up_Our_Cross_Curtis_Stephan.txt"
+            "singer": "",
+            "title": "10,000 Reasons (Bless the Lord)",
+            "author": "Jonas Myrin / Matt Redman",
+            "snippet": "Bless the Lord, O my soul, O my soul; worship his holy name. Sing like never before, O my soul; I’ll worship your holy name.",
+            "audio_url": "Recessional/10000_Reasons_Bless_The_Lord.mp3",
+            "lyric_url": "Recessional/10000_Reasons_Bless_The_Lord.txt"
         },
         {
             "moment": "Lord Have Mercy",
