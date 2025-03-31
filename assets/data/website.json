@@ -5,17 +5,17 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Rejoice, Jerusalem, and all who love her. Be joyful, all who were in mourning; exult and be satisfied at her consoling breast.",
-            "audio_url": "Lent_4th_Sunday/75_Entrance_Antiphon_4th_Sunday_Lent.mp3",
+            "snippet": "Give me justice, O God, and plead my cause against a nation that is faithless. From the deceitful and cunning rescue me, for you, O Gos, are my strength.",
+            "audio_url": "Lent_5th_Sunday/79_Entrance_5th_Sunday_Lent.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Francesca LaRosa",
-            "snippet": "Taste and see the goodness of the Lord.",
-            "audio_url": "Lent_4th_Sunday/Psalm_34_Taste_and_See_the_Goodness_of_the_Lord_Francesca_LaRosa.mp3",
+            "author": "Owen Alstott",
+            "snippet": "The Lord has done great things for us; We are filled with joy.",
+            "audio_url": "Lent_5th_Sunday/Lent_5th_Sunday_Psalm.mp3",
             "lyric_url": null
         },
         {
@@ -23,54 +23,54 @@
             "singer": "",
             "title": null,
             "author": "Spirit & Psalm",
-            "snippet": "I will get up and go to my Father and shall say to him: Father, I have sinned against heaven and against you.",
-            "audio_url": "Lent_4th_Sunday/SP2025_Lent_4th_Sunday_Acclamation.mp3",
+            "snippet": "Even now, says the Lord, return to me with your whole heart; for I am gracious and merciful",
+            "audio_url": "Lent_5th_Sunday/SP2025_Lent_5th_Sunday_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Be Not Far from Me",
-            "author": "Timothy R. Smith",
-            "snippet": "Be not far from me when trouble is near. Lord, deliver me from my fear. Be my sure defense through storming rage, My rock, my deliverer, ever age to age.",
-            "audio_url": "Offertory/Be_Not_Far_From_Me.mp3",
-            "lyric_url": "Offertory/Be_Not_Far_From_Me.txt"
+            "title": "Be Forgiven",
+            "author": "Tom Booth",
+            "snippet": "Be forgiven, be forgiven, be forgiven of the sins that you hold on. Be forgiven, be forgiven, Jesus died and rose that you might know his love, and be forgiven.",
+            "audio_url": "Offertory/Be_Forgiven.mp3",
+            "lyric_url": "Offertory/Be_Forgiven.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "You must rejoice, my son, for your brother was dead and has come to life; he was lost and is found.",
-            "audio_url": "Lent_4th_Sunday/77_Communion_Antiphon_4th_Sunday_C_Lent.mp3",
+            "snippet": "Has no one condemned you, woman? No one, Lord. Neither shall I condemn you. From now on, sin no more.",
+            "audio_url": "Lent_5th_Sunday/81_Communion_5th_Sunday_Lent.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Christ in Me Arise",
-            "author": "Trevor Thomson",
-            "snippet": "Christ in me arise and dispel all the darkness. Christ in me arise with your power and your strength. Christ in me pour out your blessing and healing. Christ in me arise and I shall rise with you.",
-            "audio_url": "Communion/Christ_In_Me_Arise.mp3",
-            "lyric_url": "Communion/Christ_In_Me_Arise.txt"
+            "title": "The Table of the Lord",
+            "author": "Dana Catherine/Sarah Hart",
+            "snippet": "There is healing at the table of the Lord  for the wounds of all the children he adores.  In his body that is broken,  the redemption that we hope in.  There is healing at the table of the Lord.",
+            "audio_url": "Communion/The_Table_of_the_Lord.mp3",
+            "lyric_url": "Communion/The_Table_of_the_Lord.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Holy Darkness",
-            "author": "Dan Schutte",
-            "snippet": "Holy darkness, blessed night, heaven's answer hidden from our sight. As we await you, O God of silence, we embrace your holy night.",
-            "audio_url": "Communion/Holy_Darkness.mp3",
-            "lyric_url": "Communion/Holy_Darkness.txt"
+            "title": "I Will Rest in You",
+            "author": "Frank Jansen/ValLimar Jansen",
+            "snippet": "I will rest in you, O Lord; I will rest in you, O Lord. I will lay down before you my heavy burdens; I will rest in you, O Lord.",
+            "audio_url": "Communion/I_Will_Rest_In_You.mp3",
+            "lyric_url": "Communion/I_Will_Rest_in_You.txt"
         },
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "10,000 Reasons (Bless the Lord)",
-            "author": "Jonas Myrin / Matt Redman",
-            "snippet": "Bless the Lord, O my soul, O my soul; worship his holy name. Sing like never before, O my soul; I’ll worship your holy name.",
-            "audio_url": "Recessional/10000_Reasons_Bless_The_Lord.mp3",
-            "lyric_url": "Recessional/10000_Reasons_Bless_The_Lord.txt"
+            "title": "Revive Us, O God",
+            "author": "Jesse Manibusan",
+            "snippet": "Revive us, O God, breathe into us the way of your wisdom, the depth of your trust. You are our hope, you are our light, O God.",
+            "audio_url": "Recessional/Revive_Us_O_God.mp3",
+            "lyric_url": "Recessional/Revive_Us_O_God.txt"
         },
         {
             "moment": "Lord Have Mercy",
