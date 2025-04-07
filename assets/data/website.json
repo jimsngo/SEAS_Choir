@@ -5,17 +5,17 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Give me justice, O God, and plead my cause against a nation that is faithless. From the deceitful and cunning rescue me, for you, O God, are my strength.",
-            "audio_url": "Lent_5th_Sunday/79_Entrance_5th_Sunday_Lent.mp3",
-            "lyric_url": ""
+            "snippet": "Hosanna in the highest! Hosanna in the highest! Blessed are you, who have come in your abundant mercy! Hosanna in the highest! Hosanna in the highest!",
+            "audio_url": "Palm_Sunday/83_Entrance_Palm_Sunday.mp3",
+            "lyric_url": "Palm_Sunday/83_Entrance_Palm_Sunday.txt"
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Owen Alstott",
-            "snippet": "The Lord has done great things for us; We are filled with joy.",
-            "audio_url": "Lent_5th_Sunday/Lent_5th_Sunday_Psalm.mp3",
+            "author": "Sarah Hart",
+            "snippet": "My God, my God, why have you abandoned me?",
+            "audio_url": "Palm_Sunday/Palm_Sunday_Responsorial_Sarah_Hart.mp3",
             "lyric_url": null
         },
         {
@@ -23,54 +23,54 @@
             "singer": "",
             "title": null,
             "author": "Spirit & Psalm",
-            "snippet": "Even now, says the Lord, return to me with your whole heart; for I am gracious and merciful",
-            "audio_url": "Lent_5th_Sunday/SP2025_Lent_5th_Sunday_Acclamation.mp3",
+            "snippet": "Christ became obedient to the point of death, even death on a cross. Because of this, God greatly exalted him and bestowed on him the name which is above every name.",
+            "audio_url": "Palm_Sunday/Palm_Sunday_Acclamation_ABC.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Be Forgiven",
+            "title": "The Jesus Song",
             "author": "Tom Booth",
-            "snippet": "Be forgiven, be forgiven, be forgiven of the sins that you hold on. Be forgiven, be forgiven, Jesus died and rose that you might know his love, and be forgiven.",
-            "audio_url": "Offertory/Be_Forgiven.mp3",
-            "lyric_url": "Offertory/Be_Forgiven.txt"
+            "snippet": "Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Amen.",
+            "audio_url": "Offertory/The_Jesus_Song.mp3",
+            "lyric_url": "Offertory/The_Jesus_Song.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Has no one condemned you, woman? No one, Lord. Neither shall I condemn you. From now on, sin no more.",
-            "audio_url": "Lent_5th_Sunday/81_Communion_5th_Sunday_Lent.mp3",
+            "snippet": "Father if this chalice cannot pass without my drinking it, Your will be done.",
+            "audio_url": "Palm_Sunday/84_Communion_Palm_Sunday.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "The Table of the Lord",
-            "author": "Dana Catherine/Sarah Hart",
-            "snippet": "There is healing at the table of the Lord  for the wounds of all the children he adores.  In his body that is broken,  the redemption that we hope in.  There is healing at the table of the Lord.",
-            "audio_url": "Communion/The_Table_of_the_Lord.mp3",
-            "lyric_url": "Communion/The_Table_of_the_Lord.txt"
+            "title": "Were You There",
+            "author": "WERE YOU THERE",
+            "snippet": "Were you there when they crucified my Lord? Were you there when they crucified my Lord? Oh! Sometimes it causes me to tremble, tremble, tremble. Were you there when they crucified my Lord?",
+            "audio_url": "Communion/Were_You_There.mp3",
+            "lyric_url": "Communion/Were_You_There.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "I Will Rest in You",
-            "author": "Frank Jansen/ValLimar Jansen",
-            "snippet": "I will rest in you, O Lord; I will rest in you, O Lord. I will lay down before you my heavy burdens; I will rest in you, O Lord.",
-            "audio_url": "Communion/I_Will_Rest_In_You.mp3",
-            "lyric_url": "Communion/I_Will_Rest_in_You.txt"
+            "title": "Jesus, Remember Me",
+            "author": "Jacques Berthier / Taizé Community",
+            "snippet": "Jesus, remember me when you come into your kingdom. Jesus, remember me when you come into your kingdom.",
+            "audio_url": "Communion/Jesus_Remember_Me.mp3",
+            "lyric_url": "Communion/Jesus_Remember_Me.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "",
-            "title": "Revive Us, O God",
-            "author": "Jesse Manibusan",
-            "snippet": "Revive us, O God, breathe into us the way of your wisdom, the depth of your trust. You are our hope, you are our light, O God.",
-            "audio_url": "Recessional/Revive_Us_O_God.mp3",
-            "lyric_url": "Recessional/Revive_Us_O_God.txt"
+            "singer": "David",
+            "title": "Can We Love",
+            "author": "Tom Booth",
+            "snippet": "Can we love? Can we lay down our lives? Can we wear his crown of thorns? Can we drink the cup that he drinks? We must lay down our lives!",
+            "audio_url": "Recessional/Can_We_Love.mp3",
+            "lyric_url": "Recessional/Can_We_Love.txt"
         },
         {
             "moment": "Lord Have Mercy",
