@@ -1,6 +1,15 @@
 { 
     "sections": [
         {
+            "moment": "Outside Gathering",
+            "singer": "",
+            "title": "Hosanna to the Son of David",
+            "author": "Dan Schutte",
+            "snippet": "Hosanna to the Son of David! O blest is he, O blest is he who comes in the name of the Lord!",
+            "audio_url": "Palm_Sunday/Hosanna_To_The_Son_of_David_Dan_Schutte.mp3",
+            "lyric_url": "Palm_Sunday/Hosanna_To_The_Son_of_David_Dan_Schutte.txt"
+        },
+        {
             "moment": "Entrance Antiphon",
             "singer": "",
             "title": "",
