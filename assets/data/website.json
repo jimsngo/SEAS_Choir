@@ -1,85 +1,76 @@
 { 
     "sections": [
         {
-            "moment": "Outside Gathering",
-            "singer": "",
-            "title": "Hosanna to the Son of David",
-            "author": "Dan Schutte",
-            "snippet": "Hosanna to the Son of David! O blest is he, O blest is he who comes in the name of the Lord!",
-            "audio_url": "Palm_Sunday/Hosanna_To_The_Son_of_David_Dan_Schutte.mp3",
-            "lyric_url": "Palm_Sunday/Hosanna_To_The_Son_of_David_Dan_Schutte.txt"
-        },
-        {
             "moment": "Entrance Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Hosanna in the highest! Hosanna in the highest! Blessed are you, who have come in your abundant mercy! Hosanna in the highest! Hosanna in the highest!",
-            "audio_url": "Palm_Sunday/83_Entrance_Palm_Sunday_ABC.mp3",
-            "lyric_url": "Palm_Sunday/83_Entrance_Palm_Sunday_ABC.txt"
+            "snippet": "Receive the joy of your glory, Giving thanks to God, Who has called you into the heav'nly kingdom, Alleluia, Alleluia.",
+            "audio_url": "2nd_Sunday_Easter/92_Entrance_Antiphon_2nd_Sunday_Easter.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Sarah Hart",
-            "snippet": "My God, my God, why have you abandoned me?",
-            "audio_url": "Palm_Sunday/Palm_Sunday_Responsorial_ABC_Sarah_Hart.mp3",
+            "author": "SP2025",
+            "snippet": "Give thanks to the Lord for he is good, his love is everlasting.",
+            "audio_url": "2nd_Sunday_Easter/SP2025_2nd_Sunday_Easter_Psalm.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
             "singer": "",
             "title": null,
-            "author": "Spirit & Psalm",
-            "snippet": "Christ became obedient to the point of death, even death on a cross. Because of this, God greatly exalted him and bestowed on him the name which is above every name.",
-            "audio_url": "Palm_Sunday/Palm_Sunday_Acclamation_ABC.mp3",
+            "author": "SP2025",
+            "snippet": "You believe in me, Thomas, because you have seen me, says the Lord; blessed are they who have not seen me, but still believe",
+            "audio_url": "2nd_Sunday_Easter/SP2025_2nd_Sunday_Easter_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "The Jesus Song",
-            "author": "Tom Booth",
-            "snippet": "Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Amen.",
-            "audio_url": "Offertory/The_Jesus_Song.mp3",
-            "lyric_url": "Offertory/The_Jesus_Song.txt"
+            "title": "Hold On to Love",
+            "author": "Jesse Manibusan",
+            "snippet": "There is a place for the sadness. Hold on to Love. There is a season of gladness. Hold on to Love. When pain and confusion seem endless, hold on to Love. We cultivate healing through kindness. Hold on to Love.",
+            "audio_url": "Offertory/Hold_on_to_Love.mp3",
+            "lyric_url": "Offertory/Hold_on_to_Love.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Father if this chalice cannot pass without my drinking it, Your will be done.",
-            "audio_url": "Palm_Sunday/84_Communion_Palm_Sunday_ABC.mp3",
+            "snippet": "Bring your hand and feel the place of the nails, and do not be unbelieving but believing, alleluia",
+            "audio_url": "2nd_Sunday_Easter/93_Communion_Antiphon_2nd_Sunday_Easter.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Were You There",
-            "author": "WERE YOU THERE",
-            "snippet": "Were you there when they crucified my Lord? Were you there when they crucified my Lord? Oh! Sometimes it causes me to tremble, tremble, tremble. Were you there when they crucified my Lord?",
-            "audio_url": "Communion/Were_You_There_Stacey_Plays_Hymn.mp3",
-            "lyric_url": "Communion/Were_You_There.txt"
+            "title": "In the Breaking of the Bread",
+            "author": "Timothy R. Smith",
+            "snippet": "In the breaking of the bread, we knew him, Lord Jesus. Alleluia! Alleluia!",
+            "audio_url": "Communion/In_the_Breaking_of_the_Bread.mp3",
+            "lyric_url": "Communion/In_the_Breaking_of_the_Bread.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Jesus, Remember Me",
-            "author": "Jacques Berthier / Taizé Community",
-            "snippet": "Jesus, remember me when you come into your kingdom. Jesus, remember me when you come into your kingdom.",
-            "audio_url": "Communion/Jesus_Remember_Me.mp3",
-            "lyric_url": "Communion/Jesus_Remember_Me.txt"
+            "title": "Peace",
+            "author": "Gregory Norbet / Weston Priory",
+            "snippet": "Peace I leave with you, my friends, peace the world cannot give. Peace I leave with you, my friends, so that your joy be ever full.",
+            "audio_url": "Communion/Peace.mp3",
+            "lyric_url": "Communion/Peace.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "David",
-            "title": "Can We Love",
-            "author": "Tom Booth",
-            "snippet": "Can we love? Can we lay down our lives? Can we wear his crown of thorns? Can we drink the cup that he drinks? We must lay down our lives!",
-            "audio_url": "Recessional/Can_We_Love.mp3",
-            "lyric_url": "Recessional/Can_We_Love.txt"
+            "singer": "",
+            "title": "Sweet Redeemer",
+            "author": "By Steve Angrisano and Sarah Hart",
+            "snippet": "King of Kings, blessed Jesus, Hand of mercy, giver of grace; I have come to sing glory, To lay my heart before you In this place.",
+            "audio_url": "Recessional/Sweet_Redeemer.mp3",
+            "lyric_url": "Recessional/Sweet_Redeemer.txt"
         },
         {
             "moment": "Lord Have Mercy",
