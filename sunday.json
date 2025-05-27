@@ -1,11 +1,11 @@
 {
     "name": "Solemnity of the Ascension of the Lord",
     "date": "Sunday June 1, 2025 - 5:30 PM",
-    "cantor": "Cederick & Yedid",
+    "cantor": "Cederick",
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Cederick",
+            "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
             "snippet": "Men of Galilee, Why gaze in wonder at the heavens? This Jesus whom you saw ascending into heaven will return as you saw him go. Alleluia.",
@@ -23,7 +23,7 @@
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "Cederick",
+            "singer": "",
             "title": null,
             "author": "SP2025",
             "snippet": "Go and teach all nations, says the Lord; I am with you always, until the end of the world.",
@@ -32,7 +32,7 @@
         },
         {
             "moment": "Offertory",
-            "singer": "Yedid",
+            "singer": "",
             "title": "To Live with Him Forever",
             "author": "Sarah Hart/Robert Feduccia",
             "snippet": "We are the wheat, we are the bread; our lives we bring as offering. And as the grain, we’re crushed by trials yet bound by healing water. The fruit of vine, the work of hands, the cup of love’s endeavor: we place before the Son of Man to live with him forever.",
@@ -41,7 +41,7 @@
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Yedid",
+            "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
             "snippet": "Behold, I am with you always, even to the end of the age, alleluia.",
@@ -50,7 +50,7 @@
         },
         {
             "moment": "Communion",
-            "singer": "Cederick/Yedid",
+            "singer": "",
             "title": "All That We Have Seen",
             "author": "Sarah Hart",
             "snippet": "All that we have seen, we will not hide away. We will hold it up as the light of day, a lamp of mercy meant to guide and lead carried to the least. We will show the world all that we have seen.",
@@ -59,7 +59,7 @@
         },
         {
             "moment": "Meditation",
-            "singer": "Cederick",
+            "singer": "",
             "title": "I, the Lord",
             "author": "Tom Kendzia",
             "snippet": "I, the Lord, am with you, always by your side. Come and take my hand, for I will lead you home. Follow me, follow me. Follow me, follow me.",
@@ -68,7 +68,7 @@
         },
         {
             "moment": "Recessional",
-            "singer": "Yedid",
+            "singer": "",
             "title": "God is with us",
             "author": "Dana Catherine, Sarah Hart, Chris Muglia, and Mary Kate Westrich",
             "snippet": "Go out with love, go out to serve, Go out and tell the world that God is with us. Carry your joy to all the earth, Go out and tell the3 world that God is with us.",
