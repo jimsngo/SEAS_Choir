@@ -1,0 +1,127 @@
+{
+    "name": "Pentecost",
+    "date": "Sunday June 8, 2025 - 5:30 PM",
+    "cantor": "Joelle",
+    "sections": [
+        {
+            "moment": "Entrance Antiphon",
+            "singer": "Alan",
+            "title": "",
+            "author": "Let Us All Rejoice",
+            "snippet": "The Spirit of the Lord has filled the whole world and that which contains all things understands what is said, Alleluia.",
+            "audio_url": "Pentecost/LR112_Entrance_Pentecost.mp3",
+            "lyric_url": ""
+        },
+        {
+            "moment": "Responsorial Psalm",
+            "singer": "",
+            "title": "",
+            "author": "Francesca LaRosa",
+            "snippet": "Lord, send out your Spirit, and renew the face of the earth.",
+            "audio_url": "Pentecost/Francesca_LaRosa_Psalm_104_Lord_Send_Out_Your_Spirit.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Gospel Acclamation",
+            "singer": "",
+            "title": null,
+            "author": "SP2025",
+            "snippet": "Come Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love.",
+            "audio_url": "Pentecost/SP_Acclamation_Pentecost.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Offertory",
+            "singer": "",
+            "title": "New Creation",
+            "author": "Jackie François",
+            "snippet": "From death to life: I no longer live, but Christ now lives in me. Clothed in righteousness and crowned with holiness, we are new. Alleluia!",
+            "audio_url": "Offertory/New_Creation.mp3",
+            "lyric_url": "Offertory/New_Creation.txt"
+        },
+        {
+            "moment": "Communion Antiphon",
+            "singer": "Alan",
+            "title": "",
+            "author": "Let Us All Rejoice",
+            "snippet": "They were all filled with the Holy Spirit and spoke of the marvels of God, Alleluia",
+            "audio_url": "Pentecost/LR114_Communion_Pentecost.mp3",
+            "lyric_url": ""
+        },
+        {
+            "moment": "Communion",
+            "singer": "",
+            "title": "Holy Spirit, Come to Me",
+            "author": "Julie Hoy",
+            "snippet": "Holy Spirit, come to me; Open my eyes to you. Holy Spirit, come to me; Open my eyes to you.",
+            "audio_url": "Communion/Holy_Spirit_Come_To_Me.mp3",
+            "lyric_url": "Communion/Holy_Spirit_Come_To_Me.txt"
+        },
+        {
+            "moment": "Meditation",
+            "singer": "",
+            "title": "Litany of Peace",
+            "author": "Barbara Bridge",
+            "snippet": "God of love, your gift of peace is planted deep within our hearts: Make me an instrument of your peace.",
+            "audio_url": "Communion/Litany_of_Peace.mp3",
+            "lyric_url": "Communion/Litany_of_Peace.txt"
+        },
+        {
+            "moment": "Recessional",
+            "singer": "David",
+            "title": "Send Your Glory Down",
+            "author": "Trevor Thomson",
+            "snippet": "O Radiant Light Devine,  Shine within this heart of mine; Word of God, dispel our darkness. O Image of the Light Sublime, our god Incarnate beyond time, That fills this place with heaven's glory.",
+            "audio_url": "Recessional/Send_Your_Glory_Down.mp3",
+            "lyric_url": "Recessional/Send_Your_Glory_Down.txt"
+        },
+        {
+            "moment": "Lord Have Mercy",
+            "singer": null,
+            "author": "Mass of St Mary Magdalena",
+            "snippet": "Lord have mercy! Christ have mercy! Lord have mercy!",
+            "audio_url": "Mass_of_St_Mary_Magdalena/Lord_Have_Mercy_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Glory To God",
+            "singer": null,
+            "author": "Mass of St Mary Magdalena",
+            "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+            "audio_url": "Mass_of_St_Mary_Magdalena/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Holy",
+            "singer": null,
+            "author": "Mass of St Mary Magdalena",
+            "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+            "audio_url": "Mass_of_St_Mary_Magdalena/Holy_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "When We Eat This Bread",
+            "singer": null,
+            "author": "Mass of St Mary Magdalena",
+            "snippet": "When we eat this breadand drink this cup, we proclaim your death, O Lord, until you come again.",
+            "audio_url": "Mass_of_St_Mary_Magdalena/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Amen",
+            "singer": null,
+            "author": "Mass of St Mary Magdalena",
+            "snippet": "Amen, Amen, Amen, Amen, Amen.",
+            "audio_url": "Mass_of_St_Mary_Magdalena/Amen_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        },
+        {
+            "moment": "Lamb of God",
+            "singer": null,
+            "author": "Mass of St Mary Magdalena",
+            "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world; have mercy, have mercy on us.  Lamb of God, You take away the sins of the world. Grant us, grant us peace.",
+            "audio_url": "Mass_of_St_Mary_Magdalena/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3",
+            "lyric_url": null
+        }
+    ]
+}
