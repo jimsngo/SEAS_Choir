@@ -1,7 +1,0 @@
-# Ignore these files
-*.mp3
-*.pdf
-*.txt
-*.mscz
-*.template
-*.json
