@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // update the sunday date
   $("#date").text(getNextSundaysDate)
 
-  fetch('sunday.json')
+  fetch('mydata.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -10,22 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
       return response.json();
     })
     .then(data => {
-      const dataDisplay = document.getElementById("dataDisplay");
-
-      // Create HTML elements to display the JSON data
-      const nameElement = document.createElement("h1");
-      nameElement.textContent = data.name;
-
-      const dateElement = document.createElement("h2");
-      dateElement.textContent = data.date;
-
-      const cantorElement = document.createElement("h2");
-      cantorElement.textContent = "Cantor - " + data.cantor;
-
-      // Append the elements to the "dataDisplay" div
-      dataDisplay.appendChild(nameElement);
-      dataDisplay.appendChild(dateElement);
-      dataDisplay.appendChild(cantorElement);
+      document.getElementById("Name").innerHTML = data.name;
+      document.getElementById("Date").innerHTML = data.date;
+      document.getElementById("Time").innerHTML = data.time;
+      document.getElementById("Cantor").innerHTML = data.cantor;
 
       // Create HTML elements to display Music outline
       for (let index = 0; index < data.sections.length; index++) {
