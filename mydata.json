@@ -1,25 +1,25 @@
 {
-    "name": "Pentecost Sunday",
-    "date": "June 8, 2025",
+    "name": "The Most Holy Trinity",
+    "date": "June 15, 2025",
     "time": "5:30pm",
-    "cantor": "Joelle",
+    "cantor": "Claudine",
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "Alan",
+            "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "The Spirit of the Lord has filled the whole world and that which contains all things understands what is said, Alleluia.",
-            "audio_url": "Pentecost/LR112_Entrance_Pentecost.mp3",
+            "snippet": "Blest be God the Father, and the Only Begotten Son of God, and also the Holy Spirit, for he has shown us his merciful love.",
+            "audio_url": "Holy_Trinity/115_Entrance_Holy_Trinity.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Francesca LaRosa",
-            "snippet": "Lord, send out your Spirit, and renew the face of the earth.",
-            "audio_url": "Pentecost/Francesca_LaRosa_Psalm_104_Lord_Send_Out_Your_Spirit.mp3",
+            "author": "SP2025",
+            "snippet": "O Lord, our God, how wonderful your name in all the earth.",
+            "audio_url": "Holy_Trinity/SP_Psalm_Holy_Trinity.mp3",
             "lyric_url": null
         },
         {
@@ -27,54 +27,54 @@
             "singer": "",
             "title": null,
             "author": "SP2025",
-            "snippet": "Come Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love.",
-            "audio_url": "Pentecost/SP_Acclamation_Pentecost.mp3",
+            "snippet": "Glory to the Father, the Son, and the Holy Spirit; to God who is, who was, and who is to come.",
+            "audio_url": "Holy_Trinity/SP_Acclamation_Holy_Trinity.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "New Creation",
+            "title": "God, My Father",
             "author": "Jackie François",
-            "snippet": "From death to life: I no longer live, but Christ now lives in me. Clothed in righteousness and crowned with holiness, we are new. Alleluia!",
-            "audio_url": "Offertory/New_Creation.mp3",
-            "lyric_url": "Offertory/New_Creation.txt"
+            "snippet": "Help me to trust you, help me depend on you alone, help me to love you and have faith like a child. My hands are lifted high.",
+            "audio_url": "Offertory/God_My_Father.mp3",
+            "lyric_url": "Offertory/God_My_Father.txt"
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "Alan",
+            "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "They were all filled with the Holy Spirit and spoke of the marvels of God, Alleluia",
-            "audio_url": "Pentecost/LR114_Communion_Pentecost.mp3",
+            "snippet": "Since you are children of God, God has sent into your hearts the Spirit of his Son, the Spirit who cries out: Abba, Father.",
+            "audio_url": "Holy_Trinity/116_Communion_Holy_Trinity.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Holy Spirit, Come to Me",
-            "author": "Julie Hoy",
-            "snippet": "Holy Spirit, come to me; Open my eyes to you. Holy Spirit, come to me; Open my eyes to you.",
-            "audio_url": "Communion/Holy_Spirit_Come_To_Me.mp3",
-            "lyric_url": "Communion/Holy_Spirit_Come_To_Me.txt"
+            "title": "One Bread, One Cup ",
+            "author": "Bobby Fisher",
+            "snippet": "We all come before you now, hungry for your healing touch. Hear we stand with open hearts, thirsting for your love.",
+            "audio_url": "Communion/One_Bread_One_Cup.mp3",
+            "lyric_url": "Communion/One_Bread_One_Cup.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Litany of Peace",
-            "author": "Barbara Bridge",
-            "snippet": "God of love, your gift of peace is planted deep within our hearts: Make me an instrument of your peace.",
-            "audio_url": "Communion/Litany_of_Peace.mp3",
-            "lyric_url": "Communion/Litany_of_Peace.txt"
+            "title": "Renew",
+            "author": "Sarah Hart",
+            "snippet": "Our Father, Maker of the heavens and the earth, author of the universe who imagined us, God All-Seeing: into our humanity comes; Let your kindom be with us, Oh, let your will be do",
+            "audio_url": "Communion/Renew.mp3",
+            "lyric_url": "Communion/Renew.txt"
         },
         {
             "moment": "Recessional",
-            "singer": "David",
-            "title": "Send Your Glory Down",
-            "author": "Trevor Thomson",
-            "snippet": "O Radiant Light Devine,  Shine within this heart of mine; Word of God, dispel our darkness. O Image of the Light Sublime, our god Incarnate beyond time, That fills this place with heaven's glory.",
-            "audio_url": "Recessional/Send_Your_Glory_Down.mp3",
-            "lyric_url": "Recessional/Send_Your_Glory_Down.txt"
+            "singer": "",
+            "title": "Holy, Holy, Holy Cry",
+            "author": "Rick Modlin",
+            "snippet": "The Lamb of God stands on the height among the glorious clouds of light, above the city paved in gold where death and darkness have no hold.",
+            "audio_url": "Recessional/Holy_Holy_Holy_Cry.mp3",
+            "lyric_url": "Recessional/Holy_Holy_Holy_Cry.txt"
         },
         {
             "moment": "Lord Have Mercy",
