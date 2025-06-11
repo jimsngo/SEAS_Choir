@@ -2,7 +2,7 @@
     "name": "The Most Holy Trinity",
     "date": "June 15, 2025",
     "time": "5:30pm",
-    "cantor": "Claudine",
+    "cantor": "Claudine/Alan",
     "sections": [
         {
             "moment": "Entrance Antiphon",
@@ -15,7 +15,7 @@
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "",
+            "singer": "Alan",
             "title": "",
             "author": "SP2025",
             "snippet": "O Lord, our God, how wonderful your name in all the earth.",
