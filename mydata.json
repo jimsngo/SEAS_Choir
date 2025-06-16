@@ -1,25 +1,25 @@
 {
-    "name": "The Most Holy Trinity",
-    "date": "June 15, 2025",
+    "name": "Corpus Christi",
+    "date": "June 22, 2025",
     "time": "5:30pm",
-    "cantor": "Claudine/Alan",
+    "cantor": "Mika",
     "sections": [
         {
             "moment": "Entrance Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Blest be God the Father, and the Only Begotten Son of God, and also the Holy Spirit, for he has shown us his merciful love.",
-            "audio_url": "Holy_Trinity/115_Entrance_Holy_Trinity.mp3",
+            "snippet": "He fed them with the finest wheat and satisfied them with honey from the rock.",
+            "audio_url": "Corpus_Christi/117_Entrance_Corpus_Christi.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
-            "singer": "Alan",
+            "singer": "",
             "title": "",
             "author": "SP2025",
-            "snippet": "O Lord, our God, how wonderful your name in all the earth.",
-            "audio_url": "Holy_Trinity/SP_Psalm_Holy_Trinity.mp3",
+            "snippet": "You are a priest forever, In the line of Melchizedek",
+            "audio_url": "Corpus_Christi/Francesca_LaRosa_Psalm_110_You_Are_a_Priest_For_Ever_in_the_Line_of_Melchizedek.mp3",
             "lyric_url": null
         },
         {
@@ -27,54 +27,54 @@
             "singer": "",
             "title": null,
             "author": "SP2025",
-            "snippet": "Glory to the Father, the Son, and the Holy Spirit; to God who is, who was, and who is to come.",
-            "audio_url": "Holy_Trinity/SP_Acclamation_Holy_Trinity.mp3",
+            "snippet": "I am the living bread that came down from heaven, says the Lord; whoever eats this bread will live forever.",
+            "audio_url": "Corpus_Christi/SP_Acclamation_Corpus_Christi.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "God, My Father",
-            "author": "Jackie François",
-            "snippet": "Help me to trust you, help me depend on you alone, help me to love you and have faith like a child. My hands are lifted high.",
-            "audio_url": "Offertory/God_My_Father.mp3",
-            "lyric_url": "Offertory/God_My_Father.txt"
+            "title": "Exposition/O Saving Victim",
+            "author": "Curtis Stephan/Steve Angrisano",
+            "snippet": "O King Exalted, savior of nations, we lift our eyes to heaven’s throne. Hear us, Redeemer, show us your mercy; we place our trust in you alone.",
+            "audio_url": "Offertory/Exposition_O_Saving_Victim.mp3",
+            "lyric_url": "Offertory/Exposition_O_Saving_Victim.txt"
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Since you are children of God, God has sent into your hearts the Spirit of his Son, the Spirit who cries out: Abba, Father.",
-            "audio_url": "Holy_Trinity/116_Communion_Holy_Trinity.mp3",
+            "snippet": "Whoever eats my flesh and drinks my blood remains in me and I in him, says the Lord.",
+            "audio_url": "Corpus_Christi/118_Communion_Corpus_Christi.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
-            "singer": "",
-            "title": "One Bread, One Cup ",
-            "author": "Bobby Fisher",
-            "snippet": "We all come before you now, hungry for your healing touch. Hear we stand with open hearts, thirsting for your love.",
-            "audio_url": "Communion/One_Bread_One_Cup.mp3",
-            "lyric_url": "Communion/One_Bread_One_Cup.txt"
+            "singer": "Mika/Alan",
+            "title": "The Body of Christ",
+            "author": "Sarah Hart",
+            "snippet": "This is the Body of Christ, beautiful, broken and blessed; miracle of the greatest of loves, presence of God in our midst. This is the Cup that he shares, endlessly emptied and poured; sacrifice made so that we might be saved now and forevermore.",
+            "audio_url": "Communion/The_Body_of_Christ.mp3",
+            "lyric_url": "Communion/The_Body_of_Christ.txt"
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Renew",
-            "author": "Sarah Hart",
-            "snippet": "Our Father, Maker of the heavens and the earth, author of the universe who imagined us, God All-Seeing: into our humanity comes; Let your kindom be with us, Oh, let your will be do",
-            "audio_url": "Communion/Renew.mp3",
-            "lyric_url": "Communion/Renew.txt"
+            "title": "Bread of Angels",
+            "author": "Curtis Stephan",
+            "snippet": "Bread of angels, we receive you; with us now abide. Precious Jesus, manna of ages, with us now reside. Panis angélicus fit panis hóminum, Dat panis cáelicus figúris términum.",
+            "audio_url": "Communion/Bread_of_Angels.mp3",
+            "lyric_url": "Communion/Bread_of_Angels.txt"
         },
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "Holy, Holy, Holy Cry",
-            "author": "Rick Modlin",
-            "snippet": "The Lamb of God stands on the height among the glorious clouds of light, above the city paved in gold where death and darkness have no hold.",
-            "audio_url": "Recessional/Holy_Holy_Holy_Cry.mp3",
-            "lyric_url": "Recessional/Holy_Holy_Holy_Cry.txt"
+            "title": "All That We Have Seen",
+            "author": "Sarah Hart",
+            "snippet": "All that we have seen, we will not hide away. We will hold it up as the light of day, a lamp of mercy meant to guide and lead carried to the least. We will show the world all that we have seen.",
+            "audio_url": "Recessional/All_That_We_Have_Seen.mp3",
+            "lyric_url": "Recessional/All_That_We_Have_Seen.txt"
         },
         {
             "moment": "Lord Have Mercy",
