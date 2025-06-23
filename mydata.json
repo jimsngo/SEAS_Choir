@@ -1,25 +1,25 @@
 {
-    "name": "Corpus Christi",
-    "date": "June 22, 2025",
+    "name": "Solemnity of Saints Peter and Paul",
+    "date": "June 29, 2025",
     "time": "5:30pm",
     "cantor": "Mica",
     "sections": [
         {
-            "moment": "Entrance Antiphon",
+            "moment": "Entrance",
             "singer": "",
-            "title": "",
-            "author": "Let Us All Rejoice",
-            "snippet": "He fed them with the finest wheat and satisfied them with honey from the rock.",
-            "audio_url": "Corpus_Christi/117_Entrance_Corpus_Christi.mp3",
+            "title": "All Are Welcome",
+            "author": "Jesse Manibusan",
+            "snippet": "All are welcome in this place. Behold Love’s amazing grace. All are welcome! All are welcome! Bring your hopes, bring your dreams. Mercy flows and Love redeems! All are welcome! All belong!",
+            "audio_url": "Entrance/All_Are_Welcome.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Responsorial Psalm",
             "singer": "",
             "title": "",
-            "author": "Francesca LaRosa",
-            "snippet": "You are a priest forever, In the line of Melchizedek",
-            "audio_url": "Corpus_Christi/Francesca_LaRosa_Psalm_110_You_Are_a_Priest_For_Ever_in_the_Line_of_Melchizedek.mp3",
+            "author": "Owen Alstott",
+            "snippet": "The angel of the Lord will rescue those who fear him.",
+            "audio_url": "St_Peter_and_Paul/Saints-Peter-and-Paul-Apostles-At-the-Mass-during-the-Day-ABC-92903.mp3",
             "lyric_url": null
         },
         {
@@ -27,54 +27,54 @@
             "singer": "",
             "title": null,
             "author": "SP2025",
-            "snippet": "I am the living bread that came down from heaven, says the Lord; whoever eats this bread will live forever.",
-            "audio_url": "Corpus_Christi/SP_Acclamation_Corpus_Christi.mp3",
+            "snippet": "You are Peter and upon this rock I will build my Church, and the gates of the netherworld shall not prevail against it.",
+            "audio_url": "St_Peter_and_Paul/SP2025_St_Peter_and_Paul _Gospel_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Exposition/O Saving Victim",
-            "author": "Curtis Stephan/Steve Angrisano",
-            "snippet": "O King Exalted, savior of nations, we lift our eyes to heaven’s throne. Hear us, Redeemer, show us your mercy; we place our trust in you alone.",
-            "audio_url": "Offertory/Exposition_O_Saving_Victim.mp3",
-            "lyric_url": "Offertory/Exposition_O_Saving_Victim.txt"
+            "title": "Ubi Caritas",
+            "author": "Bob Hurd",
+            "snippet": "Ubi caritas est vera, est vera: Deus ibi est, Deus ibi est.",
+            "audio_url": "Offertory/Ubi_Caritas.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Communion Antiphon",
             "singer": "",
-            "title": "",
-            "author": "Let Us All Rejoice",
-            "snippet": "Whoever eats my flesh and drinks my blood remains in me and I in him, says the Lord.",
-            "audio_url": "Corpus_Christi/118_Communion_Corpus_Christi.mp3",
+            "title": "Sanctuary",
+            "author": "John W. Thompson",
+            "snippet": "Lord, prepare me to be a sanctuary; Pure and holy, tried and true; With thanksgiving, I'll be a living Sanctuary for You",
+            "audio_url": "Sanctuary.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
-            "singer": "Mika/Alan",
-            "title": "The Body of Christ",
-            "author": "Sarah Hart",
-            "snippet": "This is the Body of Christ, beautiful, broken and blessed; miracle of the greatest of loves, presence of God in our midst. This is the Cup that he shares, endlessly emptied and poured; sacrifice made so that we might be saved now and forevermore.",
-            "audio_url": "Communion/The_Body_of_Christ.mp3",
-            "lyric_url": "Communion/The_Body_of_Christ.txt"
+            "singer": "",
+            "title": " I Will Choose Christ ",
+            "author": "Tom Booth",
+            "snippet": "TI will choose Christ, I will choose love, I choose to serve. I give my heart, I give my life, I give my all to you.",
+            "audio_url": "Communion/I_Will_Choose_Christ.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Bread of Angels",
-            "author": "Curtis Stephan",
-            "snippet": "Bread of angels, we receive you; with us now abide. Precious Jesus, manna of ages, with us now reside. Panis angélicus fit panis hóminum, Dat panis cáelicus figúris términum.",
-            "audio_url": "Communion/Bread_of_Angels.mp3",
-            "lyric_url": "Communion/Bread_of_Angels.txt"
+            "title": "Be Not Afraid",
+            "author": "Bob Dufford SJ",
+            "snippet": "You shall cross the barren desert, but you shall not die of thirst. You shall wander far in safety though you do not know the way. You shall speak your words in foreign lands and all will understand. You shall see the face of God and live.",
+            "audio_url": "Communion/Be_Not_Afraid.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "All That We Have Seen",
-            "author": "Sarah Hart",
+            "title": "God Has Chosen Me",
+            "author": "Bernadette Farrell",
             "snippet": "All that we have seen, we will not hide away. We will hold it up as the light of day, a lamp of mercy meant to guide and lead carried to the least. We will show the world all that we have seen.",
-            "audio_url": "Recessional/All_That_We_Have_Seen.mp3",
-            "lyric_url": "Recessional/All_That_We_Have_Seen.txt"
+            "audio_url": "Recessional/God_Has_Chosen_Me_Daughters_of_God.mp3",
+            "lyric_url": ""
         },
         {
             "moment": "Lord Have Mercy",
