@@ -2,11 +2,11 @@
     "name": "14th Sunday in Ordinary Time (C)",
     "date": "July 6, 2025",
     "time": "5:30pm",
-    "cantor": "Cederick",
+    "cantor": "",
     "sections": [
         {
             "moment": "Entrance Antiphon",
-            "singer": "",
+            "singer": "Alan",
             "title": "",
             "author": "Let Us All Rejoice",
             "snippet": "Your merciful love, O God, we have received in the midst of your temple. Your praise, O God, like your name, reaches the end of the earth; your right hand is filled with saving justice.",
@@ -42,7 +42,7 @@
         },
         {
             "moment": "Communion Antiphon",
-            "singer": "",
+            "singer": "Alan",
             "title": "",
             "author": "Let Us All Rejoice",
             "snippet": "Taste and see that the Lord is good; blessed the man who seeks refuge in him.",
