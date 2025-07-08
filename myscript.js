@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById("Date").innerHTML = data.date;
       document.getElementById("Time").innerHTML = data.time;
       document.getElementById("Cantor").innerHTML = data.cantor;
+      document.getElementById("lyrics_pdf").href = data.lyrics_pdf;
+      document.getElementById("cantor_pdf").href = data.cantor_pdf;
+      document.getElementById("guitar_pdf").href = data.guitar_pdf;
+      document.getElementById("mass_setting").href = data.mass_setting;
 
       // Create HTML elements to display Music outline
       for (let index = 0; index < data.sections.length; index++) {
@@ -28,10 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
           html_template.find(".song").addClass("d-none")
         }
         html_template.find(".audio_url").attr("src", element.audio_url ? element.audio_url : "");
-        html_template.find(".lyric_url").attr("href", element.lyric_url ? element.lyric_url : "");
-        if (!element.lyric_url) {
-          html_template.find(".lyric_url").addClass("d-none")
-        }
+        // html_template.find(".lyric_url").attr("href", element.lyric_url ? element.lyric_url : "");
 
         html_template.removeClass("d-none")
         $("#main-content").append(html_template);
