@@ -1,8 +1,8 @@
 {
-    "name": "15th Sunday in Ordinary Time (C)",
-    "date": "July 13, 2025",
+    "name": "16th Sunday in Ordinary Time (C)",
+    "date": "July 20, 2025",
     "time": "5:30pm",
-    "cantor": "Joelle",
+    "cantor": "Claudine",
     "lyrics_pdf": "lyrics.pdf",
     "cantor_pdf": "cantor.pdf",
     "guitar_pdf": "cantor.pdf",
@@ -12,8 +12,8 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "As for me, in justice I shall behold your face; I shall be filled with the vision of your glory.",
-            "audio_url": "15th_Sunday/142_Entrance_Antiphon_15th_Sunday_in_Ordinary_Time.mp3",
+            "snippet": "See, I have God for my help. The Lord sustains my soul. I will sacrifice to you with willing heart, and praise your name, O Lord, for it is good.",
+            "audio_url": "16th_Sunday/145_Entrance_Antiphon_16th_Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
@@ -21,8 +21,8 @@
             "singer": "",
             "title": "",
             "author": "Francesca LaRosa",
-            "snippet": "Turn to the Lord in your need, and you will live.",
-            "audio_url": "15th_Sunday/Psalm_69_Turn_to_the_Lord_in_Your_Need_and_You_Will_Francesca_LaRosa.mp3",
+            "snippet": "He who does justice will live in the presence of the Lord.",
+            "audio_url": "16th_Sunday/Psalm_15_He_Who_Does_Justice_Francesca_LaRosa.mp3",
             "lyric_url": null
         },
         {
@@ -30,17 +30,17 @@
             "singer": "David",
             "title": null,
             "author": "SP2025",
-            "snippet": "Your Words, Lord, Are Spirit and Life; You Have the Words of Everlasting Life.",
-            "audio_url": "15th_Sunday/SP2025_Ordinary_Time_15_Acclamation.mp3",
+            "snippet": "Blessed are they who have kept the word with a generous heart and yield a harvest through perseverance.",
+            "audio_url": "16th_Sunday/SP2025_Ordinary_Time_16_Gospel Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Unwavering",
-            "author": "Matt Maher",
-            "snippet": "Blessed are the poor, the kingdom is theirs, Alive in the promise to be dead to the world. Blessed are the meek, in awe of you, Father, The Word at your right hand, the Spirit of truth.",
-            "audio_url": "Offertory/Unwavering.mp3",
+            "title": "Many and Great",
+            "author": "Ricky Manalo CSP",
+            "snippet": "Many and great are bearers of the Word: the Christ speaks; the heart seeks. Gathered as one, we listen to the Word and share the meal of new birth.",
+            "audio_url": "Offertory/Many_and_Great.mp3",
             "lyric_url": ""
         },
         {
@@ -48,35 +48,35 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "The sparrow finds a home, and the swallow a nest for her young: by your altars, O Lord of hosts, my King and my God. Blessed are they who dwell in your house, for ever singing your praise.",
-            "audio_url": "15th_Sunday/143_Communion_Antiphon_3rd_Sunday_of_Lent_15th_Sunday_in_Ordinary_Time.mp3",
+            "snippet": "Behold, I stand at the door and knock, says the Lord. If anyone hears my voice and opens the door to me, I will enter his house and dine with him, and he with me.",
+            "audio_url": "16th_Sunday/147_Communion_Antiphon_16th_Sunday_in_Ordinary_Time.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "A Place at Your Table",
-            "author": "Ben Walther",
-            "snippet": "Happy the ones whom you call here to dine, the saint and the sinner, your friends. Now reconciled in this banquet divine, the promise of life without end, the promise of life without end.",
-            "audio_url": "Communion/A_Place_At_Your_Table.mp3",
+            "title": "Oceans Where Feet May Fail",
+            "author": "Matt Crocker, Joel Houston, Salomon Ligthelm - HillSong",
+            "snippet": "You call me out upon the waters; The great unknown where feet may fail; And there I find You in the mystery; In oceans deep, my faith will stand",
+            "audio_url": "Communion/Oceans_Where_Feet_May_Fail.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Beautiful Is Your Love",
-            "author": "Josh Blakesley/Sarah Hart/Marc Byrd",
-            "snippet": "Oh how beautiful is your love for me. Oh what joy is mine in this mystery. I will not fear the dark, here in the presence of your heart. Oh how beautiful is your love.",
-            "audio_url": "Communion/Beautiful_Is_Your_Love.mp3",
+            "title": "Fly like a Bird",
+            "author": "Ken Canedo",
+            "snippet": "Fly like a bird to the Lord, my soul; I want to soar like an eagle; Though I may journey far away from home, I know I'll never be alone.",
+            "audio_url": "Communion/Fly_Like_A_Bird.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "Lead Me Lord",
-            "author": "John D. Becker",
-            "snippet": "Blessed are the poor in spirit, longing for their Lord, for God's coming kingdom shall be theirs. Blessed are the sorrowing, for they shall be consoled, and the meek shall come to rule the world.",
-            "audio_url": "Recessional/Lead_me_Lord_female.mp3",
+            "title": "Walk Together Children",
+            "author": "Traditional African American Spiritual; Adapt. by ValLimar and Frank Jansen",
+            "snippet": "Walk together, children, don't you get weary; Walk together, children, don't you get weary; Walk together, children, don't you get weary; We will walk for justice in this great land.",
+            "audio_url": "Recessional/Walk_Together_Children.mp3",
             "lyric_url": ""
         },
         {
