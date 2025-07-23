@@ -1,8 +1,8 @@
 {
-    "name": "16th Sunday in Ordinary Time (C)",
-    "date": "July 20, 2025",
+    "name": "17th Sunday in Ordinary Time",
+    "date": "July 27, 2025",
     "time": "5:30pm",
-    "cantor": "Claudine",
+    "cantor": "Joelle",
     "lyrics_pdf": "lyrics.pdf",
     "cantor_pdf": "cantor.pdf",
     "guitar_pdf": "cantor.pdf",
@@ -12,8 +12,8 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "See, I have God for my help. The Lord sustains my soul. I will sacrifice to you with willing heart, and praise your name, O Lord, for it is good.",
-            "audio_url": "16th_Sunday/145_Entrance_Antiphon_16th_Sunday_in_Ordinary_Time.mp3",
+            "snippet": "God is in his holy place, God who unites those who dwell in his house; He himself gives might and strength to his people.",
+            "audio_url": "17th_Sunday/148_Entrance_Antiphon_Ordinary_Time_17.mp3",
             "lyric_url": ""
         },
         {
@@ -21,26 +21,26 @@
             "singer": "",
             "title": "",
             "author": "Francesca LaRosa",
-            "snippet": "He who does justice will live in the presence of the Lord.",
-            "audio_url": "16th_Sunday/Psalm_15_He_Who_Does_Justice_Francesca_LaRosa.mp3",
+            "snippet": "Lord, on the day I called for help, you answered me.",
+            "audio_url": "17th_Sunday/Psalm_138_Lord_on_the_Day_I_Called_For_Help_You_Answered_Me_Francesca_LaRosa.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "David",
+            "singer": "",
             "title": null,
             "author": "SP2025",
-            "snippet": "Blessed are they who have kept the word with a generous heart and yield a harvest through perseverance.",
-            "audio_url": "16th_Sunday/SP2025_Ordinary_Time_16_Gospel Acclamation.mp3",
+            "snippet": "You have received a Spirit of adoption, through which we cry, Abba, Father.",
+            "audio_url": "17th_Sunday/SP2025_Ordinary_Time_17_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "Many and Great",
-            "author": "Ricky Manalo CSP",
-            "snippet": "Many and great are bearers of the Word: the Christ speaks; the heart seeks. Gathered as one, we listen to the Word and share the meal of new birth.",
-            "audio_url": "Offertory/Many_and_Great.mp3",
+            "title": "God, My Father",
+            "author": "Jackie François",
+            "snippet": "Help me to trust you,  help me depend on you alone, help me to love you  and have faith like a child. My hands are lifted high.",
+            "audio_url": "Offertory/God_My_Father.mp3",
             "lyric_url": ""
         },
         {
@@ -48,17 +48,17 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Behold, I stand at the door and knock, says the Lord. If anyone hears my voice and opens the door to me, I will enter his house and dine with him, and he with me.",
-            "audio_url": "16th_Sunday/147_Communion_Antiphon_16th_Sunday_in_Ordinary_Time.mp3",
+            "snippet": "Blessed are the merciful, for they shall receive mercy. Blessed are the clean of heart, for they shall see God.",
+            "audio_url": "17th_Sunday/150_Communion_Antiphon_Ordinary_Time_17.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "Oceans Where Feet May Fail",
-            "author": "Matt Crocker, Joel Houston, Salomon Ligthelm - HillSong",
-            "snippet": "You call me out upon the waters; The great unknown where feet may fail; And there I find You in the mystery; In oceans deep, my faith will stand",
-            "audio_url": "Communion/Oceans_Where_Feet_May_Fail.mp3",
+            "title": "One Love Released",
+            "author": "Bob Frenzel / Kevin Keil",
+            "snippet": "One bread, one body, one cup, one call, one faith, one Spirit present in us all. One prayer, one blessing, one hope, one peace, one church, one people, one love released.",
+            "audio_url": "Communion/One_Love_Released.mp3",
             "lyric_url": ""
         },
         {
@@ -73,10 +73,10 @@
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "Walk Together Children",
-            "author": "Traditional African American Spiritual; Adapt. by ValLimar and Frank Jansen",
+            "title": "10,000 Reasons (Bless the Lord)",
+            "author": "Jonas Myrin / Matt Redman",
             "snippet": "Walk together, children, don't you get weary; Walk together, children, don't you get weary; Walk together, children, don't you get weary; We will walk for justice in this great land.",
-            "audio_url": "Recessional/Walk_Together_Children.mp3",
+            "audio_url": "Recessional/10000_Reasons_Bless_The_Lord.mp3",
             "lyric_url": ""
         },
         {
