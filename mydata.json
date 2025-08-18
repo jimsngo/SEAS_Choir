@@ -1,8 +1,8 @@
 {
-    "name": "20th Sunday in Ordinary Time",
-    "date": "Aug 17, 2025",
+    "name": "21st Sunday in Ordinary Time",
+    "date": "Aug 24, 2025",
     "time": "5:30pm",
-    "cantor": "Claudine",
+    "cantor": "Joelle",
     "lyrics_pdf": "lyrics.pdf",
     "cantor_pdf": "cantor.pdf",
     "guitar_pdf": "cantor.pdf",
@@ -12,8 +12,8 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "Turn your eyes, O God, our shield; and look on the face of your anointed one; one day within your courts is better than a thousand elsewhere.",
-            "audio_url": "Entrance/157_Entrance_Antiphon_20th_Sunday.mp3",
+            "snippet": "Turn your ear, O Lord, and answer me; save the servants who trust in you, my God. Have mercy on me, O Lord, for I cry to you all the day long.",
+            "audio_url": "Entrance/160_Entrance_21st_Sunday.mp3",
             "lyric_url": ""
         },
         {
@@ -21,26 +21,26 @@
             "singer": "",
             "title": "",
             "author": "Francesca LaRosa",
-            "snippet": "Lord, come to my aid!",
-            "audio_url": "Psalm/LaRosa_20th_Sunday_C_Psalm.mp3",
+            "snippet": "Go out to all the world and tell the Good News.",
+            "audio_url": "Psalm/LaRosa_21st_Sunday_C_Psalm.mp3",
             "lyric_url": null
         },
         {
             "moment": "Gospel Acclamation",
-            "singer": "David",
+            "singer": "",
             "title": null,
             "author": "SP2025",
-            "snippet": "My sheep hear my voice, says the Lord; I know them, and they follow me.",
-            "audio_url": "Acclamation/SP_20th_Sunday_C_Acclamation.mp3",
+            "snippet": "I am the way, the truth and the life, says the Lord; no one comes to the Father, except through me.",
+            "audio_url": "Acclamation/SP_21st_Sunday_C_Acclamation.mp3",
             "lyric_url": null
         },
         {
             "moment": "Offertory",
             "singer": "",
-            "title": "I Will Choose Christ",
-            "author": "Jaime Cortez",
-            "snippet": "I will choose Christ, I will choose love, I choose to serve. I give my heart, I give my life, I give my all to you.",
-            "audio_url": "Offertory/I_Will_Choose_Christ_2.mp3",
+            "title": "You Stand Knocking",
+            "author": "Tom Booth",
+            "snippet": "You spoke my name, and took my hand, and called me friend. Such faithful love, so undeserved, a heart transformed. Though I wandered and have strayed, Still your mercy reigns.",
+            "audio_url": "Offertory/You_Stand_Knocking.mp3",
             "lyric_url": ""
         },
         {
@@ -48,35 +48,35 @@
             "singer": "",
             "title": "",
             "author": "Let Us All Rejoice",
-            "snippet": "With the Lord there is mercy; in him is plentiful redemption.",
-            "audio_url": "Communion/158_Communion_Antiphon_20th_Sunday.mp3",
+            "snippet": "Whoever eats my flesh and drinks my blood has eternal life, says the Lord, and I will raise him up the last day.",
+            "audio_url": "Communion/162_Communion_21st_Sunday.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Communion",
             "singer": "",
-            "title": "My Soul Rejoices",
+            "title": "All That We Have Seen",
             "author": "Sarah Hart",
-            "snippet": "My God is mighty; he has done great things for me. Holy is his name. My God is mercy; hope to set the nations free. Holy is his name. For he has remembered.",
-            "audio_url": "Communion/My_Soul_Rejoices_Sarah_Hart.mp3",
+            "snippet": "All that we have seen, we will not hide away. We will hold it up as the light of day; a lamp of mercy meant to guide and lead carried to the least. We will show the world all that we have seen.",
+            "audio_url": "Communion/All_That_We_Have_Seen.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Meditation",
             "singer": "",
-            "title": "Holy is the Name",
-            "author": "Sarah Hart, Jesse Manibusan, Steve Angrisano",
-            "snippet": "Love, you fall into our darkness, light upon these shadow lands. Love, you reach when we are farthest, reach with your forgiving hand. How can we keep from singing? How can we keep from singing?",
-            "audio_url": "Communion/Holy_Is_The_Name.mp3",
+            "title": "Gratitude",
+            "author": "Brandon Lake, Dante Bowe and Benjamin Hastings",
+            "snippet": "All my words fall short; I got nothing new. How could I express all my gratitude ?",
+            "audio_url": "Communion/Gratitude_Genavieve_Linkowski.mp3",
             "lyric_url": ""
         },
         {
             "moment": "Recessional",
             "singer": "",
-            "title": "Holy Forever",
-            "author": "Chris Tomlin",
-            "snippet": "A thousand generations falling down to worship; to sing the song of ages to the Lamb. And all who've gone before us and all who will believe; will sing the song of ages to the Lamb.",
-            "audio_url": "Recessional/Holy_Forever_CeCe_Winans.mp3",
+            "title": "Walk Together Children",
+            "author": "Traditional African American Spiritua",
+            "snippet": "Walk together, children, don't you get weary. Walk together, children, don't you get weary; Walk together, children, don't you get weary. We will walk for justice in this great land.",
+            "audio_url": "Recessional/Walk_Together_Children.mp3",
             "lyric_url": ""
         },
         {
