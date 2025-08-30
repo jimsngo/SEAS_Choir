@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Keep only these file types
+!*.html
+!*.css
+!*.js
+
+# Always keep these project files
+!.gitignore
+!README.md
+!LICENSE
+
+# Allow folders so rules apply inside them
+!*/
