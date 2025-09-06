@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# Keep only these file types
+!*.html
+!*.css
+!*.js
+!*.mp3
+!*.pdf
+!*.json
+!*.gitignore
+!*.txt
+
+# Always keep these project files
+!README.md
+!LICENSE
+
+# Allow folders so rules apply inside them
+!*/
+
+# Ignore these specific files and folders
+.DS_Store
+node_modules/
+*.pages
