@@ -1,6 +1,14 @@
+// myscript.js
+//
+// Main client-side script for SEAS Choir website.
+// - Dynamically displays the next Sunday's date in the header.
+// - Loads choir data from mydata.json and populates the page (name, time, cantor, PDFs, music outline, etc).
+// - Displays the cantor's profile image (if available) next to their name.
+// - Builds the music outline dynamically from the sections in mydata.json.
+// - Uses Moment.js for date calculations and jQuery for DOM manipulation.
 document.addEventListener('DOMContentLoaded', () => {
-  // update the sunday date
-  $("#date").text(getNextSundaysDate)
+  // Dynamically set the #Date element to next Sunday's date
+  document.getElementById("Date").innerHTML = getNextSundaysDate();
 
   fetch('mydata.json')
     .then(response => {
@@ -11,9 +19,27 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .then(data => {
       document.getElementById("Name").innerHTML = data.name;
-      document.getElementById("Date").innerHTML = data.date;
+      // document.getElementById("Date").innerHTML = data.date; // now set dynamically
       document.getElementById("Time").innerHTML = data.time;
-      document.getElementById("Cantor").innerHTML = data.cantor;
+      // Display cantor profile image next to name if available
+      const cantorName = data.cantor ? data.cantor.trim() : "";
+      let cantorImg = "";
+      if (cantorName) {
+        // Try to match first name (case-insensitive) to image file
+        const imgName = cantorName.split(" ")[0];
+        const imgFile = `images/${imgName.charAt(0).toUpperCase() + imgName.slice(1).toLowerCase()}.jpg`;
+        // Create a temporary image to check if it exists
+        const img = new window.Image();
+        img.onload = function() {
+          document.getElementById("Cantor").innerHTML = `<img src='${imgFile}' alt='${cantorName}' style='width:30px; height:30px; border-radius:50%; object-fit:cover; margin-right:8px;'>` + cantorName;
+        };
+        img.onerror = function() {
+          document.getElementById("Cantor").innerHTML = cantorName;
+        };
+        img.src = imgFile;
+      } else {
+        document.getElementById("Cantor").innerHTML = cantorName;
+      }
       document.getElementById("lyrics_pdf").href = data.lyrics_pdf;
       document.getElementById("cantor_pdf").href = data.cantor_pdf;
       document.getElementById("guitar_pdf").href = data.guitar_pdf;

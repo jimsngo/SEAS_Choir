@@ -3,7 +3,7 @@
 // This script updates mydata.json from the contents of the moments/ folder.
 // For each section in mydata.json, it looks for a folder in moments/ that matches
 // the "moment" field (case insensitive, spaces and punctuation replaced by underscores).
-// If found, it looks for the only .mp3, .pdf, .txt, and .json file in that folder and updates
+// If found, it uses the only .mp3 and .json file in that folder and updates
 // audio_url, title, author, and snippet fields in mydata.json directly from the .json file.
 // Assumes there is only one of each file type per moment folder.
 

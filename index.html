@@ -27,7 +27,8 @@
   <header class="text-center py-5 bg-success text-white">
     <div class="container" id="dataDisplay">
       <h1 id="Name"></h1>
-      <h3><span id="Date"></span> - <span id="Time"></span></h3>
+  <h3><span id="Date"></span> - <span id="Time"></span></h3>
+  <!-- <h4><span id="nextSundayDate"></span></h4> -->
       <h3><i class="fa fa-microphone" style="font-size:28px"></i>
         <!-- <img src="images/joelle.jpg" alt="Profile Picture"
           style="width:30px; height:30px; border-radius:50%; object-fit:cover;"> -->
@@ -69,6 +70,30 @@
     </div>
   </div>
 
+  <!-- Choir Pitch Listening Guide -->
+  <div class="container my-5" id="choir-pitch-guide">
+    <div class="card border-success mb-3">
+      <div class="card-header bg-success text-white"><b>Choir Practice Focus: Pitch Accuracy & Listening Awareness</b></div>
+      <div class="card-body">
+        <h5 class="card-title">1. Pitch Accuracy</h5>
+        <ul>
+          <li><b>Daily Matching:</b> Play random notes on a piano, keyboard app, or online tool. Sing them back, matching the pitch as closely as possible.</li>
+          <li><b>Interval Practice:</b> Sing simple intervals (thirds, fifths, octaves) from any starting note to train your ear for distance between notes.</li>
+        </ul>
+        <h5 class="card-title mt-4">2. Listening Awareness</h5>
+        <ul>
+          <li><b>Active Listening:</b> When singing with others (in rehearsal or with recordings), intentionally listen to the voices around you—not just your own.</li>
+          <li><b>Blend & Adjust:</b> Adjust your volume, pitch, and vowel shape to match and blend with the group or section leader. Aim for unified sound, not standing out.</li>
+        </ul>
+        <hr>
+        <em>Focused, consistent practice on these two skills will strengthen both your individual musicianship and our choir’s blend!</em>
+        <div class="alert alert-success mt-4" role="alert">
+          <b>Thank you for your dedication!</b> Every bit of practice you put in helps us sound better together. Let's keep supporting each other and make every Sunday a joyful, beautiful experience for all. Practice hard, sing with heart, and let's make music that lifts everyone up!
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="bg-primary text-white text-center py-3">
     <p class="mb-0">Practice Sunday 4:00 PM - Invite your friends!</p>
@@ -85,6 +110,14 @@
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Display next Sunday's date using getNextSundaysDate from myscript.js
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof getNextSundaysDate === 'function') {
+        document.getElementById('nextSundayDate').textContent = getNextSundaysDate();
+      }
+    });
+  </script>
 </body>
 
 </html>

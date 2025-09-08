@@ -1,7 +1,7 @@
 // node extractMetaFromSongTxt.js
 
-// This script extracts meta from a lyric text files in the moments/ folder (e.g, title, author, snippet).
-// It creates a new meta JSON file if it doesn't exist, or updates it if it does.
+// This script extracts metadata from each .txt file in the moments/ subfolders and writes a .json file for each song.
+// It removes all previous .json files in each moment folder and keeps only the latest metadata for each song.
 
 // It assumes each moment folder contains a text file (e.g., song.txt) with the following format:
 // The first line as the title
@@ -11,7 +11,7 @@
 // How it works:
 // For each moment folder, the script finds the first .txt file (regardless of its name).
 // It extracts the title, author, and snippet as before.
-// It writes the meta JSON file using the title.
+// It deletes all previous .json files in the folder, then writes the new meta JSON file using the title.
 
 const fs = require('fs');
 const path = require('path');
