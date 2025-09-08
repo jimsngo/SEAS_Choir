@@ -42,12 +42,21 @@ if (pdfPaths.length === 0) {
 (async () => {
   const mergedPdf = await PDFDocument.create();
 
-  // Merge all PDFs first
+
+  // Track which moment (folder) each page comes from
+  const pageMoments = [];
   for (const pdfPath of pdfPaths) {
     const pdfBytes = fs.readFileSync(pdfPath);
     const pdf = await PDFDocument.load(pdfBytes);
     const copiedPages = await mergedPdf.copyPages(pdf, pdf.getPageIndices());
-    copiedPages.forEach(page => mergedPdf.addPage(page));
+    // Get the moment name from the folder
+    const momentFolder = path.basename(path.dirname(pdfPath));
+    // Format moment (replace underscores with spaces, capitalize)
+    const momentLabel = momentFolder.replace(/^[0-9]+_/, '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    copiedPages.forEach(page => {
+      mergedPdf.addPage(page);
+      pageMoments.push(momentLabel);
+    });
   }
 
   // Embed font for page numbers
@@ -58,8 +67,10 @@ if (pdfPaths.length === 0) {
   for (let i = 0; i < totalPages; i++) {
     const page = mergedPdf.getPage(i);
     const { width } = page.getSize();
-    page.drawText(`Page ${i + 1} of ${totalPages}`, {
-      x: width / 2 - 50,
+    // Draw the moment label before the page number
+    const momentText = pageMoments[i] ? `${pageMoments[i]}  |  ` : '';
+    page.drawText(`${momentText}Page ${i + 1} of ${totalPages}`, {
+      x: width / 2 - 100,
       y: 40,
       size: 14,
       font,
