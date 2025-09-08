@@ -10,7 +10,9 @@
 !*.json
 !*.gitignore
 !*.txt
-
+!*.md
+!*.png
+!*.jpg
 # Always keep these project files
 !README.md
 !LICENSE
