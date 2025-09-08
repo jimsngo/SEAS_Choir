@@ -31,11 +31,40 @@ folders.forEach(folder => {
     console.warn(`No .txt file found in ${folder}`);
     return;
   }
+
   const songPath = path.join(folderPath, txtFiles[0]);
-  const lines = fs.readFileSync(songPath, 'utf8').split(/\r?\n/);
-  const title = lines[0] ? lines[0].trim() : '';
-  const author = lines[1] ? lines[1].trim() : '';
-  const snippet = (lines[3] || '').trim();
+  // Read file, remove BOM if present, split into lines (handle all line endings), trim, and filter empty lines
+  let fileContent = fs.readFileSync(songPath, 'utf8');
+  if (fileContent.charCodeAt(0) === 0xFEFF) {
+    fileContent = fileContent.slice(1);
+  }
+  // Split on \r\n, \n, or \r, then trim and filter out empty lines
+  const lines = fileContent.split(/\r\n|\n|\r/).map(l => l.trim()).filter(l => l.length > 0);
+  // Debug: print all lines with indices
+  console.log(`\n--- Debug: Lines in ${songPath} ---`);
+  lines.forEach((l, idx) => console.log(`${idx}: '${l.replace(/\r/g, "\\r").replace(/\n/g, "\\n")}'`));
+  console.log('-----------------------------------');
+
+  const title = lines[0] ? lines[0] : '';
+  const author = lines[1] ? lines[1] : '';
+  // Debug: print raw char codes for author line
+  if (lines[1]) {
+    console.log('Author line char codes:', Array.from(lines[1]).map(c => c.charCodeAt(0)));
+  }
+  // Find the first non-empty, non-header line after the author
+  let snippet = '';
+  const headerRegex = /^\s*\[\s*([A-Za-z0-9 ]+)\s*\]\s*$/i;
+  for (let i = 2; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) continue;
+    if (headerRegex.test(line)) {
+      console.log(`Skipping header line: '${line}'`);
+      continue;
+    }
+    console.log(`Using snippet line: '${line}'`);
+    snippet = line;
+    break;
+  }
 
   // Sanitize title for filename
   const safeTitle = title.replace(/[\/\\?%*:|"<>]/g, '_');
@@ -53,7 +82,7 @@ folders.forEach(folder => {
 
   const meta = { title, author, snippet };
   fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2));
-  console.log(`Created/updated ${metaPath}`);
+  console.log(`Created/updated JSON: ${metaPath}`);
 });
 
 console.log('All meta JSON files created/updated from song text files.');

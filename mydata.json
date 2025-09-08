@@ -30,7 +30,7 @@
       "moment": "Gospel Acclamation",
       "singer": "David",
       "author": "Curtis Stephan, Mass of St Killian",
-      "snippet": "We adore you, O Christ, and we bless you, because by your Cross you have redeemed the world.",
+      "snippet": "Alleluia, alleluia, alleluia!",
       "audio_url": "moments/3_gospel_acclamation/SP_Acclamation_Exaltation_of_the_Cross.mp3",
       "lyric_url": "",
       "title": "Acclamation Exaltation of the Cross"
@@ -48,7 +48,7 @@
       "moment": "Communion Antiphon",
       "singer": "",
       "author": "Christopher Walker",
-      "snippet": "When I am lifted up from the earth, when I am lifted up from the earth, I will draw everyone to myself, everyone to myself, says the Lord.",
+      "snippet": "The Exaltation of the Holy Cross",
       "audio_url": "moments/5_communion_antiphon/Walker_Communion_Antiphon_The Exaltation_of_the_Holy_Cross.mp3",
       "lyric_url": "",
       "title": "When I am Lifted Up"
@@ -65,9 +65,9 @@
     {
       "moment": "Meditation",
       "singer": "",
-      "title": "Beautiful Is Your Love\rJosh Blakesley/Sarah Hart/Marc Byrd\r[Verse 1]",
-      "author": "Oh how beautiful is your love for me. Oh what joy is mine in this mystery. I will not fear the dark, here in the presence of your heart. Oh how beautiful is your love.",
-      "snippet": "Oh how wonderful is your offering; Lamb laid down for me on compassion’s tree. How could I turn away from the mercy of your face? Oh how wonderful is your love.",
+      "title": "Beautiful Is Your Love",
+      "author": "Josh Blakesley/Sarah Hart/Marc Byrd",
+      "snippet": "Oh how beautiful is your love for me. Oh what joy is mine in this mystery. I will not fear the dark, here in the presence of your heart. Oh how beautiful is your love.",
       "audio_url": "moments/7_meditation/Beautiful_Is_Your_Love.mp3",
       "lyric_url": ""
     },
