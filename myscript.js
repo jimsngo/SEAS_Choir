@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const imgFile = `images/${imgName.charAt(0).toUpperCase() + imgName.slice(1).toLowerCase()}.jpg`;
         // Create a temporary image to check if it exists
         const img = new window.Image();
-        img.onload = function() {
+        img.onload = function () {
           document.getElementById("Cantor").innerHTML = `<img src='${imgFile}' alt='${cantorName}' style='width:30px; height:30px; border-radius:50%; object-fit:cover; margin-right:8px;'>` + cantorName;
         };
-        img.onerror = function() {
+        img.onerror = function () {
           document.getElementById("Cantor").innerHTML = cantorName;
         };
         img.src = imgFile;
@@ -52,8 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
         html_template.find(".moment").text(element.moment);
         html_template.find(".singer").text(element.singer ? "(" + element.singer + ")" : "");
         html_template.find(".title").text(element.title ? element.title : "");
-        html_template.find(".snippet").text(element.snippet ? element.snippet : "");
         html_template.find(".author").text(element.author ? element.author : "");
+        html_template.find(".snippet").text(element.snippet ? element.snippet : "");
+
         if (!element.song) {
           html_template.find(".song").addClass("d-none")
         }
