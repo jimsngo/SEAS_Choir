@@ -11,7 +11,21 @@ const path = require('path');
 const { PDFDocument, rgb, StandardFonts } = require('pdf-lib');
 
 const momentsDir = './moments';
+
 const outputPdf = './pdfs/guitar.pdf';
+
+// Load mydata.json for singer info
+const mydata = JSON.parse(fs.readFileSync('./mydata.json', 'utf8'));
+const momentSingerMap = {};
+if (mydata.sections && Array.isArray(mydata.sections)) {
+  mydata.sections.forEach(section => {
+    if (section.moment && typeof section.singer === 'string') {
+      // Normalize moment label to match folder formatting
+      const normalized = section.moment.replace(/ /g, '_').toLowerCase();
+      momentSingerMap[normalized] = section.singer;
+    }
+  });
+}
 
 // 1. Build the list of PDFs in order
 const folders = fs.readdirSync(momentsDir)
@@ -53,9 +67,12 @@ if (pdfPaths.length === 0) {
     const momentFolder = path.basename(path.dirname(pdfPath));
     // Format moment (replace underscores with spaces, capitalize)
     const momentLabel = momentFolder.replace(/^[0-9]+_/, '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    // Get singer for this moment
+    const normalizedMoment = momentLabel.replace(/ /g, '_').toLowerCase();
+    const singer = momentSingerMap[normalizedMoment] || '';
     copiedPages.forEach(page => {
       mergedPdf.addPage(page);
-      pageMoments.push(momentLabel);
+      pageMoments.push({ momentLabel, singer });
     });
   }
 
@@ -66,9 +83,24 @@ if (pdfPaths.length === 0) {
   const totalPages = mergedPdf.getPageCount();
   for (let i = 0; i < totalPages; i++) {
     const page = mergedPdf.getPage(i);
-    const { width } = page.getSize();
-    // Draw the moment label before the page number
-    const momentText = pageMoments[i] ? `${pageMoments[i]}  |  ` : '';
+    const { width, height } = page.getSize();
+    // Draw the moment label and singer in the header
+    const momentObj = pageMoments[i] || {};
+    // Only display singer's name in the header
+    const singerName = momentObj.singer ? momentObj.singer : '';
+    if (singerName) {
+      // Center the singer's name in the header
+      const textWidth = font.widthOfTextAtSize(singerName, 14);
+      page.drawText(singerName, {
+        x: (width - textWidth) / 2,
+        y: height - 40,
+        size: 14,
+        font,
+        color: rgb(0, 0, 0),
+      });
+    }
+    // Draw the moment label before the page number in the footer
+    const momentText = momentObj.momentLabel ? `${momentObj.momentLabel}  |  ` : '';
     page.drawText(`${momentText}Page ${i + 1} of ${totalPages}`, {
       x: width / 2 - 100,
       y: 40,
