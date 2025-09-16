@@ -79,21 +79,32 @@ if (pdfPaths.length === 0) {
   // Embed font for page numbers
   const font = await mergedPdf.embedFont(StandardFonts.HelveticaBold);
 
-  // Add page numbers after all pages are merged
+  // Add page numbers and headers/footers after all pages are merged
   const totalPages = mergedPdf.getPageCount();
   for (let i = 0; i < totalPages; i++) {
     const page = mergedPdf.getPage(i);
     const { width, height } = page.getSize();
     // Draw the moment label and singer in the header
     const momentObj = pageMoments[i] || {};
-    // Only display singer's name in the header
+    // Display the 'name' element from mydata.json in the header
+    const headerName = mydata.name || '';
+    if (headerName) {
+      const nameTextWidth = font.widthOfTextAtSize(headerName, 16);
+      page.drawText(headerName, {
+        x: (width - nameTextWidth) / 2,
+        y: height - 36,
+        size: 16,
+        font,
+        color: rgb(0, 0, 0),
+      });
+    }
+    // Display singer's name after the header, within printable area
     const singerName = momentObj.singer ? momentObj.singer : '';
     if (singerName) {
-      // Center the singer's name in the header
       const textWidth = font.widthOfTextAtSize(singerName, 14);
       page.drawText(singerName, {
         x: (width - textWidth) / 2,
-        y: height - 40,
+        y: height - 60,
         size: 14,
         font,
         color: rgb(0, 0, 0),
@@ -108,6 +119,17 @@ if (pdfPaths.length === 0) {
       font,
       color: rgb(0, 0, 0),
     });
+
+    // Move all other content (lyrics, music, etc.) to be within printable area
+    // Example: If you have code that draws lyrics, ensure it uses y between height - 72 and 72
+    // If you add lyrics or other content, use:
+    // let y = height - 72;
+    // for (const line of lyricsLines) {
+    //   if (y < 72) break;
+    //   page.drawText(line, { x: 72, y, size: 14, font, color: rgb(0, 0, 0) });
+    //   y -= 22;
+    // }
+    // (If you have other content, apply similar logic)
   }
 
   const mergedPdfBytes = await mergedPdf.save();
