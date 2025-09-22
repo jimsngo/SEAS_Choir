@@ -86,26 +86,19 @@ if (pdfPaths.length === 0) {
     const { width, height } = page.getSize();
     // Draw the moment label and singer in the header
     const momentObj = pageMoments[i] || {};
-    // Display the 'name' element from mydata.json in the header
+    // Display the 'name' and singer element together in the header
     const headerName = mydata.name || '';
-    if (headerName) {
-      const nameTextWidth = font.widthOfTextAtSize(headerName, 16);
-      page.drawText(headerName, {
-        x: (width - nameTextWidth) / 2,
+    const singerName = momentObj.singer ? momentObj.singer : '';
+    let headerText = headerName;
+    if (singerName) {
+      headerText += '  |  ' + singerName;
+    }
+    if (headerText) {
+      const headerTextWidth = font.widthOfTextAtSize(headerText, 16);
+      page.drawText(headerText, {
+        x: (width - headerTextWidth) / 2,
         y: height - 36,
         size: 16,
-        font,
-        color: rgb(0, 0, 0),
-      });
-    }
-    // Display singer's name after the header, within printable area
-    const singerName = momentObj.singer ? momentObj.singer : '';
-    if (singerName) {
-      const textWidth = font.widthOfTextAtSize(singerName, 14);
-      page.drawText(singerName, {
-        x: (width - textWidth) / 2,
-        y: height - 60,
-        size: 14,
         font,
         color: rgb(0, 0, 0),
       });

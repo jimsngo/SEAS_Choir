@@ -1,8 +1,8 @@
 {
-  "name": "25th Sunday in Ordinary Time",
+  "name": "26th Sunday in Ordinary Time",
   "date": "<NEXT_SUNDAY>",
   "time": "5:30pm",
-  "cantor": "Claudine",
+  "cantor": "Mica",
   "cantor_pdf": "pdfs/guitar.pdf",
   "guitar_pdf": "pdfs/guitar.pdf",
   "lyrics_pdf": "pdfs/lyrics.pdf",
@@ -11,55 +11,55 @@
     {
       "moment": "Entrance Antiphon",
       "singer": "",
-      "title": "Antiphon #172",
+      "title": "Antiphon #175",
       "author": "Let Us All Rejoice",
-      "snippet": "I am the salvation of the people, says the Lord. Should they cry to me in any distress, I will hear them, and I will be their Lord forever.",
-      "audio_url": "moments/1_entrance_antiphon/172_Entrance_Antiphon_25th_Sunday.mp3",
+      "snippet": "All that you have done to us, O Lord, you have done with true judgement, for we have sinned against you and not obeyed your commandments. But give glory to your name and deal with us according to the bounty of your mercy.",
+      "audio_url": "moments/1_entrance_antiphon/175_Entrance_Antiphon_26th_Sunday.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Responsorial Psalm",
       "singer": "",
-      "title": "Psalm 113:1-2, 4-6, 7-8",
-      "author": "Chris Muglia",
-      "snippet": "Praise the Lord who lifts up the poor.",
-      "audio_url": "moments/2_responsorial_psalm/Chris_Muglia_Psalm_113_Praise_The_Lord_Who_Lifts_Up_The_Poor_25th_Sunday_C.mp3",
+      "title": "Psalm 146: 6-7, 8-9, 9-10",
+      "author": "Francesca LaRosa",
+      "snippet": "Praise the Lord, my soul!",
+      "audio_url": "moments/2_responsorial_psalm/Psalm_146_Praise_the_Lord_My_Soul_LaRosa.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Gospel Acclamation",
       "singer": "David",
-      "author": "cf. 2 Cor 8:9",
-      "snippet": "Though our Lord Jesus Christ was rich, he became poor, so that by his poverty you might become rich.",
-      "audio_url": "moments/3_gospel_acclamation/SP_25th_Sunday_C_Acclamation.mp3",
+      "author": "Cf. 2 Corinthians 8:9",
+      "snippet": "Though our Lord Jesus Christ was rich, he became poor, so that by his poverty you might become rich",
+      "audio_url": "moments/3_gospel_acclamation/Acclamation_26th_Sunday_C.mp3",
       "lyric_url": "",
       "title": "Alleluia"
     },
     {
       "moment": "Offertory",
       "singer": "",
-      "title": "The Jesus Song",
-      "author": "Tom Booth",
-      "snippet": "Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Amen.",
-      "audio_url": "moments/4_offertory/The_Jesus_Song.mp3",
+      "title": "Unwavering",
+      "author": "Matt Maher/Vocal arr. by Rick Modlin",
+      "snippet": "Blessed are the poor, the kingdom is theirs, alive in the promise to be dead to the world. Blessed are the meek, in awe of you, Father, the Word at your right hand, the Spirit of truth.",
+      "audio_url": "moments/4_offertory/Unwavering.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Communion Antiphon",
       "singer": "",
       "author": "Let Us All Rejoice",
-      "snippet": "I am the Good Shepherd, says the Lord; I know my sheep, and mine know me. I am the Good Shepherd, says the Lord; I know my sheep, and mine know me.",
-      "audio_url": "moments/5_communion_antiphon/174_Communion_Antiphon_25th_Sunday.mp3",
+      "snippet": "Remember your word to your servant, O Lord, by which you have given me hope. This is my comfort when I am brought low.",
+      "audio_url": "moments/5_communion_antiphon/176_Communion_Antiphon_26th_Sunday.mp3",
       "lyric_url": "",
-      "title": "Antiphon #174"
+      "title": "Antiphon #176"
     },
     {
       "moment": "Communion",
       "singer": "",
-      "title": "The Body of Christ",
-      "author": "Sarah Hart",
-      "snippet": "This is the Body of Christ, beautiful, broken and blessed; miracle of the greatest of loves, presence of God in our midst. This is the Cup that he shares, endlessly emptied and poured; sacrifice made so that we might be saved now and forevermore.",
-      "audio_url": "moments/6_communion/The_Body_of_Christ.mp3",
+      "title": "The Feast Meant for Everyone",
+      "author": "Tom Booth/Sarah Hart",
+      "snippet": "Bread for the immigrant, bread for the poor, bread for the hungry who beg at our door. Food for the outcast waiting to belong; Come to the feast meant for everyone.",
+      "audio_url": "moments/6_communion/The_Feast_Meant_For_Everyone.mp3",
       "lyric_url": ""
     },
     {
@@ -74,10 +74,10 @@
     {
       "moment": "Recessional",
       "singer": "David",
-      "title": "May Your Kingdom Come",
-      "author": "Steve Angrisano, Sarah Hart, and Curtis Stephan/Vocal arr. by Rick Modlin",
-      "snippet": "Spirit of God, fill us with fire, to shine your light for all those in need. Give us the strength to love in your name, so all the world will come to believe.",
-      "audio_url": "moments/8_recessional/May_Your_Kingdom_Come.mp3",
+      "title": "At The Name",
+      "author": "Joshua Blakesley and Sarah Hart",
+      "snippet": "You took upon yourself our cruel and heavy cross. You conquered death itself to ransom all the lost, humbled yourself before a world of sin.",
+      "audio_url": "moments/8_recessional/At_The_Name.mp3",
       "lyric_url": ""
     },
     {
