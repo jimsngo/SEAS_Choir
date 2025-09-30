@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEAS Choir - Sunday 5:30 PM</title>
+  <link rel="icon" type="image/x-icon" href="SEAS.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script src="myscript.js"></script>
+</head>
+
+<body class="bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa fa-music"></i> SEAS Choir - Ontario, CA
+      </a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-success text-white">
+    <div class="container" id="dataDisplay">
+      <h1 id="Name"></h1>
+  <h3><span id="Date"></span> - <span id="Time"></span></h3>
+  <!-- <h4><span id="nextSundayDate"></span></h4> -->
+      <h3><i class="fa fa-microphone" style="font-size:28px"></i>
+        <!-- <img src="images/joelle.jpg" alt="Profile Picture"
+          style="width:30px; height:30px; border-radius:50%; object-fit:cover;"> -->
+        <span id="Cantor"></span></h3>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div id="main-content" class="container my-5">
+    <div id="mass-section-template">
+      <section class="d-none mass-section py-2">
+        <div class="card shadow-sm">
+
+          <!-- Softer Warm Pastel Header: bg-light-warning with dark text -->
+          <div class="card-header bg-info text-dark">
+            <h5 class="mb-0"><b class="moment"></b> <span class="singer"></span></h5>
+          </div>
+
+          <!-- Softer Warm Pastel Body: bg-light with muted text -->
+          <div class="card-body bg-light">
+            <b class="title" style="display:block; margin-bottom:0.75em;"></b>
+            <footer class="author blockquote-footer text-muted"></footer>
+            <blockquote><i>"<span class="snippet"></span>"</i></blockquote>
+
+            <!-- Audio Player and Link Button with pastel outline -->
+            <div class="d-flex align-items-center justify-content-between mt-3 w-100">
+              <audio class="flex-grow-1 w-100" controls>
+                <source class="audio_url" src="Recessional/With_One_Voice.mp3" type="audio/mpeg">
+              </audio>
+
+              <!-- Softer Pastel Button: Outline button with a soft color -->
+              <!-- <a target="_blank" class="lyric_url btn btn-outline-warning ms-3">
+              <i class="fa fa-file-text-o"></i>
+            </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Choir Pitch Listening Guide -->
+  <div class="container my-5" id="choir-pitch-guide">
+    <div class="card border-success mb-3">
+      <div class="card-header bg-success text-white"><b>Choir Practice Focus: Pitch Accuracy & Listening Awareness</b></div>
+      <div class="card-body">
+        <h5 class="card-title">1. Pitch Accuracy</h5>
+        <ul>
+          <li><b>Daily Matching:</b> Play random notes on a piano, keyboard app, or online tool. Sing them back, matching the pitch as closely as possible.</li>
+          <li><b>Interval Practice:</b> Sing simple intervals (thirds, fifths, octaves) from any starting note to train your ear for distance between notes.</li>
+        </ul>
+        <h5 class="card-title mt-4">2. Listening Awareness</h5>
+        <ul>
+          <li><b>Active Listening:</b> When singing with others (in rehearsal or with recordings), intentionally listen to the voices around you—not just your own.</li>
+          <li><b>Blend & Adjust:</b> Adjust your volume, pitch, and vowel shape to match and blend with the group or section leader. Aim for unified sound, not standing out.</li>
+        </ul>
+        <hr>
+        <em>Focused, consistent practice on these two skills will strengthen both your individual musicianship and our choir’s blend!</em>
+        <div class="alert alert-success mt-4" role="alert">
+          <b>Thank you everyone for your dedication! </b>For our cantors, please learn the songs thoroughly before rehearsal, as you will be leading not only the choir but also the congregation. For the rest of the choir, please continue to use the Choir Practice Focus above to strengthen your musicianship and our blend. Every bit of practice helps us sound better together—let's keep supporting each other and make every Sunday a joyful, beautiful experience for all!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    <p class="mb-0">Practice Sunday 4:00 PM - Invite your friends!</p>
+
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a id="cantor_pdf" class="text-white" target="_blank">Cantor</a>
+    </p>
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a id="guitar_pdf" class="text-white" target="_blank">Guitar</a>
+    </p>
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a id="lyrics_pdf" class="text-white" target="_blank">Lyrics</a>
+    </p>
+    <p class="mb-0"><i class="fa fa-file-pdf-o"></i> <a id="mass_setting" class="text-white" target="_blank">Mass of
+        St.Mary Magdalene</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Display next Sunday's date using getNextSundaysDate from myscript.js
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof getNextSundaysDate === 'function') {
+        document.getElementById('nextSundayDate').textContent = getNextSundaysDate();
+      }
+    });
+  </script>
+</body>
+
+</html>

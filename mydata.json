@@ -1,0 +1,132 @@
+{
+  "name": "27th Sunday in Ordinary Time",
+  "date": "<NEXT_SUNDAY>",
+  "time": "5:30pm",
+  "cantor": "Cederick",
+  "cantor_pdf": "pdfs/guitar.pdf",
+  "guitar_pdf": "pdfs/guitar.pdf",
+  "lyrics_pdf": "pdfs/lyrics.pdf",
+  "mass_setting": "pdfs/Mass_of_St_Mary_Magdalene.pdf",
+  "sections": [
+    {
+      "moment": "Entrance Antiphon",
+      "singer": "",
+      "title": "Antiphon #178 - Cf. Est 4: 17",
+      "author": "Let Us All Rejoice",
+      "snippet": "Within your will, O Lord, all things are established, and there is none that can resist your will. For you have made all things, the heaven and the earth, and all that is held within the circle of heaven; you are the Lord of all.",
+      "audio_url": "moments/1_entrance_antiphon/178_Entrance_Antiphon_27th_Sunday.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Responsorial Psalm",
+      "singer": "",
+      "title": "Psalm 95: 1-2, 6-7, 8-9",
+      "author": "Ben Walther, SP2025",
+      "snippet": "If today you hear his voice, harden not your hearts.",
+      "audio_url": "moments/2_responsorial_psalm/Psalm95_If_today_you_hear_his_voice_Ben_Walther.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Gospel Acclamation",
+      "singer": "David",
+      "author": "Peter 1:25",
+      "snippet": "The word of the Lord remains for ever. This is the word that has been proclaimed to you.",
+      "audio_url": "moments/3_gospel_acclamation/Acclamation_27th_Sunday_C_SP.mp3",
+      "lyric_url": "",
+      "title": "Alleluia"
+    },
+    {
+      "moment": "Offertory",
+      "singer": "",
+      "title": "Come Lord, Jesus",
+      "author": "Steve Angrisano and Tom Tomaszek",
+      "snippet": "Come, Lord Jesus, come. Come and fill my heart with your life. Hold me close, Lord, hold me tight, and come, Lord Jesus, Come.",
+      "audio_url": "moments/4_offertory/Come_Lord_Jesus.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Communion Antiphon",
+      "singer": "",
+      "author": "John W. Thompson, Randy Scruggs",
+      "snippet": "Lord, prepare me to be a sanctuary; pure and holy; tried and true. With thanksgiving; I'll be a living Sanctuary for You.",
+      "audio_url": "moments/5_communion_antiphon/Sanctuary.mp3",
+      "lyric_url": "",
+      "title": "Sanctuary"
+    },
+    {
+      "moment": "Communion",
+      "singer": "",
+      "title": "Shelter Me, O God",
+      "author": "Bob Hurd",
+      "snippet": "Shelter me, O God, hide me in the shadow of your wings. You alone are my hope.",
+      "audio_url": "moments/6_communion/Shelter_Me_O_God.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Meditation",
+      "singer": "",
+      "title": "One Bread, One Body",
+      "author": "John Foley SJ",
+      "snippet": "One bread, one body, one Lord of all, one cup of blessing which we bless. And we, though many,",
+      "audio_url": "moments/7_meditation/One_Bread_One_Body.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Recessional",
+      "singer": "David",
+      "title": "With All Your Strength",
+      "author": "Chris Muglia and Jeff Thomas",
+      "snippet": "Praise the Lord with all your heart, with all your mind and soul, with all your strength give praise.",
+      "audio_url": "moments/8_recessional/With_All_Your_Strength.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Lord Have Mercy",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Lord have mercy! Christ have mercy! Lord have mercy!",
+      "audio_url": "moments/Lord_Have_Mercy/Lord_Have_Mercy_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Glory To God",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+      "audio_url": "moments/Glory_to_God/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Holy",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+      "audio_url": "moments/Holy/Holy_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "When We Eat This Bread",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "When we eat this breadand drink this cup, we proclaim your death, O Lord, until you come again.",
+      "audio_url": "moments/When_We_Eat_This_Bread/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Amen",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Amen, Amen, Amen, Amen, Amen.",
+      "audio_url": "moments/Amen/Amen_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Lamb of God",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
+      "audio_url": "moments/Lamb_of_God/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    }
+  ]
+}
