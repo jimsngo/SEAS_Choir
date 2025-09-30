@@ -1,3 +1,5 @@
+# Ignore the tools folder (utility scripts)
+tools/
 # Ignore everything
 *
 
