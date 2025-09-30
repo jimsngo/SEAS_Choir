@@ -22,28 +22,6 @@ package-lock.json
 # Ignore markdown and guides
 choir-pitch-listening-guide.md
 
-# Ignore everything
-*
-
-# Keep only these file types
-!*.html
-!*.css
-!*.js
-!*.mp3
-!*.pdf
-!*.json
-!*.gitignore
-!*.txt
-!*.md
-!*.png
-!*.jpg
-# Always keep these project files
-!README.md
-!LICENSE
-
-# Allow folders so rules apply inside them
-!*/
-
 # Ignore these specific files and folders
 .DS_Store
 node_modules/
