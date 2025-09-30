@@ -3,11 +3,6 @@ tools/
 lyrics.docx
 lyrics.pages
 
-# Ignore source data and templates
-moments/
-mydata.json
-Song_Template.txt
-
 # Ignore build/test artifacts
 .DS_Store
 .venv/
