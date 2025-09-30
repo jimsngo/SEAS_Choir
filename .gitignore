@@ -1,5 +1,27 @@
-# Ignore the tools folder (utility scripts)
+# Ignore automation tools and scripts
 tools/
+lyrics.docx
+lyrics.pages
+
+# Ignore source data and templates
+moments/
+mydata.json
+Song_Template.txt
+
+# Ignore build/test artifacts
+.DS_Store
+.venv/
+node_modules/
+package-lock.json
+
+# Ignore version control and editor config
+.git/
+.github/
+.vscode/
+
+# Ignore markdown and guides
+choir-pitch-listening-guide.md
+
 # Ignore everything
 *
 
