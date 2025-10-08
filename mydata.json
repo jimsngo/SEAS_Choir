@@ -1,0 +1,132 @@
+{
+  "name": "28th Sunday in Ordinary Time",
+  "date": "<NEXT_SUNDAY>",
+  "time": "5:30pm",
+  "cantor": "Joelle",
+  "cantor_pdf": "pdfs/guitar.pdf",
+  "guitar_pdf": "pdfs/guitar.pdf",
+  "lyrics_pdf": "pdfs/lyrics.pdf",
+  "mass_setting": "pdfs/Mass_of_St_Mary_Magdalene.pdf",
+  "sections": [
+    {
+      "moment": "Entrance Antiphon",
+      "singer": "",
+      "title": "Antiphon #181 - Psalm 130 (129): 3-4",
+      "author": "Let Us All Rejoice",
+      "snippet": "If you, O Lord, should mark iniquities, Lord, who could stand? But with you is found forgiveness, O God of Israel.",
+      "audio_url": "moments/1_entrance_antiphon/181_Entrance_Antiphon.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Responsorial Psalm",
+      "singer": "",
+      "title": "Psalm 98:1, 2-3, 3-4",
+      "author": "Francesca LaRosa",
+      "snippet": "The Lord has revealed to the nations his saving power.",
+      "audio_url": "moments/2_responsorial_psalm/Psalm_98_The_Lord_Has_Revealed_To_The_Nations_His_Saving_Power_LaRosa.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Gospel Acclamation",
+      "singer": "David",
+      "author": "Thess 5:18",
+      "snippet": "In all circumstances give thanks, for this is the will of God for you in Christ Jesus.",
+      "audio_url": "moments/3_gospel_acclamation/Acclamation_28th_Sunday_C_SP.mp3",
+      "lyric_url": "",
+      "title": "Alleluia"
+    },
+    {
+      "moment": "Offertory",
+      "singer": "",
+      "title": "Loving and Forgiving",
+      "author": "Scott Soper",
+      "snippet": "Loving and forgiving are you, O Lord; slow to anger, rich in kindness, loving and forgiving are you.",
+      "audio_url": "moments/4_offertory/Loving_and_Forgiving_Psalm_103.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Communion Antiphon",
+      "singer": "Ariana",
+      "author": "John W. Thompson, Randy Scruggs",
+      "snippet": "Lord, prepare me to be a sanctuary; pure and holy; tried and true. With thanksgiving; I'll be a living Sanctuary for You.",
+      "audio_url": "moments/5_communion_antiphon/Sanctuary.mp3",
+      "lyric_url": "",
+      "title": "Sanctuary"
+    },
+    {
+      "moment": "Communion",
+      "singer": "",
+      "title": "In the Breaking of the Bread",
+      "author": "Timothy R. Smith",
+      "snippet": "In the breaking of the bread, we knew him, Lord Jesus. Alleluia! Alleluia!",
+      "audio_url": "moments/6_communion/In_the_Breaking_of_the_Bread.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Meditation",
+      "singer": "",
+      "title": "Holy Is His Name",
+      "author": "John Michael Talbot",
+      "snippet": "My soul proclaims the greatness of the Lord, and my spirit exults in God my Savior. For he has looked with mercy on my lowliness, and my name will be forever exalted. For the mighty God has done great things for me, and his mercy will reach from age to age.",
+      "audio_url": "moments/7_meditation/Holy_Is_His_Name.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Recessional",
+      "singer": "David",
+      "title": "Our God is Good",
+      "author": "Joshua Blakesley and Cooper Ray.",
+      "snippet": "Our God is good! Our God is good! Holy and righteous, powerful and true",
+      "audio_url": "moments/8_recessional/Our_God_is_Good.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Lord Have Mercy",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Lord have mercy! Christ have mercy! Lord have mercy!",
+      "audio_url": "moments/Lord_Have_Mercy/Lord_Have_Mercy_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Glory To God",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+      "audio_url": "moments/Glory_to_God/Glory_to_God_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Holy",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+      "audio_url": "moments/Holy/Holy_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "When We Eat This Bread",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "When we eat this breadand drink this cup, we proclaim your death, O Lord, until you come again.",
+      "audio_url": "moments/When_We_Eat_This_Bread/When_We_Eat_This_Bread_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Amen",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Amen, Amen, Amen, Amen, Amen.",
+      "audio_url": "moments/Amen/Amen_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    },
+    {
+      "moment": "Lamb of God",
+      "singer": "",
+      "author": "Mass of St. Mary Magdalene - Sarah Hart",
+      "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
+      "audio_url": "moments/Lamb_of_God/Lamb_of_God_Mass_of_St_Mary_Magdalene.mp3",
+      "lyric_url": ""
+    }
+  ]
+}

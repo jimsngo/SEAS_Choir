@@ -1,0 +1,23 @@
+# Ignore automation tools and scripts
+tools/
+lyrics.docx
+lyrics.pages
+
+# Ignore build/test artifacts
+.DS_Store
+.venv/
+node_modules/
+package-lock.json
+
+# Ignore version control and editor config
+.git/
+.github/
+.vscode/
+
+# Ignore markdown and guides
+choir-pitch-listening-guide.md
+
+# Ignore these specific files and folders
+.DS_Store
+node_modules/
+*.pages

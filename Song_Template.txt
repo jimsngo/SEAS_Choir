@@ -1,0 +1,13 @@
+Title Goes Here
+Author Name(s) Here
+[Section Header]
+First lyric line goes here...
+[Another Section]
+Next lyric line...
+
+# Instructions:
+# - Line 1: Title
+# - Line 2: Author(s)
+# - Section headers (e.g., [Verse 1], [Refrain]) are optional and can be used to organize lyrics.
+# - The first non-header, non-empty line after the author will be used as the snippet.
+# - Add additional lyrics as needed below.
