@@ -1,8 +1,8 @@
 {
-  "name": "28th Sunday in Ordinary Time",
+  "name": "29th Sunday in Ordinary Time",
   "date": "<NEXT_SUNDAY>",
   "time": "5:30pm",
-  "cantor": "Joelle",
+  "cantor": "Mica",
   "cantor_pdf": "pdfs/guitar.pdf",
   "guitar_pdf": "pdfs/guitar.pdf",
   "lyrics_pdf": "pdfs/lyrics.pdf",
@@ -11,10 +11,10 @@
     {
       "moment": "Entrance Antiphon",
       "singer": "",
-      "title": "Antiphon #181 - Psalm 130 (129): 3-4",
+      "title": "Entrance Antiphon 184 - Cf. Psalm 17:6, 8",
       "author": "Let Us All Rejoice",
-      "snippet": "If you, O Lord, should mark iniquities, Lord, who could stand? But with you is found forgiveness, O God of Israel.",
-      "audio_url": "moments/1_entrance_antiphon/181_Entrance_Antiphon.mp3",
+      "snippet": "To you I call, for you will surely heed me, O God; turn your ear to me; hear my words. Guard me as the apple of your eye; in the shadow of your wings protect me.",
+      "audio_url": "moments/1_entrance_antiphon/184_Entrance_Antiphon_29th_Sunday.mp3",
       "lyric_url": ""
     },
     {
@@ -23,25 +23,25 @@
       "title": "Psalm 98:1, 2-3, 3-4",
       "author": "Francesca LaRosa",
       "snippet": "The Lord has revealed to the nations his saving power.",
-      "audio_url": "moments/2_responsorial_psalm/Psalm_98_The_Lord_Has_Revealed_To_The_Nations_His_Saving_Power_LaRosa.mp3",
+      "audio_url": "moments/2_responsorial_psalm/Psalm_121_Our_Help_Is_From_the_Lord_LaRosa.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Gospel Acclamation",
       "singer": "David",
-      "author": "Thess 5:18",
-      "snippet": "In all circumstances give thanks, for this is the will of God for you in Christ Jesus.",
-      "audio_url": "moments/3_gospel_acclamation/Acclamation_28th_Sunday_C_SP.mp3",
+      "author": "Hebrews 4:12",
+      "snippet": "The word of God is living and effective, discerning reflections and thoughts of the heart.",
+      "audio_url": "moments/3_gospel_acclamation/Acclamation_29th_Sunday_C _SP.mp3",
       "lyric_url": "",
       "title": "Alleluia"
     },
     {
       "moment": "Offertory",
       "singer": "",
-      "title": "Loving and Forgiving",
-      "author": "Scott Soper",
-      "snippet": "Loving and forgiving are you, O Lord; slow to anger, rich in kindness, loving and forgiving are you.",
-      "audio_url": "moments/4_offertory/Loving_and_Forgiving_Psalm_103.mp3",
+      "title": "In Every Age",
+      "author": "Janèt Sullivan Whitaker",
+      "snippet": "Long before the mountains came to be and the land and sea and stars of the night; through the endless seasons of all time, you have always been, you will always be.",
+      "audio_url": "moments/4_offertory/In_Every_Age.mp3",
       "lyric_url": ""
     },
     {
@@ -56,28 +56,28 @@
     {
       "moment": "Communion",
       "singer": "",
-      "title": "In the Breaking of the Bread",
-      "author": "Timothy R. Smith",
-      "snippet": "In the breaking of the bread, we knew him, Lord Jesus. Alleluia! Alleluia!",
-      "audio_url": "moments/6_communion/In_the_Breaking_of_the_Bread.mp3",
+      "title": "Shelter Me, O God",
+      "author": "Bob Hurd",
+      "snippet": "Shelter me, O God, hide me in the shadow of your wings. You alone are my hope.",
+      "audio_url": "moments/6_communion/Shelter_Me_O_God.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Meditation",
       "singer": "",
-      "title": "Holy Is His Name",
-      "author": "John Michael Talbot",
-      "snippet": "My soul proclaims the greatness of the Lord, and my spirit exults in God my Savior. For he has looked with mercy on my lowliness, and my name will be forever exalted. For the mighty God has done great things for me, and his mercy will reach from age to age.",
-      "audio_url": "moments/7_meditation/Holy_Is_His_Name.mp3",
+      "title": "Christ in Me Arise",
+      "author": "Trevor Thomson",
+      "snippet": "Christ in me arise and dispel all the darkness. Christ in me arise with your power and your strength. Christ in me pour out your blessing and healing. Christ in me arise and I shall rise with you.",
+      "audio_url": "moments/7_meditation/Christ_In_Me_Arise.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Recessional",
       "singer": "David",
-      "title": "Our God is Good",
-      "author": "Joshua Blakesley and Cooper Ray.",
-      "snippet": "Our God is good! Our God is good! Holy and righteous, powerful and true",
-      "audio_url": "moments/8_recessional/Our_God_is_Good.mp3",
+      "title": "Forever",
+      "author": "Chris Tomlin",
+      "snippet": "Give thanks to the Lord, our God and King; his love endures forever. For he is good, he is above all things; his love endures forever; Sing praise, sing praise!",
+      "audio_url": "moments/8_recessional/Forever.mp3",
       "lyric_url": ""
     },
     {
