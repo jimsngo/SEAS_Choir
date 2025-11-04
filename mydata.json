@@ -1,8 +1,8 @@
 {
-  "name": "All Souls Day",
+  "name": "The Dedication of the Lateran Basilica in Rome",
   "date": "<NEXT_SUNDAY>",
   "time": "5:30pm",
-  "cantor": "Cederick",
+  "cantor": "Mica",
   "cantor_pdf": "pdfs/guitar.pdf",
   "guitar_pdf": "pdfs/guitar.pdf",
   "lyrics_pdf": "pdfs/lyrics.pdf",
@@ -11,37 +11,37 @@
     {
       "moment": "Entrance Antiphon",
       "singer": "",
-      "title": "I Know That My Redeemer Lives",
-      "author": "Scott Soper",
-      "snippet": "I know that my Redeemer lives, the One who calls me home. I long to see God face to face, to see with my own eyes.",
-      "audio_url": "moments/1_entrance_antiphon/I_Know_That_My_Redeemer_Lives.mp3",
+      "title": "The House that Love Is Building",
+      "author": "Sarah Hart",
+      "snippet": "In the house that Love is building there is room enough for all, endless welcome in her rafters, mercy singing through her walls. Here is refuge for all people from every tribe and tongue. In the house that Love is building there is room for everyone.",
+      "audio_url": "moments/1_entrance_antiphon/The_House_That_Love_Is_Building.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Responsorial Psalm",
       "singer": "",
-      "title": "Psalm 23: 1-3, 3-4, 5, 6",
-      "author": "Sarah Hart",
-      "snippet": "The Lord is my shepherd; there is nothing I shall want. The Lord is my shepherd; there is nothing I shall want.",
-      "audio_url": "moments/2_responsorial_psalm/Psalm_23_The_Lord_is_my_shepherd_there_is_nothing_I_shall_want.Hart.mp3",
+      "title": "Psalm 46: 2-3, 5-6, 8-9",
+      "author": "",
+      "snippet": "The waters of the river gladden the city of God, the holy dwelling of the Most High!",
+      "audio_url": "moments/2_responsorial_psalm/Psalm_46_The_Waters_of_the_River_LaRosa.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Gospel Acclamation",
       "singer": "David",
-      "author": "Matthew 25:34 (668.1)",
-      "snippet": "Come, you who are blessed by my Father; inherit the kingdom prepared for you from the foundation of the world.",
-      "audio_url": "moments/3_gospel_acclamation/Come_you_who_are_blessed_by_my_Father_Curtis_Stephan.mp3",
+      "author": "",
+      "snippet": "I have chosen and consecrated this house, says the Lord, that my name may be there forever.",
+      "audio_url": "moments/3_gospel_acclamation/Acclamation_Lateran_Basilica.mp3",
       "lyric_url": "",
-      "title": "Gospel Acclamation"
+      "title": "2 Chronicles 7:16"
     },
     {
       "moment": "Offertory",
       "singer": "",
-      "title": "Keep Me in Your Heart",
-      "author": "Janèt Sullivan Whitaker",
-      "snippet": "Jesus, hold me in peace; keep me in your heart.  Let me know your mercy; keep me in your heart.  Jesus, you are my hope. Help me when the darkness comes. In your kindness, keep me in your heart.",
-      "audio_url": "moments/4_offertory/Keep-Me-in-Your-Heart.mp3",
+      "title": "Flow River Flow",
+      "author": "Bob Hurd",
+      "snippet": "Flow river flow, flow over me. O living water, poured out for free; O living water, flow over me.",
+      "audio_url": "moments/4_offertory/Flow_River_Flow.mp3",
       "lyric_url": ""
     },
     {
@@ -56,28 +56,28 @@
     {
       "moment": "Communion",
       "singer": "",
-      "title": "I Am the Bread of Life",
-      "author": "Steve Angrisano/Tom Booth",
-      "snippet": "I am the Bread of Life, I am the hope in night, I am the door wide open, I am the shepherd’s might, I am the truth and light, I am the way and life, I Am Who Am and I am for you: Come and follow me.",
-      "audio_url": "moments/6_communion/I_Am_The_Bread_of_Life_Steve_Angrisano.mp3",
+      "title": "A Place at Your Table",
+      "author": "Ben Walther",
+      "snippet": "Happy the ones whom you call here to dine, the saint and the sinner, your friends. Now reconciled in this banquet divine, the promise of life without end, the promise of life without end.",
+      "audio_url": "moments/6_communion/A_Place_At_Your_Table.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Meditation",
       "singer": "",
-      "title": "I, the Lord",
-      "author": "Tom Kendzia",
-      "snippet": "I, the Lord, am with you, always by your side. Come and take my hand, for I will lead you home. Follow me, follow me. Follow me, follow me.",
-      "audio_url": "moments/7_meditation/I_The_Lord.mp3",
+      "title": "As the Deer Longs",
+      "author": "Bob Hurd",
+      "snippet": "As the deer longs for running streams, so I long, so I long, so I long for you.",
+      "audio_url": "moments/7_meditation/As_The_Deer_Longs.mp3",
       "lyric_url": ""
     },
     {
       "moment": "Recessional",
       "singer": "",
-      "title": "Go Out, Go Out",
-      "author": "Curtis Stephan",
-      "snippet": "Go out, go out to all the world and tell the Good News. Tell the Good... Good News!",
-      "audio_url": "moments/8_recessional/Go_Out_Go_Out.mp3",
+      "title": "Go Make a Difference",
+      "author": "Steve Angrisano / Tom Tomaszek",
+      "snippet": "Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world. Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world.",
+      "audio_url": "moments/8_recessional/Go_Make_A_Difference.mp3",
       "lyric_url": ""
     },
     {

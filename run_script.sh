@@ -65,15 +65,10 @@ select script in extractMetaFromSongTxt.js updateMyDataFromMoments.js mergeTextF
       node tools/extractMetaFromSongTxt.js && \
       node tools/updateMyDataFromMoments.js && \
       node tools/mergeTextFiles.js && \
-      node tools/convertTxtToDocx.js && \
+      node tools/convertTxtToDocx_simple.js && \
+      node tools/convertTxtToPdf.js && \
       node tools/buildAndMergePdfs.js
-      if [ -f pdfs/lyrics.docx ]; then
-        echo "Converting lyrics.docx to lyrics.pdf..."
-        libreoffice --headless --convert-to pdf pdfs/lyrics.docx --outdir pdfs
-        echo "lyrics.pdf created in pdfs/"
-      else
-        echo "lyrics.docx not found, skipping PDF conversion."
-      fi
+      echo "lyrics.docx and lyrics.pdf created in pdfs/"
       echo "All weekly update scripts completed."
       break
       ;;
