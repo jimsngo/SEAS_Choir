@@ -128,6 +128,18 @@ app.post('/upload', upload.fields([
       const file = files[type][0];
       const destDir = type === 'mp3' ? '../mp3s' : type === 'pdf' ? '../pdfs' : '../lyrics';
       const destPath = path.join(__dirname, destDir, file.originalname);
+
+      // Delete old file for this moment/type if it exists and is different
+      const momentsData = fs.existsSync(momentsFile) ? JSON.parse(fs.readFileSync(momentsFile, 'utf8')) : [];
+      const momentName = req.body.moment;
+      const momentObj = momentsData.find(m => m.moment === momentName);
+      if (momentObj && momentObj[type]) {
+        const oldPath = path.join(__dirname, '..', momentObj[type]);
+        if (fs.existsSync(oldPath) && path.basename(oldPath) !== file.originalname) {
+          try { fs.unlinkSync(oldPath); } catch (e) { /* ignore */ }
+        }
+      }
+
       fs.renameSync(file.path, destPath);
       // Save relative path only
       const relPath = path.relative(path.join(__dirname, '..'), destPath);
