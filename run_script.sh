@@ -30,13 +30,52 @@ cd "$(dirname "$0")"
 
 PS3="Select a script to run: "
 
-select script in extractMetaFromSongTxt.js updateMyDataFromMoments.js mergeTextFiles.js buildAndMergePdfs.js "Weekly Update (All Above)" "Push to GitHub" "Reset Git History (Fresh Initial Commit)" "Quit"; do
-  case $script in
-    "Quit")
-      echo "Exiting."
+
+echo "SEAS Choir Automation Script Runner"
+echo "-----------------------------------"
+PS3="Select an option: "
+
+select opt in \
+  "Start App Server" \
+  "Extract Metadata (from TXT files)" \
+  "Generate Music PDF (buildAndMergePdfs.js)" \
+  "Generate Lyrics PDF (buildAndMergeTxtToPdf.js)" \
+  "Push to GitHub" \
+  "Reset Git History (Fresh Initial Commit)" \
+  "Quit"; do
+  case $REPLY in
+    1|2)
+      # For Start App Server and Extract Metadata, always restart the server and open browser
+      SERVER_PID=$(lsof -ti:3000)
+      if [ -n "$SERVER_PID" ]; then
+        echo "Stopping existing app server on port 3000 (PID: $SERVER_PID)..."
+        kill $SERVER_PID
+        sleep 2
+      fi
+      if [ "$REPLY" = "2" ]; then
+        echo "Running: node tools/extractMetaFromSongTxt.js"
+        node tools/extractMetaFromSongTxt.js
+      fi
+      echo "Starting app server (file-upload-app)..."
+      cd file-upload-app && npm start &
+      cd ..
+      echo "App server started on http://localhost:3000."
+      sleep 2
+      echo "Opening http://localhost:3000/app.html in your browser..."
+      open http://localhost:3000/app.html
       break
       ;;
-    "Push to GitHub")
+    3)
+      echo "Running: node tools/buildAndMergePdfs.js"
+      node tools/buildAndMergePdfs.js
+      break
+      ;;
+    4)
+      echo "Running: node tools/buildAndMergeTxtToPdf.js"
+      node tools/buildAndMergeTxtToPdf.js
+      break
+      ;;
+    5)
       echo "Pushing changes to GitHub..."
       git add .
       git commit -m "Weekly update and automation changes"
@@ -44,7 +83,7 @@ select script in extractMetaFromSongTxt.js updateMyDataFromMoments.js mergeTextF
       echo "Changes pushed to GitHub."
       break
       ;;
-    "Reset Git History (Fresh Initial Commit)")
+    6)
       echo "This will erase all previous git history and force-push a new initial commit."
       read -p "Are you sure? Type YES to continue: " confirm
       if [ "$confirm" = "YES" ]; then
@@ -60,25 +99,12 @@ select script in extractMetaFromSongTxt.js updateMyDataFromMoments.js mergeTextF
       fi
       break
       ;;
-    "Weekly Update (All Above)")
-      echo "Running all weekly update scripts..."
-      node tools/extractMetaFromSongTxt.js && \
-      node tools/updateMyDataFromMoments.js && \
-      node tools/mergeTextFiles.js && \
-      node tools/convertTxtToDocx_simple.js && \
-      node tools/convertTxtToPdf.js && \
-      node tools/buildAndMergePdfs.js
-      echo "lyrics.docx and lyrics.pdf created in pdfs/"
-      echo "All weekly update scripts completed."
+    7)
+      echo "Exiting."
       break
-      ;;
-    "")
-      echo "Invalid option."
       ;;
     *)
-      echo "Running: node tools/$script"
-      node "tools/$script"
-      break
+      echo "Invalid option."
       ;;
   esac
 done
