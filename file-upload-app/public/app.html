@@ -40,51 +40,10 @@
     <div id="moment-progress" class="mt-2" style="display:none;"></div>
     <div id="result" class="mt-4"></div>
 
-    <!-- Automation Task Buttons -->
-    <div class="container my-5">
-      <div class="card border-secondary">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-3">Automation Tasks</h5>
-          <div class="d-flex flex-wrap justify-content-center gap-3">
-            <button id="btn-extract-meta" class="btn btn-outline-primary">Extract Metadata</button>
-            <button id="btn-gen-music-pdf" class="btn btn-outline-success">Generate Music PDF</button>
-            <button id="btn-gen-lyrics-pdf" class="btn btn-outline-info">Generate Lyrics PDF</button>
-            <button id="btn-push-github" class="btn btn-outline-dark">Push to GitHub</button>
-          </div>
-          <div id="automation-result" class="mt-3"></div>
-        </div>
-      </div>
-    </div>
+
 
   <script>
-    // Automation Task Button Handlers (placeholders)
-    function showAutomationProgress(msg) {
-      document.getElementById('automation-result').innerHTML = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>${msg}`;
-    }
-    document.getElementById('btn-extract-meta').onclick = async function() {
-      showAutomationProgress('Extracting metadata...');
-      const res = await fetch('/run-automation', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({task: 'extract-metadata'})});
-      const data = await res.json();
-      document.getElementById('automation-result').textContent = data.message || 'Metadata extraction triggered.';
-    };
-    document.getElementById('btn-gen-music-pdf').onclick = async function() {
-      showAutomationProgress('Generating music PDF...');
-      const res = await fetch('/run-automation', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({task: 'generate-music-pdf'})});
-      const data = await res.json();
-      document.getElementById('automation-result').textContent = data.message || 'Music PDF generation triggered.';
-    };
-    document.getElementById('btn-gen-lyrics-pdf').onclick = async function() {
-      showAutomationProgress('Generating lyrics PDF...');
-      const res = await fetch('/run-automation', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({task: 'generate-lyrics-pdf'})});
-      const data = await res.json();
-      document.getElementById('automation-result').textContent = data.message || 'Lyrics PDF generation triggered.';
-    };
-    document.getElementById('btn-push-github').onclick = async function() {
-      showAutomationProgress('Pushing to GitHub...');
-      const res = await fetch('/run-automation', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({task: 'push-github'})});
-      const data = await res.json();
-      document.getElementById('automation-result').textContent = data.message || 'Push to GitHub triggered.';
-    };
+
 
 
     // Fetch mass_info.json first
@@ -175,62 +134,62 @@
         const collapseId = `collapse-upload-${idx}`;
         const block = document.createElement('div');
         block.className = 'card mb-4';
-        block.innerHTML = `
-          <div class="card-header bg-primary text-white">
-            <h5 class="mb-0">${momentName}</h5>
-          </div>
-          <div class="card-body">
-            <table class="table table-bordered align-middle mb-4">
-              <tbody>
-                <tr>
-                  <th style="width:25%">Title</th>
-                  <td style="white-space:pre-wrap;word-break:break-word;">${meta.title || ''}</td>
-                </tr>
-                <tr>
-                  <th>Author</th>
-                  <td style="white-space:pre-wrap;word-break:break-word;">${meta.author || ''}</td>
-                </tr>
-                <tr>
-                  <th>Snippet</th>
-                  <td style="white-space:pre-wrap;word-break:break-word;">${meta.snippet || ''}</td>
-                </tr>
-                <tr>
-                  <th>Current MP3</th>
-                  <td style="white-space:pre-wrap;word-break:break-word;">${meta.mp3 || ''}</td>
-                </tr>
-                <tr>
-                  <th>Current PDF</th>
-                  <td style="white-space:pre-wrap;word-break:break-word;">${meta.pdf || ''}</td>
-                </tr>
-                <tr>
-                  <th>Current Lyrics/TXT</th>
-                  <td style="white-space:pre-wrap;word-break:break-word;">${meta.lyrics || ''}</td>
-                </tr>
-              </tbody>
-            </table>
-            <button class="btn btn-outline-secondary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}" style="font-size:1.2em;">
-              <span class="fw-bold">+</span> Upload Files
-            </button>
-            <div id="${collapseId}" class="collapse">
-              <form class="moment-upload-form mt-3" data-moment="${momentName}">
-                <div class="mb-3">
-                  <label class="form-label">Upload MP3 File</label>
-                  <input type="file" class="form-control" name="mp3" accept=".mp3">
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Upload PDF File</label>
-                  <input type="file" class="form-control" name="pdf" accept=".pdf">
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Upload Lyrics/Text File</label>
-                  <input type="file" class="form-control" name="txt" accept=".txt">
-                </div>
-                <button type="submit" class="btn btn-primary">Upload</button>
-                <div class="moment-result mt-2"></div>
-              </form>
+          block.innerHTML = `
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0">${momentName}</h5>
             </div>
-          </div>
-        `;
+            <div class="card-body">
+              <table class="table table-bordered align-middle mb-4">
+                <tbody>
+                  <tr>
+                    <th style="width:25%">Title</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.title || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>Author</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.author || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>Snippet</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.snippet || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>MP3</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.mp3 || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>PDF</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.pdf || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>TXT</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.txt || ''}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="btn btn-outline-secondary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}" style="font-size:1.2em;">
+                <span class="fw-bold">+</span> Upload Files
+              </button>
+              <div id="${collapseId}" class="collapse">
+                <form class="moment-upload-form mt-3" data-moment="${momentName}">
+                  <div class="mb-3">
+                    <label class="form-label">Upload MP3 File</label>
+                    <input type="file" class="form-control" name="mp3" accept=".mp3">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Upload PDF File</label>
+                    <input type="file" class="form-control" name="pdf" accept=".pdf">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Upload TXT File</label>
+                    <input type="file" class="form-control" name="text" accept=".txt">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Upload</button>
+                  <div class="moment-result mt-2"></div>
+                </form>
+              </div>
+            </div>
+          `;
         container.appendChild(block);
       });
 
@@ -247,6 +206,14 @@
           });
           const data = await res.json();
           form.querySelector('.moment-result').textContent = data.success ? 'Files uploaded!' : 'Upload failed.';
+          // If a TXT file was uploaded, trigger metadata extraction
+          if (form.querySelector('input[name="text"]').files.length > 0 && data.success) {
+            await fetch('/run-automation', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ task: 'extract-metadata' })
+            });
+          }
         };
       });
     });

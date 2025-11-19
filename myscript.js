@@ -52,8 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
         html_template.find(".snippet").text(element.snippet ? element.snippet : "");
 
         // Audio file (if present)
-        if (element.mp3) {
-          html_template.find(".audio_url").attr("src", element.mp3);
+        let mp3Path = element.mp3 || '';
+        if (mp3Path) {
+          html_template.find(".audio_url").attr("src", mp3Path);
         } else {
           html_template.find(".audio_url").remove();
         }

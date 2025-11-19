@@ -27,6 +27,7 @@
 # Last updated: 2025-09-30
 
 cd "$(dirname "$0")"
+cd /Users/jim/SEAS_Choir
 
 PS3="Select a script to run: "
 
@@ -53,8 +54,8 @@ select opt in \
         sleep 2
       fi
       if [ "$REPLY" = "2" ]; then
-        echo "Running: node tools/extractMetaFromSongTxt.js"
-        node tools/extractMetaFromSongTxt.js
+        echo "Running: node extractMetaFromSongTxt.js"
+        node extractMetaFromSongTxt.js
       fi
       echo "Starting app server (file-upload-app)..."
       cd file-upload-app && npm start &
@@ -66,13 +67,13 @@ select opt in \
       break
       ;;
     3)
-      echo "Running: node tools/buildAndMergePdfs.js"
-      node tools/buildAndMergePdfs.js
+      echo "Running: node buildAndMergePdfs.js"
+      node buildAndMergePdfs.js
       break
       ;;
     4)
-      echo "Running: node tools/buildAndMergeTxtToPdf.js"
-      node tools/buildAndMergeTxtToPdf.js
+      echo "Running: node buildAndMergeTxtToPdf.js"
+      node buildAndMergeTxtToPdf.js
       break
       ;;
     5)

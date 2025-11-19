@@ -15,7 +15,7 @@ const { exec } = require('child_process');
 app.post('/run-automation', (req, res) => {
   const { task } = req.body || {};
   if (task === 'extract-metadata') {
-    exec('node tools/extractMetaFromSongTxt.js', { cwd: __dirname + '/..' }, (error, stdout, stderr) => {
+    exec('node extractMetaFromSongTxt.js', { cwd: __dirname + '/..' }, (error, stdout, stderr) => {
       if (error) {
         return res.json({ success: false, message: 'Metadata extraction failed.', error: stderr || error.message });
       }
@@ -44,6 +44,11 @@ app.post('/run-automation', (req, res) => {
 
 // Serve static files from public directory (for /app.html and assets)
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Serve app.html as the default page for '/'
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'app.html'));
+});
 
 // Serve mass_info.json for mass section defaults
 app.get('/mass_info.json', (req, res) => {
@@ -112,133 +117,94 @@ app.use((err, req, res, next) => {
 });
 
 
+
 // Set up Multer for file uploads
 const upload = multer({ dest: 'uploads/' });
 
+// Handle uploads for mp3, pdf, and txt, save to correct folders, and update moments.json
 app.post('/upload', upload.fields([
   { name: 'mp3', maxCount: 1 },
   { name: 'pdf', maxCount: 1 },
-  { name: 'txt', maxCount: 1 }
+  { name: 'text', maxCount: 1 }
 ]), (req, res) => {
   const files = req.files;
-  let result = {};
-  let mp3Path = '', pdfPath = '', txtPath = '';
-  ['mp3', 'pdf', 'txt'].forEach(type => {
-    if (files && files[type]) {
-      const file = files[type][0];
-      const destDir = type === 'mp3' ? '../mp3s' : type === 'pdf' ? '../pdfs' : '../lyrics';
-      const destPath = path.join(__dirname, destDir, file.originalname);
-
-      // Delete old file for this moment/type if it exists and is different
-      const momentsData = fs.existsSync(momentsFile) ? JSON.parse(fs.readFileSync(momentsFile, 'utf8')) : [];
-      const momentName = req.body.moment;
-      const momentObj = momentsData.find(m => m.moment === momentName);
-      if (momentObj && momentObj[type]) {
-        const oldPath = path.join(__dirname, '..', momentObj[type]);
-        if (fs.existsSync(oldPath) && path.basename(oldPath) !== file.originalname) {
-          try { fs.unlinkSync(oldPath); } catch (e) { /* ignore */ }
-        }
-      }
-
-      fs.renameSync(file.path, destPath);
-      // Save relative path only
-      const relPath = path.relative(path.join(__dirname, '..'), destPath);
-      result[type] = relPath;
-      if (type === 'mp3') mp3Path = relPath;
-      if (type === 'pdf') pdfPath = relPath;
-      if (type === 'txt') txtPath = relPath;
-    }
-  });
-
-  // Update moments.json with new file links and extract metadata from TXT
   const momentName = req.body.moment;
   const momentsFile = path.join(__dirname, '../moments.json');
-  fs.readFile(momentsFile, 'utf8', (err, data) => {
-    if (err) {
-      // If error reading, just respond with upload result
-      return res.json({ success: true, files: result, error: 'Could not update moments.json' });
-    }
-    let moments = [];
+  let moments = [];
+  if (fs.existsSync(momentsFile)) {
     try {
-      moments = JSON.parse(data);
-    } catch (parseErr) {
-      return res.json({ success: true, files: result, error: 'Could not parse moments.json' });
-    }
-    // Extract metadata from TXT file if uploaded
-    let meta = {};
-    if (txtPath) {
-      try {
-        const txtFullPath = path.join(__dirname, '..', txtPath);
-        if (fs.existsSync(txtFullPath)) {
-          const lines = fs.readFileSync(txtFullPath, 'utf8').split(/\r?\n/);
-          let currentSection = null;
-          let buffer = [];
-          let foundTitle = false, foundAuthor = false;
-          let snippetSections = {};
-          for (let i = 0; i < lines.length; i++) {
-            const line = lines[i].trim();
-            const sectionMatch = line.match(/^\[(.+?)\]$/);
-            if (sectionMatch) {
-              if (currentSection && buffer.length) {
-                const content = buffer.join(' ').trim();
-                if (currentSection === 'Title' && !foundTitle) {
-                  meta.title = content;
-                  foundTitle = true;
-                } else if (currentSection === 'Author' && !foundAuthor) {
-                  meta.author = content;
-                  foundAuthor = true;
-                } else if (["Response","Refrain","Acclamation","Verse","Verse 1"].includes(currentSection)) {
-                  snippetSections[currentSection] = content;
-                }
-              }
-              currentSection = sectionMatch[1];
-              buffer = [];
-            } else if (currentSection) {
-              buffer.push(line);
-            }
-          }
-          if (currentSection && buffer.length) {
-            const content = buffer.join(' ').trim();
-            if (currentSection === 'Title' && !foundTitle) {
-              meta.title = content;
-            } else if (currentSection === 'Author' && !foundAuthor) {
-              meta.author = content;
-            } else if (["Response","Refrain","Acclamation","Verse","Verse 1"].includes(currentSection)) {
-              snippetSections[currentSection] = content;
-            }
-          }
-          meta.snippet = snippetSections['Response'] || snippetSections['Refrain'] || snippetSections['Acclamation'] || snippetSections['Verse 1'] || snippetSections['Verse'] || '';
-        }
-      } catch (e) {
-        // Ignore extraction errors
+      moments = JSON.parse(fs.readFileSync(momentsFile, 'utf8'));
+    } catch (e) { moments = []; }
+  }
+  const momentObj = moments.find(m => m.moment === momentName);
+  if (!momentObj) {
+    return res.status(400).json({ success: false, error: 'Moment not found' });
+  }
+  // MP3
+  if (files && files['mp3']) {
+    // Delete old mp3 if it exists
+    if (momentObj.mp3) {
+      const oldMp3Path = path.join(__dirname, '..', momentObj.mp3);
+      if (fs.existsSync(oldMp3Path)) {
+        try { fs.unlinkSync(oldMp3Path); } catch (e) { /* ignore */ }
       }
     }
-    // Find the moment and update file links and metadata
-    let updated = false;
-    for (let m of moments) {
-      if (m.moment === momentName) {
-        if (mp3Path) m.mp3 = mp3Path;
-        if (pdfPath) m.pdf = pdfPath;
-        if (txtPath) {
-          m.lyrics = txtPath;
-          m.title = meta.title || '';
-          m.author = meta.author || '';
-          m.snippet = meta.snippet || '';
-        }
-        updated = true;
+    const file = files['mp3'][0];
+    const destDir = path.join(__dirname, '../mp3s');
+    if (!fs.existsSync(destDir)) fs.mkdirSync(destDir);
+    const destPath = path.join(destDir, file.originalname);
+    fs.renameSync(file.path, destPath);
+    momentObj.mp3 = path.relative(path.join(__dirname, '..'), destPath);
+    if ('external_mp3' in momentObj) delete momentObj.external_mp3;
+  }
+  // PDF
+  if (files && files['pdf']) {
+    // Delete old pdf if it exists
+    if (momentObj.pdf) {
+      const oldPdfPath = path.join(__dirname, '..', momentObj.pdf);
+      if (fs.existsSync(oldPdfPath)) {
+        try { fs.unlinkSync(oldPdfPath); } catch (e) { /* ignore */ }
       }
     }
-    if (updated) {
-      fs.writeFile(momentsFile, JSON.stringify(moments, null, 2), err2 => {
-        if (err2) {
-          return res.json({ success: true, files: result, error: 'Could not write moments.json' });
-        }
-        res.json({ success: true, files: result });
-      });
-    } else {
-      res.json({ success: true, files: result, error: 'Moment not found in moments.json' });
+    const file = files['pdf'][0];
+    const destDir = path.join(__dirname, '../pdfs');
+    if (!fs.existsSync(destDir)) fs.mkdirSync(destDir);
+    const destPath = path.join(destDir, file.originalname);
+    fs.renameSync(file.path, destPath);
+    momentObj.pdf = path.relative(path.join(__dirname, '..'), destPath);
+    if ('external_pdf' in momentObj) delete momentObj.external_pdf;
+  }
+  // TXT
+  let extractionOutput = '';
+  if (files && files['text']) {
+    // Delete old txt if it exists
+    if (momentObj.txt) {
+      const oldTxtPath = path.join(__dirname, '..', momentObj.txt);
+      if (fs.existsSync(oldTxtPath)) {
+        try { fs.unlinkSync(oldTxtPath); } catch (e) { /* ignore */ }
+      }
     }
-  });
+    const file = files['text'][0];
+    const destDir = path.join(__dirname, '../lyrics');
+    if (!fs.existsSync(destDir)) fs.mkdirSync(destDir);
+    const destPath = path.join(destDir, file.originalname);
+    fs.renameSync(file.path, destPath);
+    momentObj.txt = path.relative(path.join(__dirname, '..'), destPath);
+    if ('external_text' in momentObj) delete momentObj.external_text;
+    // Run metadata extraction synchronously and capture output
+    try {
+      const execSync = require('child_process').execSync;
+      extractionOutput = execSync('node extractMetaFromSongTxt.js', { cwd: path.join(__dirname, '..'), encoding: 'utf8' });
+    } catch (err) {
+      extractionOutput = err.stdout ? err.stdout.toString() : '';
+      extractionOutput += err.stderr ? err.stderr.toString() : '';
+      extractionOutput += err.message;
+    }
+  }
+  // Remove old fields if present
+  if ('lyrics' in momentObj) delete momentObj.lyrics;
+  fs.writeFileSync(momentsFile, JSON.stringify(moments, null, 2));
+  res.json({ success: true, extractionOutput });
 });
 
 app.listen(PORT, () => {
