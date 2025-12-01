@@ -1,0 +1,17 @@
+# Dependency and environment folders
+node_modules/
+.venv/
+.DS_Store
+
+# Build artifacts and generated files
+pdfs/
+lyrics/
+uploads/
+
+# Ignore all PDFs except these
+!music.pdf
+!lyrics.pdf
+
+# Editor and repo config (optional)
+.vscode/
+# .github/  # Remove this line if you want to track GitHub Actions/workflows

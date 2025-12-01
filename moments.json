@@ -1,0 +1,130 @@
+[
+  {
+    "moment": "Entrance",
+    "title": "Dwell in Us",
+    "author": "Francesca LaRosa",
+    "snippet": "O people of Sion, behold, the Lord will come to save the nations, and the Lord will make the glory of his voice heard in the joy of your heart.",
+    "txt": "lyrics/Entrance_Antiphon_Dwell_In_Us_Advent2_LaRosa.txt",
+    "mp3": "mp3s/Entrance_Antiphon_Dwell_In_Us_Advent2_LaRosa.mp3",
+    "pdf": "pdfs/Entrance_Antiphon_Dwell_In_Us_Advent2_LaRosa.pdf"
+  },
+  {
+    "moment": "Responsorial Psalm",
+    "title": "Psalm 72",
+    "author": "Francesca LaRosa",
+    "snippet": "Justice shall flourish in his time, and fullness of peace for ever.",
+    "txt": "lyrics/Psalm_72_Justice_shall_flourish_in_his_time_LaRosa.txt",
+    "mp3": "mp3s/Psalm_72_Justice_shall_flourish_in_his_time_LaRosa.mp3",
+    "pdf": "pdfs/Psalm_72_Justice_shall_flourish_in_his_time_LaRosa.pdf"
+  },
+  {
+    "moment": "Gospel Acclamation",
+    "singer": "",
+    "title": "Luke 3:4, 6",
+    "author": "SP2026",
+    "snippet": "Prepare the way of the Lord, make straight his paths; All flesh shall see the salvation of God.",
+    "txt": "lyrics/Acclamation_Advent2_SP2026.txt",
+    "mp3": "mp3s/Acclamation_Advent2_SP2026.mp3",
+    "pdf": "pdfs/Acclamation_Advent2_SP2026.pdf"
+  },
+  {
+    "moment": "Offertory",
+    "title": "Come, Emmanuel",
+    "author": "Trevor Thomson",
+    "snippet": "Come, O God, within our hearts, within our souls. Come, O God, with healing pow’r renew us.",
+    "txt": "lyrics/Come_Emmanuel.txt",
+    "mp3": "mp3s/Come_Emmanuel.mp3",
+    "pdf": "pdfs/Come_Emmanuel.pdf"
+  },
+  {
+    "moment": "Communion Antiphon",
+    "title": "LR-9",
+    "author": "Let Us All Rejoice",
+    "snippet": "Jerusalem, arise and stand upon the heights, and behold the joy which comes to you from God.",
+    "txt": "lyrics/LR9.txt",
+    "mp3": "mp3s/LR9.mp3",
+    "pdf": "pdfs/LR9.pdf"
+  },
+  {
+    "moment": "Communion",
+    "title": "Come, Lord! Maranatha",
+    "author": "Ricky Manalo CSP",
+    "snippet": "Now is the time; prepare the way; salvation is close at hand. Make straight the paths of the Lord. Lift up your voices and pray:",
+    "txt": "lyrics/Come_Lord_Maranatha_Week2.txt",
+    "mp3": "mp3s/Come_Lord_Maranatha.mp3",
+    "pdf": "pdfs/Come_Lord_Maranatha_Week2.pdf"
+  },
+  {
+    "moment": "Meditation",
+    "title": "Come To Us",
+    "author": "Greg Walton",
+    "snippet": "Scattered and broken, bent in our way, we are your people gathered to praise you. A vineyard uprooted, narrow in sight. Come, Lord of Glory! Come, Lord of Light!",
+    "txt": "lyrics/Come_To_Us_Advent.txt",
+    "mp3": "mp3s/Come_To_Us.mp3",
+    "pdf": "pdfs/Come_To_Us_Musescore(1).pdf"
+  },
+  {
+    "moment": "Recessional",
+    "singer": "",
+    "title": "Soon and Very Soon",
+    "author": "Andrae Crouch",
+    "snippet": "Soon and very soon, We are going to see the King; Soon and very soon, We are going to see the King; Soon and very soon, We are going to see the King; Hallelujah! Hallelujah! We’re going to see the King.",
+    "txt": "lyrics/Soon_and_Very_Soon.txt",
+    "mp3": "mp3s/Soon and very soon .mp3",
+    "pdf": "pdfs/Soon_and_Very_Soon_SUNO.pdf"
+  },
+  {
+    "moment": "Lord Have Mercy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lord, have mercy. Christ have mercy. Lord have mercy",
+    "mp3": "mp3s/Lord_Have_Mercy_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Glory to God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+    "mp3": "mp3s/Glory_to_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Holy Holy Holy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+    "mp3": "mp3s/Holy_Mass_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "When We Eat This Bread",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "When we eat this bread and drink this cup, we proclaim your death, O Lord, until you come again.",
+    "mp3": "mp3s/When_We_Eat_This_Bread_Sarah_Hart_Choral.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Amen",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Amen, Amen, Amen, Amen, Amen.",
+    "mp3": "mp3s/Amen_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Lamb of God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
+    "mp3": "mp3s/Lamb_of_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  }
+]
