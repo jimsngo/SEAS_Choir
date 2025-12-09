@@ -3,75 +3,75 @@
     "moment": "Entrance",
     "title": "Dwell in Us",
     "author": "Francesca LaRosa",
-    "snippet": "O people of Sion, behold, the Lord will come to save the nations, and the Lord will make the glory of his voice heard in the joy of your heart.",
-    "txt": "lyrics/Entrance_Antiphon_Dwell_In_Us_Advent2_LaRosa.txt",
-    "mp3": "mp3s/Entrance_Antiphon_Dwell_In_Us_Advent2_LaRosa.mp3",
-    "pdf": "pdfs/Entrance_Antiphon_Dwell_In_Us_Advent2_LaRosa.pdf"
+    "snippet": "Rejoice in the Lord always; again I say, rejoice! Indeed, the Lord is near. Indeed, the Lord is near.",
+    "txt": "lyrics/Dwell_In_Us_Advent3_LaRosa.txt",
+    "mp3": "mp3s/Dwell_In_Us_Advent3_LaRosa.mp3",
+    "pdf": "pdfs/Dwell_In_Us_Advent3_LaRosa.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 72",
-    "author": "Francesca LaRosa",
-    "snippet": "Justice shall flourish in his time, and fullness of peace for ever.",
-    "txt": "lyrics/Psalm_72_Justice_shall_flourish_in_his_time_LaRosa.txt",
-    "mp3": "mp3s/Psalm_72_Justice_shall_flourish_in_his_time_LaRosa.mp3",
-    "pdf": "pdfs/Psalm_72_Justice_shall_flourish_in_his_time_LaRosa.pdf"
+    "title": "Psalm 146: 6-7, 8-9, 9-10",
+    "author": "SP2026",
+    "snippet": "Lord, come and save us.",
+    "txt": "lyrics/Psalm_146_Lord_Come_and_Save_Us.txt",
+    "mp3": "mp3s/Psalm_146_Lord_Come_and_Save_us_SP2026.mp3",
+    "pdf": "pdfs/Psalm_146_Lord_come_and_save_us_SP2026.pdf"
   },
   {
     "moment": "Gospel Acclamation",
     "singer": "",
-    "title": "Luke 3:4, 6",
-    "author": "SP2026",
-    "snippet": "Prepare the way of the Lord, make straight his paths; All flesh shall see the salvation of God.",
-    "txt": "lyrics/Acclamation_Advent2_SP2026.txt",
-    "mp3": "mp3s/Acclamation_Advent2_SP2026.mp3",
-    "pdf": "pdfs/Acclamation_Advent2_SP2026.pdf"
+    "title": "Isaiah 61:1",
+    "author": "Steve Angrisano - SP2026",
+    "snippet": "The Spirit of the Lord is upon me, because he has anointed me to bring glad tidings to the poor.",
+    "txt": "lyrics/Acclamation_Advent3_SP2026.txt",
+    "mp3": "mp3s/Acclamation_Advent3_SP2026.mp3",
+    "pdf": "pdfs/Acclamation_Advent3_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Come, Emmanuel",
-    "author": "Trevor Thomson",
-    "snippet": "Come, O God, within our hearts, within our souls. Come, O God, with healing pow’r renew us.",
-    "txt": "lyrics/Come_Emmanuel.txt",
-    "mp3": "mp3s/Come_Emmanuel.mp3",
-    "pdf": "pdfs/Come_Emmanuel.pdf"
+    "title": "Come, Lord Jesus",
+    "author": "M.D. Ridge",
+    "snippet": "When the darkness closes in, Come, Lord Jesus! Courage fails and hopes grow dim. Lord Jesus, come! Clear the shadows from our sight; set our troubled world aright. Fill our eyes with radiant light. Lord Jesus, come!",
+    "txt": "lyrics/Come_Lord_Jesus_MD_Ridge.txt",
+    "mp3": "mp3s/Come_Lord_Jesus_MD_Ridge.mp3",
+    "pdf": "pdfs/Come_Lord_Jesus_MD_Ridge.pdf"
   },
   {
     "moment": "Communion Antiphon",
-    "title": "LR-9",
-    "author": "Let Us All Rejoice",
-    "snippet": "Jerusalem, arise and stand upon the heights, and behold the joy which comes to you from God.",
-    "txt": "lyrics/LR9.txt",
-    "mp3": "mp3s/LR9.mp3",
-    "pdf": "pdfs/LR9.pdf"
+    "title": "LR-11",
+    "author": "Curtis Stephan - SP2026",
+    "snippet": "Say to the faint of heart: Be strong and do not fear. Behold, our God will come, and he will save us.",
+    "txt": "lyrics/LR11.txt",
+    "mp3": "mp3s/LR11.mp3",
+    "pdf": "pdfs/LR11.pdf"
   },
   {
     "moment": "Communion",
-    "title": "Come, Lord! Maranatha",
-    "author": "Ricky Manalo CSP",
-    "snippet": "Now is the time; prepare the way; salvation is close at hand. Make straight the paths of the Lord. Lift up your voices and pray:",
-    "txt": "lyrics/Come_Lord_Maranatha_Week2.txt",
-    "mp3": "mp3s/Come_Lord_Maranatha.mp3",
-    "pdf": "pdfs/Come_Lord_Maranatha_Week2.pdf"
+    "title": "Maranatha",
+    "author": "Gerard Chiusano",
+    "snippet": "Maranatha, we long for your peace. Maranatha, we long for your mercy. Maranatha, we long for your coming, O God.",
+    "txt": "lyrics/Maranatha.txt",
+    "mp3": "mp3s/Maranatha.mp3",
+    "pdf": "pdfs/Maranatha.pdf"
   },
   {
     "moment": "Meditation",
-    "title": "Come To Us",
-    "author": "Greg Walton",
-    "snippet": "Scattered and broken, bent in our way, we are your people gathered to praise you. A vineyard uprooted, narrow in sight. Come, Lord of Glory! Come, Lord of Light!",
-    "txt": "lyrics/Come_To_Us_Advent.txt",
-    "mp3": "mp3s/Come_To_Us.mp3",
-    "pdf": "pdfs/Come_To_Us_Musescore(1).pdf"
+    "title": "The Memorare",
+    "author": "Sarah Hart, Francesca LaRosa, St. Bernard",
+    "snippet": "Remember, O most gracious Virgin Mary, that never was it known  that anyone who fled to thy protection,  implored thy help,  or sought thy intercession, was left unaided.  Inspired by this confidence I fly unto thee, O Virgin of virgins, my Mother. To thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen.",
+    "txt": "lyrics/The_Memorare_LaRosa_Hart.txt",
+    "mp3": "mp3s/The_Memorare_LaRosa_Hart.mp3",
+    "pdf": "pdfs/The_Memorare_LaRosa_Hart.pdf"
   },
   {
     "moment": "Recessional",
     "singer": "",
-    "title": "Soon and Very Soon",
-    "author": "Andrae Crouch",
-    "snippet": "Soon and very soon, We are going to see the King; Soon and very soon, We are going to see the King; Soon and very soon, We are going to see the King; Hallelujah! Hallelujah! We’re going to see the King.",
-    "txt": "lyrics/Soon_and_Very_Soon.txt",
-    "mp3": "mp3s/Soon and very soon .mp3",
-    "pdf": "pdfs/Soon_and_Very_Soon_SUNO.pdf"
+    "title": "Psalm 25 (Advent)",
+    "author": "SUNO AI x Jim Ngo",
+    "snippet": "Show me your ways, Lord, teach me your paths. Guide me in your truth and teach me, for you are God my Savior, and my hope is in you all day long.",
+    "txt": "lyrics/Show_Me_Your_Ways.txt",
+    "mp3": "mp3s/Show_Me_Your_Ways.mp3",
+    "pdf": "pdfs/Show_Me_Your_Ways.pdf"
   },
   {
     "moment": "Lord Have Mercy",
