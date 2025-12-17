@@ -3,56 +3,56 @@
     "moment": "Entrance",
     "title": "Dwell in Us",
     "author": "Francesca LaRosa",
-    "snippet": "Rejoice in the Lord always; again I say, rejoice! Indeed, the Lord is near. Indeed, the Lord is near.",
-    "txt": "lyrics/Dwell_In_Us_Advent3_LaRosa.txt",
-    "mp3": "mp3s/Dwell_In_Us_Advent3_LaRosa.mp3",
-    "pdf": "pdfs/Dwell_In_Us_Advent3_LaRosa.pdf"
+    "snippet": "Drop down dew from above, you heavens, and let the clouds rain down the Just One; let the earth be opened and bring forth a Savior",
+    "txt": "lyrics/Dwell_In_Us_Advent4_Year_A_LaRosa.txt",
+    "mp3": "mp3s/Dwell_In_Us_Advent4_Year_A_LaRosa.mp3",
+    "pdf": "pdfs/Dwell_In_Us_Advent4_Year_A_LaRosa.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 146: 6-7, 8-9, 9-10",
-    "author": "SP2026",
-    "snippet": "Lord, come and save us.",
-    "txt": "lyrics/Psalm_146_Lord_Come_and_Save_Us.txt",
-    "mp3": "mp3s/Psalm_146_Lord_Come_and_Save_us_SP2026.mp3",
-    "pdf": "pdfs/Psalm_146_Lord_come_and_save_us_SP2026.pdf"
+    "title": "Psalm 24",
+    "author": "Ben Walther - SP2026",
+    "snippet": "Let the Lord enter; he is king of glory.",
+    "txt": "lyrics/Psalm_24_Let_the_Lord_enter_SP2026.txt",
+    "mp3": "mp3s/Psalm_24_Let_the_Lord_enter_SP2026.mp3",
+    "pdf": "pdfs/Psalm_24_Let_the_Lord_enter_SP2026.pdf"
   },
   {
     "moment": "Gospel Acclamation",
     "singer": "David",
-    "title": "Isaiah 61:1",
+    "title": "Isaiah 7:14",
     "author": "Steve Angrisano - SP2026",
-    "snippet": "The Spirit of the Lord is upon me, because he has anointed me to bring glad tidings to the poor.",
-    "txt": "lyrics/Acclamation_Advent3_SP2026.txt",
-    "mp3": "mp3s/Acclamation_Advent3_SP2026.mp3",
-    "pdf": "pdfs/Acclamation_Advent3_SP2026.pdf"
+    "snippet": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel.",
+    "txt": "lyrics/Acclamation_Advent4_SP2026.txt",
+    "mp3": "mp3s/Acclamation_Advent4_SP2026.mp3",
+    "pdf": "pdfs/Acclamation_Advent4_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Come, Lord Jesus",
-    "author": "M.D. Ridge",
-    "snippet": "When the darkness closes in, Come, Lord Jesus! Courage fails and hopes grow dim. Lord Jesus, come! Clear the shadows from our sight; set our troubled world aright. Fill our eyes with radiant light. Lord Jesus, come!",
-    "txt": "lyrics/Come_Lord_Jesus_MD_Ridge.txt",
-    "mp3": "mp3s/Come_Lord_Jesus_MD_Ridge.mp3",
-    "pdf": "pdfs/Come_Lord_Jesus_MD_Ridge.pdf"
+    "title": "A Place at Your Table",
+    "author": "Ben Walther",
+    "snippet": "Happy the ones whom you call here to dine, the saint and the sinner, your friends. Now reconciled in this banquet divine, the promise of life without end, the promise of life without end.",
+    "txt": "lyrics/A_Place_At_Your_Table.txt",
+    "mp3": "mp3s/A_Place_At_Your_Table.mp3",
+    "pdf": "pdfs/A_Place_At_Your_Table_Musescore.pdf"
   },
   {
     "moment": "Communion Antiphon",
-    "title": "LR-11",
+    "title": "LR-13",
     "author": "Curtis Stephan - SP2026",
-    "snippet": "Say to the faint of heart: Be strong and do not fear. Behold, our God will come, and he will save us.",
-    "txt": "lyrics/LR11.txt",
-    "mp3": "mp3s/LR11.mp3",
-    "pdf": "pdfs/LR11.pdf"
+    "snippet": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel.",
+    "txt": "lyrics/LR13.txt",
+    "mp3": "mp3s/LR13.mp3",
+    "pdf": "pdfs/LR13.pdf"
   },
   {
     "moment": "Communion",
-    "title": "Maranatha",
-    "author": "Gerard Chiusano",
-    "snippet": "Maranatha, we long for your peace. Maranatha, we long for your mercy. Maranatha, we long for your coming, O God.",
-    "txt": "lyrics/Maranatha.txt",
-    "mp3": "mp3s/Maranatha.mp3",
-    "pdf": "pdfs/Maranatha.pdf"
+    "title": "Like a Child Rests",
+    "author": "Christopher Walker",
+    "snippet": "Like a child rests in its mother's arms, so will I rest in you.",
+    "txt": "lyrics/Like_A_Child_Rests.txt",
+    "mp3": "mp3s/Like_a_Child_Rests.mp3",
+    "pdf": "pdfs/Like_A_Child_Rests.pdf"
   },
   {
     "moment": "Meditation",
