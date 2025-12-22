@@ -1,67 +1,67 @@
 [
   {
     "moment": "Entrance",
-    "title": "Dwell in Us",
-    "author": "Francesca LaRosa",
-    "snippet": "Drop down dew from above, you heavens, and let the clouds rain down the Just One; let the earth be opened and bring forth a Savior",
-    "txt": "lyrics/Dwell_In_Us_Advent4_Year_A_LaRosa.txt",
-    "mp3": "mp3s/Dwell_In_Us_Advent4_Year_A_LaRosa.mp3",
-    "pdf": "pdfs/Dwell_In_Us_Advent4_Year_A_LaRosa.pdf"
+    "title": "O Come, All Ye Faithful",
+    "author": "ADESTE FIDELES",
+    "snippet": "O come, all ye faithful, joyful and triumphant, O come ye, O come ye to Bethlehem; Come and behold him, born the King of angels;",
+    "txt": "lyrics/O_Come_All_Ye_Faithful.txt",
+    "mp3": "mp3s/O_Come_All_Ye_Faithful.mp3",
+    "pdf": "pdfs/O_Come_All_Ye_Faithful_SATB.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 24",
-    "author": "Ben Walther - SP2026",
-    "snippet": "Let the Lord enter; he is king of glory.",
-    "txt": "lyrics/Psalm_24_Let_the_Lord_enter_SP2026.txt",
-    "mp3": "mp3s/Psalm_24_Let_the_Lord_enter_SP2026.mp3",
-    "pdf": "pdfs/Psalm_24_Let_the_Lord_enter_SP2026.pdf"
+    "title": "Psalm 89 - Forever I Will Sing",
+    "author": "SUNO AI x Jim Ngo",
+    "snippet": "Forever I will sing, the goodness of the Lord.",
+    "txt": "lyrics/Psalm89_Forever_I_Will_Sing.txt",
+    "mp3": "mp3s/Psalm_89_Forever_I_Will_Sing.mp3",
+    "pdf": "pdfs/Psalm89_Forever_I_Will_Sing.pdf"
   },
   {
     "moment": "Gospel Acclamation",
-    "singer": "David",
-    "title": "Isaiah 7:14",
-    "author": "Steve Angrisano - SP2026",
-    "snippet": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel.",
-    "txt": "lyrics/Acclamation_Advent4_SP2026.txt",
-    "mp3": "mp3s/Acclamation_Advent4_SP2026.mp3",
-    "pdf": "pdfs/Acclamation_Advent4_SP2026.pdf"
+    "singer": "",
+    "title": "Gospel Acclamation",
+    "author": "Curtis Stephan - SP2026",
+    "snippet": "Tomorrow the wickedness of the earth will be destroyed: The Savior of the world will reign over us.",
+    "txt": "lyrics/Accclamation_Nativity of the Lord_ Vigil_SP2026.txt",
+    "mp3": "mp3s/Accclamation_Nativity of the Lord_ Vigil_SP2026.mp3",
+    "pdf": "pdfs/Accclamation_Nativity of the Lord_ Vigil_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "A Place at Your Table",
-    "author": "Ben Walther",
-    "snippet": "Happy the ones whom you call here to dine, the saint and the sinner, your friends. Now reconciled in this banquet divine, the promise of life without end, the promise of life without end.",
-    "txt": "lyrics/A_Place_At_Your_Table.txt",
-    "mp3": "mp3s/A_Place_At_Your_Table.mp3",
-    "pdf": "pdfs/A_Place_At_Your_Table_Musescore.pdf"
+    "title": "We Adore",
+    "author": "Sarah Hart and Scott Krippayn",
+    "snippet": "We adore these tiny hands come down to reach us, come to make the lame to walk, the blind to see. We adore these hands for one day they will free us as they hold the sin-forged nails of Calvary.",
+    "txt": "lyrics/We_Adore.txt",
+    "mp3": "mp3s/We_Adore.mp3",
+    "pdf": "pdfs/We_Adore.pdf"
   },
   {
     "moment": "Communion Antiphon",
-    "title": "LR-13",
-    "author": "Curtis Stephan - SP2026",
-    "snippet": "Behold, a Virgin shall conceive and bear a son; and his name will be called Emmanuel.",
-    "txt": "lyrics/LR13.txt",
-    "mp3": "mp3s/LR13.mp3",
-    "pdf": "pdfs/LR13.pdf"
+    "title": "",
+    "author": "",
+    "snippet": "",
+    "txt": "",
+    "mp3": "",
+    "pdf": ""
   },
   {
     "moment": "Communion",
-    "title": "Like a Child Rests",
-    "author": "Christopher Walker",
-    "snippet": "Like a child rests in its mother's arms, so will I rest in you.",
-    "txt": "lyrics/Like_A_Child_Rests.txt",
-    "mp3": "mp3s/Like_a_Child_Rests.mp3",
-    "pdf": "pdfs/Like_A_Child_Rests.pdf"
+    "title": "God With Us",
+    "author": "SUNO AI x Jim Ngo",
+    "snippet": "A sign is given, hope is near, The virgin’s child, the promise clear. Immanuel, God with us, Light has come, in Him we trust.",
+    "txt": "lyrics/God_With_Us.txt",
+    "mp3": "mp3s/God With Us.mp3",
+    "pdf": "pdfs/God_With_Us.pdf"
   },
   {
     "moment": "Meditation",
-    "title": "The Memorare",
-    "author": "Sarah Hart, Francesca LaRosa, St. Bernard",
-    "snippet": "Remember, O most gracious Virgin Mary, that never was it known  that anyone who fled to thy protection,  implored thy help,  or sought thy intercession, was left unaided.  Inspired by this confidence I fly unto thee, O Virgin of virgins, my Mother. To thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen.",
-    "txt": "lyrics/The_Memorare_LaRosa_Hart.txt",
-    "mp3": "mp3s/The_Memorare_LaRosa_Hart.mp3",
-    "pdf": "pdfs/The_Memorare_LaRosa_Hart.pdf"
+    "title": "O Holy Night",
+    "author": "ADESTE FIDELES",
+    "snippet": "O holy night! The stars are brightly shining, It is the night of our dear Savior’s birth. Long lay the world in sin and error pining, Till He appeared and the soul felt its worth.",
+    "txt": "lyrics/O_Holy_Night.txt",
+    "mp3": "mp3s/O_Holy_Night _Cover.mp3",
+    "pdf": "pdfs/O_Holy_Night _Cover.pdf"
   },
   {
     "moment": "Recessional",

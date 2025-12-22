@@ -33,65 +33,57 @@ function parseTxtFile(txtPath) {
   if (!fs.existsSync(txtPath)) return {};
   // Read file and split into lines
   const lines = fs.readFileSync(txtPath, 'utf8').split(/\r?\n/);
-  // Initialize metadata object
+  // SUNO-style meta tag extraction
   let meta = { title: '', author: '', snippet: '' };
-  // Track current section/tag (e.g., Title, Author, Refrain)
-  let currentSection = null;
-  // Buffer to accumulate lines for current section
-  let buffer = [];
-  // Track the first section after Title/Author for snippet
-  let snippet = '';
-  let afterAuthor = false;
-  let snippetBuffer = [];
+  let foundTitle = false;
+  let foundAuthor = false;
   let foundSnippet = false;
+  let snippetStartIdx = -1;
+  let snippetEndIdx = -1;
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const trimmedLine = line.trim();
-    const sectionMatch = trimmedLine.match(/^\[(.+?)\]$/);
-    if (sectionMatch) {
-      // If we hit a new section/tag (e.g. [Verse], [Refrain], etc.)
-      if (currentSection) {
-        if (currentSection === 'Title') {
-          // Save the first non-empty line as the title
-          const titleLine = buffer.find(l => l.trim().length > 0);
-          meta.title = titleLine ? titleLine.trim() : '';
-        } else if (currentSection === 'Author') {
-          // Save all non-empty lines as the author
-          meta.author = buffer.map(l => l.trim()).filter(l => l.length > 0).join(' ');
-          afterAuthor = true; // Mark that we've passed the author section
-        } else if (afterAuthor && !foundSnippet) {
-          // This is the first section after [Author]
-          // Always omit the tag name for the snippet, regardless of the tag
-          snippetBuffer = buffer.slice();
-          foundSnippet = true;
+    const line = lines[i].trim();
+    const tagMatch = line.match(/^\[(.+?)\]/);
+    if (tagMatch) {
+      const tag = tagMatch[1].toLowerCase();
+      if (!foundTitle && tag === 'title') {
+        // Title is the next non-empty line
+        for (let j = i + 1; j < lines.length; j++) {
+          if (lines[j].trim().length > 0) {
+            meta.title = lines[j].trim();
+            break;
+          }
         }
+        foundTitle = true;
+      } else if (!foundAuthor && tag === 'author') {
+        // Author is the next non-empty line
+        for (let j = i + 1; j < lines.length; j++) {
+          if (lines[j].trim().length > 0) {
+            meta.author = lines[j].trim();
+            break;
+          }
+        }
+        foundAuthor = true;
+      } else if (foundTitle && foundAuthor && !foundSnippet) {
+        // The first meta tag after [Title] and [Author] is the snippet section
+        snippetStartIdx = i + 1;
+        // Find the next meta tag after this one
+        for (let k = i + 1; k < lines.length; k++) {
+          const nextTagMatch = lines[k].trim().match(/^\[(.+?)\]/);
+          if (nextTagMatch) {
+            snippetEndIdx = k;
+            break;
+          }
+        }
+        if (snippetEndIdx === -1) {
+          snippetEndIdx = lines.length;
+        }
+        // Join all lines in the snippet section, trim empty lines
+        meta.snippet = lines.slice(snippetStartIdx, snippetEndIdx).map(l => l.trim()).filter(l => l.length > 0).join(' ');
+        foundSnippet = true;
+        // No break; allow further processing if needed
       }
-      // Move to the new section/tag
-      currentSection = sectionMatch[1];
-      buffer = [];
-    } else if (currentSection) {
-      // Accumulate lines for the current section/tag
-      buffer.push(line);
     }
   }
-  // Save last section if needed
-  if (currentSection) {
-    if (currentSection === 'Title') {
-      // Save the first non-empty line as the title
-      const titleLine = buffer.find(l => l.trim().length > 0);
-      meta.title = titleLine ? titleLine.trim() : '';
-    } else if (currentSection === 'Author') {
-      // Save all non-empty lines as the author
-      meta.author = buffer.map(l => l.trim()).filter(l => l.length > 0).join(' ');
-      afterAuthor = true;
-    } else if (afterAuthor && !foundSnippet) {
-      // If this is the first section after [Author] and no snippet found yet,
-      // use the content of this section as the snippet (without tag name)
-      snippetBuffer = buffer.slice();
-      foundSnippet = true;
-    }
-  }
-  meta.snippet = snippetBuffer.map(l => l.trim()).filter(l => l.length > 0).join(' ');
   // Debug: print final extracted metadata
   console.log('DEBUG: Final extracted metadata:', meta);
   // Return extracted metadata
