@@ -146,7 +146,14 @@ async function generateLyricsPdf() {
     for (const momentName of block.moments) {
       const moment = moments.find(m => m.moment === momentName);
       if (!moment || !moment.txt) continue;
-      const song = parseSongTxt(moment.txt);
+      // Use cleaned file if available
+      let cleanedPath = moment.txt.replace('.txt', '_cleaned.txt');
+      let song;
+      if (fs.existsSync(cleanedPath)) {
+        song = parseSongTxt(cleanedPath);
+      } else {
+        song = parseSongTxt(moment.txt);
+      }
       if (!song) continue;
 
       // Moment name (centered, bold)

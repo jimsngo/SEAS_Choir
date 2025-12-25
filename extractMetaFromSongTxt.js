@@ -27,61 +27,86 @@ const path = require('path');
 const PROJECT_ROOT = path.resolve(__dirname);
 const MYDATA_PATH = path.join(PROJECT_ROOT, 'moments.json');
 
+// Import cleanText from cleanTxtFile.js
+const { cleanText } = (() => {
+  try {
+    return require('./cleanTxtFile.js');
+  } catch (e) {
+    return { cleanText: s => s };
+  }
+})();
+
 // Parses a lyrics .txt file for metadata tags
 function parseTxtFile(txtPath) {
   // If file does not exist, return empty object
   if (!fs.existsSync(txtPath)) return {};
-  // Read file and split into lines
-  const lines = fs.readFileSync(txtPath, 'utf8').split(/\r?\n/);
+  // Read file, sanitize, and split into lines
+  let raw = fs.readFileSync(txtPath, 'utf8');
+  raw = cleanText(raw);
+  const lines = raw.split(/\n/);
   // SUNO-style meta tag extraction
   let meta = { title: '', author: '', snippet: '' };
-  let foundTitle = false;
-  let foundAuthor = false;
-  let foundSnippet = false;
-  let snippetStartIdx = -1;
-  let snippetEndIdx = -1;
+  // Helper to normalize tags
+  function normalizeTag(line) {
+    // Remove spaces inside brackets, lowercase, and trim
+    return line.replace(/\[\s*(.+?)\s*\]/, '[$1]').trim().toLowerCase();
+  }
+
+  // Debug: print all lines and their normalized tags
+  lines.forEach((l, idx) => {
+    console.log(`Line ${idx}: "${l}" | Normalized: "${normalizeTag(l)}"`);
+  });
+  // Extract title
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    const tagMatch = line.match(/^\[(.+?)\]/);
-    if (tagMatch) {
-      const tag = tagMatch[1].toLowerCase();
-      if (!foundTitle && tag === 'title') {
-        // Title is the next non-empty line
-        for (let j = i + 1; j < lines.length; j++) {
-          if (lines[j].trim().length > 0) {
-            meta.title = lines[j].trim();
-            break;
-          }
+    if (normalizeTag(lines[i]) === '[title]') {
+      for (let j = i + 1; j < lines.length; j++) {
+        if (lines[j].trim().length > 0) {
+          meta.title = lines[j].trim();
+          console.log(`Extracted title: "${meta.title}" from line ${j}`);
+          break;
         }
-        foundTitle = true;
-      } else if (!foundAuthor && tag === 'author') {
-        // Author is the next non-empty line
-        for (let j = i + 1; j < lines.length; j++) {
-          if (lines[j].trim().length > 0) {
-            meta.author = lines[j].trim();
-            break;
-          }
+      }
+      break;
+    }
+  }
+  // Extract author robustly: first non-empty line after [Author]
+  let authorIdx = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (normalizeTag(lines[i]) === '[author]') {
+      authorIdx = i;
+      let j = i + 1;
+      while (j < lines.length) {
+        if (lines[j].trim().length > 0) {
+          meta.author = lines[j].trim();
+          console.log(`Extracted author: "${meta.author}" from line ${j}`);
+          break;
         }
-        foundAuthor = true;
-      } else if (foundTitle && foundAuthor && !foundSnippet) {
-        // The first meta tag after [Title] and [Author] is the snippet section
+        j++;
+      }
+      break;
+    }
+  }
+  // Extract snippet: all lines after first tag following [Author], up to next tag
+  let snippetStartIdx = -1;
+  let snippetEndIdx = lines.length;
+  if (authorIdx !== -1) {
+    // Find first meta tag after [Author]
+    for (let i = authorIdx + 1; i < lines.length; i++) {
+      if (lines[i].trim().match(/^\[.+?\]/)) {
         snippetStartIdx = i + 1;
-        // Find the next meta tag after this one
-        for (let k = i + 1; k < lines.length; k++) {
-          const nextTagMatch = lines[k].trim().match(/^\[(.+?)\]/);
-          if (nextTagMatch) {
+        // Find next tag after snippetStartIdx
+        for (let k = snippetStartIdx; k < lines.length; k++) {
+          if (lines[k].trim().match(/^\[.+?\]/)) {
             snippetEndIdx = k;
             break;
           }
         }
-        if (snippetEndIdx === -1) {
-          snippetEndIdx = lines.length;
-        }
-        // Join all lines in the snippet section, trim empty lines
-        meta.snippet = lines.slice(snippetStartIdx, snippetEndIdx).map(l => l.trim()).filter(l => l.length > 0).join(' ');
-        foundSnippet = true;
-        // No break; allow further processing if needed
+        break;
       }
+    }
+    if (snippetStartIdx !== -1) {
+      meta.snippet = lines.slice(snippetStartIdx, snippetEndIdx).map(l => l.trim()).filter(l => l.length > 0).join(' ');
+      console.log(`Extracted snippet from lines ${snippetStartIdx} to ${snippetEndIdx}: "${meta.snippet}"`);
     }
   }
   // Debug: print final extracted metadata
@@ -119,22 +144,16 @@ function updateMyDataFromTxt() {
       console.log('  Extracted meta:', meta);
       console.log('  Section before update:', JSON.stringify(section, null, 2));
       // Always update metadata fields from extracted values
-      if (meta.title) {
         if (section.title !== meta.title) changed = true;
         section.title = meta.title;
-      }
-      if (meta.author) {
         if (section.author !== meta.author) changed = true;
         section.author = meta.author;
-      }
-      if (meta.snippet) {
         if (section.snippet !== meta.snippet) changed = true;
         section.snippet = meta.snippet;
-      }
-      // Ensure fields exist even if no lyrics file
-      if (!('title' in section)) section.title = '';
-      if (!('author' in section)) section.author = '';
-      if (!('snippet' in section)) section.snippet = '';
+        // Ensure fields exist even if no lyrics file
+        if (!('title' in section)) section.title = '';
+        if (!('author' in section)) section.author = '';
+        if (!('snippet' in section)) section.snippet = '';
     } else {
       // If no lyrics file, ensure fields exist but are empty
       if (!('title' in section)) section.title = '';

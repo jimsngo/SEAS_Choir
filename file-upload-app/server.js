@@ -129,6 +129,10 @@ app.post('/upload', upload.fields([
   { name: 'pdf', maxCount: 1 },
   { name: 'text', maxCount: 1 }
 ]), (req, res) => {
+  // Debug: print working directory and file existence
+  console.log('DEBUG: process.cwd()', process.cwd());
+  console.log('DEBUG: __dirname', __dirname);
+  // momentObj is defined after moments are loaded, so move this block after that
   const files = req.files;
   const momentName = req.body.moment;
   const momentsFile = path.join(__dirname, '../moments.json');
@@ -190,17 +194,30 @@ app.post('/upload', upload.fields([
     const destDir = path.join(__dirname, '../lyrics');
     if (!fs.existsSync(destDir)) fs.mkdirSync(destDir);
     const destPath = path.join(destDir, file.originalname);
-    fs.renameSync(file.path, destPath);
+    // Read uploaded file, clean, and write only cleaned version
+    const { cleanText } = require('../cleanTxtFile');
+    const rawTxt = fs.readFileSync(file.path, 'utf8');
+    const cleanedTxt = cleanText(rawTxt);
+    fs.writeFileSync(destPath, cleanedTxt, { encoding: 'utf8' });
+    fs.unlinkSync(file.path); // Remove temp upload
     momentObj.txt = path.relative(path.join(__dirname, '..'), destPath);
     if ('external_text' in momentObj) delete momentObj.external_text;
     // Run metadata extraction synchronously and capture output
     try {
       const execSync = require('child_process').execSync;
-      extractionOutput = execSync('node extractMetaFromSongTxt.js', { cwd: path.join(__dirname, '..'), encoding: 'utf8' });
+      const scriptPath = path.join(__dirname, '..', 'extractMetaFromSongTxt.js');
+      const nodeVersion = execSync('node -v', { encoding: 'utf8' });
+      console.log('DEBUG: Running script at', scriptPath);
+      console.log('DEBUG: Node.js version', nodeVersion.trim());
+      extractionOutput = execSync(`node ${scriptPath}`, { cwd: path.join(__dirname, '..'), encoding: 'utf8' });
     } catch (err) {
-      extractionOutput = err.stdout ? err.stdout.toString() : '';
-      extractionOutput += err.stderr ? err.stderr.toString() : '';
-      extractionOutput += err.message;
+      extractionOutput = (err.stdout ? err.stdout.toString() : '') +
+                        (err.stderr ? err.stderr.toString() : '') +
+                        (err.message ? err.message : '');
+      // Respond immediately with error if extraction fails
+      fs.writeFileSync(momentsFile, JSON.stringify(moments, null, 2));
+      console.log('DEBUG extractionOutput:', extractionOutput);
+      return res.status(500).json({ success: false, error: 'Metadata extraction failed', extractionOutput });
     }
   }
   // Remove old fields if present

@@ -1,40 +1,40 @@
 [
   {
     "moment": "Entrance",
-    "title": "O Come, All Ye Faithful",
-    "author": "ADESTE FIDELES",
-    "snippet": "O come, all ye faithful, joyful and triumphant, O come ye, O come ye to Bethlehem; Come and behold him, born the King of angels;",
-    "txt": "lyrics/O_Come_All_Ye_Faithful.txt",
-    "mp3": "mp3s/O_Come_All_Ye_Faithful.mp3",
-    "pdf": "pdfs/O_Come_All_Ye_Faithful_SATB.pdf"
+    "title": "Angels We Have Heard on High",
+    "author": "Gloria",
+    "snippet": "Angels we have heard on high Sweetly singing o'er the plains, And the mountains in reply Echo back their joyous strains.",
+    "txt": "lyrics/Angels_We_Have_Heard_on_HighAngeles_Cantando_Estan.txt",
+    "mp3": "mp3s/Angels_We_Have_Heard_on_High-Angeles_Cantando_Estan.mp3",
+    "pdf": "pdfs/Angels_We_Have_Heard_on_High-Angeles_Cantando_Estan_Choral.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 89 - Forever I Will Sing",
+    "title": "Psalm 128",
     "author": "SUNO AI x Jim Ngo",
-    "snippet": "Forever I will sing, the goodness of the Lord.",
-    "txt": "lyrics/Psalm89_Forever_I_Will_Sing.txt",
-    "mp3": "mp3s/Psalm_89_Forever_I_Will_Sing.mp3",
-    "pdf": "pdfs/Psalm89_Forever_I_Will_Sing.pdf"
+    "snippet": "Blessed are those who fear the Lord and walk in his ways.",
+    "txt": "lyrics/Psalm_128_Blessed_are_they_who_fear_the_Lord.txt",
+    "mp3": "mp3s/Psalm_128_Blessed_are_they_who_fear_the_Lord.mp3",
+    "pdf": "pdfs/Psalm_128_Blessed_are_they_who_fear_the_Lord.pdf"
   },
   {
     "moment": "Gospel Acclamation",
-    "singer": "",
-    "title": "Gospel Acclamation",
-    "author": "Curtis Stephan - SP2026",
-    "snippet": "Tomorrow the wickedness of the earth will be destroyed: The Savior of the world will reign over us.",
-    "txt": "lyrics/Accclamation_Nativity of the Lord_ Vigil_SP2026.txt",
-    "mp3": "mp3s/Accclamation_Nativity of the Lord_ Vigil_SP2026.mp3",
-    "pdf": "pdfs/Accclamation_Nativity of the Lord_ Vigil_SP2026.pdf"
+    "singer": "David",
+    "title": "Colossians 3:15a",
+    "author": "Josh Blakesley - SP2026",
+    "snippet": "Let the peace of Christ control your hearts; Let the word of Christ dwell in you richly.",
+    "txt": "lyrics/Acclamation_Holy_Family_SP2026.txt",
+    "mp3": "mp3s/Acclamation_Holy_Family_SP2026.mp3",
+    "pdf": "pdfs/Acclamation_Holy_Family_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "We Adore",
-    "author": "Sarah Hart and Scott Krippayn",
-    "snippet": "We adore these tiny hands come down to reach us, come to make the lame to walk, the blind to see. We adore these hands for one day they will free us as they hold the sin-forged nails of Calvary.",
-    "txt": "lyrics/We_Adore.txt",
-    "mp3": "mp3s/We_Adore.mp3",
-    "pdf": "pdfs/We_Adore.pdf"
+    "title": "Born This Day",
+    "author": "Ken Canedo",
+    "snippet": "The people who wandered in darkness have seen a marvelous light. And on those who lived too long in the shadows, a great light shines.",
+    "txt": "lyrics/Born_This_Day.txt",
+    "mp3": "mp3s/Born_This_Day.mp3",
+    "pdf": "pdfs/Born_This_Day.pdf"
   },
   {
     "moment": "Communion Antiphon",
@@ -47,25 +47,25 @@
   },
   {
     "moment": "Communion",
-    "title": "God With Us",
-    "author": "SUNO AI x Jim Ngo",
-    "snippet": "A sign is given, hope is near, The virgin’s child, the promise clear. Immanuel, God with us, Light has come, in Him we trust.",
-    "txt": "lyrics/God_With_Us.txt",
-    "mp3": "mp3s/God With Us.mp3",
-    "pdf": "pdfs/God_With_Us.pdf"
+    "title": "Shout to the Lord",
+    "author": "Darlene Zscheck/Ed Bolduc",
+    "snippet": "My Jesus, my Savior Lord, there is none like You All of my days, I want to praise The wonders of Your mighty love",
+    "txt": "lyrics/Shout_To_The_Lord.txt",
+    "mp3": "mp3s/Shout_To_The_Lord.mp3",
+    "pdf": "pdfs/Shout_to_the_Lord.pdf"
   },
   {
     "moment": "Meditation",
-    "title": "O Holy Night",
-    "author": "ADESTE FIDELES",
-    "snippet": "O holy night! The stars are brightly shining, It is the night of our dear Savior’s birth. Long lay the world in sin and error pining, Till He appeared and the soul felt its worth.",
-    "txt": "lyrics/O_Holy_Night.txt",
-    "mp3": "mp3s/O_Holy_Night _Cover.mp3",
-    "pdf": "pdfs/O_Holy_Night _Cover.pdf"
+    "title": "Child of the poor/What child is this",
+    "author": "Scott Soper/W. Chatterton Dix",
+    "snippet": "Helpless and hungry, lowly he lies, wrapped in the chill of midwinter; comes now among us, born into povertys embrace, new life for the world.",
+    "txt": "lyrics/Child_of_the_Poor_What_Child_Is_This.txt",
+    "mp3": "mp3s/Child_of_the_Poor_What_Child_Is_This.mp3",
+    "pdf": "pdfs/Child_of_the_Poor_What_Child_Is_This.pdf"
   },
   {
     "moment": "Recessional",
-    "singer": "",
+    "singer": "David",
     "title": "Joy to the World",
     "author": "Phil Wickham",
     "snippet": "Joy to the world the Lord is come Let earth receive her King Let every heart prepare Him room And Heaven and nature sing And Heaven and nature sing And Heaven and Heaven and nature sing",

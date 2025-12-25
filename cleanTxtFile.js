@@ -1,53 +1,44 @@
 // cleanTxtFile.js
-// Script to clean and validate a lyrics TXT file for best parsing by the extraction script.
 // Usage: node cleanTxtFile.js <input.txt> <output.txt>
+// Cleans a lyrics .txt file: removes hidden/invisible Unicode, normalizes whitespace, line endings, and tags.
 
 const fs = require('fs');
 const path = require('path');
 
-if (process.argv.length < 4) {
-  console.log('Usage: node cleanTxtFile.js <input.txt> <output.txt>');
-  process.exit(1);
-}
-
-const inputPath = process.argv[2];
-const outputPath = process.argv[3];
-
-if (!fs.existsSync(inputPath)) {
-  console.error('Input file does not exist:', inputPath);
-  process.exit(1);
-}
-
-const lines = fs.readFileSync(inputPath, 'utf8').split(/\r?\n/);
-let cleaned = [];
-let lastWasHeader = false;
-
-for (let line of lines) {
-  // Remove invisible characters and trim
-  let cleanLine = line.replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
-  // If line is a section header
-  if (/^\[.+?\]$/.test(cleanLine)) {
-    // Add a blank line before header if previous wasn't blank
-    if (cleaned.length && cleaned[cleaned.length-1] !== '') {
-      cleaned.push('');
-    }
-    cleaned.push(cleanLine);
-    lastWasHeader = true;
-  } else if (cleanLine === '') {
-    // Collapse multiple blank lines
-    if (!lastWasHeader && cleaned.length && cleaned[cleaned.length-1] !== '') {
-      cleaned.push('');
-    }
-    lastWasHeader = false;
-  } else {
-    cleaned.push(cleanLine);
-    lastWasHeader = false;
+function cleanText(raw) {
+  // Remove BOM, zero-width, non-breaking, and other invisible Unicode chars
+  let cleaned = raw.replace(/\uFEFF|\u200B|\u200C|\u200D|\u00A0|\u2028|\u2029/g, '');
+  // Normalize all line endings to LF
+  cleaned = cleaned.replace(/\r\n|\r/g, '\n');
+  // Remove trailing spaces and tabs
+  cleaned = cleaned.replace(/[ \t]+$/gm, '');
+  // Ensure tags are on their own lines
+  cleaned = cleaned.replace(/(\[[^\]]+\])([^\n])/g, '$1\n$2');
+  // Remove extra blank lines
+  cleaned = cleaned.replace(/\n{3,}/g, '\n\n');
+  // Remove or replace all non-ASCII characters
+  cleaned = cleaned.replace(/[^\x00-\x7F]/g, '');
+  // Trim leading/trailing whitespace
+  cleaned = cleaned.trim();
+  // Log any non-ASCII characters found
+  const nonAsciiMatches = raw.match(/[^\x00-\x7F]/g);
+  if (nonAsciiMatches) {
+    const uniqueChars = Array.from(new Set(nonAsciiMatches));
+    console.log('Non-ASCII characters found:', uniqueChars.map(c => `U+${c.charCodeAt(0).toString(16).padStart(4, '0')} '${c}'`).join(', '));
   }
+  return cleaned;
 }
 
-// Remove leading/trailing blank lines
-while (cleaned.length && cleaned[0] === '') cleaned.shift();
-while (cleaned.length && cleaned[cleaned.length-1] === '') cleaned.pop();
+module.exports = { cleanText };
 
-fs.writeFileSync(outputPath, cleaned.join('\n'));
-console.log('Cleaned file written to', outputPath);
+if (require.main === module) {
+  const [,, inputPath, outputPath] = process.argv;
+  if (!inputPath || !outputPath) {
+    console.error('Usage: node cleanTxtFile.js <input.txt> <output.txt>');
+    process.exit(1);
+  }
+  const raw = fs.readFileSync(inputPath, 'utf8');
+  const cleaned = cleanText(raw);
+  fs.writeFileSync(outputPath, cleaned, { encoding: 'utf8' });
+  console.log(`Cleaned file written to ${outputPath}`);
+}

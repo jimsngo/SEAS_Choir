@@ -54,6 +54,8 @@ select opt in \
         sleep 2
       fi
       if [ "$REPLY" = "2" ]; then
+        echo "Sanitizing all lyrics .txt files..."
+        node batchCleanLyrics.js
         echo "Running: node extractMetaFromSongTxt.js"
         node extractMetaFromSongTxt.js
       fi
