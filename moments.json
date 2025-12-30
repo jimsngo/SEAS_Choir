@@ -1,40 +1,40 @@
 [
   {
     "moment": "Entrance",
-    "title": "Angels We Have Heard on High",
-    "author": "Gloria",
-    "snippet": "Angels we have heard on high Sweetly singing o'er the plains, And the mountains in reply Echo back their joyous strains.",
-    "txt": "lyrics/Angels_We_Have_Heard_on_HighAngeles_Cantando_Estan.txt",
-    "mp3": "mp3s/Angels_We_Have_Heard_on_High-Angeles_Cantando_Estan.mp3",
-    "pdf": "pdfs/Angels_We_Have_Heard_on_High-Angeles_Cantando_Estan_Choral.pdf"
+    "title": "O Come, All Ye Faithful",
+    "author": "ADESTE FIDELES",
+    "snippet": "O come, all ye faithful, joyful and triumphant, O come ye, O come ye to Bethlehem; Come and behold him, born the King of angels;",
+    "txt": "lyrics/O_Come_All_Ye_Faithful.txt",
+    "mp3": "mp3s/O_Come_All_Ye_Faithful.mp3",
+    "pdf": "pdfs/O_Come_All_Ye_Faithful.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 128",
-    "author": "SUNO AI x Jim Ngo",
-    "snippet": "Blessed are those who fear the Lord and walk in his ways.",
-    "txt": "lyrics/Psalm_128_Blessed_are_they_who_fear_the_Lord.txt",
-    "mp3": "mp3s/Psalm_128_Blessed_are_they_who_fear_the_Lord.mp3",
-    "pdf": "pdfs/Psalm_128_Blessed_are_they_who_fear_the_Lord.pdf"
+    "title": "Lord every nation on earth will adore you",
+    "author": "Owen Alstott",
+    "snippet": "Lord every nation on earth will adore you. Lord every nation on earth will adore you.",
+    "txt": "lyrics/Psalm_The_Epiphany_of_th_Lord_ABC_Alstott.txt",
+    "mp3": "mp3s/Psalm_The_Epiphany_of_th_Lord_ABC_Alstott.mp3",
+    "pdf": "pdfs/Psalm_The_Epiphany_of_th_Lord_ABC_Alstott.pdf"
   },
   {
     "moment": "Gospel Acclamation",
-    "singer": "David",
-    "title": "Colossians 3:15a",
-    "author": "Josh Blakesley - SP2026",
-    "snippet": "Let the peace of Christ control your hearts; Let the word of Christ dwell in you richly.",
-    "txt": "lyrics/Acclamation_Holy_Family_SP2026.txt",
-    "mp3": "mp3s/Acclamation_Holy_Family_SP2026.mp3",
+    "singer": "",
+    "title": "Matthew 2:2",
+    "author": "Curtis Stephan",
+    "snippet": "W saw his star at its rising and have come to do him homage.",
+    "txt": "lyrics/Acclamation_Epiphany.txt",
+    "mp3": "mp3s/Acclamation_The_Epiphany_of_th_Lord_ABC_Alstott.mp3",
     "pdf": "pdfs/Acclamation_Holy_Family_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Born This Day",
-    "author": "Ken Canedo",
-    "snippet": "The people who wandered in darkness have seen a marvelous light. And on those who lived too long in the shadows, a great light shines.",
-    "txt": "lyrics/Born_This_Day.txt",
-    "mp3": "mp3s/Born_This_Day.mp3",
-    "pdf": "pdfs/Born_This_Day.pdf"
+    "title": "Jesus, Meek and Humble",
+    "author": "Ben Walther/Sarah Hart",
+    "snippet": "Jesus, meek and humble, heavens gift to earth, Word from Word among us, spoken from the first. Song of our salvation, rising from the fall. Jesus, meek and humble, heavens hope for all.",
+    "txt": "lyrics/Jesus_Meek_And_Humble.txt",
+    "mp3": "mp3s/Jesus_Meek_And_Humble.mp3",
+    "pdf": "pdfs/Jesus_Meek_and_Humble.pdf"
   },
   {
     "moment": "Communion Antiphon",
@@ -47,31 +47,31 @@
   },
   {
     "moment": "Communion",
-    "title": "Shout to the Lord",
-    "author": "Darlene Zscheck/Ed Bolduc",
-    "snippet": "My Jesus, my Savior Lord, there is none like You All of my days, I want to praise The wonders of Your mighty love",
-    "txt": "lyrics/Shout_To_The_Lord.txt",
-    "mp3": "mp3s/Shout_To_The_Lord.mp3",
-    "pdf": "pdfs/Shout_to_the_Lord.pdf"
+    "title": "The First Noel",
+    "author": "English Carol, 17th Century",
+    "snippet": "The first Nowell, the angel did say, Was to certain poor shepherds in fields as they lay; In fields where they lay keeping their sheep, On a cold winter's night that was so deep.",
+    "txt": "lyrics/The_First_Nowell.txt",
+    "mp3": "mp3s/The_First_Nowell.mp3",
+    "pdf": "pdfs/The_First_Nowell.pdf"
   },
   {
     "moment": "Meditation",
-    "title": "Child of the poor/What child is this",
-    "author": "Scott Soper/W. Chatterton Dix",
-    "snippet": "Helpless and hungry, lowly he lies, wrapped in the chill of midwinter; comes now among us, born into povertys embrace, new life for the world.",
-    "txt": "lyrics/Child_of_the_Poor_What_Child_Is_This.txt",
-    "mp3": "mp3s/Child_of_the_Poor_What_Child_Is_This.mp3",
-    "pdf": "pdfs/Child_of_the_Poor_What_Child_Is_This.pdf"
+    "title": "We Adore",
+    "author": "Sarah Hart and Scott Krippayn",
+    "snippet": "We adore these tiny hands come down to reach us, come to make the lame to walk, the blind to see. We adore these hands for one day they will free us as they hold the sin-forged nails of Calvary.",
+    "txt": "lyrics/We_Adore.txt",
+    "mp3": "mp3s/We_Adore.mp3",
+    "pdf": "pdfs/We_Adore.pdf"
   },
   {
     "moment": "Recessional",
     "singer": "David",
-    "title": "Joy to the World",
-    "author": "Phil Wickham",
-    "snippet": "Joy to the world the Lord is come Let earth receive her King Let every heart prepare Him room And Heaven and nature sing And Heaven and nature sing And Heaven and Heaven and nature sing",
-    "txt": "lyrics/Joy_To_The_World_Phil_Wickham.txt",
-    "mp3": "mp3s/Joy_To_the_World_Phil_Wickham.mp3",
-    "pdf": "pdfs/Joy_To_The_World_Phil_Wickham.pdf"
+    "title": "A Light to the Nations",
+    "author": "Ben Walther",
+    "snippet": "You built a city on mountain peaks. Your voice from heaven in thunder speaks the great commandment, compelling us to a world that needs to know your love.",
+    "txt": "lyrics/A_Light_To_The_Nations.txt",
+    "mp3": "mp3s/A_Light_To_The_Nations.mp3",
+    "pdf": "pdfs/A_Light_To_The_Nations.pdf"
   },
   {
     "moment": "Lord Have Mercy",
