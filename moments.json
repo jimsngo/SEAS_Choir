@@ -1,77 +1,77 @@
 [
   {
     "moment": "Entrance",
-    "title": "O Come, All Ye Faithful",
-    "author": "ADESTE FIDELES",
-    "snippet": "O come, all ye faithful, joyful and triumphant, O come ye, O come ye to Bethlehem; Come and behold him, born the King of angels;",
-    "txt": "lyrics/O_Come_All_Ye_Faithful.txt",
-    "mp3": "mp3s/O_Come_All_Ye_Faithful.mp3",
-    "pdf": "pdfs/O_Come_All_Ye_Faithful.pdf"
+    "title": "Matthew 3:16-17",
+    "author": "Let Us All Rejoice",
+    "snippet": "After the Lord was baptized, the heavens were opened, and the spirit descended upon him like a dove, and the voice of the Father thundered: This is my beloved Son, with whom I am well pleased.",
+    "txt": "lyrics/LR34.txt",
+    "mp3": "mp3s/LR34.mp3",
+    "pdf": "pdfs/LR34.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Lord every nation on earth will adore you",
-    "author": "Owen Alstott",
-    "snippet": "Lord every nation on earth will adore you. Lord every nation on earth will adore you.",
-    "txt": "lyrics/Psalm_The_Epiphany_of_th_Lord_ABC_Alstott.txt",
-    "mp3": "mp3s/Psalm_The_Epiphany_of_th_Lord_ABC_Alstott.mp3",
-    "pdf": "pdfs/Psalm_The_Epiphany_of_th_Lord_ABC_Alstott.pdf"
+    "title": "Psalm 29",
+    "author": "Francesca LaRosa",
+    "snippet": "The Lord will bless his people with peace.",
+    "txt": "lyrics/Psalm_29_The_Lord_will_bless_his_people_with_peace.txt",
+    "mp3": "mp3s/Psalm_29_The_Lord_will_bless_his_people_with_peace_LaRosa.mp3",
+    "pdf": "pdfs/Psalm_29_The_Lord_will_bless_his_people_with_peace.pdf"
   },
   {
     "moment": "Gospel Acclamation",
-    "singer": "",
+    "singer": "David",
     "title": "Matthew 2:2",
-    "author": "Curtis Stephan",
-    "snippet": "W saw his star at its rising and have come to do him homage.",
-    "txt": "lyrics/Acclamation_Epiphany.txt",
-    "mp3": "mp3s/Acclamation_The_Epiphany_of_th_Lord_ABC_Alstott.mp3",
-    "pdf": "pdfs/Acclamation_Holy_Family_SP2026.pdf"
+    "author": "Josh Blakesley",
+    "snippet": "The heavens were opened and the voice of the Father thundered: \"This is my beloved Son, Listen to him!\"",
+    "txt": "lyrics/Acclamation_Baptism_of_the_Lord_SP2026.txt",
+    "mp3": "mp3s/Acclamation_Baptism_of_the_Lord_SP2026.mp3",
+    "pdf": "pdfs/Acclamation_Baptism_of_the_Lord_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Jesus, Meek and Humble",
-    "author": "Ben Walther/Sarah Hart",
-    "snippet": "Jesus, meek and humble, heavens gift to earth, Word from Word among us, spoken from the first. Song of our salvation, rising from the fall. Jesus, meek and humble, heavens hope for all.",
-    "txt": "lyrics/Jesus_Meek_And_Humble.txt",
-    "mp3": "mp3s/Jesus_Meek_And_Humble.mp3",
-    "pdf": "pdfs/Jesus_Meek_and_Humble.pdf"
+    "title": "Flow River Flow",
+    "author": "Bob Hurd",
+    "snippet": "Flow river flow, flow over me. O living water, poured out for free; O living water, flow over me.",
+    "txt": "lyrics/Flow_River_Flow.txt",
+    "mp3": "mp3s/Flow_River_Flow.mp3",
+    "pdf": "pdfs/Flow_River_Flow.pdf"
   },
   {
     "moment": "Communion Antiphon",
-    "title": "",
-    "author": "",
-    "snippet": "",
-    "txt": "",
-    "mp3": "",
-    "pdf": ""
+    "title": "John 1:32,34",
+    "author": "Let Us All Rejoice",
+    "snippet": "Behold the One of whom John said: I have seen and testified that this is the Son of God.",
+    "txt": "lyrics/LR35.txt",
+    "mp3": "mp3s/LR35.mp3",
+    "pdf": "pdfs/LR35.pdf"
   },
   {
     "moment": "Communion",
-    "title": "The First Noel",
-    "author": "English Carol, 17th Century",
-    "snippet": "The first Nowell, the angel did say, Was to certain poor shepherds in fields as they lay; In fields where they lay keeping their sheep, On a cold winter's night that was so deep.",
-    "txt": "lyrics/The_First_Nowell.txt",
-    "mp3": "mp3s/The_First_Nowell.mp3",
-    "pdf": "pdfs/The_First_Nowell.pdf"
+    "title": "Spirit and Grace",
+    "author": "Ricky Manalo, CSP",
+    "snippet": "Spirit and grace, here in this meal; you are the wind that breathes through the field. Gather the wheat and form us in Christ. Come, be our source and breath of life.",
+    "txt": "lyrics/Spirit_and_Grace.txt",
+    "mp3": "mp3s/Spirit_and_Grace.mp3",
+    "pdf": "pdfs/Spirit_and_Grace.pdf"
   },
   {
     "moment": "Meditation",
-    "title": "We Adore",
-    "author": "Sarah Hart and Scott Krippayn",
-    "snippet": "We adore these tiny hands come down to reach us, come to make the lame to walk, the blind to see. We adore these hands for one day they will free us as they hold the sin-forged nails of Calvary.",
-    "txt": "lyrics/We_Adore.txt",
-    "mp3": "mp3s/We_Adore.mp3",
-    "pdf": "pdfs/We_Adore.pdf"
+    "title": "Holy Spirit, Come to Me",
+    "author": "Julie Hoy.",
+    "snippet": "Holy Spirit, come to me; Open my eyes to you. Holy Spirit, come to me; Open my eyes to you.",
+    "txt": "lyrics/Holy_Spirit_Come_To_Me.txt",
+    "mp3": "mp3s/Holy_Spirit_Come_To_Me.mp3",
+    "pdf": "pdfs/Holy_Spirit_Come_To_Me.pdf"
   },
   {
     "moment": "Recessional",
     "singer": "David",
-    "title": "A Light to the Nations",
-    "author": "Ben Walther",
-    "snippet": "You built a city on mountain peaks. Your voice from heaven in thunder speaks the great commandment, compelling us to a world that needs to know your love.",
-    "txt": "lyrics/A_Light_To_The_Nations.txt",
-    "mp3": "mp3s/A_Light_To_The_Nations.mp3",
-    "pdf": "pdfs/A_Light_To_The_Nations.pdf"
+    "title": "Spirit of Peace",
+    "author": "SUNO AI x Jim Ngo",
+    "snippet": "Holy Spirit, gentle dove, Come and fill our hearts, with love. As we go, your peace we claim, Baptized, in the Saviors name.",
+    "txt": "lyrics/Spirit_of_peace.txt",
+    "mp3": "mp3s/Spirit_of_peace.mp3",
+    "pdf": "pdfs/Spirit_of_Peace.pdf"
   },
   {
     "moment": "Lord Have Mercy",
