@@ -1,0 +1,130 @@
+[{
+    "moment": "Entrance",
+    "singer": "Alan",
+    "title": "Entrance Antiphon LR39",
+    "author": "Let Us All Rejoice",
+    "snippet": "All the earth shall bow down before you, O God, and shall sing to you, shall sing to your name, O Most High.",
+    "txt": "src/data/lyrics/LR39.txt",
+    "mp3": "src/data/mp3s/LR39.mp3",
+    "pdf": "src/data/pdfs/LR39.pdf"
+  },
+  {
+    "moment": "Responsorial Psalm",
+    "title": "Psalm 40",
+    "author": "Francesca LaRosa",
+    "snippet": "Here am I, Lord; I come to do your will.",
+    "txt": "src/data/lyrics/Psalm_40_Here_I_am_Lord_.txt",
+    "mp3": "src/data/mp3s/Psalm_40_Here_I_am_Lord_LaRosa.mp3",
+    "pdf": "src/data/pdfs/Psalm_40_Here_I_am_Lord_LaRosa.pdf"
+  },
+  {
+    "moment": "Gospel Acclamation",
+    "singer": "Alan",
+    "title": "John 1:14a",
+    "author": "SP2026",
+    "snippet": "The Word of God became flesh and dwell among us. To those who accepted him, he gave power to become children of God.",
+    "txt": "src/data/lyrics/Acclamation_2nd_Sunday_SP2026.txt",
+    "mp3": "src/data/mp3s/Acclamation_2nd_Sunday_SP2026.mp3",
+    "pdf": "src/data/pdfs/Acclamation_2nd_Sunday_SP2026.pdf"
+  },
+  {
+    "moment": "Offertory",
+    "title": "Holy Spirit",
+    "author": "Ken Canedo",
+    "snippet": "Holy Spirit, come into our lives. Holy Spirit, make us truly wise.",
+    "txt": "src/data/lyrics/Holy_Spirit.txt",
+    "mp3": "src/data/mp3s/Holy_Spirit.mp3",
+    "pdf": "src/data/pdfs/Holy_Spirit.pdf"
+  },
+  {
+    "moment": "Communion Antiphon",
+    "title": "Entrance Antiphon LR40",
+    "author": "Let Us All Rejoice",
+    "snippet": "You have prepared a table before me, and how precious is the chalice that quenches my thirst.",
+    "txt": "src/data/lyrics/LR40.txt",
+    "mp3": "src/data/mp3s/LR40.mp3",
+    "pdf": "src/data/pdfs/LR40.pdf"
+  },
+  {
+    "moment": "Communion",
+    "title": "Here at This Table",
+    "author": "Jant Sullivan Whitaker / Max Whitaker",
+    "snippet": "Come and be filled here at this table. Food for all who hunger and drink for all who thirst. Drink of his love, wine of salvation. You shall live forever in Jesus Christ the Lord.",
+    "txt": "src/data/lyrics/Here_At_This_Table.txt",
+    "mp3": "src/data/mp3s/Here_At_This_Table.mp3",
+    "pdf": "src/data/pdfs/Here_At_This_Table.pdf"
+  },
+  {
+    "moment": "Meditation",
+    "title": "Like a Child Rests",
+    "author": "Christopher Walker",
+    "snippet": "Like a child rests in its mother's arms, so will I rest in you.",
+    "txt": "src/data/lyrics/Like_A_Child_Rests.txt",
+    "mp3": "src/data/mp3s/Like_a_Child_Rests.mp3",
+    "pdf": "src/data/pdfs/Like_A_Child_Rests.pdf"
+  },
+  {
+    "moment": "Recessional",
+    "singer": "Alan",
+    "title": "Blessed Be Your Name",
+    "author": "Matt Redman / Beth Redman",
+    "snippet": "Blessed be Your name In the land that is plentiful Where Your streams of abundance flow Blessed be Your name",
+    "txt": "src/data/lyrics/Blessed_Be_Your_Name.txt",
+    "mp3": "src/data/mp3s/Blessed_Be_Your_Name.mp3",
+    "pdf": "src/data/pdfs/Blessed_Be_Your_Name.pdf"
+  },
+  {
+    "moment": "Lord Have Mercy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lord, have mercy. Christ have mercy. Lord have mercy",
+    "mp3": "src/data/mp3s/Lord_Have_Mercy_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Glory to God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+    "mp3": "src/data/mp3s/Glory_to_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Holy Holy Holy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+    "mp3": "src/data/mp3s/Holy_Mass_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "When We Eat This Bread",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "When we eat this bread and drink this cup, we proclaim your death, O Lord, until you come again.",
+    "mp3": "src/data/mp3s/When_We_Eat_This_Bread_Sarah_Hart_Choral.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Amen",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Amen, Amen, Amen, Amen, Amen.",
+    "mp3": "src/data/mp3s/Amen_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Lamb of God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
+    "mp3": "src/data/mp3s/Lamb_of_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  }
+]
