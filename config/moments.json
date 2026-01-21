@@ -1,77 +1,80 @@
-[{
+[
+  {
     "moment": "Entrance",
-    "singer": "Alan",
-    "title": "Entrance Antiphon LR39",
-    "author": "Let Us All Rejoice",
-    "snippet": "All the earth shall bow down before you, O God, and shall sing to you, shall sing to your name, O Most High.",
-    "txt": "src/data/lyrics/LR39.txt",
-    "mp3": "src/data/mp3s/LR39.mp3",
-    "pdf": "src/data/pdfs/LR39.pdf"
+    "singer": "",
+    "title": "Entrance Antiphon LR42",
+    "author": "Sarah Hart",
+    "snippet": "O sing a new song to the Lord; Sing to the Lord, all the earth. In his presence are majesty and splendor, Strength and honor in his holy place.",
+    "txt": "src/data/lyrics/LR42.txt",
+    "mp3": "src/data/mp3s/LR42.mp3",
+    "pdf": "src/data/pdfs/LR42.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 40",
+    "title": "Psalm 27",
     "author": "Francesca LaRosa",
-    "snippet": "Here am I, Lord; I come to do your will.",
-    "txt": "src/data/lyrics/Psalm_40_Here_I_am_Lord_.txt",
-    "mp3": "src/data/mp3s/Psalm_40_Here_I_am_Lord_LaRosa.mp3",
-    "pdf": "src/data/pdfs/Psalm_40_Here_I_am_Lord_LaRosa.pdf"
+    "snippet": "The Lord is my light and my salvation.",
+    "txt": "src/data/lyrics/Psalm_27_The_Lord_Is_My_Light.txt",
+    "mp3": "src/data/mp3s/Psalm_27_The_Lord_Is_My_Light_LaRosa.mp3",
+    "pdf": "src/data/pdfs/Psalm_27_The_Lord_Is_My_Light_LaRosa.pdf"
   },
   {
     "moment": "Gospel Acclamation",
-    "singer": "Alan",
+    "singer": "David",
     "title": "John 1:14a",
-    "author": "SP2026",
-    "snippet": "The Word of God became flesh and dwell among us. To those who accepted him, he gave power to become children of God.",
-    "txt": "src/data/lyrics/Acclamation_2nd_Sunday_SP2026.txt",
-    "mp3": "src/data/mp3s/Acclamation_2nd_Sunday_SP2026.mp3",
-    "pdf": "src/data/pdfs/Acclamation_2nd_Sunday_SP2026.pdf"
+    "author": "Steve Angrisano",
+    "snippet": "The Word of God became flesh and dwelt among us. To those who accepted him, He gave power to be come children of God.",
+    "txt": "src/data/lyrics/Acclamation_3rd_Sunday_SP2026.txt",
+    "mp3": "src/data/mp3s/Acclamation_3rd_Sunday_SP2026.mp3",
+    "pdf": "src/data/pdfs/Acclamation_3rd_Sunday_SP2026.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Holy Spirit",
-    "author": "Ken Canedo",
-    "snippet": "Holy Spirit, come into our lives. Holy Spirit, make us truly wise.",
-    "txt": "src/data/lyrics/Holy_Spirit.txt",
-    "mp3": "src/data/mp3s/Holy_Spirit.mp3",
-    "pdf": "src/data/pdfs/Holy_Spirit.pdf"
+    "title": "The Goodness of the Lord",
+    "author": "Scott Soper",
+    "snippet": "I believe, I believe, I shall see the goodness of the Lord in the land, in the land of the living.",
+    "txt": "src/data/lyrics/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.txt",
+    "mp3": "src/data/mp3s/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.mp3",
+    "pdf": "src/data/pdfs/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.pdf"
   },
   {
     "moment": "Communion Antiphon",
-    "title": "Entrance Antiphon LR40",
-    "author": "Let Us All Rejoice",
-    "snippet": "You have prepared a table before me, and how precious is the chalice that quenches my thirst.",
-    "txt": "src/data/lyrics/LR40.txt",
-    "mp3": "src/data/mp3s/LR40.mp3",
-    "pdf": "src/data/pdfs/LR40.pdf"
+    "singer": "Alan",
+    "title": "Communion Antiphon LR43",
+    "author": "Josh Blakesley",
+    "snippet": "Look toward the Lord and be radiant; Let your faces not be abashed.",
+    "txt": "src/data/lyrics/LR43.txt",
+    "mp3": "src/data/mp3s/LR43.mp3",
+    "pdf": "src/data/pdfs/LR43.pdf"
   },
   {
     "moment": "Communion",
-    "title": "Here at This Table",
-    "author": "Jant Sullivan Whitaker / Max Whitaker",
-    "snippet": "Come and be filled here at this table. Food for all who hunger and drink for all who thirst. Drink of his love, wine of salvation. You shall live forever in Jesus Christ the Lord.",
-    "txt": "src/data/lyrics/Here_At_This_Table.txt",
-    "mp3": "src/data/mp3s/Here_At_This_Table.mp3",
-    "pdf": "src/data/pdfs/Here_At_This_Table.pdf"
+    "title": "I Am the Bread of Life",
+    "author": "Steve Angrisano/Tom Booth",
+    "snippet": "I am the Bread of Life, I am the hope in night, I am the door wide open, I am the shepherds might, I am the truth and light, I am the way and life, I Am Who Am and I am for you: Come and follow me.",
+    "txt": "src/data/lyrics/I_Am_the_Bread_of_Life_Steve_Angrisano.txt",
+    "mp3": "src/data/mp3s/I_Am_The_Bread_of_Life_Steve_Angrisano.mp3",
+    "pdf": "src/data/pdfs/I_Am_The_Bread_of_Life_Steve_Angrisano.pdf"
   },
   {
     "moment": "Meditation",
-    "title": "Like a Child Rests",
-    "author": "Christopher Walker",
-    "snippet": "Like a child rests in its mother's arms, so will I rest in you.",
-    "txt": "src/data/lyrics/Like_A_Child_Rests.txt",
-    "mp3": "src/data/mp3s/Like_a_Child_Rests.mp3",
-    "pdf": "src/data/pdfs/Like_A_Child_Rests.pdf"
+    "singer": "David/Claudine",
+    "title": "Great Are You Lord",
+    "author": "Jason Ingram, Leslie Jordan and David Leonard",
+    "snippet": "You give life, You are love. You bring light to the darkness. You give hope, You restore, Every heart that is broken. And great, are You, Lord.",
+    "txt": "src/data/lyrics/Great_Are_You_Lord_All Sons_Daughters.txt",
+    "mp3": "src/data/mp3s/Great_Are_You_Lord_All Sons_Daughters.mp3",
+    "pdf": "src/data/pdfs/Great_Are_You_Lord_All_Sons_Daughters.pdf"
   },
   {
     "moment": "Recessional",
-    "singer": "Alan",
-    "title": "Blessed Be Your Name",
-    "author": "Matt Redman / Beth Redman",
-    "snippet": "Blessed be Your name In the land that is plentiful Where Your streams of abundance flow Blessed be Your name",
-    "txt": "src/data/lyrics/Blessed_Be_Your_Name.txt",
-    "mp3": "src/data/mp3s/Blessed_Be_Your_Name.mp3",
-    "pdf": "src/data/pdfs/Blessed_Be_Your_Name.pdf"
+    "singer": "David/Claudine",
+    "title": "Tell The Good News",
+    "author": "SUNO xJim Ngo",
+    "snippet": "With open hands and open hearts We share the light that Christ has shown His word of hope for all the world Let every soul proclaim his love.",
+    "txt": "src/data/lyrics/Tell_The_Good_News-lyrics.txt",
+    "mp3": "src/data/mp3s/Tell_The_Good_News_Suno.mp3",
+    "pdf": "src/data/pdfs/Tell_The_Good_News_Suno.pdf"
   },
   {
     "moment": "Lord Have Mercy",

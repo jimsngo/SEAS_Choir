@@ -46,7 +46,7 @@ select opt in \
   "Quit"; do
   case $REPLY in
     1|2)
-      # For Start App Server and Extract Metadata, always restart the server and open browser
+      # For Start App Server and Extract Metadata, restart the main server
       SERVER_PID=$(lsof -ti:3000)
       if [ -n "$SERVER_PID" ]; then
         echo "Stopping existing app server on port 3000 (PID: $SERVER_PID)..."
@@ -54,18 +54,16 @@ select opt in \
         sleep 2
       fi
       if [ "$REPLY" = "2" ]; then
-        echo "Sanitizing all lyrics .txt files..."
-        node src/scripts/batchCleanLyrics.js
         echo "Running: node src/scripts/extractMetaFromSongTxt.js"
         node src/scripts/extractMetaFromSongTxt.js
       fi
-      echo "Starting app server (file-upload-app)..."
-      cd src/app/file-upload-app && npm start &
-      cd ../../../
-      echo "App server started on http://localhost:3000."
+      echo "Starting main Node.js server..."
+      node server.js &
       sleep 2
-      echo "Opening http://localhost:3000/app.html in your browser..."
-      open http://localhost:3000/app.html
+      echo "App server started on http://localhost:3000."
+      echo "Opening client and admin panel in your browser..."
+      open http://localhost:3000
+      open http://localhost:3000/server
       break
       ;;
     3)
