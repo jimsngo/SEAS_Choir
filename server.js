@@ -62,6 +62,9 @@ app.use('/src/data', express.static(path.join(__dirname, 'src/data')));
 // Serve output files (PDFs)
 app.use('/output', express.static(path.join(__dirname, 'output')));
 
+// Serve documentation files
+app.use('/docs', express.static(path.join(__dirname, 'docs')));
+
 // ==========================================
 // FILE UPLOAD ENDPOINT
 // ==========================================
