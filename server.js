@@ -197,9 +197,9 @@ app.get('/config/cantors.json', (req, res) => {
   }
 });
 
-// Serve client.html as default
+// Serve index.html as default
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'src/app', 'client.html'));
+  res.sendFile(path.join(__dirname, 'src/app', 'index.html'));
 });
 
 // Serve server.html admin panel
