@@ -2,79 +2,79 @@
   {
     "moment": "Entrance",
     "singer": "",
-    "title": "Entrance Antiphon LR42",
-    "author": "Sarah Hart",
-    "snippet": "O sing a new song to the Lord; Sing to the Lord, all the earth. In his presence are majesty and splendor, Strength and honor in his holy place.",
-    "txt": "src/data/lyrics/LR42.txt",
-    "mp3": "src/data/mp3s/LR42.mp3",
-    "pdf": "src/data/pdfs/LR42.pdf"
+    "title": "LR45",
+    "author": "Let Us All Rejoice",
+    "snippet": "Save us, O Lord our God! And gather us from the nations, to give thanks to your holy name, and make it our glory to praise you.",
+    "txt": "src/data/lyrics/LR45.txt",
+    "mp3": "src/data/mp3s/LR45.mp3",
+    "pdf": "src/data/pdfs/LR45.pdf"
   },
   {
     "moment": "Responsorial Psalm",
-    "title": "Psalm 27",
-    "author": "Francesca LaRosa",
-    "snippet": "The Lord is my light and my salvation.",
-    "txt": "src/data/lyrics/Psalm_27_The_Lord_Is_My_Light.txt",
-    "mp3": "src/data/mp3s/Psalm_27_The_Lord_Is_My_Light_LaRosa.mp3",
-    "pdf": "src/data/pdfs/Psalm_27_The_Lord_Is_My_Light_LaRosa.pdf"
+    "title": "Psalm 146: 6-7, 8-9, 9-10",
+    "author": "Owen Alstott",
+    "snippet": "Blessed are the poor in spirit; the kingdom of heaven is theirs!",
+    "txt": "src/data/lyrics/Psalm_146_Blessed_Are_The_Poor_LaRosa.txt",
+    "mp3": "src/data/mp3s/Fourth-Sunday-in-Ordinary-Time-A-89455.mp3",
+    "pdf": "src/data/pdfs/Fourth-Sunday-in-Ordinary-Time-A-89343.pdf"
   },
   {
     "moment": "Gospel Acclamation",
-    "singer": "David",
-    "title": "John 1:14a",
-    "author": "Steve Angrisano",
-    "snippet": "The Word of God became flesh and dwelt among us. To those who accepted him, He gave power to be come children of God.",
-    "txt": "src/data/lyrics/Acclamation_3rd_Sunday_SP2026.txt",
-    "mp3": "src/data/mp3s/Acclamation_3rd_Sunday_SP2026.mp3",
-    "pdf": "src/data/pdfs/Acclamation_3rd_Sunday_SP2026.pdf"
+    "singer": "",
+    "title": "",
+    "author": "Owen Alstott",
+    "snippet": "Rejoice and be glad; your reward will be great in heaven.",
+    "txt": "Rejoice and be glad; your reward will be great in heaven.",
+    "mp3": "src/data/mp3s/Gospel-Acclamation-Fourth-Sunday-in-Ordinary-Time-A-89456.mp3",
+    "pdf": ""
   },
   {
     "moment": "Offertory",
-    "title": "The Goodness of the Lord",
-    "author": "Scott Soper",
-    "snippet": "I believe, I believe, I shall see the goodness of the Lord in the land, in the land of the living.",
-    "txt": "src/data/lyrics/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.txt",
-    "mp3": "src/data/mp3s/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.mp3",
-    "pdf": "src/data/pdfs/The_Goodness_of_the_Lord_Psalm_27_ Scott_Soper.pdf"
+    "title": "The Summons",
+    "author": "KELVINGROVE",
+    "snippet": "Will you come and follow me If I but call your name? Will you go where you dont know And never be the same? Will you let my love be shown, Will you let my name be known, Will you let my life be grown In you and you in me?",
+    "txt": "src/data/lyrics/The_Summons.txt",
+    "mp3": "src/data/mp3s/The_Summons.mp3",
+    "pdf": "src/data/pdfs/The_Summons.pdf"
   },
   {
     "moment": "Communion Antiphon",
-    "singer": "Alan",
-    "title": "Communion Antiphon LR43",
-    "author": "Josh Blakesley",
-    "snippet": "Look toward the Lord and be radiant; Let your faces not be abashed.",
-    "txt": "src/data/lyrics/LR43.txt",
-    "mp3": "src/data/mp3s/LR43.mp3",
-    "pdf": "src/data/pdfs/LR43.pdf"
+    "singer": "",
+    "title": "LR46",
+    "author": "Let Us All Rejoice",
+    "snippet": "Let your face shine on your servant. Save me in your merciful love. O Lord, let me never be put to shame, for I call on you.",
+    "txt": "src/data/lyrics/LR46.txt",
+    "mp3": "src/data/mp3s/LR46.mp3",
+    "pdf": "src/data/pdfs/LR46.pdf"
   },
   {
     "moment": "Communion",
-    "title": "I Am the Bread of Life",
-    "author": "Steve Angrisano/Tom Booth",
-    "snippet": "I am the Bread of Life, I am the hope in night, I am the door wide open, I am the shepherds might, I am the truth and light, I am the way and life, I Am Who Am and I am for you: Come and follow me.",
-    "txt": "src/data/lyrics/I_Am_the_Bread_of_Life_Steve_Angrisano.txt",
-    "mp3": "src/data/mp3s/I_Am_The_Bread_of_Life_Steve_Angrisano.mp3",
-    "pdf": "src/data/pdfs/I_Am_The_Bread_of_Life_Steve_Angrisano.pdf"
+    "title": "Beloved, Arise",
+    "author": "Sarah Hart",
+    "snippet": "My Love, Do Not Hide From Me; Show Me Your Face. Your Garden Enchants My Heart; Come Open The Gate. Ill Walk You Through Fields Of White Till Sweet Morning Rise; My Shadows Will Take Their Leave Because You Are Mine.",
+    "txt": "src/data/lyrics/Beloved_Arise.txt",
+    "mp3": "src/data/mp3s/Beloved_Arise.mp3",
+    "pdf": "src/data/pdfs/Beloved_Arise.pdf"
   },
   {
     "moment": "Meditation",
-    "singer": "David/Claudine",
-    "title": "Great Are You Lord",
-    "author": "Jason Ingram, Leslie Jordan and David Leonard",
-    "snippet": "You give life, You are love. You bring light to the darkness. You give hope, You restore, Every heart that is broken. And great, are You, Lord.",
-    "txt": "src/data/lyrics/Great_Are_You_Lord_All Sons_Daughters.txt",
-    "mp3": "src/data/mp3s/Great_Are_You_Lord_All Sons_Daughters.mp3",
-    "pdf": "src/data/pdfs/Great_Are_You_Lord_All_Sons_Daughters.pdf"
+    "singer": "",
+    "title": "All For Love",
+    "author": "Sarah Hart/Dwight Liles",
+    "snippet": "We hunger for you God, We thirst to be renewed, We wait in joyful hope, And make our way to you. As we receive, we receive.",
+    "txt": "src/data/lyrics/All_for_Love.txt",
+    "mp3": "src/data/mp3s/All_for_Love.mp3",
+    "pdf": "src/data/pdfs/All_for_Love.pdf"
   },
   {
     "moment": "Recessional",
-    "singer": "David/Claudine",
-    "title": "Tell The Good News",
-    "author": "SUNO xJim Ngo",
-    "snippet": "With open hands and open hearts We share the light that Christ has shown His word of hope for all the world Let every soul proclaim his love.",
-    "txt": "src/data/lyrics/Tell_The_Good_News-lyrics.txt",
-    "mp3": "src/data/mp3s/Tell_The_Good_News_Suno.mp3",
-    "pdf": "src/data/pdfs/Tell_The_Good_News_Suno.pdf"
+    "singer": "",
+    "title": "Go Make a Difference",
+    "author": "Steve Angrisano / Tom Tomaszek",
+    "snippet": "Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world. Go make a diff'rence. We can make a diff'rence. Go make a diff'rence in the world.",
+    "txt": "src/data/lyrics/Go_Make_A_Difference.txt",
+    "mp3": "src/data/mp3s/Go_Make_A_Difference.mp3",
+    "pdf": "src/data/pdfs/Go_Make_A_Difference.pdf"
   },
   {
     "moment": "Lord Have Mercy",
