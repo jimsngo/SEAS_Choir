@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Moments Manager</title>
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <style>
+        /* ... Keeping your existing styles ... */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .moments-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 20px;
+        }
+
+        .moment-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .moment-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .moment-content {
+            display: none;
+            margin-top: 15px;
+        }
+
+        .moment-content.show {
+            display: block;
+        }
+
+        .upload-zone {
+            border: 2px dashed #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            background: #f8f9ff;
+            margin-top: 5px;
+        }
+
+        .upload-zone:hover {
+            border-color: #667eea;
+            background: #ede9ff;
+        }
+
+        .status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px;
+            border-radius: 6px;
+            display: none;
+            z-index: 1000;
+        }
+
+        .status.show {
+            display: block;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .mass-info-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mass-info-box" id="massInfoBox">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h1>📘 Mass Information</h1>
+                <button onclick="toggleMassInfoEdit()"
+                    style="background: white; color: #667eea; padding: 6px 12px; border: none; border-radius: 4px; cursor: pointer;">✏️
+                    Edit</button>
+            </div>
+            <div id="massInfoDisplay"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px;"></div>
+        </div>
+
+        <header>
+            <h2>🎵 Mass Moments Manager</h2>
+            <p style="color: #666; font-size: 14px;">Local MP3 & Document Storage Mode</p>
+        </header>
+
+        <div class="status" id="status"></div>
+        <div class="moments-grid" id="momentsGrid"></div>
+    </div>
+
+    <script>
+        let massInfo = {};
+        const moments = [];
+        const files = {};
+
+        // 1. DATA LOADING
+        async function loadData() {
+            try {
+                const [infoRes, momentsRes] = await Promise.all([
+                    fetch('/config/mass_info.json'),
+                    fetch('/config/moments.json')
+                ]);
+                massInfo = await infoRes.json();
+                const momentsData = await momentsRes.json();
+                moments.length = 0;
+                moments.push(...momentsData);
+
+                displayMassInfo();
+                renderMoments();
+            } catch (e) {
+                console.error("Load error:", e);
+            }
+        }
+
+        function displayMassInfo() {
+            document.getElementById('massInfoDisplay').innerHTML = `
+                <div><strong>Mass:</strong> ${massInfo.mass_name || '---'}</div>
+                <div><strong>Date:</strong> ${massInfo.date || '---'}</div>
+                <div><strong>Cantor:</strong> ${massInfo.cantor || '---'}</div>
+            `;
+        }
+
+        // 2. RENDERING
+        function renderMoments() {
+            const grid = document.getElementById('momentsGrid');
+            grid.innerHTML = '';
+
+            moments.forEach(m => {
+                const name = m.moment;
+                if (!files[name]) files[name] = {
+                    txt: null,
+                    pdf: null,
+                    mp3: null
+                };
+
+                const card = document.createElement('div');
+                card.className = 'moment-card';
+                card.innerHTML = `
+                    <div style="display:flex; justify-content:space-between;">
+                        <div class="moment-name">${name}</div>
+                        <button onclick="toggleMoment('${name}')">▼</button>
+                    </div>
+                    <div class="moment-content" id="content-${name}">
+                        ${renderUploadZone(name, 'txt', 'Lyrics', m.txt)}
+                        ${renderUploadZone(name, 'pdf', 'Sheet Music', m.pdf)}
+                        ${renderUploadZone(name, 'mp3', 'Audio (MP3)', m.mp3)}
+                        <button class="btn-primary" onclick="updateMoment('${name}')">Save Changes</button>
+                    </div>
+                `;
+                grid.appendChild(card);
+                setupUploadLogic(card, name);
+            });
+        }
+
+        function renderUploadZone(momentName, type, label, current) {
+            const fileName = current ? current.split('/').pop() : 'None';
+            return `
+                <div style="margin-top:10px;">
+                    <label style="font-size:11px; font-weight:bold; color:#667eea;">${label}</label>
+                    <div style="font-size:10px; color:#999;">Current: ${fileName}</div>
+                    <div class="upload-zone" data-moment="${momentName}" data-type="${type}">
+                        Click to Select Local ${type.toUpperCase()}
+                    </div>
+                    <div id="display-${momentName}-${type}" style="font-size:11px; color:green; margin-top:4px;"></div>
+                </div>`;
+        }
+
+        // 3. UPLOAD LOGIC
+        function setupUploadLogic(card, name) {
+            card.querySelectorAll('.upload-zone').forEach(zone => {
+                zone.onclick = () => {
+                    const input = document.createElement('input');
+                    input.type = 'file';
+
+                    // --- ADD THESE LINES TO FILTER ---
+                    const type = zone.dataset.type;
+                    if (type === 'mp3') input.accept = ".mp3";
+                    if (type === 'pdf') input.accept = ".pdf";
+                    if (type === 'txt') input.accept = ".txt";
+                    // ---------------------------------
+
+                    input.onchange = (e) => {
+                        const file = e.target.files[0];
+                        if (!file) return;
+                        files[name][type] = file;
+                        document.getElementById(`display-${name}-${type}`).innerText = "Selected: " +
+                            file.name;
+                    };
+                    input.click();
+                };
+            });
+        }
+
+async function updateMoment(name) {
+    const momentData = moments.find(m => m.moment === name);
+    const pendingFiles = files[name];
+    let hasChanges = false;
+
+    // We only loop through the files that were actually selected
+    for (const type of ['txt', 'pdf', 'mp3']) {
+        const file = pendingFiles[type];
+        if (file) {
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            // THIS IS THE MISSING PIECE:
+            formData.append('momentName', name); 
+
+            showStatus(`Uploading ${type.toUpperCase()} for ${name}...`, 'info');
+            
+            try {
+                const res = await fetch('/upload', { method: 'POST', body: formData });
+                const result = await res.json();
+                
+                if (result.success) {
+                    momentData[type] = result.path;
+                    hasChanges = true;
+                } else {
+                    console.error("Upload failed for " + type, result.error);
+                }
+            } catch (err) {
+                console.error("Fetch error:", err);
+            }
+        }
+    }
+
+    if (hasChanges) {
+        // Save the updated paths to moments.json
+        await fetch('/api/moments', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(moments)
+        });
+        showStatus(`${name} updated successfully!`, "success");
+        files[name] = { txt: null, pdf: null, mp3: null };
+        renderMoments();
+    }
+}
+        function toggleMoment(name) {
+            document.getElementById(`content-${name}`).classList.toggle('show');
+        }
+
+        function showStatus(msg, type) {
+            const s = document.getElementById('status');
+            s.innerText = msg;
+            s.className = `status show ${type}`;
+            setTimeout(() => s.classList.remove('show'), 3000);
+        }
+
+        window.onload = loadData;
+    </script>
+</body>
+
+</html>

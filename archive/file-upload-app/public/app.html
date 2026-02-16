@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Choir File Upload</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+  <div class="container py-5">
+    <h2>Mass Information</h2>
+    <form id="massForm" class="mb-4">
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="mass_name" class="form-label">Mass Name</label>
+          <input type="text" class="form-control" id="mass_name" name="mass_name" maxlength="100"
+            placeholder="Enter full Mass name here">
+        </div>
+        <div class="col-md-3">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" name="date">
+        </div>
+        <div class="col-md-3">
+          <label for="time" class="form-label">Time</label>
+          <input type="time" class="form-control" id="time" name="time">
+        </div>
+        <div class="col-md-3">
+          <label for="cantor" class="form-label">Cantor</label>
+          <select class="form-control" id="cantor" name="cantor">
+            <option value="">Select Cantor</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-secondary">Save Mass Info</button>
+      <div id="progress-message" class="mt-2" style="display:none;">
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        <span id="progress-text">Saving...</span>
+      </div>
+    </form>
+    <h2>Choir File Upload</h2>
+    <div id="moments-blocks"></div>
+    <div id="moment-progress" class="mt-2" style="display:none;"></div>
+    <div id="result" class="mt-4"></div>
+
+
+
+    <script>
+      // Fetch mass_info.json first
+      let massInfo = {};
+      fetch('/mass_info.json')
+        .then(res => res.json())
+        .then(info => {
+          massInfo = info;
+          document.getElementById('mass_name').value = massInfo.mass_name || '';
+          document.getElementById('date').value = massInfo.date || '';
+          document.getElementById('time').value = massInfo.time || '';
+        })
+        .then(() => {
+          // Now fetch cantors.json and set dropdown
+          fetch('/cantors.json')
+            .then(res => res.json())
+            .then(cantors => {
+              const cantorSelect = document.getElementById('cantor');
+              cantors.forEach(name => {
+                const opt = document.createElement('option');
+                opt.value = name;
+                opt.textContent = name;
+                cantorSelect.appendChild(opt);
+              });
+              // Set selected cantor after options are loaded
+              cantorSelect.value = massInfo.cantor || '';
+            });
+        });
+
+      document.getElementById('massForm').onsubmit = async function (e) {
+        e.preventDefault();
+        const massData = {
+          mass_name: document.getElementById('mass_name').value,
+          date: document.getElementById('date').value,
+          time: document.getElementById('time').value,
+          cantor: document.getElementById('cantor').value
+        };
+        // Show progress spinner and message
+        const progressDiv = document.getElementById('progress-message');
+        const progressText = document.getElementById('progress-text');
+        progressText.textContent = 'Saving...';
+        progressDiv.style.display = '';
+        document.getElementById('result').textContent = '';
+        try {
+          console.log('Sending mass info:', massData);
+          const res = await fetch('/mass_info.json', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(massData)
+          });
+          const text = await res.text();
+          console.log('Raw response:', text);
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (parseErr) {
+            progressText.textContent = 'Save failed: Invalid JSON response.';
+            progressDiv.style.display = '';
+            document.getElementById('result').textContent = 'Save failed: Invalid JSON response.';
+            console.error('JSON parse error:', parseErr);
+            return;
+          }
+          if (data.success) {
+            progressText.textContent = 'Mass info saved!';
+            setTimeout(() => {
+              progressDiv.style.display = 'none';
+            }, 1200);
+            document.getElementById('result').textContent = 'Mass info saved!';
+          } else {
+            progressText.textContent = 'Save failed: ' + (data.error || 'Unknown error');
+            progressDiv.style.display = '';
+            document.getElementById('result').textContent = 'Save failed: ' + (data.error || 'Unknown error');
+          }
+        } catch (err) {
+          progressText.textContent = 'Save failed: ' + err.message;
+          progressDiv.style.display = '';
+          document.getElementById('result').textContent = 'Save failed: ' + err.message;
+          console.error('Fetch error:', err);
+        }
+      };
+      // Fetch moments.json and moments_list.json, then pre-fill each block
+      Promise.all([
+        fetch('/moments.json').then(res => res.json()),
+        fetch('/moments_list.json').then(res => res.json())
+      ]).then(([moments, momentNames]) => {
+        const container = document.getElementById('moments-blocks');
+        momentNames.forEach((momentName, idx) => {
+          // Find metadata for this moment
+          const meta = moments.find(m => m.moment === momentName) || {};
+          const collapseId = `collapse-upload-${idx}`;
+          const block = document.createElement('div');
+          block.className = 'card mb-4';
+          block.innerHTML = `
+            <div class="card-header bg-primary text-white">
+              <h5 class="mb-0">${momentName}</h5>
+            </div>
+            <div class="card-body">
+              <table class="table table-bordered align-middle mb-4">
+                <tbody>
+                  <tr>
+                    <th style="width:25%">Title</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.title || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>Author</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.author || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>Snippet</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.snippet || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>MP3</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.mp3 || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>PDF</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.pdf || ''}</td>
+                  </tr>
+                  <tr>
+                    <th>TXT</th>
+                    <td style="white-space:pre-wrap;word-break:break-word;">${meta.txt || ''}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="btn btn-outline-secondary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}" style="font-size:1.2em;">
+                <span class="fw-bold">+</span> Upload Files
+              </button>
+              <div id="${collapseId}" class="collapse">
+                <form class="moment-upload-form mt-3" data-moment="${momentName}">
+                  <div class="mb-3">
+                    <label class="form-label">Upload MP3 File</label>
+                    <input type="file" class="form-control" name="mp3" accept=".mp3">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Upload PDF File</label>
+                    <input type="file" class="form-control" name="pdf" accept=".pdf">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Upload TXT File</label>
+                    <input type="file" class="form-control" name="text" accept=".txt">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Upload</button>
+                  <div class="moment-result mt-2"></div>
+                </form>
+              </div>
+            </div>
+          `;
+          container.appendChild(block);
+        });
+
+        // Add event listeners for each moment upload form
+        document.querySelectorAll('.moment-upload-form').forEach(form => {
+          form.onsubmit = async function (e) {
+            e.preventDefault();
+            const momentName = form.getAttribute('data-moment');
+            const formData = new FormData(form);
+            formData.append('moment', momentName);
+            const res = await fetch('http://localhost:3000/upload', {
+              method: 'POST',
+              body: formData
+            });
+            const data = await res.json();
+            form.querySelector('.moment-result').textContent = data.success ? 'Files uploaded!' :
+              'Upload failed.';
+            // If a TXT file was uploaded, trigger metadata extraction
+            if (form.querySelector('input[name="text"]').files.length > 0 && data.success) {
+              await fetch('http://localhost:3000/run-automation', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                  task: 'extract-metadata'
+                })
+              });
+            }
+          };
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
