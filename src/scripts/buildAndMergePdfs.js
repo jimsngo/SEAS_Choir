@@ -5,21 +5,40 @@ const { PDFDocument, rgb } = require('pdf-lib');
 const https = require('https');
 const http = require('http');
 
-const PROJECT_ROOT = path.resolve(__dirname, '../../');
-const OUTPUT_FILE = path.resolve(PROJECT_ROOT, 'output/music.pdf');
-const MOMENTS_PATH = path.resolve(PROJECT_ROOT, 'config/moments.json');
-const MASS_INFO_PATH = path.resolve(PROJECT_ROOT, 'config/mass_info.json');
+// ==========================================
+//        PATH CONTROL PANEL
+// ==========================================
+// This script lives in src/scripts/, so go UP twice to reach project root
+const ROOT_DIR = path.join(__dirname, '..', '..');
+
+const CONFIG_DIR     = path.join(ROOT_DIR, 'config');
+const OUTPUT_DIR     = path.join(ROOT_DIR, 'output');
+const MOMENTS_PATH   = path.join(CONFIG_DIR, 'moments.json');
+const MASS_INFO_PATH = path.join(CONFIG_DIR, 'mass_info.json');
+const OUTPUT_FILE    = path.join(OUTPUT_DIR, 'music.pdf');
+// ==========================================
 
 async function mergePdfs() {
-    console.log('🚀 Starting Music PDF Generation...');
+    console.log('-----------------------------------------');
+    console.log('🎼 GENERATING MUSIC PDF');
+    console.log(`📂 Root: ${ROOT_DIR}`);
+    console.log('-----------------------------------------');
 
+    // 1. Ensure output directory exists
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    }
+
+    // 2. Load Configuration Files
     if (!fs.existsSync(MOMENTS_PATH)) {
-        console.error('❌ moments.json not found!');
+        console.error('❌ Error: moments.json not found at ' + MOMENTS_PATH);
         return;
     }
+    
     const moments = JSON.parse(fs.readFileSync(MOMENTS_PATH, 'utf8'));
     const massInfo = fs.existsSync(MASS_INFO_PATH) ? JSON.parse(fs.readFileSync(MASS_INFO_PATH, 'utf8')) : {};
 
+    // 3. Filter for valid PDF entries
     const validMoments = moments.filter(m => typeof m.pdf === 'string' && m.pdf.length > 0);
 
     if (validMoments.length === 0) {
@@ -30,26 +49,28 @@ async function mergePdfs() {
     const mergedPdf = await PDFDocument.create();
     const pageSectionMap = [];
 
+    // 4. Processing Loop
     for (const section of validMoments) {
-        const url = section.pdf;
+        const filePath = section.pdf;
 
-        // --- THE SAFETY GUARD ---
-        // If the path doesn't end in .pdf, skip it to avoid "No PDF Header" crashes
-        if (!url.toLowerCase().endsWith('.pdf')) {
-            console.warn(`⚠️ Skipping ${section.moment}: "${path.basename(url)}" is not a PDF file.`);
+        // Safety Guard: Only process PDF files
+        if (!filePath.toLowerCase().endsWith('.pdf')) {
+            console.warn(`⚠️ Skipping ${section.moment}: "${path.basename(filePath)}" is not a PDF.`);
             continue;
         }
 
         let pdfBytes;
-        if (url.startsWith('http')) {
-            pdfBytes = await downloadPdf(url);
+        if (filePath.startsWith('http')) {
+            console.log(`🌐 Downloading: ${section.moment}...`);
+            pdfBytes = await downloadPdf(filePath);
         } else {
-            const absolutePath = path.resolve(PROJECT_ROOT, url);
+            // Build the absolute path from the root
+            const absolutePath = path.join(ROOT_DIR, filePath);
             if (fs.existsSync(absolutePath)) {
                 pdfBytes = fs.readFileSync(absolutePath);
-                console.log(`📖 Loaded: ${section.moment} (${path.basename(url)})`);
+                console.log(`📖 Loaded: ${section.moment} -> ${path.basename(filePath)}`);
             } else {
-                console.error(`❌ File not found for ${section.moment}: ${absolutePath}`);
+                console.error(`❌ File missing for ${section.moment}: ${absolutePath}`);
                 continue;
             }
         }
@@ -60,28 +81,32 @@ async function mergePdfs() {
                 const copiedPages = await mergedPdf.copyPages(pdf, pdf.getPageIndices());
                 copiedPages.forEach(page => {
                     mergedPdf.addPage(page);
-                    pageSectionMap.push(section);
+                    pageSectionMap.push(section); // Track which moment this page belongs to
                 });
             }
         } catch (err) {
-            console.error(`🚨 Error processing PDF for ${section.moment}:`, err);
+            console.error(`🚨 PDF Load Error (${section.moment}):`, err.message);
         }
     }
 
-    // Add Headers and Footers logic (same as before)
+    // 5. Finalize PDF (Headers, Footers, Page Numbers)
     const numPages = mergedPdf.getPageCount();
     if (numPages === 0) {
-        console.error("❌ No pages were added to the merged PDF.");
+        console.error("❌ No pages were added. PDF not saved.");
         return;
     }
 
-    const font = await mergedPdf.embedFont('Helvetica');
-    for (let i = 0; i < numPages; i++) {
-        const page = mergedPdf.getPage(i);
-        const { width, height } = page.getSize();
-        const section = pageSectionMap[i];
+    // Embed a standard font for headers/footers
+    const font = await mergedPdf.embedFont('Helvetica-Bold');
+    const pages = mergedPdf.getPages();
 
-        let headerParts = [];
+    for (let i = 0; i < numPages; i++) {
+        const page = pages[i];
+        const section = pageSectionMap[i];
+        const { width, height } = page.getSize();
+
+        // Build Header: [Mass Name] | [Date] | [Singer Name]
+        const headerParts = [];
         if (massInfo.mass_name) headerParts.push(massInfo.mass_name);
         if (massInfo.date) headerParts.push(massInfo.date);
         if (section.singer) headerParts.push(section.singer);
@@ -93,26 +118,30 @@ async function mergePdfs() {
                 x: (width - headerWidth) / 2,
                 y: height - 30,
                 size: 12,
-                font
+                font,
+                color: rgb(0, 0, 0)
             });
         }
 
-        const footerText = `${section.moment} | Page ${i + 1} of ${numPages}`;
+        // Add Footer: [Moment Name] | Page X of Y
+        const footerText = `${section.moment.replace(/_/g, ' ')} | Page ${i + 1} of ${numPages}`;
         const footerWidth = font.widthOfTextAtSize(footerText, 10);
         page.drawText(footerText, {
             x: (width - footerWidth) / 2,
             y: 25,
             size: 10,
-            font
+            font,
+            color: rgb(0.3, 0.3, 0.3)
         });
     }
 
+    // 6. Save the final file
     const mergedPdfBytes = await mergedPdf.save();
-    if (!fs.existsSync(path.dirname(OUTPUT_FILE))) fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
     fs.writeFileSync(OUTPUT_FILE, mergedPdfBytes);
     console.log(`\n✅ Successfully merged into: ${OUTPUT_FILE}`);
 }
 
+// Helper function for web links
 function downloadPdf(url) {
     return new Promise((resolve, reject) => {
         const client = url.startsWith('https') ? https : http;
@@ -124,11 +153,9 @@ function downloadPdf(url) {
             const data = [];
             res.on('data', chunk => data.push(chunk));
             res.on('end', () => resolve(Buffer.concat(data)));
-        }).on('error', reject);
+        }).on('error', err => reject(err));
     });
 }
 
-mergePdfs().catch(err => {
-    console.error('Fatal Error:', err);
-    process.exit(1);
-});
+// Execute the merge
+mergePdfs().catch(err => console.error('FATAL ERROR:', err));

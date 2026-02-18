@@ -1,133 +1,135 @@
 [
-    {
-        "moment": "Entrance",
-        "singer": "",
-        "title": "LR51",
-        "author": "Let Us All Rejoice",
-        "snippet": "Be my protector, O God, a mighty stronghold to save me. For you are my rock, my stronghold! Lead me, guid me, for the sake of your name.",
-        "txt": "src/data/Moments/Entrance/LR51.txt",
-        "mp3": "src/data/Moments/Entrance/LR51.mp3",
-        "pdf": "src/data/Moments/Entrance/LR51.pdf"
-    },
-    {
-        "moment": "Responsorial_Psalm",
-        "title": "Psalm 119",
-        "author": "Francesca LaRosa",
-        "snippet": "Blessed are they who follow the law of the Lord!",
-        "txt": "src/data/Moments/Responsorial_Psalm/Psalm_119_Blessed_Are_They_Who_Follow_the_Law_of_the_Lord.txt",
-        "mp3": "src/data/Moments/Responsorial_Psalm/Psalm_119_Blessed_Are_They_Who_Follow_the_Law_of_the_Lord_LaRosa.mp3",
-        "pdf": "src/data/Moments/Responsorial_Psalm/Psalm_119_Blessed_Are_They_Who_Follow_the_Law_of_the_Lord_LaRosa.pdf"
-    },
-    {
-        "moment": "Gospel_Acclamation",
-        "singer": "David",
-        "title": "Matthew 11:25",
-        "author": "SP2026",
-        "snippet": "Blessed are you, Father, Lord of heaven and earth; You have revealed to title ones the mysteries of the kingdom.",
-        "txt": "src/data/Moments/Gospel_Acclamation/Acclamation_6th_Sunday_A_SP2026.txt",
-        "mp3": "src/data/Moments/Gospel_Acclamation/Acclamation_6th_Sunday_A_SP2026.mp3",
-        "pdf": "src/data/Moments/Gospel_Acclamation/Acclamation_6th_Sunday_A_SP2026.pdf"
-    },
-    {
-        "moment": "Offertory",
-        "title": "Drawn to You",
-        "author": "Sarah Hart",
-        "snippet": "Drawn to you, Lord, we are drawn to you, to the beauty of your presence in this place. Here for you, God, we are here for you as the gifts we bring become a feast of grace. We are drawn to you.",
-        "txt": "src/data/Moments/Offertory/Drawn_to_You.txt",
-        "mp3": "src/data/Moments/Offertory/Drawn_to_You.mp3",
-        "pdf": "src/data/Moments/Offertory/Drawn_to_You.pdf"
-    },
-    {
-        "moment": "Communion_Antiphon",
-        "singer": "",
-        "title": "LR53",
-        "author": "Let Us All Rejoice",
-        "snippet": "God so loved the world that he gave his Only Begotten Son, so that all who believe in him may not perish, but may have eternal life.",
-        "txt": "src/data/Moments/Communion_Antiphon/LR53.txt",
-        "mp3": "src/data/Moments/Communion_Antiphon/LR53.mp3",
-        "pdf": "src/data/Moments/Communion_Antiphon/LR53.pdf"
-    },
-    {
-        "moment": "Communion",
-        "title": "Ubi Caritas",
-        "author": "Bob Hurd",
-        "snippet": "The love of Christ joins us together. Let us rejoice in him, and in our love and care for all now love God in return.",
-        "txt": "src/data/Moments/Communion/Ubi_Caritas.txt",
-        "mp3": "src/data/Moments/Communion/Ubi_Caritas.mp3",
-        "pdf": "src/data/Moments/Communion/Ubi_Caritas.pdf"
-    },
-    {
-        "moment": "Meditation",
-        "singer": "",
-        "title": "Blessed Are You (Psalm 146)",
-        "author": "SUNO/Jim Ngo",
-        "snippet": "Come, you weary, find your rest, Here the broken, truly blessed. Lay your burdens, take His peace, In His love, sorrows cease.",
-        "txt": "src/data/Moments/Meditation/Bless Are You.txt",
-        "mp3": "src/data/Moments/Meditation/Blessed_Are_You_Suno.mp3",
-        "pdf": "src/data/Moments/Meditation/Blessed_Are_You_Suno.pdf"
-    },
-    {
-        "moment": "Recessional",
-        "singer": "David/Claudine",
-        "title": "Walk in Love",
-        "author": "Suno/Jim Ngo",
-        "snippet": "Walk in love, hand in hand, Every heart, every friend. No walls between, no lines to defend, One family, without end.",
-        "txt": "src/data/Moments/Recessional/Walk_in_love.txt",
-        "mp3": "src/data/Moments/Recessional/Walk in Love.mp3",
-        "pdf": "src/data/Moments/Recessional/Walk in Love logic.pdf"
-    },
-    {
-        "moment": "Lord_Have_Mercy",
-        "title": "",
-        "author": "Mass of St. Mary Magdalene - Sarah Hart",
-        "snippet": "Lord, have mercy. Christ have mercy. Lord have mercy",
-        "mp3": "src/data/Mass_Parts/Lord_Have_Mercy/Lord_Have_Mercy_Sarah_Hart.mp3",
-        "pdf": "",
-        "txt": ""
-    },
-    {
-        "moment": "Glory_to_God",
-        "title": "",
-        "author": "Mass of St. Mary Magdalene - Sarah Hart",
-        "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
-        "mp3": "src/data/Mass_Parts/Glory_to_God/Glory_to_God_Sarah_Hart.mp3",
-        "pdf": "",
-        "txt": ""
-    },
-    {
-        "moment": "Holy",
-        "title": "",
-        "author": "Mass of St. Mary Magdalene - Sarah Hart",
-        "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
-        "mp3": "src/data/Mass_Parts/Holy/Holy_Mass_Sarah_Hart.mp3",
-        "pdf": "",
-        "txt": ""
-    },
-    {
-        "moment": "When_We_Eat_This_Bread",
-        "title": "",
-        "author": "Mass of St. Mary Magdalene - Sarah Hart",
-        "snippet": "When we eat this bread and drink this cup, we proclaim your death, O Lord, until you come again.",
-        "mp3": "src/data/Mass_Parts/When_We_Eat_This_Bread/When_We_Eat_This_Bread_Sarah_Hart_Choral.mp3",
-        "pdf": "",
-        "txt": ""
-    },
-    {
-        "moment": "Amen",
-        "title": "",
-        "author": "Mass of St. Mary Magdalene - Sarah Hart",
-        "snippet": "Amen, Amen, Amen, Amen, Amen.",
-        "mp3": "src/data/Mass_Parts/Amen/Amen_Sarah_Hart.mp3",
-        "pdf": "",
-        "txt": ""
-    },
-    {
-        "moment": "Lamb_of_God",
-        "title": "",
-        "author": "Mass of St. Mary Magdalene - Sarah Hart",
-        "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
-        "mp3": "src/data/Mass_Parts/Lamb_of_God/Lamb_of_God_Sarah_Hart.mp3",
-        "pdf": "",
-        "txt": ""
-    }
+  {
+    "moment": "Entrance",
+    "singer": "",
+    "title": "LR-65",
+    "author": "Let Us All Rejoice",
+    "snippet": "When he calls on me, I will answer him; I will deliver him and give him glory, I will grant him length of days.",
+    "txt": "data/Entrance/LR65.txt",
+    "mp3": "data/Entrance/LR65.mp3",
+    "pdf": "data/Entrance/LR65.pdf"
+  },
+  {
+    "moment": "Responsorial_Psalm",
+    "title": "Psalm 51: 3-4, 5-6ab, 12-13, 14 and 17",
+    "author": "Francesca LaRosa",
+    "snippet": "Be merciful, O Lord, for we have sinned.",
+    "txt": "data/Responsorial_Psalm/Psalm_51_Be_Merciful_O_Lord_For_We_Have_Sinned_LaRosa.txt",
+    "mp3": "data/Responsorial_Psalm/Psalm_51_Be_Merciful_O_Lord_For_We_Have_Sinned_LaRosa.mp3",
+    "pdf": "data/Responsorial_Psalm/Psalm_51_Be_Merciful_O_Lord_For_We_Have_Sinned_LaRosa.pdf"
+  },
+  {
+    "moment": "Gospel_Acclamation",
+    "singer": "",
+    "title": "Matthew 4:4b",
+    "author": "Tom Booth",
+    "snippet": "One does not live on bread alone, but on every word that comes forth from the mouth of God.",
+    "txt": "data/Gospel_Acclamation/Acclamation_Lent1_SP2026.txt",
+    "mp3": "data/Gospel_Acclamation/Acclamation_Lent1_SP2026.mp3",
+    "pdf": "data/Gospel_Acclamation/Acclamation_Lent1_SP2026.pdf"
+  },
+  {
+    "moment": "Offertory",
+    "title": "Be Not Afraid/No Temas M\u00e1s",
+    "author": "Bob Dufford SJ",
+    "snippet": "You shall cross the barren desert, but you shall not die of thirst. You shall wander far in safety though you do not know the way. You shall speak your words in foreign lands and all will understand. You shall see the face of God and live.",
+    "txt": "data/Offertory/Be_Not_Afraid.txt",
+    "mp3": "data/Offertory/Be_Not_Afraid.mp3",
+    "pdf": "data/Offertory/Be_Not_Afraid.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Communion_Antiphon",
+    "singer": "",
+    "title": "LR-67",
+    "author": "Let Us All Rejoice",
+    "snippet": "The Lord will conceal you with his pinions, And under his wings you will trust.",
+    "txt": "data/Communion_Antiphon/LR67.txt",
+    "mp3": "data/Communion_Antiphon/LR67.mp3",
+    "pdf": "data/Communion_Antiphon/LR67.pdf"
+  },
+  {
+    "moment": "Communion",
+    "title": "Hosea",
+    "author": "Weston Priory/Gregory Norbet",
+    "snippet": "Come back to me with all your heart. Don\u2019t let fear keep us apart. Trees do bend, though straight and tall; so must we to others\u2019 call.",
+    "txt": "data/Communion/Hosea.txt",
+    "mp3": "data/Communion/Hosea.mp3",
+    "pdf": "data/Communion/Hosea.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Meditation",
+    "singer": "",
+    "title": "On Eagle\u2019s Wings",
+    "author": "Michael Joncas",
+    "snippet": "You who dwell in the shelter of the Lord, who abide in his shadow for life, say to the Lord: \"My refuge, my rock in whom I trust!\"",
+    "txt": "data/Meditation/On_Eagles_Wings.txt",
+    "mp3": "data/Meditation/On_Eagles_Wings.mp3",
+    "pdf": "data/Meditation/On_Eagles_Wings.pdf"
+  },
+  {
+    "moment": "Recessional",
+    "singer": "",
+    "title": "Revive Us, O God",
+    "author": "Jesse Manibusan",
+    "snippet": "Revive us, O God, breathe into us the way of your wisdom, the depth of your trust. You are our hope, you are our light, O God.",
+    "txt": "data/Recessional/Revive_Us_O_God.txt",
+    "mp3": "data/Recessional/Revive_Us_O_God.mp3",
+    "pdf": "data/Recessional/Revive_Us_O_God.pdf"
+  },
+  {
+    "moment": "Lord_Have_Mercy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lord, have mercy. Christ have mercy. Lord have mercy",
+    "mp3": "data/Mass_Parts/Lord_Have_Mercy/Lord_Have_Mercy_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Glory_to_God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+    "mp3": "data/Mass_Parts/Glory_to_God/Glory_to_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Holy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+    "mp3": "data/Mass_Parts/Holy/Holy_Mass_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "When_We_Eat_This_Bread",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "When we eat this bread and drink this cup, we proclaim your death, O Lord, until you come again.",
+    "mp3": "data/Mass_Parts/When_We_Eat_This_Bread/When_We_Eat_This_Bread_Sarah_Hart_Choral.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Amen",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Amen, Amen, Amen, Amen, Amen.",
+    "mp3": "data/Mass_Parts/Amen/Amen_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Lamb_of_God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
+    "mp3": "data/Mass_Parts/Lamb_of_God/Lamb_of_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  }
 ]
