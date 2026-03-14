@@ -47,7 +47,10 @@ function parseTxtFile(txtPath) {
                 currentSection = 'author';
                 authorFound = true;
             } 
-            else if (authorFound && !meta.snippet) currentSection = 'snippet';
+            // Trigger snippet collection on the very next tag after author is found
+            else if (authorFound && !meta.snippet) {
+                currentSection = 'snippet';
+            }
             else if (meta.snippet) break;
         } 
         else {
@@ -65,13 +68,25 @@ function parseTxtFile(txtPath) {
             }
         }
     }
+
+    // --- TERMINAL DEBUG WARNINGS (VSCODE COLORS) ---
+    const fileName = path.basename(txtPath);
+    if (!meta.title) {
+        console.warn(`\x1b[33m⚠️  [Format Warning] No [Title] content found in: ${fileName}\x1b[0m`);
+    }
+    if (!meta.author) {
+        console.warn(`\x1b[33m⚠️  [Format Warning] No [Author] content found in: ${fileName}\x1b[0m`);
+    }
+    if (!meta.snippet) {
+        console.warn(`\x1b[33m⚠️  [Format Warning] No lyric snippet found after [Author] tag in: ${fileName}\x1b[0m`);
+    }
+
     return meta;
 }
 
 // --- 3. MAIN UPDATE LOOP ---
 function updateMoments() {
     console.log('--- Scanning Lyrics for Metadata ---');
-    console.log(`📂 Root: ${ROOT_DIR}`);
     
     if (!fs.existsSync(MOMENTS_PATH)) {
         console.error('❌ Error: moments.json not found at ' + MOMENTS_PATH);
@@ -82,8 +97,8 @@ function updateMoments() {
     let changed = false;
 
     moments.forEach(moment => {
-        if (moment.txt) {
-            // Build absolute path to the text file using ROOT_DIR
+        // Skip moments that have no text file path or are explicitly empty
+        if (moment.txt && moment.txt.trim() !== "") {
             const fullTxtPath = path.join(ROOT_DIR, moment.txt);
             
             if (fs.existsSync(fullTxtPath)) {
@@ -102,6 +117,9 @@ function updateMoments() {
                     changed = true;
                     console.log(`✅ Updated Snippet for: ${moment.moment}`);
                 }
+            } else {
+                // Red warning if the JSON points to a file that is missing on disk
+                console.warn(`\x1b[31m❓ [File Missing] moments.json refers to ${moment.txt} but it was not found.\x1b[0m`);
             }
         }
     });

@@ -29,7 +29,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         mainContent.innerHTML = ''; // Clear once
 
-        moments.forEach(m => {
+moments.forEach(m => {
+            // Check if the moment has a title or an mp3. 
+            // If both are empty, we skip rendering this card.
+            if (!m.title && !m.mp3) {
+                return; 
+            }
+
             const newSection = templateSection.cloneNode(true);
             newSection.classList.remove('d-none');
 
@@ -40,7 +46,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             newSection.querySelector('.snippet').textContent = m.snippet || '';
             
             const audio = newSection.querySelector('audio');
-            audio.src = m.mp3;
+            if (m.mp3) {
+                audio.src = m.mp3;
+            } else {
+                // Hide audio player if no mp3 is provided
+                audio.style.display = 'none';
+            }
             
             // Link updates
             newSection.querySelector('.pdf-btn')?.setAttribute('href', m.pdf);
