@@ -1,0 +1,7 @@
+To rename files, open a new terminal at the folder, then:
+
+To replace all underscores to hyphens:
+for f in *_*; do mv -v "$f" "${f//_/-}"; done
+
+To replace all spaces to hyphens:
+for f in *" "*; do mv -v "$f" "${f// /-}"; done
