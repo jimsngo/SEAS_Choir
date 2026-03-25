@@ -1,42 +1,42 @@
 [
   {
     "moment": "Entrance",
-    "singer": "",
-    "title": "Litany of the Saints",
-    "author": "John D. Becker",
-    "snippet": "Lord, have mercy. Lord, have mercy. Christ, have mercy. Christ, have mercy. Lord, have mercy. Lord, have mercy.",
-    "txt": "data/Moments/Entrance/Litany_of_the_Saints.txt",
-    "mp3": "data/Moments/Entrance/Litany-of-the-Saints.mp3",
-    "pdf": "data/Moments/Entrance/Litany-of-the-Saints.pdf"
+    "singer": "Alan",
+    "title": "Hosanna to the Son",
+    "author": "Ken Canedo",
+    "snippet": "Hosanna to the Son, Hosanna to the Son of David, of David; Hosanna, Hosanna. Blessed is he who comes, blessed is he who comes in the name of the Lord, in the name of the Lord, the King of Israel, the King of Israel; Hosanna, Hosanna in the highest, in the highest.",
+    "txt": "data/Moments/Entrance/Hosanna-to-the-Son-Canedo.txt",
+    "mp3": "data/Moments/Entrance/Hosanna-to-the-Son-Canedo.mp3",
+    "pdf": "data/Moments/Entrance/Hosanna-to-the-Son-Canedo.pdf"
   },
   {
     "moment": "Responsorial_Psalm",
-    "title": "Psalm 130: 1-2, 3-4, 5-6, 7-8",
-    "author": "Owen Alstott",
-    "snippet": "With the Lord there is mercy and fullness of redemption. With the Lord there is mercy and fullness of redemption.",
-    "txt": "data/Moments/Responsorial_Psalm/SP2025_Lent_5th_Sunday_RA.txt",
-    "mp3": "data/Moments/Responsorial_Psalm/Fifth-Sunday-of-Lent-A-2026.mp3",
-    "pdf": "data/Moments/Responsorial_Psalm/Fifth-Sunday-of-Lent-A-2026.pdf",
-    "singer": ""
+    "title": "22:8-9, 17-18, 19-20, 23-24",
+    "author": "Sarah Hart",
+    "snippet": "My God, my God, why have you abandoned me?",
+    "txt": "data/Moments/Responsorial_Psalm/Psalm_Palm_Sunday_Sarah_Hart.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/Psalm_Palm_Sunday_Sarah_Hart.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/Psalm_Palm_Sunday_Musescore_Sarah_Hart.pdf",
+    "singer": "Keila"
   },
   {
     "moment": "Gospel_Acclamation",
-    "singer": "David",
-    "title": "Gospel Acclamation",
-    "author": "John 11:25",
-    "snippet": "I am the resurrection and the life, says the Lord; Whoever believes in me, even if he dies, will never die.",
-    "txt": "data/Moments/Gospel_Acclamation/Acclamation-Lent5-SP2026.txt",
-    "mp3": "data/Moments/Gospel_Acclamation/Acclamation-Lent5-SP2026.mp3",
-    "pdf": "data/Moments/Gospel_Acclamation/Acclamation-Lent5-SP2026.pdf"
+    "singer": "",
+    "title": "Phil 2:8-9",
+    "author": "Sarah Hart",
+    "snippet": "Christ became obedient to the point of death, even death on a cross. Because of this, God greatly exalted him and bestowed on him the name which is above every name.",
+    "txt": "data/Moments/Gospel_Acclamation/Acclamation_Palm_Sunday.txt",
+    "mp3": "data/Moments/Gospel_Acclamation/Acclamation_Palm_Sunday_Sarah_Hart.mp3",
+    "pdf": "data/Moments/Gospel_Acclamation/Acclamation_Palm_Sunday_Sarah_Hart.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Hosea",
-    "author": "Weston Priory/Gregory Norbet",
-    "snippet": "Come back to me with all your heart. Don’t let fear keep us apart. Trees do bend, though straight and tall; so must we to others’ call.",
-    "txt": "data/Moments/Offertory/Hosea.txt",
-    "mp3": "data/Moments/Offertory/Hosea.mp3",
-    "pdf": "data/Moments/Offertory/Hosea.pdf",
+    "title": "The Jesus Song",
+    "author": "Tom Booth",
+    "snippet": "Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Lord Jesus Christ, Son of God, have mercy on me, have mercy on me. Amen.",
+    "txt": "data/Moments/Offertory/The-Jesus-Song.txt",
+    "mp3": "data/Moments/Offertory/The-Jesus-Song.mp3",
+    "pdf": "data/Moments/Offertory/The-Jesus-Song.pdf",
     "singer": ""
   },
   {
@@ -51,33 +51,33 @@
   },
   {
     "moment": "Communion",
-    "title": "The Temple of My Heart",
-    "author": "Suno/Jim Ngo",
-    "snippet": "My King, I kneel here before You In the silence, I come to adore You With a spirit made new by Your grace In the light of Your holy embrace.",
-    "txt": "data/Moments/Communion/The_Temple_of_My_Heart.txt",
-    "mp3": "data/Moments/Communion/The_Temple_of_My_Heart.mp3",
-    "pdf": "data/Moments/Communion/The_Temple_of_My_Heart.pdf",
-    "singer": "Claudine/David"
+    "singer": "",
+    "title": "Ubi Caritas",
+    "author": "Bob Hurd",
+    "snippet": "Ubi caritas est vera, est vera: Deus ibi est, Deus ibi est.",
+    "txt": "data/Moments/Communion/Ubi-Caritas.txt",
+    "mp3": "data/Moments/Communion/Ubi-Caritas.mp3",
+    "pdf": "data/Moments/Communion/Ubi-Caritas.pdf"
   },
   {
     "moment": "Meditation",
     "singer": "",
-    "title": "Shepherd Me, O God",
-    "author": "Marty Haugen",
-    "snippet": "Shepherd me, O God, beyond my wants, beyond my fears, from death into life.",
-    "txt": "data/Moments/Meditation/Shepherd_Me_O_God.txt",
-    "mp3": "data/Moments/Meditation/Shepherd_Me_O_God.mp3",
-    "pdf": "data/Moments/Meditation/Shepherd_Me_O_God.pdf"
+    "title": "Were You There",
+    "author": "WERE YOU THERE",
+    "snippet": "Were you there when they crucified my Lord? Were you there when they crucified my Lord? Oh! Sometimes it causes me to tremble, tremble, tremble. Were you there when they crucified my Lord?",
+    "txt": "data/Moments/Meditation/Were-You-There.txt",
+    "mp3": "data/Moments/Meditation/Were-You-There.mp3",
+    "pdf": "data/Moments/Meditation/Were-You-There.pdf"
   },
   {
     "moment": "Recessional",
-    "singer": "David/Claudine",
-    "title": "Into the Day",
-    "author": "Suno/Jim Ngo",
-    "snippet": "The stone is heavy, the air is still. We wait in shadows against our will. But hear the whisper, the holy breath, That speaks a promise in the face of death.",
-    "txt": "data/Moments/Recessional/Into-the-day.txt",
-    "mp3": "data/Moments/Recessional/Into-the-day.mp3",
-    "pdf": "data/Moments/Recessional/Into-the-day.pdf"
+    "singer": "",
+    "title": "Holy Forever",
+    "author": "Chris Tomlin",
+    "snippet": "A thousand generations falling down to worship; to sing the song of ages to the Lamb. And all who've gone before us and all who will believe; will sing the song of ages to the Lamb.",
+    "txt": "data/Moments/Recessional/Holy-Forever.txt",
+    "mp3": "data/Moments/Recessional/Holy-Forever-Chris-Tomlin.mp3",
+    "pdf": "data/Moments/Recessional/Holy-Forever-C-Musescore.pdf"
   },
   {
     "moment": "Lord_Have_Mercy",
