@@ -2,52 +2,52 @@
   {
     "moment": "Entrance",
     "singer": "",
-    "title": "LR92 - Entrance Antiphon",
+    "title": "LR-94",
     "author": "Let Us All Rejoice",
-    "snippet": "Receive the joy of your glory, Giving thanks to God, Who has called you into the heav'nly kingdom, Alleluia, Alleluia.",
-    "txt": "data/Moments/Entrance/LR92-Easter2.mp3.txt",
-    "mp3": "data/Moments/Entrance/LR92-Easter2.mp3",
-    "pdf": "data/Moments/Entrance/LR92-Easter2.pdf"
+    "snippet": "Cry out with joy to God, all the earth. O sing to the glory of his name. O render him glorious praise, Alleluia.",
+    "txt": "data/Moments/Entrance/LR94.txt",
+    "mp3": "data/Moments/Entrance/LR94.mp3",
+    "pdf": "data/Moments/Entrance/LR94.pdf"
   },
   {
     "moment": "Responsorial_Psalm",
-    "title": "Ps 118:2-4, 13-15, 22-24",
-    "author": "Owen Alstott",
-    "snippet": "Give thanks to the LORD, for he is good, his love is everlasting.",
-    "txt": "data/Moments/Responsorial_Psalm/Psalm_118_Give_thanks_to_the_Lord_for_he_is_good.txt",
-    "mp3": "data/Moments/Responsorial_Psalm/Psalm_118_Give_thanks_to_the_Lord_for_he_is_good_Allstott.mp3",
-    "pdf": "data/Moments/Responsorial_Psalm/Psalm_118_Give_thanks_to_the_Lord_for_he_is_good_Allstott.pdf",
+    "title": "Psalm 16",
+    "author": "Owen Allstott",
+    "snippet": "Lord, you will show us the path of life.",
+    "txt": "data/Moments/Responsorial_Psalm/Psalm_16_Lord_You_Will_Show_Us_the_Path_of_Life.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/Psalm_16_Lord_You_Will_Show_Us_the_Path_of_Life_Alstott.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/Psalm_16_Lord_You_Will_Show_Us_the_Path_of_Life_Alstott.pdf",
     "singer": ""
   },
   {
     "moment": "Gospel_Acclamation",
     "singer": "David",
-    "title": "Gospel Acclamation",
-    "author": "Josh Blakesley/Spirit & Psalm",
-    "snippet": "You believe in me, Thomas, because you have seen me, says the Lord; Blessed are those who have not seen me, but still believe!",
-    "txt": "data/Moments/Gospel_Acclamation/Acclamation_You_Believe_in_me_Thomas_SP.txt",
-    "mp3": "data/Moments/Gospel_Acclamation/Acclamation_You_Believe_in_me_Thomas_Blakesley.mp3",
-    "pdf": "data/Moments/Gospel_Acclamation/Acclamation_You_Believe_in_me_Thomas_Blakesley_Musescore.pdf"
+    "title": "Luke 24:32",
+    "author": "Joshua Blakesley",
+    "snippet": "Lord Jesus, open the Scriptures to us; Make our hearts burn while you speak to us.",
+    "txt": "data/Moments/Gospel_Acclamation/Acclamation_Easter3_Blakesley.txt",
+    "mp3": "data/Moments/Gospel_Acclamation/Acclamation_Easter3_Blakesley.mp3",
+    "pdf": "data/Moments/Gospel_Acclamation/Acclamation_Easter3_Blakesley.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "Give Us Your Peace",
-    "author": "Jesse Manibusan/Sarah Hart",
-    "snippet": "Give us your peace, O God; give us your peace, your peace. Give us your peace, O God; give us your peace, your peace.",
-    "txt": "data/Moments/Offertory/Give-Us-Your-Peace.txt",
-    "mp3": "data/Moments/Offertory/Give-Us-Your-Peace.mp3",
-    "pdf": "data/Moments/Offertory/Give-Us-Your-Peace.pdf",
+    "title": "Center of My Life",
+    "author": "Paul Inwood",
+    "snippet": "O Lord, you are the center of my life: I will always praise you, I will always serve you, I will always keep you in my sight.",
+    "txt": "data/Moments/Offertory/Center-of-My-Life.txt",
+    "mp3": "data/Moments/Offertory/Center-of-My-Life.mp3",
+    "pdf": "data/Moments/Offertory/Center-of-My-Life-Choral.pdf",
     "singer": ""
   },
   {
     "moment": "Communion_Antiphon",
-    "singer": "Alan",
-    "title": "LR-93",
+    "singer": "Keila",
+    "title": "LR95",
     "author": "Let Us All Rejoice",
-    "snippet": "Bring your hand and feel the place of the nails, And do not be unbelieving but believing, Alleluia, Alleluia.",
-    "txt": "data/Moments/Communion_Antiphon/LR93-Easter2.txt",
-    "mp3": "data/Moments/Communion_Antiphon/LR93-Easter2.mp3",
-    "pdf": "data/Moments/Communion_Antiphon/LR93-Easter2.pdf"
+    "snippet": "The disciples recognized the Lord Jesus in the breaking of the bread, Alleluia.",
+    "txt": "data/Moments/Communion_Antiphon/LR95.txt",
+    "mp3": "data/Moments/Communion_Antiphon/LR95.mp3",
+    "pdf": "data/Moments/Communion_Antiphon/LR95.pdf"
   },
   {
     "moment": "Communion",
@@ -61,23 +61,23 @@
   },
   {
     "moment": "Meditation",
-    "singer": "David/Joelle",
-    "title": "Lead me to the Cross",
-    "author": "Suno xJim Ngo",
-    "snippet": "Savior, I come to You now Quiet my soul to remember Redemption\u2019s hill where love was found You paid the price for my ransom",
-    "txt": "data/Moments/Meditation/Lead-Me-to-the-Cross.txt",
-    "mp3": "data/Moments/Meditation/Lead-Me-to-the-Cross.mp3",
-    "pdf": "data/Moments/Meditation/Lead-Me-to-the-Cross.pdf"
+    "singer": "",
+    "title": "Shelter Me, O God",
+    "author": "Bob Hurd",
+    "snippet": "Shelter me, O God, hide me in the shadow of your wings. You alone are my hope.",
+    "txt": "data/Moments/Meditation/Shelter-Me-O-God.txt",
+    "mp3": "data/Moments/Meditation/Shelter-Me-O-God.mp3",
+    "pdf": "data/Moments/Meditation/Shelter-Me-O-God.pdf"
   },
   {
     "moment": "Recessional",
-    "singer": "David/Joelle",
-    "title": "He is Risen",
+    "singer": "Cederick/Keila",
+    "title": "Come Home to our God",
     "author": "Suno xJim Ngo",
-    "snippet": "Christ the Lord is risen to-day Sons of men and an-gels say Raise your joys and triumphs high Sing you heavens and earth re-ply",
-    "txt": "data/Moments/Recessional/He-is-Risen-lyrics.txt",
-    "mp3": "data/Moments/Recessional/He-is-Risen-EQ.mp3",
-    "pdf": "data/Moments/Recessional/He-is-Risen.pdf"
+    "snippet": "The city wakes in shades of grey We find the ones who lost their way No one is left to walk alone We’ll be the light that leads them home",
+    "txt": "data/Moments/Recessional/Love-is-the-way.txt",
+    "mp3": "data/Moments/Recessional/Love-is-the-way.mp3",
+    "pdf": "data/Moments/Recessional/Love-is-the-way.pdf"
   },
   {
     "moment": "Lord_Have_Mercy",
