@@ -21,11 +21,28 @@ EXTRACT_TOOL="src/scripts/extractMetaFromSongTxt.js"
 MUSIC_PDF_TOOL="src/scripts/buildAndMergePdfs.js"
 LYRICS_PDF_TOOL="src/scripts/buildAndMergeTxtToPdf.js"
 
-# Helper to open macOS File Picker
+# Helper to open macOS File Picker with automated searching
 pick_file() {
     local prompt_text="$1"
     local file_ext="$2"
-    osascript -e "POSIX path of (choose file with prompt \"$prompt_text\" of type {\"$file_ext\"} default location (POSIX file \"$HOME/Downloads\"))" 2>/dev/null
+    local search_term="$3"
+    local target_path="$HOME/jim.ngo.seas@gmail.com - Google Drive/My Drive/SEAS-GoogleDrive"
+    
+    if [ -n "$search_term" ]; then
+        # Opens the native window, targets your folder, and automates typing the song name into the search bar
+        osascript -e "
+            tell application \"System Events\"
+                delay 0.4
+                keystroke \"f\" using {command down, option down}
+                delay 0.1
+                keystroke \"$search_term\"
+            end tell
+            POSIX path of (choose file with prompt \"$prompt_text\" of type {\"$file_ext\"} default location (POSIX file \"$target_path\"))
+        " 2>/dev/null
+    else
+        # Clean window invocation (used for the initial TXT file selection)
+        osascript -e "POSIX path of (choose file with prompt \"$prompt_text\" of type {\"$file_ext\"} default location (POSIX file \"$target_path\"))" 2>/dev/null
+    fi
 }
 
 # ==========================================
@@ -127,9 +144,20 @@ EOF
             [[ "$new_singer" == "none" ]] && FINAL_SINGER=""
 
             echo "📂 Opening File Pickers..." 
+            
+            # 1. First, pick the TXT file as normal using your direct path shortcut
             new_txt=$(pick_file "Select TXT for $m_opt" "txt")
-            new_pdf=$(pick_file "Select PDF for $m_opt" "pdf")
-            new_mp3=$(pick_file "Select MP3 for $m_opt" "mp3")
+            
+            # Extract base name to pass as a native filter query string
+            BASE_NAME=""
+            if [[ -n "$new_txt" && -f "$new_txt" ]]; then
+                BASE_NAME=$(basename "$new_txt" .txt)
+                echo "🎯 Base name locked: $BASE_NAME"
+            fi
+
+            # 2. Next, open PDF and MP3 pickers with your extracted song name pre-typed!
+            new_pdf=$(pick_file "Select PDF for $m_opt" "pdf" "$BASE_NAME")
+            new_mp3=$(pick_file "Select MP3 for $m_opt" "mp3" "$BASE_NAME")
 
             DEST_DIR="$MOMENTS_BASE_DIR/$m_opt"
             mkdir -p "$DEST_DIR"

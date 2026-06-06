@@ -60,7 +60,7 @@ function drawWrappedText(page, text, x, y, font, size, color, maxWidth) {
 
 async function createLyricsPdf() {
     console.log('-----------------------------------------');
-    console.log('📄 GENERATING LYRICS PDF (ROBUST LAYOUT)');
+    console.log('📄 GENERATING LYRICS PDF (COLUMN-BY-COLUMN FLOW)');
     console.log('-----------------------------------------');
 
     if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -76,11 +76,14 @@ async function createLyricsPdf() {
     const margin = 50;
     const columnGap = 40;
     
+    // Initialize Page 1
     let page = pdfDoc.addPage([612, 792]);
     const { width, height } = page.getSize();
     const columnWidth = (width - (margin * 2) - columnGap) / 2;
 
-    let x = margin, y = height - margin, columnCount = 0;
+    let x = margin;
+    let y = height - margin;
+    let columnCount = 0; // 0 = Left Column, 1 = Right Column
 
     // Header on Page 1
     page.drawText(massInfo.mass_name || "Mass Lyrics", { x, y, size: 16, font: fontBold });
@@ -88,88 +91,70 @@ async function createLyricsPdf() {
     if (massInfo.date) { page.drawText(massInfo.date, { x, y, size: 12, font }); y -= 30; }
 
     for (const moment of moments) {
-        // --- 1. MANDATORY LAYOUT POSITIONING (ALWAYS RUNS) ---
-        if (moment.moment === "Communion") {
-            page = pdfDoc.addPage([612, 792]); 
-            x = margin; 
-            y = height - margin; 
-            columnCount = 0;
-        } 
-        else if (moment.moment === "Meditation") {
-            const pages = pdfDoc.getPages();
-            page = pages[pages.length - 1]; 
-            x = margin + columnWidth + columnGap; 
-            y = height - margin; 
-            columnCount = 1;
-        } 
-        else if (moment.moment === "Recessional") {
-            page = pdfDoc.addPage([612, 792]); 
-            x = margin; 
-            y = height - margin; 
-            columnCount = 0;
+        // Skip moments that don't have text files connected
+        if (!moment.txt || !moment.txt.toLowerCase().endsWith('.txt')) {
+            console.warn(`ℹ️ Notice: No text file connected for ${moment.moment}. Skipping block layout calculation.`);
+            continue;
         }
 
-        // --- 2. DATA PROCESSING ---
-        if (moment.txt && moment.txt.toLowerCase().endsWith('.txt')) {
-            const song = parseSongTxt(moment.txt);
-            if (!song) {
-                console.warn(`⚠️ Warning: Could not parse text for ${moment.moment}`);
-                continue;
-            }
-
-            // --- PROACTIVE OVERFLOW LOGIC ---
-            const isSpecial = ["Communion", "Meditation", "Recessional"].includes(moment.moment);
-            if (!isSpecial) {
-                // Estimate vertical space required for the upcoming song
-                // Label (1 line) + Title (1 line) + Author (1 line) = 3 lines base
-                let estimatedLines = 3;
-                for (const section of song.sections) {
-                    // Tag header line + content lines
-                    estimatedLines += 1 + section.content.split('\n').length;
-                }
-                
-                // Calculate line heights plus custom spacing padding between structural blocks
-                const estimatedHeightNeeded = estimatedLines * (fontSize + 2) + 40; 
-
-                // If the remaining space in the column cannot fit the song, shift to the next block
-                if (y - estimatedHeightNeeded < margin) {
-                    if (columnCount === 0) {
-                        x = margin + columnWidth + columnGap; 
-                        y = height - margin; // Jump back to the top boundary for Column 2
-                        columnCount = 1;
-                    } else {
-                        page = pdfDoc.addPage([612, 792]); 
-                        x = margin; 
-                        y = height - margin; 
-                        columnCount = 0;
-                    }
-                }
-            }
-
-            const momentName = moment.moment.replace(/_/g, ' ');
-            console.log(`📝 Adding Lyrics: ${momentName}`);
-            const label = moment.singer ? `${momentName} (${moment.singer})` : momentName;
-            
-            page.drawText(label, { x, y, size: fontSize + 1, font: fontBold, color: rgb(0, 0, 0.5) });
-            y -= 15;
-
-            if (song.title) y = drawWrappedText(page, song.title, x, y, fontBold, fontSize, rgb(0, 0, 0), columnWidth);
-            if (song.author) y = drawWrappedText(page, song.author, x, y, fontItalic, fontSize - 1, rgb(0.3, 0.3, 0.3), columnWidth);
-            y -= 5;
-            for (const section of song.sections) {
-                y = drawWrappedText(page, section.tag.toUpperCase(), x, y, fontBold, fontSize - 2, rgb(0.4, 0.4, 0.4), columnWidth);
-                y = drawWrappedText(page, section.content, x, y, font, fontSize, rgb(0, 0, 0), columnWidth);
-                y -= 8;
-            }
-            y -= 20; 
-        } else {
-            const isSpecial = ["Communion", "Meditation", "Recessional"].includes(moment.moment);
-            if (isSpecial) console.warn(`ℹ️ Notice: No text file for ${moment.moment}. Page/Column reserved.`);
+        const song = parseSongTxt(moment.txt);
+        if (!song) {
+            console.warn(`⚠️ Warning: Could not parse text for ${moment.moment}`);
+            continue;
         }
+
+        // --- DYNAMIC BLOCK ELEVATION HEIGHT ESTIMATION ---
+        // Label (1 line) + Title (1 line) + Author (1 line) = 3 lines base
+        let estimatedLines = 3;
+        for (const section of song.sections) {
+            // Include section tag line header + its exact inner content lines
+            estimatedLines += 1 + section.content.split('\n').length;
+        }
+        
+        // Add padding spacing between distinct song segments
+        const estimatedHeightNeeded = (estimatedLines * (fontSize + 2)) + 40;
+
+        // --- BLOCK OVERFLOW ROUTING INTERCEPTOR ---
+        if (y - estimatedHeightNeeded < margin) {
+            if (columnCount === 0) {
+                // Shift from Left Column to Top of Right Column on the SAME page
+                x = margin + columnWidth + columnGap;
+                y = height - margin;
+                columnCount = 1;
+                console.log(`   ↳ Moving entire song [${moment.moment}] to Right Column`);
+            } else {
+                // Both columns full. Generate a fresh page and reset to Left Column
+                page = pdfDoc.addPage([612, 792]);
+                x = margin;
+                y = height - margin;
+                columnCount = 0;
+                console.log(`   ↳ Columns full. Spawning fresh page for [${moment.moment}]`);
+            }
+        }
+
+        // --- RENDERING PRODUCTION ---
+        const momentName = moment.moment.replace(/_/g, ' ');
+        console.log(`📝 Processing Layout: ${momentName}`);
+        const label = moment.singer ? `${momentName} (${moment.singer})` : momentName;
+        
+        page.drawText(label, { x, y, size: fontSize + 1, font: fontBold, color: rgb(0, 0, 0.5) });
+        y -= 15;
+
+        if (song.title) y = drawWrappedText(page, song.title, x, y, fontBold, fontSize, rgb(0, 0, 0), columnWidth);
+        if (song.author) y = drawWrappedText(page, song.author, x, y, fontItalic, fontSize - 1, rgb(0.3, 0.3, 0.3), columnWidth);
+        y -= 5;
+
+        for (const section of song.sections) {
+            y = drawWrappedText(page, section.tag.toUpperCase(), x, y, fontBold, fontSize - 2, rgb(0.4, 0.4, 0.4), columnWidth);
+            y = drawWrappedText(page, section.content, x, y, font, fontSize, rgb(0, 0, 0), columnWidth);
+            y -= 8;
+        }
+        
+        y -= 20; // Structural gap below the completed block
     }
 
     fs.writeFileSync(OUTPUT_FILE, await pdfDoc.save());
-    console.log(`\n✅ Lyrics PDF Created: ${OUTPUT_FILE}`);
+    console.log(`\n✅ Dynamic Flow Lyrics PDF Created: ${OUTPUT_FILE}`);
 }
 
 createLyricsPdf().catch(err => console.error(err));
