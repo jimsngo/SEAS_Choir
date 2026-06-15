@@ -21,7 +21,7 @@ LYRICS_PDF_TOOL="src/scripts/buildAndMergeTxtToPdf.js"
 SEARCH_LINK_TOOL="src/scripts/selectAssetByKeyword.sh"
 
 # Global Target Root Library Location
-TARGET_LIBRARY="$HOME/jim.ngo.seas@gmail.com - Google Drive/My Drive/SEAS-GoogleDrive"
+TARGET_LIBRARY="/Users/jim/Library/CloudStorage/GoogleDrive-jim.ngo.seas@gmail.com/My Drive/SEAS-GoogleDrive"
 
 # Core Dashboard Option Router Loop
 while true; do
@@ -75,7 +75,7 @@ EOF
         node "$EXTRACT_TOOL"; echo "✅ Mass Info Updated."; sleep 1
         ;;
 
-    2)
+2)
         while true; do
             echo "------------------------------------------------"
             MOMENTS=("Entrance" "Responsorial_Psalm" "Gospel_Acclamation" "Offertory" "Communion_Antiphon" "Communion" "Meditation" "Recessional")
@@ -134,6 +134,7 @@ for x in d:
 with open('$MOMENTS_JSON', 'w') as f: json.dump(d, f, indent=2)
 EOF
             node "$EXTRACT_TOOL"; echo "✅ $m_opt updated in $DEST_DIR."
+            sleep 1.5   # ⏳ Small pause to view the confirmation before the menu reprints
         done
         ;;
 

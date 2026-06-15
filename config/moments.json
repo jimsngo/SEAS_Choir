@@ -1,83 +1,83 @@
 [
   {
     "moment": "Entrance",
-    "singer": "Alan",
-    "title": "LR-130",
+    "singer": "David",
+    "title": "LR-133",
     "author": "Let Us All Rejoice",
-    "snippet": "O Lord, hear my voice, for I have called to you; Be my help! Do not abandon or forsaken me! O God, my Savior!",
-    "txt": "data/Moments/Entrance/LR-130.txt",
-    "mp3": "data/Moments/Entrance/LR-130.mp3",
-    "pdf": "data/Moments/Entrance/LR-130.pdf"
+    "snippet": "The Lord is the strength of his people, a saving refuge for the one he has anointed. Save your people, Lord, ad bless your heritage, and govern them for ever.",
+    "txt": "data/Moments/Entrance/LR-133.txt",
+    "mp3": "data/Moments/Entrance/LR-133.mp3",
+    "pdf": "data/Moments/Entrance/LR-133.pdf"
   },
   {
     "moment": "Responsorial_Psalm",
-    "title": "Psalm 100: 1-2, 3, 5",
-    "author": "Sarah Hart",
-    "snippet": "We are his people, We are his people, the sheep of his flock.",
-    "txt": "data/Moments/Responsorial_Psalm/Psalm-100-We-Are-His-People-the-Sheep-of-His-Flock.txt",
-    "mp3": "data/Moments/Responsorial_Psalm/Psalm-100-We-Are-His-People-the-Sheep-of-His-Flock-Hart.mp3",
-    "pdf": "data/Moments/Responsorial_Psalm/Psalm-100-We-Are-His-People-the-Sheep-of-His-Flock_Hart_Musescore.pdf",
-    "singer": ""
+    "title": "Responsorial Psalm",
+    "author": "Psalm 69: 8-10, 14, 17, 33-35",
+    "snippet": "Lord, in your great love, answer me.",
+    "txt": "data/Moments/Responsorial_Psalm/Psalm_69_Lord_ in_Your_Great_Love_Answer_Me_Walther.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/Psalm_69_Lord_ in_Your_Great_Love_Answer_Me_Walther.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/Psalm_69_Lord_ in_Your_Great_Love_Answer_Me_Walther_Musescore.pdf",
+    "singer": "Alan"
   },
   {
     "moment": "Gospel_Acclamation",
     "singer": "David",
-    "title": "Mark 1:15",
-    "author": "Steve Angrisano",
-    "snippet": "The kingdom of God is at hand. Repent and believe in the Gospel.",
-    "txt": "data/Moments/Gospel_Acclamation/Acclaimation-The-Kingdom-of-God-Angrisano.txt",
-    "mp3": "data/Moments/Gospel_Acclamation/Acclaimation-The-Kingdom-of-God-Angrisano.mp3",
-    "pdf": "data/Moments/Gospel_Acclamation/Acclaimation-The-Kingdom-of-God-Angrisano.pdf"
+    "title": "Gospel Acclamation",
+    "author": "John: 15:26b, 27a",
+    "snippet": "The Spirit of truth will testify to me, says the Lord; and you also will testify.",
+    "txt": "data/Moments/Gospel_Acclamation/Acclamation_The_Spirit_of_the_truth_will_testify.txt",
+    "mp3": "data/Moments/Gospel_Acclamation/Acclamation_The_Spirit_of_the_truth_will_testify.mp3",
+    "pdf": "data/Moments/Gospel_Acclamation/Acclamation_The_Spirit_of_the_truth_will_testify.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "The Summons",
-    "author": "KELVINGROVE",
-    "snippet": "Will you come and follow me If I but call your name? Will you go where you don\u2019t know And never be the same? Will you let my love be shown, Will you let my name be known, Will you let my life be grown In you and you in me?",
-    "txt": "data/Moments/Offertory/The-Summons.txt",
-    "mp3": "data/Moments/Offertory/The-Summons.mp3",
-    "pdf": "data/Moments/Offertory/The-Summons.pdf",
+    "title": "Keep Me in Your Heart",
+    "author": "Jan\u00e8t Sullivan Whitaker",
+    "snippet": "Jesus, hold me in peace; keep me in your heart.  Let me know your mercy; keep me in your heart.  Jesus, you are my hope. Help me when the darkness comes. In your kindness, keep me in your heart.",
+    "txt": "data/Moments/Offertory/Keep-Me-in-Your-Heart.txt",
+    "mp3": "data/Moments/Offertory/Keep-Me-in-Your-Heart.mp3",
+    "pdf": "data/Moments/Offertory/Keep-Me-in-Your-Heart.pdf",
     "singer": ""
   },
   {
     "moment": "Communion_Antiphon",
     "singer": "",
-    "title": "LR-131",
+    "title": "LR-135",
     "author": "Let Us All Rejoice",
-    "snippet": "There is one thing I ask of the Lord, only this do I seek; to live in the house of the Lord all the days of my life.",
-    "txt": "data/Moments/Communion_Antiphon/LR-131.txt",
-    "mp3": "data/Moments/Communion_Antiphon/LR-131.mp3",
-    "pdf": "data/Moments/Communion_Antiphon/LR-131.pdf"
+    "snippet": "I am the Good Shepherd, and I lay down my life for my sheep, says the Lord.",
+    "txt": "data/Moments/Communion_Antiphon/LR-135.txt",
+    "mp3": "data/Moments/Communion_Antiphon/LR-135.mp3",
+    "pdf": "data/Moments/Communion_Antiphon/LR-135.pdf"
   },
   {
     "moment": "Communion",
     "singer": "",
-    "title": "Ubi Caritas",
-    "author": "Bob Hurd",
-    "snippet": "Ubi caritas est vera, est vera: Deus ibi est, Deus ibi est.",
-    "txt": "data/Moments/Communion/Ubi-Caritas.txt",
-    "mp3": "data/Moments/Communion/Ubi-Caritas.mp3",
-    "pdf": "data/Moments/Communion/Ubi-Caritas.pdf"
+    "title": "The Goodness of the Lord",
+    "author": "Scott Soper",
+    "snippet": "I believe, I believe, I shall see the goodness of the Lord in the land, in the land of the living.",
+    "txt": "data/Moments/Communion/The-Goodness-of-the-Lord-Psalm-27--Scott-Soper.txt",
+    "mp3": "data/Moments/Communion/The-Goodness-of-the-Lord-Psalm-27--Scott-Soper.mp3",
+    "pdf": "data/Moments/Communion/The-Goodness-of-the-Lord-Psalm-27--Scott-Soper.pdf"
   },
   {
     "moment": "Meditation",
     "singer": "",
-    "title": "Here I am to worship",
-    "author": "Tim Hughes",
-    "snippet": "Light of the world, you stepped down into darkness Open my eyes, let me see. Beauty that made this heart adore you, Hope of a life spent with you.",
-    "txt": "data/Moments/Meditation/Here-I-am-to-worship.txt",
-    "mp3": "data/Moments/Meditation/Here-I-am-to-worship-Hillsong.mp3",
-    "pdf": "data/Moments/Meditation/Here-I-Am-to-Worship(D)-Tim-Hughes.pdf"
+    "title": "Shepherd Me, O God",
+    "author": "Marty Haugen",
+    "snippet": "Shepherd me, O God, beyond my wants, beyond my fears, from death into life.",
+    "txt": "data/Moments/Meditation/Shepherd-Me-O-God.txt",
+    "mp3": "data/Moments/Meditation/Shepherd-Me-O-God-Dm.mp3",
+    "pdf": "data/Moments/Meditation/Shepherd-Me-O-God-Fm.pdf"
   },
   {
     "moment": "Recessional",
     "singer": "David",
-    "title": "Great Will Be The Future",
-    "author": "Chris Muglia/David Brinker",
-    "snippet": "We stand in faith declaring aloud the majesty of God, His mighty power. Together we witness to all that He's done, and all that He's promised to bring. Together we lift up our voices as one, Together we sing.",
-    "txt": "data/Moments/Recessional/Greater-Will-Be-The-Future.txt",
-    "mp3": "data/Moments/Recessional/Greater-Will-Be-The-Future.mp3",
-    "pdf": "data/Moments/Recessional/Greater-Will-Be-The-Future.pdf"
+    "title": "We Ever Will Praise You",
+    "author": "Agnus McDonell",
+    "snippet": "We ever will praise you; We ever will sing Sweet psalms of joy; To You, our King O Maker of heaven; Of earth and the sea Sweet psalms of joy ; We ever will sing",
+    "txt": "data/Moments/Recessional/We_Ever_Will_Praise_You.txt",
+    "mp3": "data/Moments/Recessional/We_Ever_Will_Praise_You.mp3",
+    "pdf": "data/Moments/Recessional/We_Ever_Will_Praise_You_Musescore.pdf"
   },
   {
     "moment": "Lord_Have_Mercy",

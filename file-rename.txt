@@ -1,7 +1,26 @@
 To rename files, open a new terminal at the folder, then:
 
+To replace all hyphens and spaces in all names of folder and subfolder:
+find . -type f \( -name "* *" -o -name "*-*" \) -print0 | while IFS= read -r -d '' file; do
+    dir=$(dirname "$file")
+    base=$(basename "$file")
+    no_spaces="${base// /_}"
+    final_name="${no_spaces//-/_}"
+    mv "$file" "$dir/$final_name"
+done
+
+find . -depth -type d -name "* *" -print0 | while IFS= read -r -d '' dir; do
+    parent=$(dirname "$dir")
+    base=$(basename "$dir")
+    mv "$dir" "$parent/${base// /_}"
+done
+
+To replace all hyphens to underscores:
+for f in *-*; do mv -v "$f" "${f//-/_}"; done
+
 To replace all underscores to hyphens:
 for f in *_*; do mv -v "$f" "${f//_/-}"; done
 
 To replace all spaces to hyphens:
 for f in *" "*; do mv -v "$f" "${f// /-}"; done
+
