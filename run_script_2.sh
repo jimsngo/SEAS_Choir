@@ -21,7 +21,7 @@ LYRICS_PDF_TOOL="src/scripts/buildAndMergeTxtToPdf.js"
 SEARCH_LINK_TOOL="src/scripts/selectAssetByKeyword.sh"
 
 # Global Target Root Library Location
-TARGET_LIBRARY="/Users/jim/Library/CloudStorage/GoogleDrive-jim.ngo.seas@gmail.com/My Drive/SEAS-GoogleDrive"
+TARGET_LIBRARY="/Users/jim/Library/CloudStorage/GoogleDrive-jim.ngo.seas@gmail.com/My Drive/SEAS_GoogleDrive"
 
 # Core Dashboard Option Router Loop
 while true; do

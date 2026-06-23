@@ -29,14 +29,31 @@ if [ ${#FINAL_SEARCH_TARGETS[@]} -eq 0 ]; then
     FINAL_SEARCH_TARGETS+=("$TARGET_LIBRARY")
     MAX_DEPTH=4  # Deep scan fallback if directories aren't found
 else
-    MAX_DEPTH=2  # Blistering fast shallow scan since paths are direct targets
+    MAX_DEPTH=4  # Locked at 4 to ensure deeper nested PDFs/MP3s are never missed!
 fi
 
-# Build robust lookup match parameters
+# =========================================================
+# 🔍 SMART QUERY NORMALIZATION
+# =========================================================
+NORMALIZED_KW="${SEARCH_KW//-/ }"
+NORMALIZED_KW="${NORMALIZED_KW//_/ }"
+
 find_args=()
-for word in $SEARCH_KW; do
+for word in $NORMALIZED_KW; do
     find_args+=("-iname" "*${word}*")
 done
+# =========================================================
+
+# =========================================================
+# 📢 LIVE TERMINAL PATH DIAGNOSIS PANEL
+# =========================================================
+echo "📂 Active Scan Targets:" >&2
+for target in "${FINAL_SEARCH_TARGETS[@]}"; do
+    echo "   📍 Path: $target" >&2
+done
+echo "🔎 Parsing Elements: ($NORMALIZED_KW) | Target Extension: .$FILE_EXT" >&2
+echo "------------------------------------------------" >&2
+# =========================================================
 
 matches=()
 IFS=$'\n'
