@@ -10,6 +10,7 @@ PROMPT_MSG="$5"
 SEARCH_PATHS=(
     "$TARGET_LIBRARY/Lyrics_MP3s_PDFs"
     "$TARGET_LIBRARY/Antiphon_Responsorial_Acclamation"
+    "$TARGET_LIBRARY/Psalms"
 )
 
 # Fallback internal manual picker function

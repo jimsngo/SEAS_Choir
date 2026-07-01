@@ -1,83 +1,83 @@
 [
   {
     "moment": "Entrance",
-    "singer": "Alan",
-    "title": "LR-136",
-    "author": "Psalm 47 (46):2",
-    "snippet": "All people, clap your hands. Cry to God with shouts of joy!",
-    "txt": "data/Moments/Entrance/LR_136.txt",
-    "mp3": "data/Moments/Entrance/LR_136.mp3",
-    "pdf": "data/Moments/Entrance/LR_136.pdf"
+    "singer": "",
+    "title": "LR-139",
+    "author": "Psalm 48 (47):10-11",
+    "snippet": "Your merciful love, O God, we have received in the midst of your temple. You praise, O God, like your name, reaches the end of the earth; your right hand is hilled with saving justice.",
+    "txt": "data/Moments/Entrance/LR_139.txt",
+    "mp3": "data/Moments/Entrance/LR_139.mp3",
+    "pdf": "data/Moments/Entrance/LR_139.pdf"
   },
   {
     "moment": "Responsorial_Psalm",
-    "title": "Psalm 89",
-    "author": "Psalm 89: 2-3, 16-17, 18-19",
-    "snippet": "For ever I will sing the goodness of the Lord.",
-    "txt": "data/Moments/Responsorial_Psalm/Psalm_89_Forever_I_Will_Sing_The_Goodness_of_The_Lord.txt",
-    "mp3": "data/Moments/Responsorial_Psalm/Psalm_89_Forever_I_Will_Sing_13th_Sun_OT_LaRosa.mp3",
-    "pdf": "data/Moments/Responsorial_Psalm/Psalm_89_Forever_I_Will_Sing_the_Goodness_of_the_Lord_13th_SundayOT_LaRosa.pdf",
-    "singer": ""
+    "title": "Psalm - 14th and 31st Sun of OT",
+    "author": "Psalm 145: 1-2, 8-9, 10-11, 13-14",
+    "snippet": "I will praise your name for ever, my king and my God.",
+    "txt": "data/Moments/Responsorial_Psalm/Psalm_145_I_Will_Praise_Your_Name_14A.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/Psalm_145_I_Will_Praise_Your_Name_For_Ever_14th_and_31st_Sun_of_Ord_Time_LaRosa.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/Psalm_145_I_Will_Praise_Your_Name_For_Ever_14A_LaRosa.pdf",
+    "singer": "Keila"
   },
   {
     "moment": "Gospel_Acclamation",
     "singer": "",
-    "title": "Peter 2:9",
-    "author": "SP2026 - Sarah Hart",
-    "snippet": "You are a chosen race, a royal priesthood, a holy nation; announce the praises of him who called you out of darkness into his wonderful light.",
-    "txt": "data/Moments/Gospel_Acclamation/Acclamation_You_are_a_chosen_race_Hart.txt",
-    "mp3": "data/Moments/Gospel_Acclamation/Acclamation_You_are_a_chosen_race_Hart.mp3",
-    "pdf": "data/Moments/Gospel_Acclamation/Acclamation_You_are_a_chosen_race_Hart.pdf"
+    "title": "14th Sunday of Ordinary Time A",
+    "author": "Matthew 11:25",
+    "snippet": "Blessed are you, Father, Lord of heaven and earth; You have revealed to little ones the mysteries of the kingdom.",
+    "txt": "data/Moments/Gospel_Acclamation/Acclamation_Blessed_are_You_Father.txt",
+    "mp3": "data/Moments/Gospel_Acclamation/Acclamation_Blessed_are_You_Father_SP.mp3",
+    "pdf": "data/Moments/Gospel_Acclamation/Acclamation_Blessed_are_You_Father.pdf"
   },
   {
     "moment": "Offertory",
-    "title": "A Place at Your Table",
-    "author": "Ben Walther",
-    "snippet": "Happy the ones whom you call here to dine, the saint and the sinner, your friends. Now reconciled in this banquet divine, the promise of life without end, the promise of life without end.",
-    "txt": "data/Moments/Offertory/A_Place_At_Your_Table.txt",
-    "mp3": "data/Moments/Offertory/A_Place_At_Your_Table.mp3",
-    "pdf": "data/Moments/Offertory/A_Place_At_Your_Table_Musescore.pdf",
+    "title": "Like the Bread",
+    "author": "Tom Booth",
+    "snippet": "Like the bread, we are taken. Like the Christ, we are blessed. On this altar we are broken Giv\u2019n as food that all might live, Giv\u2019n as food that all might live.",
+    "txt": "data/Moments/Offertory/Like_The_Bread.txt",
+    "mp3": "data/Moments/Offertory/Like_The_Bread.mp3",
+    "pdf": "data/Moments/Offertory/Like_The_Bread_Musescore.pdf",
     "singer": ""
   },
   {
     "moment": "Communion_Antiphon",
     "singer": "",
-    "title": "LR-137",
-    "author": "Psalm 103 (102):1",
-    "snippet": "Bless the Lord, O my soul, and all within me, his holy name.",
-    "txt": "data/Moments/Communion_Antiphon/LR_137.txt",
-    "mp3": "data/Moments/Communion_Antiphon/LR_137.mp3",
-    "pdf": "data/Moments/Communion_Antiphon/LR_137.pdf"
+    "title": "LR-140",
+    "author": "Psalm 34 (33):9",
+    "snippet": "Taste and see that the Lord is good; blessed the man who seeks refuge in him.",
+    "txt": "data/Moments/Communion_Antiphon/LR_140.txt",
+    "mp3": "data/Moments/Communion_Antiphon/LR_140.mp3",
+    "pdf": "data/Moments/Communion_Antiphon/LR_140.pdf"
   },
   {
     "moment": "Communion",
     "singer": "",
-    "title": "Here at This Table",
-    "author": "Janèt Sullivan Whitaker / Max Whitaker",
-    "snippet": "Come and be filled here at this table. Food for all who hunger and drink for all who thirst. Drink of his love, wine of salvation. You shall live forever in Jesus Christ the Lord.",
-    "txt": "data/Moments/Communion/Here_At_This_Table.txt",
-    "mp3": "data/Moments/Communion/Here_At_This_Table.mp3",
-    "pdf": "data/Moments/Communion/Here_At_This_Table.pdf"
+    "title": "Bread of Life",
+    "author": "Bernadette Farrell",
+    "snippet": "Bread of life, hope of the world, Jesus Christ, our brother: feed us now, give us life, lead us to one another.",
+    "txt": "data/Moments/Communion/Bread_of_Life_Farrell.txt",
+    "mp3": "data/Moments/Communion/Bread_of_Life_Farrell.mp3",
+    "pdf": "data/Moments/Communion/Bread_of_Life_Farrell.pdf"
   },
   {
     "moment": "Meditation",
     "singer": "",
-    "title": "For the Sake of Christ",
-    "author": "Ken Canedo",
-    "snippet": "For the sake of Christ, I willingly accept my weakness and my trials, for when I am powerless, then I am strong.",
-    "txt": "data/Moments/Meditation/For_the_Sake_of_Christ.txt",
-    "mp3": "data/Moments/Meditation/For_The_Sake_Of_Christ.mp3",
-    "pdf": "data/Moments/Meditation/For_the_Sake_of_Christ.pdf"
+    "title": "Prayer of St. Francis",
+    "author": "Sebastian Temple",
+    "snippet": "Make me a channel of your peace. Where there is hatred, let me bring your love. Where there is injury, your pardon, Lord, And where there\u2019s doubt, true faith in you.",
+    "txt": "data/Moments/Meditation/Prayer_of_St_Francis.txt",
+    "mp3": "data/Moments/Meditation/Prayer_of_St_Francis.mp3",
+    "pdf": "data/Moments/Meditation/Prayer_of_St_Francis.pdf"
   },
   {
     "moment": "Recessional",
     "singer": "",
-    "title": "Your Grace Is Enough",
-    "author": "Matt Maher",
-    "snippet": "Great is your faithfulness, O God; you wrestle with the sinner's restless heart. You lead us by still waters into mercy, and nothing can keep us apart. So remember your people, remember your children, remember your promise, O God.",
-    "txt": "data/Moments/Recessional/Your_Grace_Is_Enough.txt",
-    "mp3": "data/Moments/Recessional/Your_Grace_Is_Enough.mp3",
-    "pdf": "data/Moments/Recessional/Your_Grace_Is_Enough.pdf"
+    "title": "America the Beautiful",
+    "author": "MATERNA",
+    "snippet": "O beautiful for spacious skies, For amber waves of grain, For purple mountain majesties Above the fruited plain! America! America! God shed his grace on thee, And crown thy good with brotherhood From sea to shining sea.",
+    "txt": "data/Moments/Recessional/America_The_Beautiful.txt",
+    "mp3": "data/Moments/Recessional/America_The_Beautiful.mp3",
+    "pdf": "data/Moments/Recessional/America_the_Beautiful_Musescore.pdf"
   },
   {
     "moment": "Lord_Have_Mercy",
