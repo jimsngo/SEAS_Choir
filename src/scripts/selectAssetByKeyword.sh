@@ -11,6 +11,7 @@ SEARCH_PATHS=(
     "$TARGET_LIBRARY/Lyrics_MP3s_PDFs"
     "$TARGET_LIBRARY/Antiphon_Responsorial_Acclamation"
     "$TARGET_LIBRARY/Psalms"
+    "$TARGET_LIBRARY/Acclamations"
 )
 
 # Fallback internal manual picker function
