@@ -1,4 +1,3 @@
-// buildAndMergeTxtToPdf.js
 const fs = require('fs');
 const path = require('path');
 const { PDFDocument, StandardFonts, rgb } = require('pdf-lib');
@@ -27,14 +26,24 @@ function parseSongTxt(txtPath) {
         if (!line) continue;
         const tagMatch = line.match(/^\[(.+?)\]$/);
         if (tagMatch) {
-            if (currentTag && buffer.length > 0) sections.push({ tag: currentTag, content: buffer.join('\n') });
+            if (currentTag && buffer.length > 0) {
+                // FIX: Join with an explicit space, and clean up any accidental double spaces!
+                const mergedText = buffer.join(' ').replace(/\s+/g, ' ').trim();
+                sections.push({ tag: currentTag, content: mergedText });
+            }
             const tagName = tagMatch[1].toUpperCase();
             if (tagName === 'TITLE') { title = lines[i + 1]?.trim() || ''; i++; }
             else if (tagName === 'AUTHOR') { author = lines[i + 1]?.trim() || ''; i++; }
             else { currentTag = tagMatch[1]; buffer = []; }
-        } else if (currentTag) buffer.push(line);
+        } else if (currentTag) {
+            buffer.push(line);
+        }
     }
-    if (currentTag && buffer.length > 0) sections.push({ tag: currentTag, content: buffer.join('\n') });
+    if (currentTag && buffer.length > 0) {
+        // FIX: Ensure the final section also joins with a space properly
+        const mergedText = buffer.join(' ').replace(/\s+/g, ' ').trim();
+        sections.push({ tag: currentTag, content: mergedText });
+    }
     return { title, author, sections };
 }
 
@@ -76,54 +85,57 @@ async function createLyricsPdf() {
     const margin = 50;
     const columnGap = 40;
     
-    // Initialize Page 1
     let page = pdfDoc.addPage([612, 792]);
     const { width, height } = page.getSize();
     const columnWidth = (width - (margin * 2) - columnGap) / 2;
 
     let x = margin;
     let y = height - margin;
-    let columnCount = 0; // 0 = Left Column, 1 = Right Column
+    let columnCount = 0; 
 
-    // Header on Page 1
     page.drawText(massInfo.mass_name || "Mass Lyrics", { x, y, size: 16, font: fontBold });
     y -= 20;
     if (massInfo.date) { page.drawText(massInfo.date, { x, y, size: 12, font }); y -= 30; }
 
     for (const moment of moments) {
-        // Skip moments that don't have text files connected
         if (!moment.txt || !moment.txt.toLowerCase().endsWith('.txt')) {
-            console.warn(`ℹ️ Notice: No text file connected for ${moment.moment}. Skipping block layout calculation.`);
             continue;
         }
 
         const song = parseSongTxt(moment.txt);
         if (!song) {
-            console.warn(`⚠️ Warning: Could not parse text for ${moment.moment}`);
             continue;
         }
 
         // --- DYNAMIC BLOCK ELEVATION HEIGHT ESTIMATION ---
-        // Label (1 line) + Title (1 line) + Author (1 line) = 3 lines base
         let estimatedLines = 3;
         for (const section of song.sections) {
-            // Include section tag line header + its exact inner content lines
-            estimatedLines += 1 + section.content.split('\n').length;
+            const words = section.content.split(' ');
+            let currentLine = '';
+            let wrappedLines = 1;
+            
+            for (const word of words) {
+                const testLine = currentLine ? `${currentLine} ${word}` : word;
+                if (font.widthOfTextAtSize(testLine, fontSize) > columnWidth && currentLine !== '') {
+                    wrappedLines++;
+                    currentLine = word;
+                } else { 
+                    currentLine = testLine; 
+                }
+            }
+            estimatedLines += 1 + wrappedLines;
         }
         
-        // Add padding spacing between distinct song segments
         const estimatedHeightNeeded = (estimatedLines * (fontSize + 2)) + 40;
 
         // --- BLOCK OVERFLOW ROUTING INTERCEPTOR ---
         if (y - estimatedHeightNeeded < margin) {
             if (columnCount === 0) {
-                // Shift from Left Column to Top of Right Column on the SAME page
                 x = margin + columnWidth + columnGap;
                 y = height - margin;
                 columnCount = 1;
                 console.log(`   ↳ Moving entire song [${moment.moment}] to Right Column`);
             } else {
-                // Both columns full. Generate a fresh page and reset to Left Column
                 page = pdfDoc.addPage([612, 792]);
                 x = margin;
                 y = height - margin;
@@ -150,7 +162,7 @@ async function createLyricsPdf() {
             y -= 8;
         }
         
-        y -= 20; // Structural gap below the completed block
+        y -= 20; 
     }
 
     fs.writeFileSync(OUTPUT_FILE, await pdfDoc.save());
