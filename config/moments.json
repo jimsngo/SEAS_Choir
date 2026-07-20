@@ -1,83 +1,83 @@
 [
   {
     "moment": "Entrance",
-    "singer": "Keila",
-    "title": "LR 145",
+    "title": "LR 148",
     "author": "Let Us All Rejoice",
-    "snippet": "See, I have God for my help. The Lord sustains my soul. I will sacrifice to you with willing heart, and praise your name, O Lord, for it is good.",
-    "txt": "data/Moments/Entrance/LR_145.txt",
-    "mp3": "data/Moments/Entrance/LR_145.mp3",
-    "pdf": "data/Moments/Entrance/LR_145.pdf"
+    "snippet": "God is in his holy place, God who unites those who dwell in his house; He himself gives might and strength to his people.",
+    "txt": "data/Moments/Entrance/LR_148.txt",
+    "mp3": "data/Moments/Entrance/LR_148.mp3",
+    "pdf": "data/Moments/Entrance/LR_148.pdf",
+    "singer": ""
   },
   {
     "moment": "Responsorial_Psalm",
-    "title": "16th Sunday OT",
-    "author": "Psalm 86: 5-6, 9-10, 15-16",
-    "snippet": "Lord, you are good and forgiving.",
-    "txt": "data/Moments/Responsorial_Psalm/P86_Lord_You_Are_Good_and_Forgiving_LaRosa.txt",
-    "mp3": "data/Moments/Responsorial_Psalm/P86_Lord_You_Are_Good_and_Forgiving_LaRosa.mp3",
-    "pdf": "data/Moments/Responsorial_Psalm/P86_Lord_You_Are_Good_and_Forgiving_LaRosa.pdf",
-    "singer": "Mary"
+    "title": "17th Sunday OT",
+    "author": "Psalm 119: 57, 72, 76-77, 127-128, 129-130",
+    "snippet": "Lord, I love your commands.",
+    "txt": "data/Moments/Responsorial_Psalm/P119_Lord_I_Love_Your_Commands_LaRosa.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/P119_Lord_I_Love_Your_Commands_LaRosa.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/P119_Lord_I_Love_Your_Commands_LaRosa.pdf",
+    "singer": ""
   },
   {
     "moment": "Gospel_Acclamation",
-    "singer": "David",
     "title": "Matthew 11:25",
     "author": "SP2026",
-    "snippet": "Blessed are you, Father, Lord of heaven and earth; You have revealed to title ones the mysteries of the kingdom.",
+    "snippet": "Blessed are you, Father, Lord of heaven and earth; You have revealed to litle ones the mysteries of the kingdom.",
     "txt": "data/Moments/Gospel_Acclamation/Blessed_are_You_Father.txt",
     "mp3": "data/Moments/Gospel_Acclamation/Blessed_are_You_Father_SP.mp3",
-    "pdf": "data/Moments/Gospel_Acclamation/Blessed_are_You_Father_SP.pdf"
+    "pdf": "data/Moments/Gospel_Acclamation/Blessed_are_You_Father_SP.pdf",
+    "singer": "David"
   },
   {
     "moment": "Offertory",
-    "title": "Many and Great",
-    "author": "Ricky Manalo CSP",
-    "snippet": "Many and great are bearers of the Word: the Christ speaks; the heart seeks. Gathered as one, we listen to the Word and share the meal of new birth.",
-    "txt": "data/Moments/Offertory/Many_and_Great.txt",
-    "mp3": "data/Moments/Offertory/Many_and_Great.mp3",
-    "pdf": "data/Moments/Offertory/Many_and_Great_Musescore.pdf",
+    "title": "King of my Heart",
+    "author": "Greg Walton",
+    "snippet": "Fill me I'm an empty vessel, make me whole. King of my heart. King of my heart. Fill me I'm an empty vessel, make me whole. King of my heart. King of my heart.",
+    "txt": "data/Moments/Offertory/King_of_My_Heart.txt",
+    "mp3": "data/Moments/Offertory/King_Of_My_Heart.mp3",
+    "pdf": "data/Moments/Offertory/King_of_My_Heart_Musescore.pdf",
     "singer": ""
   },
   {
     "moment": "Communion_Antiphon",
-    "singer": "Keila",
-    "title": "LR 147",
+    "title": "LR 150",
     "author": "Let Us All Rejoice",
-    "snippet": "Behold, I stand at the door and knock, says the Lord. If anyone hears my voice and opens the door to me, I will enter his house and dine with him, and he with me.",
-    "txt": "data/Moments/Communion_Antiphon/LR_147.txt",
-    "mp3": "data/Moments/Communion_Antiphon/LR_147.mp3",
-    "pdf": "data/Moments/Communion_Antiphon/LR_147.pdf"
+    "snippet": "Blessed are the merciful, for they shall receive mercy. Blessed are the clean of heart, for they shall see God.",
+    "txt": "data/Moments/Communion_Antiphon/LR_150.txt",
+    "mp3": "data/Moments/Communion_Antiphon/LR_150.mp3",
+    "pdf": "data/Moments/Communion_Antiphon/LR_150.pdf",
+    "singer": ""
   },
   {
     "moment": "Communion",
-    "singer": "",
-    "title": "Fly like a Bird",
-    "author": "Ken Canedo",
-    "snippet": "Fly like a bird to the Lord, my soul. I want to soar like an eagle. Though I may journey far away from home, I know I'll never be alone.",
-    "txt": "data/Moments/Communion/Fly_Like_A_Bird.txt",
-    "mp3": "data/Moments/Communion/Fly_Like_A_Bird.mp3",
-    "pdf": "data/Moments/Communion/Fly_Like_A_Bird.pdf"
+    "title": "Psalm 63: My Soul Is Thirsting/As Morning Breaks",
+    "author": "Steve Angrisano",
+    "snippet": "My soul is thirsting for you, O Lord, thirsting for you, my God. My soul is thirsting for you, O Lord, thirsting for you, my God, thirsting for you, my God.",
+    "txt": "data/Moments/Communion/Psalm_63_My_Soul_Is_Thirsting_As_Morning_Breaks_Angrisano.txt",
+    "mp3": "data/Moments/Communion/Psalm_63_My_Soul_Is_Thirsting_As_Morning_Breaks_Angrisano.mp3",
+    "pdf": "data/Moments/Communion/Psalm_63_My_Soul_Is_Thirsting_As_Morning_Breaks_Angrisano.pdf",
+    "singer": ""
   },
   {
     "moment": "Meditation",
-    "singer": "",
-    "title": "Shout to the Lord",
-    "author": "Darlene Zscheck/Ed Bolduc",
-    "snippet": "My Jesus, my Savior Lord, there is none like You All of my days, I want to praise The wonders of Your mighty love",
-    "txt": "data/Moments/Meditation/Shout_To_The_Lord.txt",
-    "mp3": "data/Moments/Meditation/Shout_To_The_Lord.mp3",
-    "pdf": "data/Moments/Meditation/Shout_to_the_Lord.pdf"
+    "title": "Psalm 146 - Blessed Are You",
+    "author": "SUNO/Jim Ngo",
+    "snippet": "Come, you weary, find your rest, Here the broken, truly blessed. Lay your burdens, take His peace, In His love, sorrows cease.",
+    "txt": "data/Moments/Meditation/Blessed_Are_You.txt",
+    "mp3": "data/Moments/Meditation/Blessed_Are_You_Suno.mp3",
+    "pdf": "data/Moments/Meditation/Blessed_Are_You_Suno.pdf",
+    "singer": ""
   },
   {
     "moment": "Recessional",
-    "singer": "David",
-    "title": "Beautiful One",
-    "author": "Tim Hughes/Rick Modlin/Trevor Thompson",
-    "snippet": "Wonderful, so wonderful is your unfailing love. Your cross has spoken mercy over me. No eye has seen, no ear has heard, no heart could fully know how glorious, how beautiful you are.",
-    "txt": "data/Moments/Recessional/Beautiful_One_Trevor_Thompson.txt",
-    "mp3": "data/Moments/Recessional/Beautiful_One_Trevor_Thompson.mp3",
-    "pdf": "data/Moments/Recessional/Beautiful_One_Trevor_Thompson.pdf"
+    "title": "Tell The Good News",
+    "author": "SUNO xJim Ngo",
+    "snippet": "With open hands and open hearts We share the light that Christ has shown His word of hope for all the world Let every soul proclaim his love.",
+    "txt": "data/Moments/Recessional/Tell_The_Good_News.txt",
+    "mp3": "data/Moments/Recessional/Tell_The_Good_News_Suno.mp3",
+    "pdf": "data/Moments/Recessional/Tell_The_Good_News_Suno.pdf",
+    "singer": "David"
   },
   {
     "moment": "Lord_Have_Mercy",
