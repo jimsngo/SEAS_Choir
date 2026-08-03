@@ -1,0 +1,24 @@
+{
+  "name": "seas-choir-server",
+  "version": "1.0.0",
+  "description": "SEAS Choir Server - Manages mass information and moments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "choir",
+    "mass",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-fileupload": "^1.5.2",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
