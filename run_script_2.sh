@@ -106,23 +106,31 @@ EOF
                 new_pdf=$( ./"$SEARCH_LINK_TOOL" "$TARGET_LIBRARY" "new_pdf" "$search_kw" "pdf" "Select PDF for $m_opt" | grep "RESULT_PATH:" | cut -d':' -f2- )
                 
                 echo "🔍 Scanning library for audio track..."
-                new_mp3=$( ./"$SEARCH_LINK_TOOL" "$TARGET_LIBRARY" "new_mp3" "$search_kw" "mp3" "Select MP3 for $m_opt" | grep "RESULT_PATH:" | cut -d':' -f2- )
+                # FIX: Request 'audio' tag instead of strictly 'mp3'
+                new_mp3=$( ./"$SEARCH_LINK_TOOL" "$TARGET_LIBRARY" "new_mp3" "$search_kw" "audio" "Select Audio for $m_opt" | grep "RESULT_PATH:" | cut -d':' -f2- )
             else
                 echo "📂 Opening manual file pickers..."
                 new_txt=$(osascript -e "POSIX path of (choose file with prompt \"Select TXT\" of type {\"txt\"} default location (POSIX file \"$TARGET_LIBRARY\"))" 2>/dev/null)
                 new_pdf=$(osascript -e "POSIX path of (choose file with prompt \"Select PDF\" of type {\"pdf\"} default location (POSIX file \"$TARGET_LIBRARY\"))" 2>/dev/null)
-                new_mp3=$(osascript -e "POSIX path of (choose file with prompt \"Select MP3\" of type {\"mp3\"} default location (POSIX file \"$TARGET_LIBRARY\"))" 2>/dev/null)
+                # FIX: Allow macOS file picker to select ANY audio file format (WAV, MP3, etc.)
+                new_mp3=$(osascript -e "POSIX path of (choose file with prompt \"Select Audio\" of type {\"public.audio\"} default location (POSIX file \"$TARGET_LIBRARY\"))" 2>/dev/null)
             fi
 
             DEST_DIR="$MOMENTS_BASE_DIR/$m_opt"; mkdir -p "$DEST_DIR"
             process_file() {
                 if [[ -n "$1" && -f "$1" ]]; then
-                    rm -f "$DEST_DIR"/*."$3"; cp "$1" "$DEST_DIR/"
+                    # FIX: If processing audio, delete both old .mp3 AND old .wav files to prevent overlapping tracks
+                    if [[ "$3" == "audio" ]]; then
+                        rm -f "$DEST_DIR"/*.mp3 "$DEST_DIR"/*.wav
+                    else
+                        rm -f "$DEST_DIR"/*."$3"
+                    fi
+                    cp "$1" "$DEST_DIR/"
                     echo "$DEST_DIR/$(basename "$1")"
                 else echo "$2"; fi
             }
 
-            FINAL_MP3=$(process_file "$new_mp3" "$(echo "$CUR_DATA" | cut -d'|' -f1)" "mp3")
+            FINAL_MP3=$(process_file "$new_mp3" "$(echo "$CUR_DATA" | cut -d'|' -f1)" "audio")
             FINAL_PDF=$(process_file "$new_pdf" "$(echo "$CUR_DATA" | cut -d'|' -f2)" "pdf")
             FINAL_TXT=$(process_file "$new_txt" "$(echo "$CUR_DATA" | cut -d'|' -f3)" "txt")
 
@@ -134,7 +142,7 @@ for x in d:
 with open('$MOMENTS_JSON', 'w') as f: json.dump(d, f, indent=2)
 EOF
             node "$EXTRACT_TOOL"; echo "✅ $m_opt updated in $DEST_DIR."
-            sleep 1.5   # ⏳ Small pause to view the confirmation before the menu reprints
+            sleep 1.5   
         done
         ;;
 

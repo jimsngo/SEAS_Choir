@@ -6,7 +6,7 @@ SEARCH_KW="$3"
 FILE_EXT="$4"
 PROMPT_MSG="$5"
 
-# Hardcode your two exact primary search directories explicitly
+# Hardcode your expanded primary search directories explicitly
 SEARCH_PATHS=(
     "$TARGET_LIBRARY/Antiphons"
     "$TARGET_LIBRARY/Psalms"
@@ -54,26 +54,39 @@ echo "📂 Active Scan Targets:" >&2
 for target in "${FINAL_SEARCH_TARGETS[@]}"; do
     echo "   📍 Path: $target" >&2
 done
-echo "🔎 Parsing Elements: ($NORMALIZED_KW) | Target Extension: .$FILE_EXT" >&2
+echo "🔎 Parsing Elements: ($NORMALIZED_KW) | Target: $FILE_EXT" >&2
 echo "------------------------------------------------" >&2
 # =========================================================
 
 matches=()
 IFS=$'\n'
-matches=($(find "${FINAL_SEARCH_TARGETS[@]}" -maxdepth $MAX_DEPTH -type f "${find_args[@]}" -iname "*.${FILE_EXT}" 2>/dev/null))
+
+# =========================================================
+# DYNAMIC AUDIO CHECK: Search for .mp3 AND .wav simultaneously
+# =========================================================
+if [ "$FILE_EXT" == "audio" ]; then
+    matches=($(find "${FINAL_SEARCH_TARGETS[@]}" -maxdepth $MAX_DEPTH -type f "${find_args[@]}" \( -iname "*.mp3" -o -iname "*.wav" \) 2>/dev/null))
+else
+    matches=($(find "${FINAL_SEARCH_TARGETS[@]}" -maxdepth $MAX_DEPTH -type f "${find_args[@]}" -iname "*.${FILE_EXT}" 2>/dev/null))
+fi
 unset IFS
 
 if [ ${#matches[@]} -eq 0 ]; then
-    echo "⚠️  No .${FILE_EXT} files found matching '$SEARCH_KW' inside your target folders." >&2
+    echo "⚠️  No ${FILE_EXT} files found matching '$SEARCH_KW' inside your target folders." >&2
     read -p "Press Enter to open manual file picker window..." < /dev/tty >&2
-    RESULT=$(invoke_fallback_picker "$PROMPT_MSG" "$FILE_EXT")
+    
+    if [ "$FILE_EXT" == "audio" ]; then
+        RESULT=$(invoke_fallback_picker "$PROMPT_MSG" "public.audio")
+    else
+        RESULT=$(invoke_fallback_picker "$PROMPT_MSG" "$FILE_EXT")
+    fi
 elif [ ${#matches[@]} -eq 1 ]; then
     src_folder=$(basename "$(dirname "${matches[0]}")")
     echo "✅ Automatically selected unique match: $(basename "${matches[0]}") [Source: /$src_folder]" >&2
     RESULT="${matches[0]}"
 else
     echo "------------------------------------------------" >&2
-    echo "Suggested .${FILE_EXT} files found in your library:" >&2
+    echo "Suggested ${FILE_EXT} files found in your library:" >&2
     for i in "${!matches[@]}"; do
         subfolder=$(basename "$(dirname "${matches[$i]}")")
         echo "$((i+1))) $(basename "${matches[$i]}") [Source: /$subfolder]" >&2
@@ -87,7 +100,11 @@ else
             RESULT="${matches[$((choice-1))]}"
             break
         elif [[ "$choice" -eq "$(( ${#matches[@]} + 1 ))" ]]; then
-            RESULT=$(invoke_fallback_picker "$PROMPT_MSG" "$FILE_EXT")
+            if [ "$FILE_EXT" == "audio" ]; then
+                RESULT=$(invoke_fallback_picker "$PROMPT_MSG" "public.audio")
+            else
+                RESULT=$(invoke_fallback_picker "$PROMPT_MSG" "$FILE_EXT")
+            fi
             break
         fi
     done
