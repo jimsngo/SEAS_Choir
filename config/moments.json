@@ -21,7 +21,7 @@
   },
   {
     "moment": "Gospel_Acclamation",
-    "title": "Gospel Acclamation - 24th Sunday (A)",
+    "title": "Gospel Acclamation - 25th Sunday (A)",
     "author": "Acts of the Apostles 16:14b",
     "snippet": "Open our hearts, O Lord, to listen to the words of your Son.",
     "txt": "data/Moments/Gospel_Acclamation/Open_our-hearts_O_Lord_Blakesley.txt",
@@ -61,7 +61,7 @@
   },
   {
     "moment": "Meditation",
-    "title": "I Will Praise Your Name/The Lord Is Near",
+    "title": "The Lord Is Near",
     "author": "Tom Booth",
     "snippet": "The Lord is near to all who call him. The Lord is near to all who call in truth. The Lord is near to all who call him. The Lord is near to all who call in truth.",
     "txt": "data/Moments/Meditation/I_Will_Praise_Your_Name_The_Lord_is_Near_Psalm145.txt",
