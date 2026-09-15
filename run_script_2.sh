@@ -148,7 +148,22 @@ EOF
 
     3) node "$MUSIC_PDF_TOOL"; sleep 1 ;;
     4) node "$LYRICS_PDF_TOOL"; sleep 1 ;;
-    5) git add . && git commit -m "Weekly Update" && git push origin main; sleep 1 ;;
+    5) 
+        echo "------------------------------------------------"
+        echo "🚀 Staging files for GitHub..."
+        git add .
+        
+        echo "📦 Committing changes..."
+        # Using || prevents the script from stopping if there's nothing new to commit
+        git commit -m "Weekly Update" || echo "ℹ️ No new changes to commit (proceeding to push)."
+        
+        echo "☁️ Pushing to remote server..."
+        git push origin main
+        
+        echo "------------------------------------------------"
+        # This pause forces the screen to stay open so you can read any Git errors!
+        read -p "Press Enter to return to the main menu..." 
+        ;;
     6) 
         python3 -c "import json, os; m=json.load(open('$MOMENTS_JSON')); keep=[x[k] for x in m for k in ['mp3','pdf','txt'] if x.get(k)]; [os.remove(os.path.join(r,f)) for r,d,fs in os.walk('$MOMENTS_BASE_DIR') for f in fs if os.path.join(r,f) not in keep]"
         find data/ -maxdepth 1 -type d ! -path "data/" ! -path "data/Moments" ! -path "data/Mass_Parts" -exec rm -rf {} +
