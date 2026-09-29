@@ -7,7 +7,7 @@
     "txt": "data/Moments/Entrance/LR_178.txt",
     "mp3": "data/Moments/Entrance/LR_178.mp3",
     "pdf": "data/Moments/Entrance/LR_178.pdf",
-    "singer": "Keila"
+    "singer": ""
   },
   {
     "moment": "Responsorial_Psalm",
@@ -47,7 +47,7 @@
     "txt": "data/Moments/Communion_Antiphon/LR_176.txt",
     "mp3": "data/Moments/Communion_Antiphon/LR_176.mp3",
     "pdf": "data/Moments/Communion_Antiphon/LR_176.pdf",
-    "singer": ""
+    "singer": "Keila"
   },
   {
     "moment": "Communion",
@@ -77,7 +77,7 @@
     "txt": "data/Moments/Recessional/Go_Out_Go_Out.txt",
     "mp3": "data/Moments/Recessional/Go_Out_Go_Out.mp3",
     "pdf": "data/Moments/Recessional/Go_Out_Go_Out_Stephan.pdf",
-    "singer": "David & Claudine"
+    "singer": ""
   },
   {
     "moment": "Lord_Have_Mercy",
