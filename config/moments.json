@@ -1,0 +1,136 @@
+[
+  {
+    "moment": "Entrance",
+    "title": "Entrance Antiphon LR 187",
+    "author": "Cf. Psalm 105 (104):3-4",
+    "snippet": "Let the hearts that seek the Lord rejoice; turn to the Lord and his strength; constantly seek his face.",
+    "txt": "data/Moments/Entrance/LR_187.txt",
+    "mp3": "data/Moments/Entrance/LR_187.mp3",
+    "pdf": "data/Moments/Entrance/LR_187.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Responsorial_Psalm",
+    "title": "I love your Lord my strength",
+    "author": "(Psalm 18: 2-3, 3-4, 47, 51)",
+    "snippet": "I love you, Lord, my strength. I love you, Lord, my strength.",
+    "txt": "data/Moments/Responsorial_Psalm/Psalm_18_I_Love_You_Lord_My_Strength.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/Psalm_18_I_Love_You_Lord_My_Strength_LaRosa.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/Psalm_18_I_Love_You_Lord_My_Strength_LaRosa.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Gospel_Acclamation",
+    "title": "Gospel Acclamation",
+    "author": "John 14:23",
+    "snippet": "Whoever loves me will keep my word, says the Lord, and my Father will love him and we will come to him.",
+    "txt": "data/Moments/Gospel_Acclamation/Whoever_loves_me_will_keep_my_word.txt",
+    "mp3": "data/Moments/Gospel_Acclamation/Whoever_loves_me_will_keep_my_word_says_the_Lord_Sarah_Hart.mp3",
+    "pdf": "data/Moments/Gospel_Acclamation/Whoever_loves_me_will_keep_my_word_says_the_Lord_Sarah_Hart.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Offertory",
+    "title": "I Love the Lord",
+    "author": "Paul Inwood",
+    "snippet": "I love the Lord who has heard my cry. I love the Lord, standing at my side. I love the Lord, always close to me. I love the Lord, love the Lord who saves and sets me free.",
+    "txt": "data/Moments/Offertory/I_Love_the_Lord.txt",
+    "mp3": "data/Moments/Offertory/I_Love_the_Lord.mp3",
+    "pdf": "data/Moments/Offertory/I_Love_the_Lord.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Communion_Antiphon",
+    "title": "Sanctuary",
+    "author": "John W. Thompson, Randy Scruggs",
+    "snippet": "Lord, prepare me to be a sanctuary; pure and holy; tried and true. With thanksgiving; I'll be a living Sanctuary for You.",
+    "txt": "data/Moments/Communion_Antiphon/Sanctuary.txt",
+    "mp3": "data/Moments/Communion_Antiphon/Sanctuary.mp3",
+    "pdf": "data/Moments/Communion_Antiphon/Sanctuary.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Communion",
+    "title": "Hold On to Love",
+    "author": "Jesse Manibusan",
+    "snippet": "There is a place for the sadness. Hold on to Love. There is a season of gladness. Hold on to Love. When pain and confusion seem endless, hold on to Love. We cultivate healing through kindness. Hold on to Love.",
+    "txt": "data/Moments/Communion/Hold_on_to_Love.txt",
+    "mp3": "data/Moments/Communion/Hold_on_to_Love.mp3",
+    "pdf": "data/Moments/Communion/Hold_on_to_Love.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Meditation",
+    "title": "Restless",
+    "author": "Audrey Assad",
+    "snippet": "You dwell in the songs that we are singing, rising to the heavens, rising to your heart, your heart. Our praises filling up the spaces in between our frailty and everything you are.",
+    "txt": "data/Moments/Meditation/Restless.txt",
+    "mp3": "data/Moments/Meditation/Restless.mp3",
+    "pdf": "data/Moments/Meditation/Restless.pdf",
+    "singer": ""
+  },
+  {
+    "moment": "Recessional",
+    "title": "Sing to the Lord",
+    "author": "Jim Ngo xSuno",
+    "snippet": "Sing to the Lord! Sing a new song! Sing to the Lord! All of the earth!",
+    "txt": "data/Moments/Recessional/Sing_to_the_Lord.txt",
+    "mp3": "data/Moments/Recessional/Sing_to_the_Lord.wav",
+    "pdf": "data/Moments/Recessional/Sing_to_the_Lord.pdf",
+    "singer": "David/Claudine"
+  },
+  {
+    "moment": "Lord_Have_Mercy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lord, have mercy. Christ have mercy. Lord have mercy",
+    "mp3": "data/Mass_Parts/Lord_Have_Mercy/Lord_Have_Mercy_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Glory_to_God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Glory to God! Glory to God in the highest, and on earth, peace to people of goodwill.",
+    "mp3": "data/Mass_Parts/Glory_to_God/Glory_to_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Holy",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Holy, holy, holy Lord God of hosts. Heaven and earth are full of your glory. Hosanna in the highest. Blessed is he who comes in the moment of the Lord. Hosanna in the highest.",
+    "mp3": "data/Mass_Parts/Holy/Holy_Mass_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "When_We_Eat_This_Bread",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "When we eat this bread and drink this cup, we proclaim your death, O Lord, until you come again.",
+    "mp3": "data/Mass_Parts/When_We_Eat_This_Bread/When_We_Eat_This_Bread_Sarah_Hart_Choral.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Amen",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Amen, Amen, Amen, Amen, Amen.",
+    "mp3": "data/Mass_Parts/Amen/Amen_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  },
+  {
+    "moment": "Lamb_of_God",
+    "title": "",
+    "author": "Mass of St. Mary Magdalene - Sarah Hart",
+    "snippet": "Lamb of God, You take away the sins of the world; have mercy, have mercy on us.",
+    "mp3": "data/Mass_Parts/Lamb_of_God/Lamb_of_God_Sarah_Hart.mp3",
+    "pdf": "",
+    "txt": ""
+  }
+]
