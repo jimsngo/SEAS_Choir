@@ -61,12 +61,12 @@
   },
   {
     "moment": "Meditation",
-    "title": "Come to Jesus",
-    "author": "Josh Blakesley",
-    "snippet": "People of the God of ages Welcome to your brand new day Leave the world and all it's trappings Come into Amazing Grace Let go your every fear There is only mercy here",
-    "txt": "data/Moments/Meditation/Come_To_Jesus.txt",
-    "mp3": "data/Moments/Meditation/Come_To_Jesus.mp3",
-    "pdf": "data/Moments/Meditation/Come_To_Jesus.pdf",
+    "title": "Litany of the Saints",
+    "author": "John D. Becker",
+    "snippet": "Lord, have mercy. Lord, have mercy. Christ, have mercy. Christ, have mercy. Lord, have mercy. Lord, have mercy.",
+    "txt": "data/Moments/Meditation/Litany_of_the_Saints.txt",
+    "mp3": "data/Moments/Meditation/Litany_of_the_Saints.mp3",
+    "pdf": "data/Moments/Meditation/Litany_of_the_Saints.pdf",
     "singer": ""
   },
   {
