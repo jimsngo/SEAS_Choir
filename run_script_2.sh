@@ -147,7 +147,7 @@ EOF
         ;;
 
     3) node "$MUSIC_PDF_TOOL"; sleep 1 ;;
-    4) node "$LYRICS_PDF_TOOL"; sleep 1 ;;
+    4) node "$LYRICS_PDF_TOOL"; read -p "Press Enter to return to the main menu..." ;;
     5) 
         echo "------------------------------------------------"
         echo "🚀 Staging files for GitHub..."
