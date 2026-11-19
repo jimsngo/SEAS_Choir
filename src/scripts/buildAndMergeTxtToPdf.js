@@ -13,11 +13,33 @@ const MASS_INFO_PATH = path.join(CONFIG_DIR, 'mass_info.json');
 const OUTPUT_FILE    = path.join(OUTPUT_DIR, 'lyrics.pdf');
 // ==========================================
 
+function sanitizeForPdf(text) {
+    if (!text) return '';
+    return text
+        .replace(/ﬁ/g, 'fi')
+        .replace(/ﬂ/g, 'fl')
+        .replace(/[“”]/g, '"')
+        .replace(/[‘’]/g, "'")
+        .replace(/—/g, '-')
+        .replace(/–/g, '-')
+        .replace(/…/g, '...');
+}
+
 function parseSongTxt(txtPath) {
     const absolutePath = path.resolve(ROOT_DIR, txtPath);
     if (!fs.existsSync(absolutePath)) return null;
     const rawContent = fs.readFileSync(absolutePath, 'utf8');
-    const cleanContent = rawContent.replace(/[\u0000-\u0008\u000B-\u001F\u007F-\u009F]/g, "");
+    let cleanContent = rawContent
+        .replace(/\uFEFF|\u200B|\u200C|\u200D|\u00A0|\u2028|\u2029/g, '')
+        .replace(/\r\n|\r/g, '\n')
+        .replace(/[\u0000-\u0008\u000B-\u001F\u007F-\u009F]/g, '');
+
+    cleanContent = sanitizeForPdf(cleanContent);
+    // Ensure [Tags] always sit on their own lines even if pasted inline
+    cleanContent = cleanContent
+        .replace(/(\[[^\]]+\])([^\n])/g, '$1\n$2')
+        .replace(/([^\n])(\[[^\]]+\])/g, '$1\n$2');
+
     const lines = cleanContent.split(/\n/);
     let title = '', author = '', sections = [], currentTag = null, buffer = [];
 
@@ -27,7 +49,6 @@ function parseSongTxt(txtPath) {
         const tagMatch = line.match(/^\[(.+?)\]$/);
         if (tagMatch) {
             if (currentTag && buffer.length > 0) {
-                // FIX: Join with an explicit space, and clean up any accidental double spaces!
                 const mergedText = buffer.join(' ').replace(/\s+/g, ' ').trim();
                 sections.push({ tag: currentTag, content: mergedText });
             }
@@ -40,7 +61,6 @@ function parseSongTxt(txtPath) {
         }
     }
     if (currentTag && buffer.length > 0) {
-        // FIX: Ensure the final section also joins with a space properly
         const mergedText = buffer.join(' ').replace(/\s+/g, ' ').trim();
         sections.push({ tag: currentTag, content: mergedText });
     }
@@ -93,9 +113,19 @@ async function createLyricsPdf() {
     let y = height - margin;
     let columnCount = 0; 
 
-    page.drawText(massInfo.mass_name || "Mass Lyrics", { x, y, size: 16, font: fontBold });
-    y -= 20;
-    if (massInfo.date) { page.drawText(massInfo.date, { x, y, size: 12, font }); y -= 30; }
+    const fullWidth = width - (margin * 2);
+    const safeMassName = sanitizeForPdf(massInfo.mass_name || "Mass Lyrics");
+    y = drawWrappedText(page, safeMassName, x, y, fontBold, 16, rgb(0, 0, 0), fullWidth);
+    y -= 4;
+    if (massInfo.date) {
+        page.drawText(sanitizeForPdf(massInfo.date), { x, y, size: 12, font });
+        y -= 24;
+    } else {
+        y -= 10;
+    }
+
+    // Save the Y position below the Page 1 header so Column 2 aligns with Column 1
+    const firstPageContentTopY = y;
 
     for (const moment of moments) {
         if (!moment.txt || !moment.txt.toLowerCase().endsWith('.txt')) {
@@ -132,7 +162,7 @@ async function createLyricsPdf() {
         if (y - estimatedHeightNeeded < margin) {
             if (columnCount === 0) {
                 x = margin + columnWidth + columnGap;
-                y = height - margin;
+                y = (pdfDoc.getPageCount() === 1) ? firstPageContentTopY : (height - margin);
                 columnCount = 1;
                 console.log(`   ↳ Moving entire song [${moment.moment}] to Right Column`);
             } else {
@@ -145,9 +175,10 @@ async function createLyricsPdf() {
         }
 
         // --- RENDERING PRODUCTION ---
-        const momentName = moment.moment.replace(/_/g, ' ');
+        const momentName = sanitizeForPdf(moment.moment.replace(/_/g, ' '));
         console.log(`📝 Processing Layout: ${momentName}`);
-        const label = moment.singer ? `${momentName} (${moment.singer})` : momentName;
+        const singerName = sanitizeForPdf(moment.singer);
+        const label = singerName ? `${momentName} (${singerName})` : momentName;
         
         page.drawText(label, { x, y, size: fontSize + 1, font: fontBold, color: rgb(0, 0, 0.5) });
         y -= 15;
