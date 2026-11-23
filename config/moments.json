@@ -1,42 +1,42 @@
 [
   {
     "moment": "Entrance",
-    "title": "LR-201",
-    "author": "Revelation 5:12;1-6",
-    "snippet": "How worthy is the Lamb who was slain, to receive power and divinity, and wisdom and strength and honor. To him belong glory and power for ever and ever.",
-    "txt": "data/Moments/Entrance/LR_201.txt",
-    "mp3": "data/Moments/Entrance/LR_201.mp3",
-    "pdf": "data/Moments/Entrance/LR_201.pdf",
-    "singer": ""
+    "title": "Dwell in Us - Advent 1",
+    "author": "Francesca LaRosa",
+    "snippet": "To you, I lift up my soul, O my God. In you, I have trusted; let me not be put to shame. Nor let my enemies exult over me; and let none who hope in you be put to shame.",
+    "txt": "data/Moments/Entrance/Dwell_In_Us_Advent1_LaRosa.txt",
+    "mp3": "data/Moments/Entrance/Dwell_In_Us_Advent1_LaRosa.mp3",
+    "pdf": "data/Moments/Entrance/Dwell_In_Us_Advent1_LaRosa.pdf",
+    "singer": "Mariflor"
   },
   {
     "moment": "Responsorial_Psalm",
-    "title": "Responsorial Psalm - Christ the King",
-    "author": "(Psalm 23: 1-2, 2-3, 5-6)",
-    "snippet": "The Lord is my shepherd; there is nothing I shall want.",
-    "txt": "data/Moments/Responsorial_Psalm/Psalm_23_The_Lord_Is_My_Shepherd_Christ_the_King_Hart.txt",
-    "mp3": "data/Moments/Responsorial_Psalm/Psalm_23_The_Lord_Is_My_Shepherd_Christ_the_King_Hart.mp3",
-    "pdf": "data/Moments/Responsorial_Psalm/Psalm_23_The_Lord_Is_My_Shepherd_Christ_the_King_Hart.pdf",
-    "singer": "Vanessa"
+    "title": "Responsorial Psalm - Advent 1",
+    "author": "Psalm 80: 2-3, 15-16, 18-19",
+    "snippet": "Lord, make us turn to you; let us see your face and we shall be saved.",
+    "txt": "data/Moments/Responsorial_Psalm/Psalm_80_Lord_Make_Us_Turn_To_You.txt",
+    "mp3": "data/Moments/Responsorial_Psalm/Psalm_80_Lord_Make_Us_Turn_To_You_LaRosa.mp3",
+    "pdf": "data/Moments/Responsorial_Psalm/Psalm_80_Lord_Make_Us_Turn_To_You_LaRosa.pdf",
+    "singer": "Mariflor"
   },
   {
     "moment": "Gospel_Acclamation",
-    "title": "Mk 11:9, 10",
-    "author": "SP2025",
-    "snippet": "Blessed is he who comes in the name of the Lord! Blessed is the kingdom of our father David that is to come!",
-    "txt": "data/Moments/Gospel_Acclamation/Blessed_is_he_who_comes_in_the_name_of_the_Lord.txt",
-    "mp3": "data/Moments/Gospel_Acclamation/Blessed_is_he_who_comes_in_the_name_of_the_Lord_Tom_Booth.mp3",
-    "pdf": "data/Moments/Gospel_Acclamation/Blessed_is_he_who_comes_in_the_name_of_the_Lord_Tom_Booth.pdf",
-    "singer": "David"
+    "title": "Gospel Acclamation",
+    "author": "Psalm 85:8",
+    "snippet": "Show us, Lord, your love; and grant us your salvation.",
+    "txt": "data/Moments/Gospel_Acclamation/Show_us_Lord_your_love_Sarah_Hart.txt",
+    "mp3": "data/Moments/Gospel_Acclamation/Show_us_Lord_your_love_Sarah_Hart.mp3",
+    "pdf": "data/Moments/Gospel_Acclamation/Show_us_Lord_your_love_Sarah_Hart.pdf",
+    "singer": "Mariflor"
   },
   {
     "moment": "Offertory",
-    "title": "HE IS EXALTED",
-    "author": "Twila Paris",
-    "snippet": "He is exalted, the King is exalted on high, I will praise Him. He is exalted, forever exalted and I will praise His name",
-    "txt": "data/Moments/Offertory/He_Is_Exalted.txt",
-    "mp3": "data/Moments/Offertory/He_Is_Exalted.mp3",
-    "pdf": "data/Moments/Offertory/He_Is_Exalted.pdf",
+    "title": "The King Shall Come",
+    "author": "Trevor Thomson",
+    "snippet": "The King shall come when morning dawns and light triumphant breaks; When beauty gilds the eastern hills and life to joy awakes. Not, as of old, a little child, to bear, and fight, and die; But crowned with glory like the sun that lights the morning sky.",
+    "txt": "data/Moments/Offertory/The_King_Shall_Come.txt",
+    "mp3": "data/Moments/Offertory/The_King_Shall_Come.mp3",
+    "pdf": "data/Moments/Offertory/The_King_Shall_Come_musescore.pdf",
     "singer": ""
   },
   {
@@ -51,33 +51,33 @@
   },
   {
     "moment": "Communion",
-    "title": "Para Amar como T\u00fa",
-    "author": "Santiago Fern\u00e1ndez/Jesse Manibusan",
-    "snippet": "O God, great is your love, everlasting and true. Se\u00f1or, danos tu amor para amar como t\u00fa.",
-    "txt": "data/Moments/Communion/Para_Amar_como_Tu.txt",
-    "mp3": "data/Moments/Communion/Para_Amar_Como_Tu.mp3",
-    "pdf": "data/Moments/Communion/Para_Amar_como_Tu.pdf",
+    "title": "A Voice Cries Out",
+    "author": "Michael Joncas",
+    "snippet": "Console my people, the ones dear to me; speak to the heart of Jerusalem: the time of your mourning is ended now, the Lord of life will come.",
+    "txt": "data/Moments/Communion/A_Voice_Cries_Out.txt",
+    "mp3": "data/Moments/Communion/A_Voice_Cries_Out.mp3",
+    "pdf": "data/Moments/Communion/A_Voice_Cries_Out.pdf",
     "singer": ""
   },
   {
     "moment": "Meditation",
-    "title": "Gratitude",
-    "author": "Brandon Lake, Dante Bowe and Benjamin Hastings",
-    "snippet": "All my words fall short; I got nothing new. How could I express all my gratitude ?",
-    "txt": "data/Moments/Meditation/Gratitude.txt",
-    "mp3": "data/Moments/Meditation/Gratitude_Brandon_Lake.mp3",
-    "pdf": "data/Moments/Meditation/Gratitude_Brandon_Lake.pdf",
-    "singer": "David"
+    "title": "Come, Lord! Maranatha",
+    "author": "Ricky Manalo CSP",
+    "snippet": "Now is the time to wake from sleep; salvation is close at hand. Moving from night into day, lift up your voices and pray:",
+    "txt": "data/Moments/Meditation/Come_Lord_Maranatha_Advent1.txt",
+    "mp3": "data/Moments/Meditation/Come_Lord_Maranatha.mp3",
+    "pdf": "data/Moments/Meditation/Come_Lord_Maranatha_Advent1.pdf",
+    "singer": ""
   },
   {
     "moment": "Recessional",
-    "title": "Hallelujah Is Our Song",
-    "author": "Sarah Hart/Sarah Kroger/Josh Blakesley/Trey Heffinger",
-    "snippet": "What hope we have, even in the longest night, for the light will overcome. We will not fear, for we know the sun will rise. Hallelujah is our song.",
-    "txt": "data/Moments/Recessional/Hallelujah_Is_Our_Song.txt",
-    "mp3": "data/Moments/Recessional/Hallelujah_Is_Our_Song.mp3",
-    "pdf": "data/Moments/Recessional/Hallelujah_Is_Our_Song.pdf",
-    "singer": ""
+    "title": "We Are Ready",
+    "author": "Jim Ngô xSUNO",
+    "snippet": "Christ the Lord is near! (We are ready to greet the King) Christ the Lord is near! (We are ready to greet the King) Christ the Lord is near! (We are ready to greet the King) Hallelujah! Hallelujah! We are ready to greet the King!",
+    "txt": "data/Moments/Recessional/We_are_ready.txt",
+    "mp3": "data/Moments/Recessional/We_are_ready.wav",
+    "pdf": "data/Moments/Recessional/We_are_ready.pdf",
+    "singer": "David"
   },
   {
     "moment": "Lord_Have_Mercy",
